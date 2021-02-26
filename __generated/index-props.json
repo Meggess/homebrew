@@ -1,0 +1,14 @@
+{
+	"item": {
+		"collection/CGU.json": "collection"
+	},
+	"monster": {
+		"collection/CGU.json": "collection"
+	},
+	"spell": {
+		"collection/CGU.json": "collection"
+	},
+	"subclass": {
+		"collection/CGU.json": "collection"
+	}
+}

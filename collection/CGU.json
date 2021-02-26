@@ -1,0 +1,2774 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CeldirasGuidetotheUnusual",
+				"abbreviation": "CGU",
+				"full": "Celdira's Guide to the Unusual",
+				"url": "https://homebrewery.naturalcrit.com/share/ryvW1ZWEs54",
+				"authors": ["Megges"],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1608287952,
+		"dateLastModified": 1608287952
+	},
+	"item": [
+		{
+			"name": "Aleta",
+			"rarity": "very rare",
+			"source": "CeldirasGuidetotheUnusual",
+			"sword": true,
+			"baseItem": "rapier",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+3",
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"entries": [
+				"This magic weapon looks like the snout of a swordfish and you gain a +3 bonus to attack and damage rolls made with it.",
+				"Instead of making a melee weapon attack with this sword, you can make a ranged weapon attack against a creature within 60 feet of you. This attack launches a small swordfish from the tip of the blade toward the target."
+			]
+		},
+		{
+			"name": "Bottled Lightning",
+			"wondrous": true,
+			"rarity": "varies",
+			"source": "CeldirasGuidetotheUnusual",
+			"entries": [
+				"In this bottle floats a blue glowing orb. Bolts of lightning lash out from the orb to the bottle whenever someone touches the bottle.",
+				"As an action, you can remove the stopper of the bottle unleashing the stored lightning in a 100 feet long and 5 feet wide line in the direction the bottle is facing or you can throw the bottle at a point you can see within 30 feet of you. The bottle shatters on impact unleashing the stored lightning in a 20-foot-radius sphere. Each creature in the area of effect must make a Dexterity saving throw. A creature takes damage according to the type of lightning stored in the bottle on a failed save, or half as much damage on a successful one. The DC for the saving throw is determined by the type of the stored lightning.",
+				{
+					"type": "table",
+					"caption": "Bottled Lightning",
+					"colLabels": [
+						"Origin",
+						"Rarity",
+						"Lightning Damage",
+						"Save DC"
+					],
+					"rows": [
+						[
+							"Call Lightning",
+							"Uncommon",
+							"{@dice 3d10}",
+							13
+						],
+						[
+							"Natural",
+							"Uncommon",
+							"{@dice 4d10}",
+							13
+						],
+						[
+							"Lightning Bolt",
+							"Rare",
+							"{@dice 8d6}",
+							15
+						],
+						[
+							"Chain Lightning",
+							"Very Rare",
+							"{@dice 10d8}",
+							17
+						],
+						[
+							"Ancient Blue Dragon's Lightning Breath",
+							"Legendary",
+							"{@dice 16d10}",
+							23
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Googles of Day",
+			"wondrous": true,
+			"rarity": "common",
+			"source": "CeldirasGuidetotheUnusual",
+			"entries": [
+				"While wearing these dark lenses, you ignore the sunlight sensitivity feature if you have it."
+			]
+		},
+		{
+			"name": "Tolling Bell",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"source": "CeldirasGuidetotheUnusual",
+			"attachedSpells": [
+				"Toll the Dead|XGE"
+			],
+			"entries": [
+				"As an action, you can chime the bell. When you do so, you cast {@spell toll the dead|XGE} (1st level, {@dc 13}) on every other creature within 30 feet of you that can hear the bell."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Racoon",
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d6 + 1",
+				"average": 4
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20,
+				"swim": 20
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 12,
+			"int": 2,
+			"wis": 13,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft.",
+				"tremorsense 5 ft."
+			],
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The racoon has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"urban"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Goro",
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "L",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 40",
+				"average": 95
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 21,
+			"dex": 9,
+			"con": 18,
+			"int": 6,
+			"wis": 13,
+			"cha": 10,
+			"save": {
+				"str": "+8",
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the goro moves at least 15 feet straight toward a target and then hits it with its gore attack on the same turn, the target takes an extra 16 ({@damage 3d10}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Labyrinthine Recall",
+					"entries": [
+						"The goro can perfectly recall any path it has traveled."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The goro has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The goro makes two attacks: one with its fist and one with its hoof."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hoof",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a huge or smaller creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Goristro.png?v=1.119.1",
+			"traitTags": [
+				"Charge",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Ancient Purple Dragon",
+			"group": "Dragons",
+			"isNamedCreature": true,
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "G",
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d20 + 154",
+				"average": 385
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false,
+				"climb": 40
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 25,
+			"int": 17,
+			"wis": 17,
+			"cha": 27,
+			"save": {
+				"dex": "+9",
+				"con": "+14",
+				"wis": "+10",
+				"cha": "+15"
+			},
+			"skill": {
+				"deception": "+15",
+				"insight": "+10",
+				"perception": "+17",
+				"stealth": "+9"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic",
+				"Undercommon",
+				"telepathy 60ft."
+			],
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"the dragon can use its Frightful Presence. She then makes three attacks: one with her bite and two with her claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 10 ({@damage 3d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragons choice that is within 120 feet and aware of her must succeed on a {@dc 23} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragons Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Psychic Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales psychoactive gas in a 90-foot cone. Each creature in the area must make a {@dc 22} Wisdom saving throw, taking 77 ({@damage 22d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (Perception) check. "
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack. "
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats her wings. Each creature within 15 feet of her must succeed on a {@dc 20} Dexterity saving throw or take 12 ({@damage 2d6 + 5}) bludgeoning damage and be knocked {@condition prone}. the dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"dragonCastingColor": "G",
+			"tokenUrl": "https://i.imgur.com/PyXd94f.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			]
+		},
+		{
+			"name": "Young Purple Dragon",
+			"group": "Dragons",
+			"isNamedCreature": true,
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "L",
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 48",
+				"average": 136
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false,
+				"climb": 40
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 17,
+			"int": 13,
+			"wis": 13,
+			"cha": 19,
+			"save": {
+				"dex": "+5",
+				"con": "+6",
+				"wis": "+4",
+				"cha": "+7"
+			},
+			"skill": {
+				"deception": "+7",
+				"insight": "+4",
+				"perception": "+7",
+				"stealth": "+5"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic",
+				"Undercommon",
+				"telepathy 60ft."
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d10 + 3}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Psychic Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales psychoactive gas in a 60-foot cone. Each creature in the area must make a {@dc 14} Wisdom saving throw, taking 42 ({@damage 12d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"dragonCastingColor": "G",
+			"tokenUrl": "https://i.imgur.com/PyXd94f.png",
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Purple Dragon Wyrmling",
+			"group": "Dragons",
+			"isNamedCreature": true,
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "M",
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 16",
+				"average": 104
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"canHover": false,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 13,
+			"int": 11,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"dex": "+4",
+				"con": "+3",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"skill": {
+				"deception": "+4",
+				"insight": "+2",
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic",
+				"telepathy 30ft."
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 15 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 3 ({@damage 1d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Psychic Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales psychoactive gas in a 60-foot cone. Each creature in the area must make a {@dc 11} Wisdom saving throw, taking 21 ({@damage 6d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"dragonCastingColor": "G",
+			"tokenUrl": "https://i.imgur.com/PyXd94f.png",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"DR",
+				"DS",
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Adult Purple Dragon",
+			"group": "Dragons",
+			"isNamedCreature": true,
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "H",
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d12 + 90",
+				"average": 207
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 21,
+			"int": 15,
+			"wis": 15,
+			"cha": 23,
+			"save": {
+				"dex": "+7",
+				"con": "+10",
+				"wis": "+7",
+				"cha": "+11"
+			},
+			"skill": {
+				"deception": "+11",
+				"insight": "+7",
+				"perception": "+12",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic",
+				"Undercommon",
+				"telepathy 60ft."
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"the dragon can use its Frightful Presence. She then makes three attacks: one with her bite and two with her claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 20 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragons choice that is within 120 feet and aware of her must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragons Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Psychic Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales psychoactive gas in a 60-foot cone. Each creature in the area must make a {@dc 18} Wisdom saving throw, taking 56 ({@damage 16d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (Perception) check. "
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack. "
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats her wings. Each creature within 10 feet of her must succeed on a {@dc 17} Dexterity saving throw or take 11 ({@damage 2d6 + 4}) bludgeoning damage and be knocked {@condition prone}. the dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"dragonCastingColor": "G",
+			"tokenUrl": "https://i.imgur.com/PyXd94f.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			]
+		},
+		{
+			"name": "Witherling",
+			"source": "CeldirasGuidetotheUnusual",
+			"page": 114,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "equal three times your Wisdom modifier + three times your druid level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 13,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Might of the Master",
+					"entries": [
+						"The bonuses to hit and damage of its slam attack increase by 1 when your proficiency bonus increases by 1."
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherling is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Witherhulk",
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "equal six times your Wisdom modifier + six times your druid level"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 20,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Might of the Master",
+					"entries": [
+						"The bonuses to hit and damage of its slam attack increase by 1 when your proficiency bonus increases by 1."
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherling is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "White Slaad",
+			"group": "Slaadi",
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "L",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "23d10 + 161",
+				"average": 287
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 19,
+			"con": 24,
+			"int": 19,
+			"wis": 25,
+			"cha": 22,
+			"save": {
+				"str": "+12",
+				"dex": "+11",
+				"con": "+14"
+			},
+			"skill": {
+				"arcana": "+11",
+				"perception": "+21"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 31,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Common",
+				"Infernal",
+				"Primordial",
+				"Slaad",
+				"telepathy 60 ft."
+			],
+			"cr": "21",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The slaad's innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The slaad can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell haste}",
+						"{@spell invisibility} (self only)",
+						"{@spell mage hand}",
+						"{@spell major image}",
+						"{@spell slow}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell hold monster}",
+							"{@spell temporal shunt|EGW}"
+						],
+						"1e": [
+							"{@spell plane shift}",
+							"{@spell time stop}"
+						],
+						"3e": [
+							"{@spell fear}",
+							"{@spell fireball}",
+							"{@spell fly}",
+							"{@spell tongues}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The slaad can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The slaad has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The slaad's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the slaad fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The slaad makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite (Slaad Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claws (Slaad Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) slashing damage plus 10 ({@damage 3d6}) necrotic damage. The target must succeed on a {@dc 22} Constitution saving throw or be {@condition stunned} until the end of the slaad's next turn."
+					]
+				},
+				{
+					"name": "Chaos Spittle (Slaad Form Only)",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 40/80 ft., one target. {@h}14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Temporal Echo (3/day)",
+					"entries": [
+						"As a bonus action, the slaad can summon an echo of itself from the past or future. The echo has the same statistics as the slaad, but only 100 hit points, can't cast spells, can only make 1 attack, its claw attack doesn't stun targets and it can't summon more echos. The echo takes its turn immediately after the slaad's turn."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Control Gem",
+					"entries": [
+						"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition charmed} while so controlled.",
+						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell imprisonment}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell wish} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
+						"A {@spell greater restoration} spell cast on the slaad destroys the gem without harming the slaad.",
+						"Someone who is proficient in Wisdom (Medicine) can remove the gem from an {@condition incapacitated} slaad. Each try requires 1 minute of uninterrupted work and a successful {@dc 20} Wisdom (Medicine) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://64.media.tumblr.com/1904b79b19b4365c55b26af57f521cd0/d9518f6e08fd5567-a3/s500x750/7a9dd14b11b796baf40df88c06108c5b950a1515.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/1DR580b.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Regeneration",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"CE",
+				"I",
+				"OTH",
+				"P",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"invisible"
+			]
+		},
+		{
+			"name": "Black Slaad",
+			"group": "Slaadi",
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "H",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "26d12 + 208",
+				"average": 377
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 24,
+			"dex": 19,
+			"con": 27,
+			"int": 22,
+			"wis": 26,
+			"cha": 24,
+			"save": {
+				"str": "+15",
+				"dex": "+12",
+				"con": "+16"
+			},
+			"skill": {
+				"arcana": "+14",
+				"perception": "+24"
+			},
+			"senses": [
+				"truesight 60 ft.",
+				"blindsight 120 ft.",
+				"darkvision 300 ft."
+			],
+			"passive": 34,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder"
+			],
+			"immune": [
+				"necrotic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Common",
+				"Infernal",
+				"Primordial",
+				"Slaad",
+				"telepathy 60 ft."
+			],
+			"cr": "26",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The slaad's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). The slaad can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell chaos bolt|XGE}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell hunger of Hadar}",
+						"{@spell invisibility} (self only)",
+						"{@spell mage hand}",
+						"{@spell major image}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell disintegrate}",
+							"{@spell finger of death}",
+							"{@spell hold monster}",
+							"{@spell maddening darkness|XGE}"
+						],
+						"1e": [
+							"{@spell blade of disaster|TCE}",
+							"{@spell plane shift}",
+							"{@spell power word kill}"
+						],
+						"3e": [
+							"{@spell dispel magic}",
+							"{@spell fear}",
+							"{@spell fireball}",
+							"{@spell fly}",
+							"{@spell tongues}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The slaad can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The slaad has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The slaad's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The slaad regains 15 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the slaad fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The slaad makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite (Slaad Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) piercing damage plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claws (Slaad Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d10 + 7}) slashing damage plus 14 ({@damage 4d6}) necrotic damage. The target must succeed on a {@dc 24} Constitution saving throw or be {@condition stunned} and not be able to regain hit points until the end of the slaad's next turn."
+					]
+				},
+				{
+					"name": "Tongue",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d6 + 7}) bludgeoning damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Chaos Spray (Slaad Form Only) {@recharge 5}",
+					"entries": [
+						"The slaad exhales mucus in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 24} Dexterity saving throw, taking 67 ({@damage 15d8}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"As a bonus action, he slaad magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"The slaad can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The black slaad regains spent legendary actions at the start of its turn."
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Spell (Costs 2 Actions)",
+					"entries": [
+						"The slaad casts one spell."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The slaad uses its Teleport action."
+					]
+				},
+				{
+					"name": "Tongue",
+					"entries": [
+						"The slaad makes a tongue attack."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Control Gem",
+					"entries": [
+						"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition charmed} while so controlled.",
+						"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against {@spell imprisonment}, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell wish} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
+						"A {@spell greater restoration} spell cast on the slaad destroys the gem without harming the slaad.",
+						"Someone who is proficient in Wisdom (Medicine) can remove the gem from an {@condition incapacitated} slaad. Each try requires 1 minute of uninterrupted work and a successful {@dc 20} Wisdom (Medicine) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://64.media.tumblr.com/f09ff462889b7a7c74c176c60439a73d/ce417758947f9f6e-50/s500x750/53113f5ed72d226080e177fc01d454c6228d3d73.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TB84AlL.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Regeneration",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B",
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"CE",
+				"I",
+				"OTH",
+				"P",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"invisible"
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Catch Lightning",
+			"source": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you see a lightning within 60 feet of you"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a bottle or a similar container, which the spell consumes",
+					"consumed": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to catch a lightning inside a bottle. If the lightning is caused by a spell of 3rd level or lower or a natural lightning, it is cought in the bottle. If the lightning is caused by a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the lightning is cought in the bottle. A cought lightning takes the most direct way possible to you still affecting creatures in the way. If you catch a lightning it creates a bottled lightning. Your DM may allow you to catch other lightning effects such as the lightning breath of a blue dragon, comparing the effect to a spell of an appropriate level or setting an individual DC appropriate for the effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can catch lightning created by a spell of an equal or lower level of the spell slot you used without making an ability check."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Positive Energy Flood",
+			"source": "CeldirasGuidetotheUnusual",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "chalk and a circle of white silk"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You send ribbons of positive energy at one creature you can see within range. Unless the target is undead or a construct, it regains a number of hit points equal to {@dice 5d8}.",
+				"If you target an undead with this spell, it must make a Constitution saving throw, taking {@damage 5d8} radiant damage on a failed save, or half as much damage on a successful one."
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	],
+	"subclass": [
+		{
+			"name": "College of Dancing",
+			"subclassFeatures": [
+				"College of Dancing|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|3",
+				"Rousing Dance|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|6",
+				"Master's Dance|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|14"
+			],
+			"source": "CeldirasGuidetotheUnusual",
+			"shortName": "Dancing",
+			"className": "Bard",
+			"classSource": "PHB"
+		},
+		{
+	        "name": "Circle of the Blight",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "className": "Druid",
+	        "classSource": "PHB",
+	        "shortName": "Blight",
+	        "subclassFeatures": [
+	            "Circle of Blight|Druid|PHB|Blight|CeldirasGuidetotheUnusual|2",
+	            "Aura of Decay|Druid|PHB|Blight|CeldirasGuidetotheUnusual|6",
+	            "Hulking Wither|Druid|PHB|Blight|CeldirasGuidetotheUnusual|10",
+	            "Master of Decay|Druid|PHB|Blight|CeldirasGuidetotheUnusual|14"
+      		]
+		},
+		{
+			"name": "Strider",
+			"subclassFeatures": [
+				"Strider|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3",
+				"Oils|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|7",
+				"Special Ingredient|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|10",
+				"Skilled Eye|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|15",
+				"Angel's Tear|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|18"
+			],
+			"source": "CeldirasGuidetotheUnusual",
+			"shortName": "Strider",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Strider",
+							"source": "CeldirasGuidetotheUnusual"
+						}
+					],
+					"colLabels": [
+						"Toxicity Limit"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							16
+						],
+						[
+							17
+						],
+						[
+							18
+						],
+						[
+							19
+						],
+						[
+							27
+						],
+						[
+							28
+						],
+						[
+							29
+						],
+						[
+							30
+						],
+						[
+							31
+						],
+						[
+							32
+						],
+						[
+							37
+						],
+						[
+							38
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath of the Bonfire",
+			"subclassFeatures": [
+				"Oath of the Bonfire|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3",
+				"Aura of Warmth|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|7",
+				"Lord of the Flames|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|15",
+				"Blazing Nimbus|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|20"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"burning hands",
+							"grease"
+						],
+						"5": [
+							"continual flame",
+							"scorching ray"
+						],
+						"9": [
+							"daylight",
+							"fireball"
+						],
+						"13": [
+							{
+								"name": "summon elemental",
+								"source": "TCE"
+							},
+							"fire shield"
+						],
+						"17": [
+							"flame strike",
+							{
+								"name": "immolation",
+								"source": "XGE"
+							}
+						]
+					}
+				}
+			],
+			"source": "CeldirasGuidetotheUnusual",
+			"shortName": "Bonfire",
+			"className": "Paladin",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "College of Dancing",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"entries": [
+				"TODO",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gracious Combat|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Inspiring Dance|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|3"
+				}
+			]
+		},
+		{
+			"name": "Gracious Combat",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of Dancing at 3rd level, you learn how to use certain weapons in a more graceful and swift way and your nimble movements allow you to doge attacks.",
+				"For you, quaterstaffs, sickles and spears gain the finesse property. Futhermore, while you are not wearing any armor or using a shield, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Inspiring Dance",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, your dance can inspire others.",
+				"When a creature other than youself within 60 feet of you that you can see makes a saving throw or an attack roll, you can use your reaction to expend one use of your Bardic Inspiration, rolling a Bardic Inspiration die and adding the number rolled to the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or saving throw succeeds or fails. To gain this benefit, a creature must be able to see you."
+			]
+		},
+		{
+			"name": "Rousing Dance",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can use your action to start dancing. If you do so, choose one creature within 60 feet of you that you can see, that creature must make a Wisdom saving throw against your spell save DC. On a failed save the creature starts dancing wasting its next turn in the process. On your subsequent turns, you can use your bonus action to sustain the dance. A dancing creature can repeat its saving throw at the end of its turn to end the effect early. The creature is immune if it can't see you or it is immune to being charmed.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Master's Dance",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, whenever you use your Inspiring Dance feature, you can roll a d6 and use it instead of expending a Bardic Inspiration die."
+			]
+		},
+		{
+	        "name": "Circle of Blight",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "className": "Druid",
+	        "classSource": "PHB",
+	        "subclassShortName": "Blight",
+	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "level": 2,
+	        "entries": [
+	            "TODO",
+	            {
+	            	"type": "refSubclassFeature",
+	            	"subclassFeature": "Withering Shape|Druid|PHB|Blight|CeldirasGuidetotheUnusual|2"
+	            }
+	        ]
+    	},
+		{
+	        "name": "Withering Shape",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "className": "Druid",
+	        "classSource": "PHB",
+	        "subclassShortName": "Blight",
+	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "level": 2,
+	        "entries": [
+	            "Beginning at 2nd level, you can use your wild shape in more unnatural ways.",
+	            "As an action, you can expand one use of your wild shape feature to summon a {@creature witherling|CeldirasGuidetotheUnusual}. Choose a point within 60 feet of you where the {@creature witherling|CeldirasGuidetotheUnusual} appears, each creature in a 10-foot radius of that point must make a Constitution saving throw against your spell save DC or take necrotic damage equal to half your druid level. The {@creature witherling|CeldirasGuidetotheUnusual} stays for a duration of 1 minute, you dismiss it as a bonus action, its hit points are reduce to zero, or you use this feature again. In combat, the {@creature witherling|CeldirasGuidetotheUnusual} shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash}, {@action Disengage}, {@action Help}, {@action Hide}, or {@action Search} action."
+	        ]
+    	},
+		{
+	        "name": "Aura of Decay",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "className": "Druid",
+	        "classSource": "PHB",
+	        "subclassShortName": "Blight",
+	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "level": 6,
+	        "entries": [
+	            "Beginning at 6th level, you can steal the life force from creatures around you.",
+	            "As an action, you can force each creature within 10 feet of you to make a Constitution saving throw against your spell save DC. On a failed save, a creature takes {@damage 2d6} necrotic damage and gains one level of {@condition exhaustion} and you regain hit points equal to half the inflicted damage. Your {@creature witherling|CeldirasGuidetotheUnusual} gains this feature as well. Once you or your {@creature witherling|CeldirasGuidetotheUnusual} use this feature you can't use it again until you finish a short rest."
+	        ]
+    	},
+		{
+	        "name": "Hulking Wither",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "className": "Druid",
+	        "classSource": "PHB",
+	        "subclassShortName": "Blight",
+	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "level": 10,
+	        "entries": [
+	            "Beginning at 10th level, whenever you use your withering shape feature, you can expend two uses of your wild shape feature to summon a {@creature witherhulk|CeldirasGuidetotheUnusual} instead of a {@creature witherling|CeldirasGuidetotheUnusual}"
+	        ]
+    	},
+		{
+	        "name": "Master of Decay",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "className": "Druid",
+	        "classSource": "PHB",
+	        "subclassShortName": "Blight",
+	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "level": 14,
+	        "entries": [
+	            "Beginning at 14th level, you have mastered your withering nature.",
+	            "You are immune to poison and disease and you gain resistance to necrotic damage."
+	        ]
+    	},
+    	{
+			"name": "Strider",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"entries": [
+				"Basically a Witcher",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Meditation|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strider Lore|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Alchemy|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3"
+				}
+			]
+		},
+		{
+			"name": "Meditation",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, instead of sleeping for 8 hours, you can enter a deep meditational trance for 4 hour."
+			]
+		},
+		{
+			"name": "Strider Lore",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain proficiency with alchemist's supplies.",
+				"Futhermore, you learn to cast the {@spell friends}, {@spell gust}, {@spell mold earth}, {@spell produce flame} and {@spell resistance} cantrips. Wisdom is your spellcasting ability for them."
+			]
+		},
+		{
+			"name": "Alchemy",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to create {@filter strider potions|optionalfeatures|feature type=SPF}. These potions are posionous to everyone that is not a strider.",
+				{
+		    		"type": "entries",
+		    		"name": "Preparing Formulae and using Mixtures",
+		    		"entries": [
+		    			"Whenever you finish a long rest, you prepare a number of formulae equal to your Wisdom modifier + your fighter level divided by three. The formulae must be for potions. Preparing the formulae reflects four hours of brewing as part of your long rest, creating the mixtures you will use until your next long rest. As a bonus action on your turn, you can ingest a potion gaining its benefits, but increasing your toxicity level. If you use the same potion twice their effects don't stack."
+		    		]
+		    	},
+		    	{
+		    		"type": "entries",
+		    		"name": "Toxicity Level and Toxixity Limit",
+		    		"entries": [
+		    			"When you ingest a potion, your toxicity level increases by an amount noted in the formula. Your toxicity limit determines how high your toxicity level can get without suffering any drawbacks. When your toxicity level exceeds your toxicity limit, you take an amount of d10s of poison damage equal to the formulas toxicity cost ignoring resistances and immunities and your hit point maximum is reduced by an amount equal to the poison damage you took. After you reduced your toxicity level below your toxicity limit, you can restore your hit point maximum using a greater restoration spell or similar magic. Additionally, you become poisoned until your toxicity level no longer exceeds your toxicity limit.When you finish a long rest, your toxicity level is reduced back to zero."
+		    		]
+		    	},
+				{
+					"type": "abilityDc",
+					"name": "Alchemy",
+					"attributes": [
+						"wis"
+					]
+				}
+			]
+		},
+		{
+			"name": "Oils",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you learned to create {@filter oils|optionalfeatures|feature type=SOF} in addition to potions using your alchemy feature. You can now prepare {@filter oils|optionalfeatures|feature type=SOF}.",
+				"As an action, you can apply an oil to your weapon granting it the {@filter oils|optionalfeatures|feature type=SOF} benefits. The effect lasts for its duration or until you spend one minute removing the oil from the weapon. If you apply a second oil to the weapon before finishing a short rest, the {@filter oils|optionalfeatures|feature type=SOF} neutralize eachother."
+			]
+		},
+		{
+			"name": "Special Ingredient",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you can add one of three special ingedients to your potions.",
+				"When you ingest a potion, you can choose one of the following effects to gain in addition to the potions normal effect. After you chose one ingredient, you can't choose that ingredient again until you finish a long rest.",
+				{
+					"type": "entries",
+					"name": "Giant's Toe",
+					"entries": [
+						"You added a bit of a giant's toe to your potion giving you a +3 to all strength based damage rolls you make within the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Troll Blood",
+					"entries": [
+						"You added a bit of a troll's blood. At the start of your turn, when you are not incapacitated and have not taken acid or fire damage this round, you regain an amount of hit points equal to your fighter level divided by three (rounded down) for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Celestial Liver",
+					"entries": [
+						"You added a bit of a celestial's liver reducing your toxicity level by an amount equal to your fighter level divided by three (rounded down)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skilled Eye",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your knowledge about monsters grants you insight into a monsters defenses.",
+				"On your turn, you can target one creature and make a Wisdom (Insight) check against a DC equal to 10 + the target's challenge rating divided by two, in order to gain insight into either the targets hit points, weaknesses or resistances and immunities. You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Angel's Tear",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you learned how to create a special potion.",
+				"As an action, you can ingest that potion reducing your toxicity level to zero and ending all potion effects on you. After you used this feature, you can't use it again unit you finish a long rest."	
+			]
+		},
+		{
+			"name": "Oath of the Bonfire",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"entries": [
+				"TODO",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Bonfire|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Flaming Weapon|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Blind the Wicked|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Flaming Weapon",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As an action, you can imbue one weapon that you are holding with fire, using your Channel Divinity.",
+				"For 1 minute, the weapon deals extra fire damge equal to your Charisma modifier (minimum of +1). The weapon also ignites and emits bright light in a 20-foot radius and dim light 20 feet beyond that. You can end this effect on your turn as part of any other action."
+			]
+		},
+		{
+			"name": "Channel Divinity: Blind the Wicked",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As an action, you present your holy symbol emmiting bright blinding light, using your Channel Divinity",
+				"Each hostile creature that can see you within 30 feet of you must make a Constituition saving throw. Creatures with darkvision make this saving throw with disadvantage. If a creature fails the saving throw, it is {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat this saving throw at the end of its turn, ending the effect early on a successful one."
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Bonfire Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell burning hands}, {@spell grease}"
+						],
+						[
+							"5th",
+							"{@spell continual flame}, {@spell scorching ray}"
+						],
+						[
+							"9th",
+							"{@spell daylight}, {@spell fireball}"
+						],
+						[
+							"13th",
+							"{@spell summon elemental|TCE|summon elemental (fire only)}, {@spell fire shield}"
+						],
+						[
+							"17th",
+							"{@spell flame strike}, {@spell immolation|XGE}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Bonfire",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"TODO",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Protect the Flame",
+							"entries": [
+								"All fire is sacred and must be protected."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Extinguish the Night",
+							"entries": [
+								"Their is nothing more wicked than Darkness and the creatures that come with it."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Warm the Cold",
+							"entries": [
+								"Your inner fire should warm those who lost their own."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Warmth",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, your inner fire starts to effect the air around you. You and friendly creatures within 10 feet of you have resistance to cold damage.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Lord of Flames",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Beginning at 15th level, you gain fire resistance and your Divine Smite can now deal fire or radiant damage (your choice)."
+			]
+		},
+		{
+			"name": "Blazing Nimbus",
+			"source": "CeldirasGuidetotheUnusual",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Bonfire",
+			"subclassSource": "CeldirasGuidetotheUnusual",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, as an action, you can emanate an aura of heat.",
+				"For 1 minute the air around you starts to flicker with heat in a 30-foot radius. Whenever an enemy creature starts its turn in this area, the creature takes 10 fire damage. In addition, for the duration all ice and water within the radius vaporizes.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+	        "name": "Aberation Oil",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "featureType": "SOF",
+	        "entries": [
+	            "<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+	            "When you hit an abberation with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+	        ]
+    	},
+    	{
+    		"name": "Antidote",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 3",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, any poison effect on you ends immediatly and you gain resistance against poison damage. In addition, you have advantage on saving throws against being {@condition poisoned}."
+    		]
+    	},
+    	{
+    		"name": "Brute",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 30 seconds",
+    			"For the potions duration, you gain advantage on all melee weapon attacks that use strength. In addition, all attacks against you have advantage."
+    		]
+    	},
+    	{
+    		"name": "Bull's Eye",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, your weapon attacks score a critical hit on a roll of 19 or 20."
+    		]
+    	},
+    	{
+    		"name": "Celestial Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit a celestial with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+    		]
+    	},
+    	{
+    		"name": "Cold",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to fire damage. In addition, you don't suffer the effects of extrem heat."
+    		]
+    	},
+    	{
+    		"name": "Day",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> 2 hours",
+    			"For the potions duration, you gain darkvision out to a range of 60 feet."
+    		]
+    	},
+    	{
+    		"name": "Durable",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, you have advantage on Constitution saving throws."
+    		]
+    	},
+    	{
+    		"name": "Elemental Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+    		]
+    	},
+    	{
+    		"name": "Fey Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+    		]
+    	},
+    	{
+    		"name": "Fiend Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit a fiend with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
+    		]
+    	},
+    	{
+    		"name": "Ground",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to lightning damage."
+    		]
+    	},
+    	{
+    		"name": "Leach",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to acid damage."
+    		]
+    	},
+    	{
+    		"name": "Poisonous Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 16 hits",
+    			"When you hit a creature with the coated weapon, the target must suceed on a Constitution saving throw or be {@condition poisoned} for 1 minute.",
+    			"A poisoned creature can repeat its saving throw at the end of its turn."
+    		]
+    	},
+    	{
+    		"name": "Potency",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, you can cast {@spell burning hands}, {@spell charm person}, {@spell shield of faith} and {@spell thunderclap} at will."
+    		]
+    	},
+    	{
+    		"name": "Regena",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, at the start of your turn, when you have at least 1 hit point left, but no more than half your hit point maximum, you regain hit points equal to your Wisdom modifier."
+    		]
+    	},
+    	{
+    		"name": "Resilience",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain a +4 to your Constitution score and Constitution score maximum to a maximum of 30.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"You gain an additional +1 for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Retaliate",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> 1 minute",
+    			"For the potions duration, when a creature damages you, the creature takes {@damage 1d10} psychic damage.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"The psychic damage increases by {@dice 1d10} for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Sight",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 2 hours",
+    			"For the potions duration, you gain the effects of the {@spell see invisibly} spell."
+    		]
+    	},
+    	{
+    		"name": "Slowing Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 16 hits",
+    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or have its speed reduced to 0 until the end of your next turn."
+    		]
+    	},
+    	{
+    		"name": "Steadfast",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"4"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you can't be {@condiiton stunned} or knocked {@condition prone}."
+    		]
+    	},
+    	{
+    		"name": "Stone",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"6"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to bludgeoning, piercing and slashing damage."
+    		]
+    	},
+    	{
+    		"name": "Thick Hide",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> Instantaneous",
+    			"You gain {@dice 1d4+4} temporary hit points.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"You gain additional 5 temporary hit points for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Thining Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"0"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"16 hits"
+    				]
+    			},
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 16 hits",
+    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or take an extra {@dice 1d6} damage of the weapons type. A creature that does not bleed automatically succeeds on its saving throw."
+    		]
+    	},
+    	{
+    		"name": "Undead Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"0"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"8 hits"
+    				]
+    			},
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit an undead with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
+    		]
+    	},
+    	{
+    		"name": "Vampire Bane",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"3"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"10 minutes"
+    				]
+    			},
+    			"<b>Toxicity:</b> 3",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, when a creature hits you with a bite or similar attack or drinks your blood, the creature takes {@damage 2d10} poison damage.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"You can take additional toxicity in order to increase the potions damage by {@dice 1d10} for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Warmth",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"6"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to cold damage. In addition, you don't suffer the effects of extrem cold."
+    		]
+    	},
+    	{
+    		"name": "Whirlwind",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"8"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 minute"
+    				]
+    			},
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 1 minute",
+    			"For the potions duration, you can take the {@action dodge} action as a bonus action on your turn. In addition, you gain a +2 to your AC and your speed increases by 10 feet."
+    		]
+    	}
+	]
+}
