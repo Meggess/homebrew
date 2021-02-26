@@ -13,5 +13,8 @@
 	},
 	"subclass": {
 		"collection/CGU.json": "collection"
+	},
+	"subclassFeature": {
+		"collection/CGU.json": "collection"
 	}
 }
