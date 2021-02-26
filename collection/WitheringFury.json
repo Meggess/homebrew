@@ -1,0 +1,6773 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WitheringFury",
+				"abbreviation": "WF",
+				"full": "Withering Fury",
+				"url": "",
+				"authors": [
+					"Megges"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1614381420,
+		"dateLastModified": 1614381420
+	},
+	"item": [
+		{
+			"name": "Amulet of Extraordinary Wisdom",
+			"wondrous": true,
+			"rarity": "very rare",
+			"source": "WitheringFury",
+			"reqAttune": true,
+	        "ability": {
+	    		"static": {
+	        		"wis": 23
+	    		}
+			},
+			"entries": [
+				"While wearing this amulet, your Wisdom score is 23. The item has no effect on you if your Wisdom without the amulet is equal to or greater than 23."
+			]
+		},
+		{
+			"name": "Blixt",
+			"rarity": "legendary",
+			"source": "WitheringFury",
+			"reqAttune": "by a spellcaster",
+			"staff": true,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"bonusSpellAttack": "+1",
+			"bonusWeapon": "+2",
+			"sfcType": "arcane",
+			"focus": true,
+			"property": [
+				"V"
+			],
+			"entries": [
+				"The staff functions as a {@item +1 wand of the war mage} and as a {@item +2 quarterstaff}.",
+				"When you hit with a melee attack using this staff, the target takes an extra {@dice 2d6} lightning damage and it must succeed on a Strength saving throw against your spell save DC or be pushed in a straight line up to 15 feet away from you."
+			]
+		},
+		{
+			"name": "Bracelet of Outstanding Charisma",
+			"wondrous": true,
+			"rarity": "very rare",
+			"source": "WitheringFury",
+			"reqAttune": true,
+			"ability": {
+				"static": {
+					"cha": 23
+				}
+			},
+			"entries": [
+				"While wearing this bracelet, your Charisma score is 23. The item has no effect on you if your Charisma without the bracelet is equal to or greater than 23."
+			]
+		},
+		{
+			"name": "Cloak of Stepping",
+			"wondrous": true,
+			"rarity": "rare",
+			"source": "WitheringFury",
+			"reqAttune": true,
+			"charges": 6,
+			"recharge": "dawn",
+			"attachedSpells": [
+    			"thunder step",
+    			"misty step"
+			],
+			"entries": [
+				"This cloak has 6 charges, and it regains {@dice 1d3+3} expended charges daily at dawn. Wile wearing this cloak, you can use a bonus action and expend 1 charge of the cloak to cast {@spell misty step} or you can use an action and expend 2 charges of the cloak to cast {@spell thunder step|XGE}."
+			]
+		},
+		{
+			"name": "Cloak of the Mole",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"source": "WitheringFury",
+			"entries": [
+				"While wearing this cloak with its hood up, you have a burrowing speed of 30 feet and tremorsense out to 10 feet. Pulling the hood up or down requires an action."
+			]
+		},
+		{
+			"name": "Drunkards Bottle",
+			"wondrous": true,
+			"rarity": "legendary",
+			"source": "WitheringFury",
+			"reqAttune": "by a monk",
+			"entries": [
+				"The bottle functions as a {@item insignia of claws|HotDQ}. As an action, you can expend 2 ki points, take a deep sip and exhale a breath weapon. Each creature in a 15-foot cone must make a Dexterity or a Constitution saving throw (your choice) against your Ki save DC.",
+				"If you choose the Dexterity save, on a failed save, a creature takes {@dice 4d6} fire damage or half as much damage on a successful one.",
+				"If you choose the Constitution save, on a failed save, a creature is {@condition poisoned} for 1 minute. An affected creature can repeat its saving throw at the end of each of its turns."
+			]
+		},
+		{
+			"name": "Eldfjall",
+			"rarity": "legendary",
+			"source": "WitheringFury",
+			"type": "M",
+			"reqAttune": true,
+			"weapon": true,
+			"weaponCategory": "martial",
+			"baseItem": "maul|PHB",
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"bonusWeapon": "+2",
+			"property": [
+				"H",
+				"2H"
+			],
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"When you hit with an attack using this maul, the target takes an extra {@dice 2d6} fire damage. It sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+			]
+		},
+		{
+			"name": "Elderberry Cloak",
+			"wondrous": true,
+			"rarity": "legendary",
+			"source": "WitheringFury",
+			"reqAttune": "by a druid",
+			"sfcType": "druid",
+			"focus": true,
+			"entries": [
+				"This cloak functions as a {@item insignia of claws|HotDQ} and a {@item nature's mantle|TCE}.",
+				"In addition, you gain the ability to turn into unaligned monstrosities using your wild shape feature. All other restrictions still apply as normal."
+			]
+		},
+		{
+			"name": "Emblem of Golden Bones",
+			"wondrous": true,
+			"rarity": "special",
+			"source": "WitheringFury",
+			"reqAttune": true,
+			"focus": true,
+			"attachedSpells": [
+				"find familiar"
+			],
+			"entries": [
+				"The Emblem can be used as a spellcasting focus.",
+				"As an action while holding the emblem, you can cast the {@spell find familiar} spell requiring no material components to summon a {@creature magma mephit}, {@creature smoke mephit} or {@creature steam mephit} (your choice) without expending a spell slot."
+			]
+		},
+		{
+			"name": "Essence of Hew",
+			"wondrous": true,
+			"rarity": "unique",
+			"source": "WitheringFury",
+			"entries": [
+				"This little vial of oil has to be applied to *Hew*. In Order to restore *hews* original power all four viles have to be applied."
+			]
+		},
+		{
+			"name": "Glacir",
+			"rarity": "legendary",
+			"source": "WitheringFury",
+			"type": "R",
+			"reqAttune": true,
+			"weapon": true,
+			"weaponCategory": "martial",
+			"baseItem": "longbow|PHB",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"When you hit with an attack using this Bow, the target takes an extra {@dice 2d6} cold damage. Using this bow under water doesn't impose disadvantage."
+			]
+		},
+		{
+			"name": "Hat of the Harpy",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"source": "WitheringFury",
+			"recharge": "dawn",
+			"entries": [
+				"This masterfully crafted silk hat has a large purple feather on its side.",
+				{
+					"type": "entries",
+					"name": "Luring Song (can only be used by a bard)",
+					"entries": [
+						"While you wear the hat, as a bonus action, you can sing a magical melody. One humanoid and giant of your choice within 300 feet of you that can hear the song must succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} until the song ends. You must take a bonus action on your subsequent turns to continue singing. You can stop singing at any time. The song ends if you are incapacitated. While {@condition charmed} this way, a target is {@condition incapacitated}. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward you by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than you, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. Once you use this feature, you can't use it again until the dawn of the next day."
+					]
+				}
+			]
+		},
+		{
+			"name": "Haul",
+			"wondrous": true,
+			"rarity": "legendary",
+			"source": "WitheringFury",
+			"type": "M",
+			"reqAttune": true,
+			"weapon": true,
+			"weaponCategory": "martial",
+			"baseItem": "battleaxe|PHB",
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"V"
+			],
+			"bonusWeapon": "+2",
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"When you hit with an attack using this axe, the target takes an extra {@dice 2d6} radiant damage. It sheds bright light in a 40-foot radius and dim light for an additional 40 feet."
+			]
+		},
+		{
+			"name": "Ring of Astonishing Intelligence",
+			"type": "RG",
+			"rarity": "very rare",
+			"source": "WitheringFury",
+			"reqAttune": true,
+			"ability": {
+				"static": {
+					"int": 23
+				}
+			},
+			"entries": [
+				"While wearing this ring, your Intelligence score is 23. The item has no effect on you if your Intelligence without the ring is equal to or greater than 23."
+			]
+		},
+		{
+			"name": "Hew",
+			"rarity": "artifact",
+			"source": "WitheringFury",
+			"type": "M",
+			"reqAttune": "by a creature of non-evil alignment",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"baseItem": "battleaxe|PHB",
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"recharge": "dawn",
+			"bonusWeapon": "+3",
+			"bonusSavingThrow": "+2",
+			"attachedSpells": [
+				"remove curse"
+			],
+			"property": [
+				"V"
+			],
+			"entries": [
+				"This battleaxe appears to be made of simple iron. It is, however, imbued with a powerful magic making the axe as durable as adamantite. Hew was created long ago to stop Mhecmunas and destroy his philactery.",
+				{
+					"type": "entries",
+					"name": "Magic Weapon",
+					"entries": [
+						"Hew is a magic weapon that grants a +3 bonus to attack and damage rolls made with it. The axe also functions as a {@item sword of sharpness|PHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Benefical Properties",
+					"entries": [
+						"While you are attuned to the axe, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"entry": "you can cast {@spell remove curse} from it."
+								},
+								{
+									"type": "item",
+									"entry": "you gain a +2 bonus to constitution saving throws."
+								},
+								{
+									"type": "item",
+									"entry": "you can't be {@condition frightend}, {@condition petrified}, or {@condition stunned}."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lumberjack",
+					"entries": [
+						"Any hit with Hew against an evil plant creature or an object made of wood becomes a critical hit and deals maximum damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lich Bane",
+					"entries": [
+						"Hew deals an extra {@dice 3d6} radiant damage when the wielder hits an undead creature and you gain advantage on saving throws against spells cast by liches."
+					]
+				}
+			]
+		},
+		{
+			"name": "Staff of the Withered",
+			"rarity": "artifact",
+			"source": "WitheringFury",
+			"reqAttune": "by a druid, sorcerer, or wizard",
+			"staff": true,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"charges": 3,
+			"recharge": "dawn",
+			"bonusWeapon": "+3",
+			"property": [
+				"V"
+			],
+			"entries": [
+				"This crooked staff is carved from a dead willow branch and topped with a pitch black crystal orb. The orb was once an artifact of its own that could neutralize any poison in its presence, but it has long since been corrupted by Mhecmunas. Sometimes the fade image of a skull can be seen inside the orb. This image belongs to the orbs original owner, an ancient archdruid, who was imprisoned inside the orb.",
+				{
+					"type": "entries",
+					"name": "Benefical Properties",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"entry": "Your proficiency bonus for Intelligence ({@skill Arcana}) and Intelligence ({@skill Nature}) checks is doubled."
+								},
+								{
+									"type": "item",
+									"entry": "You can't be {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition petrified}, or {@condition stunned}."
+								},
+								{
+									"type": "item",
+									"entry": "Nonmagical plant within 5 feet of you wither and die."
+								},
+								{
+									"type": "item",
+									"entry": "Magical plants and plant creatures with a challenge rating of 2 or lower avoid you."
+								},
+								{
+									"type": "item",
+									"entry": "You can wield the staff as a [@item +3 quarterstaff} that deals an extra {@dice 3d6} necrotic damage on a hit."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Invoke Curse",
+					"entries": [
+						"The Staff of the Withered has 3 charges and regains all of expended charges daily at dawn. While holding the staff, you can use an action to expend 1 charge and target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw (using your spell save DC) or be cursed. While cursed this way, the target suffers one level of {@condition exhaustion} and starts to decay, taking {@dice 1d6} necrotic damage at the end of each of its turns. A {@spell greater restoration}, {@spell remove curse}, or similar spell ends the curse on the target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Withered",
+					"entries": [
+						"The soul of the imprisoned archdruid empowers the staff. Each time a creature other than Mhecmunas expends any of the staff's charges, there is a 50 percent chance that the soul tries to possess the staff wielder. The wielder must succeed on a {@dc 20} Charisma saving throw or be possessed, becoming an NPC under the DM's control. If the intruding life force is targeted by magic such as a {@spell dispel evil and good} spell, it becomes trapped in the staff once more. Once it takes control of another creature, the insane spirit of the archdruid attempts to destroy the staff."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Destroying the Staff",
+					"entries": [
+						"A creature in possession of the staff can use an action to break it over one knee or a solid surface. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it. Each creature in the area must make a {@dc 18} Dexterity saving throw, taking 132 ({@dice 24d10}) force damage on a failed save, or half as much damage on a successful one. When the staff is destroyed, the soul of the archdruid is released to the afterlife. Where it goes is anyone's guess. Casting the staff into a {@item sphere of annihilation} destroys both the staff and the Life force trapped within it. The staff doesn't explode if destroyed in this manner, but its destruction causes the sphere to be destroyed as well."
+					]
+				}
+			]
+		}
+	],
+	"variant": [
+		{
+			"name": "Kaladbolg",
+			"type": "GV",
+			"source": "WitheringFury",
+			"requires": [
+				{
+					"sword": true,
+					"dmgType": "S"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Kaladbolg ",
+				"source": "WitheringFury",
+				"rarity": "legendary",
+				"bonusWeapon": "+3",
+				"charges": "3",
+				"recharge": "dusk",
+				"reqAttune": true,
+				"entries": [
+					"This sword is made of a pitch black metal, with ruby inlays on its silver crossguard. This magic weapon grants a +3 bonus to attack and damage rolls made with it. The sword also functions as a {@item sword of sharpness}.",
+					"The sword has 3 charges and regains all expended charges daily at dusk. When you hit a creature with Kaladbolg, you can expend 1 charge of the sword and choose either acid, cold, fire, lightning, poison, or thunder damage. Your attack deals an extra {@dice 2d8} damage of the type you chose. If you have no charges left you can still use this property by taking necrotic damage equal to the extra damage you dealt. When you do so, your hit point maximum is reduced by an equal amount to the damage you took."
+				]
+			}
+		}
+	],
+	"monster": [
+		{
+			"name": "Torks",
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					{
+						"tag": "genasi",
+						"prefix": "earth"
+					}
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d12 + 96",
+				"average": 200
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 60
+			},
+			"str": 23,
+			"dex": 18,
+			"con": 22,
+			"int": 10,
+			"wis": 12,
+			"cha": 13,
+			"save": {
+				"str": "+11",
+				"con": "+11"
+			},
+			"skill": {
+				"deception": "+6",
+				"intimidation": "+6",
+				"perception": "+6",
+				"stealth": "+9"
+			},
+			"senses": [
+				"tremorsense 30 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"fire",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Terran"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Torks spellcasting ability is Constitution (spell save {@dc 19}). He can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell wall of stone}"
+						]
+					},
+					"ability": "con",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Torks is carrying a {@item Belt of Stone Giant Strength}, a {@item Cloak of the Mole|WitheringFury} and {@item Eldfjall|WitheringFury}."
+					]
+				},
+				{
+					"name": "Brutal Crit",
+					"entries": [
+						"Torks rolls two additional weapon damage die when determining the extra damage for a critical hit with a melee attack."
+					]
+				},
+				{
+					"name": "Danger Sense",
+					"entries": [
+						"Torks has advantage on Dexterity saving throws against effects that he can see, such as traps and spells. To gain this benefit, he can't be {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Earth Walk",
+					"entries": [
+						"Torks can move across difficult terrain made of earth or stone without expending extra movement."
+					]
+				},
+				{
+					"name": "Feral Senses",
+					"entries": [
+						"Torks has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If Torks fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Rage",
+					"entries": [
+						"Torks has advantage on Strength checks and Strength saving throws. When he makes a melee weapon attack using Strength, he gains a +4 bonus to the damage roll."
+					]
+				},
+				{
+					"name": "Reckless Attack",
+					"entries": [
+						"When Torks makes his first attack on his turn, he can decide to attack recklessly. Doing so gives him advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against him have advantage until his next turn."
+					]
+				},
+				{
+					"name": "Relentless Rage",
+					"entries": [
+						"If Torks drops to 0 hit points and doesn't die outright, he can make a {@dc 10} Constitution saving throw. If Torks succeeds, he drops to 1 hit point instead. Each time he use this feature after the first, the DC increases by 5."
+					]
+				},
+				{
+					"name": "Storm Aura",
+					"entries": [
+						"Torks emanates a stormy, magical aura. The aura extends 10 feet from him in every direction, but not through total cover. All other creatures in his aura take 5 fire damage each at the start of their turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Torks makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Storm Soul",
+					"entries": [
+						"Torks can touch a flammable object that isn't being worn or carried by anyone else and set it on fire."
+					]
+				},
+				{
+					"name": "Eldfjall",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) bludgeoning damage or  19 ({@damage 2d6 + 12}) bludgeoning damage, plus 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Raging Storm",
+					"entries": [
+						"Immediately after a creature in Torks aura hits him with an attack , he can force that creature to make a {@dc 19} Dexterity saving throw. On a failed save, the creature takes 8 fire damage."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"Torks can take 2 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Torks regains spent legendary actions at the start of its turn."
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"Torks moves up to half of his speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Eldfjall",
+					"entries": [
+						"Torks makes one melee attack using Eldfjall."
+					]
+				},
+				{
+					"name": "Shove",
+					"entries": [
+						"Torks shoves one creature within 5 feet of him."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/LSfRc9J.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"T"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Aywin",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "eladrin",
+						"prefix": "corrupted"
+					}
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item +3 hide armor}"
+					]
+				}
+			],
+			"hp": {
+				"special": "119 (168) (14d8 + 56)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 13,
+			"con": 19,
+			"int": 9,
+			"wis": 20,
+			"cha": 10,
+			"save": {
+				"wis": "+10",
+				"int": "+4"
+			},
+			"skill": {
+				"arcana": "+4",
+				"medicine": "+10",
+				"nature": "+4",
+				"perception": "+10",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Druidic",
+				"Sylvan"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Aywin is a 14th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, +10 to hit with spell attacks). Marwan has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell infestation|XGE}",
+								"{@spell primal savagery|XGE}",
+								"{@spell shillelagh}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell create or destroy water}",
+								"{@spell cure wounds}",
+								"{@spell fog cloud}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell dust devil|XGE}",
+								"{@spell earthbind|XGE}",
+								"{@spell flame blade}",
+								"{@spell heat metal}",
+								"{@spell hold person}",
+								"{@spell web}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell erupting earth|XGE}",
+								"{@spell stinking cloud}",
+								"{@spell vampiric touch}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell confusion}",
+								"{@spell elemental bane|XGE}",
+								"{@spell giant insect}",
+								"{@spell sickening radiance|XGE}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell antilife shell}",
+								"{@spell contagion}",
+								"{@spell insect plague}",
+								"{@spell negative energy flood|XGE}",
+								"{@spell wall of stone}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell bones of the earth|XGE}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell reverse gravity|PHB}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Villainous Resistance (2/Day)",
+					"entries": [
+						"If Aywin fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Aywin carries an {@item amulet of health}, a {@item +3 hide armor} and a {@item +1 quarterstaff}."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The Aywin has advantage on saving throws against being {@condition charmed}, and magic can't put the Aywin to sleep."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"Aywin has advantage on Constitution saving throws to maintain his concentration on a spell. When Aywin could make an opportunity attack, he can use his reaction to cast a spell, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only one creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Aura of Decay {@recharge 6}",
+					"entries": [
+						"Aywin can force each creature within 10 feet of him to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and Aywin regains hit points equal to half the inflicted damage. His witherling gains this feature as well."
+					]
+				},
+				{
+					"name": "Withering Shape (2/long rest)",
+					"entries": [
+						"Aywin can summon a witherling within 60 feet of him. Where the witherling appears, each creature in a 10-foot radius must make a Constitution saving throw or take 7 necrotic damage. The witherling stays for a duration of 1 minute, Aywin dismisses it as a bonus action, its hit points are reduce to zero, or Aywin uses this feature again. In combat, the witherling shares Aywins initiative count, but it takes its turn immediately after his. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless Aywin take a bonus action on his turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide, or Search action."
+					]
+				},
+				{
+					"name": "+1 Quaterstaff",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit ({@hit 11} to hit with {@spell shillelagh}), reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage or 10 ({@damage 1d8 + 6}) bludgeoning damage with {@spell shillelagh} or if wielded with two hands."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fey Step {@recharge 5}",
+					"entries": [
+						" Aywin can magically teleport up to 30 feet to an unoccupied space he can see. Immediately before Aywin uses his Fey Step, each creature of his choice that he can see within 5 feet of him takes 3 ({@damage 1d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"Aywin uses his aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Fey Step",
+					"entries": [
+						"Aywin uses his fey step feature."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					"Aywin once was a humble and kind young eladrin who found his way into the material plane due to an accident with a scroll of plane shift. Separated from his sisters, Shanna and Freya, he found an almost withered seed and planted it. This seed, however, was corrupted by Mhecmunas, who corrupted Aywin in the process. Now loyal to Mhecmunas, Aywin serves his new master by corrupting nature and spreading the essence of Mhecmunas over the world."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Eosll67.png",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Witherling",
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 21",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 16,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherling is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Witherhulk",
+			"source": "WitheringFury",
+			"size": "L",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 50",
+				"average": 105
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 20,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherhulk is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two slam attacks."
+					]
+				},
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Storm Elemental",
+			"source": "WitheringFury",
+			"size": "L",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "10d10 + 20",
+				"average": 75
+			},
+			"speed": {
+				"fly": {
+					"number": 90,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 14,
+			"int": 6,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"lightning",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Auran"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Air Form",
+					"entries": [
+						"The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The elemental makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8})."
+					]
+				},
+				{
+					"name": "Lightning Bolt  {@recharge 5}",
+					"entries": [
+						"The elemental shoots lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 12} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A storm elemental is a funneling storm cloud with a vague semblance of a face. Although it likes to race across the ground, picking up dust and debris as it goes, it can also fly and attack from above."
+								]
+							}
+						]
+					},
+					"Elementals are incarnations of the elements that make up the universe: air, earth, fire, and water. Though little more than animated energy on their own planes of existence, they can be called on by spellcasters and powerful beings to take shape and perform tasks.",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Living Elements",
+										"entries": [
+											"On its home plane, an elemental is a bodiless life force. Its dim consciousness manifests as a physical shape only when focused by the power of magic. A wild spirit of elemental force has no desire except to course through the element of its native plane. Like beasts of the Material Plane, these elemental spirits have no society or culture, and little sense of being."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Conjured by Magic",
+										"entries": [
+											"Certain spells and magic items can conjure an elemental, summoning it from the Inner Planes to the Material Plane. Elementals instinctively resent being pulled from their native planes and bound into service. A creature that summons an elemental must assert force of will to control it."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bound and Shaped",
+										"entries": [
+											"Powerful magic can bind an elemental spirit into a material template that defines a specific use and function. Invisible stalkers are air elementals bound to a specific form, in the same way that water elementals can be shaped into water weirds."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Elemental Nature",
+										"entries": [
+											"An elemental doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Air Elemental.png?v=1.117.4",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AU"
+			],
+			"damageTags": [
+				"B",
+				"L"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Cinder",
+			"shortName": true,
+			"isNpc": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "genasi",
+						"prefix": "fire"
+					}
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 18,
+			"con": 10,
+			"int": 15,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"int": "+5"
+			},
+			"skill": {
+				"deception": "+7",
+				"insight": "+4",
+				"investigation": "+5",
+				"perception": "+7",
+				"sleight of hand": "+10",
+				"stealth": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Cinder's spellcasting ability is Constitution (spell save {@dc 11}, {@hit +3} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell produce flame}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell burning hands}"
+						]
+					},
+					"ability": "con",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Cinder carries 3 flasks of alchemist's fire."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"The cinder deals an extra 10 ({@damage 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the cinder that isn't {@condition incapacitated} and the cinder doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand crossbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Alchemist's Fire",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 20 ft., one target. On a hit, the target takes 2 ({@damage 1d4}) fire damage at the start of each of its turns. A creature can end this damage by using its action to make a {@dc 10} Dexterity check to extinguish the flames."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Cinder can take a bonus action on each of his turns in combat. This action can be used only to take the Dash, Disengage, Hide or Use an Object action, make a Dexterity (Sleight of Hand) check or use thieves' tools to disarm a trap or open a lock."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"When an attacker that Cinder can see hits her with an attack, she can use her reaction to halve the attack's damage against her."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/bC9xCB8.png",
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			]
+		},
+		{
+			"name": "Magma Elemental",
+			"source": "WitheringFury",
+			"size": "H",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d12 + 84",
+				"average": 175
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 22,
+			"int": 4,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"acid",
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Ignan"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Magma Form",
+					"entries": [
+						"The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The elemental sheds bright light in a 20-foot radius and dim light in an additional 20 ft.."
+					]
+				},
+				{
+					"name": "Water Susceptibility",
+					"entries": [
+						"For every 5 feet the elemental moves in water, or for every gallon of water splashed on it, it takes 2 ({@damage 1d4}) cold damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The elemental makes two pseudopod attacks."
+					]
+				},
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}14 ({@damage 4d6}) bludgeoning damage, plus 16 ({@damage 4d6 + 5}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Spit Magma",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/60 ft., one target. {@h}14 ({@damage 4d6}) fire damage."
+					]
+				},
+				{
+					"name": "Spawn Magmit {@recharge 5}",
+					"entries": [
+						"The Elemental spawns 3 ({@dice 1d6}) Magmits within 20 feet of it."
+					]
+				}
+			],
+			"environment": [
+				"desert"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Fire Elemental.png?v=1.117.4",
+			"traitTags": [
+				"Illumination"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"IG"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH",
+				"RW"
+			]
+		},
+		{
+			"name": "Ember Monitor",
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 2,
+			"wis": 8,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Corrosive Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) damage, plus 5 ({@damage 2d4}) acid damage."
+					]
+				},
+				{
+					"name": "Corrosive Bite",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain",
+				"underwater"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"A",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		},
+		{
+			"name": "Venomfang",
+			"group": "Chromatic Dragon",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"page": 94,
+			"size": "L",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"dragon"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 48",
+				"average": 136
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"swim": 40
+			},
+			"str": 19,
+			"dex": 12,
+			"con": 17,
+			"int": 16,
+			"wis": 13,
+			"cha": 15,
+			"save": {
+				"dex": "+4",
+				"con": "+6",
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"deception": "+5",
+				"perception": "+7",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Venomfang can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Venomfang has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If Venomfang fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Venomfang makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d10 + 4}) piercing damage plus 7 ({@damage 2d6}) poison damage. The target must succeed on a a {@dc 14} Constitution saving throw or become {@condition spored}."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 4}) slashing damage. The target must succeed on a a {@dc 14} Constitution saving throw or become {@condition spored}."
+					]
+				},
+				{
+					"name": "Spore Breath {@recharge 5}",
+					"entries": [
+						"Venomfang exhales poisonous gas and spores in a 30-foot cone. Each creature in that area must make a {@dc 14} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					"The green dragon Venomfang once settled in Thundertree and made the old tower his layer. He was eventually defeated by an adventuring party and fled northeast into Neverwinter Wood. Unfortunately he encountered the remnants of Mhecmunas and got killed. After that he was raised from the dead as a servant for Mhecmunas by the druid Errich."
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Young Green Dragon.png?v=1.117.4",
+			"altArt": [
+				{
+					"name": "Young Green Dragon",
+					"source": "RMBRE"
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"spored"
+			]
+		},
+		{
+			"name": "Savalar Gadah",
+			"group": "Metallic Dragon",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "half-dragon",
+						"prefix": "gold"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item robe of the archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 127
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 16,
+			"int": 20,
+			"wis": 18,
+			"cha": 15,
+			"save": {
+				"int": "+11",
+				"wis": "+10"
+			},
+			"skill": {
+				"arcana": "+11",
+				"history": "+11",
+				"insight": "+10",
+				"perception": "+10",
+				"religion": "+11"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Giant",
+				"Ignan"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Savalar is a 17th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 19}, +11 to hit with spell attacks). Savalar has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell control flames|XGE}",
+								"{@spell create bonfire|XGE}",
+								"{@spell fire bolt}",
+								"{@spell green-flame blade|TCE}",
+								"{@spell message}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell chromatic orb}",
+								"{@spell mage armor}",
+								"{@spell sleep}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell Aganazzar's scorcher|XGE}",
+								"{@spell flaming sphere}",
+								"{@spell scorching ray}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}",
+								"{@spell sending}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell conjure minor elementals}",
+								"{@spell fire shield}",
+								"{@spell wall of fire}"
+							],
+							"slots": 0
+						},
+						"5": {
+							"spells": [
+								"{@spell conjure elemental}",
+								"{@spell immolation|XGE}",
+								"{@spell scrying}"
+							],
+							"slots": 0
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell investiture of flame|XGE}"
+							],
+							"slots": 0
+						},
+						"7": {
+							"spells": [
+								"{@spell delayed blast fireball}"
+							],
+							"slots": 0
+						},
+						"8": {
+							"spells": [
+								"{@spell incendiary cloud}"
+							],
+							"slots": 0
+						},
+						"9": {
+							"spells": [
+								"{@spell meteor swarm}"
+							],
+							"slots": 0
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Savalar is carrying an emblem of the golden bones, a {@item robe of the archmagi} and a {@item staff of fire}."
+					]
+				},
+				{
+					"name": "Empowered Evocation",
+					"entries": [
+						"Savalar can add his Intelligence modifier to the damage roll of any wizard evocation spell he casts."
+					]
+				},
+				{
+					"name": "Sculpt Spells",
+					"entries": [
+						"When Savalar casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"Savalar uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Fire Breath.",
+									"entry": "Savalar exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one."
+								},
+								{
+									"type": "item",
+									"name": "Weakening Breath.",
+									"entry": "Savalar exhales gas in a 15-foot cone. Each creature in that area must succeed on a {@dc 16} Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								}
+							]
+						}
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/f9v7vaO.png",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR",
+				"E",
+				"GI",
+				"IG"
+			],
+			"damageTags": [
+				"F"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"AOE"
+			]
+		},
+		{
+			"name": "Garone",
+			"group": "Goblinoids",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"hobgoblin"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 breastplate}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 24",
+				"average": 78
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 19,
+			"wis": 10,
+			"cha": 14,
+			"save": {
+				"con": "+6",
+				"int": "+8"
+			},
+			"skill": {
+				"arcana": "+8",
+				"athletics": "+4",
+				"investigation": "+8",
+				"intimidation": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"force"
+			],
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Garone is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks or, spell save {@dc 17}, {@hit 9} to hit with spell attacks if he is using his wand). Garone has the following artificer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell mending}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell alarm}",
+								"{@spell catapult|XGE}",
+								"{@spell false life}",
+								"{@spell grease}",
+								"{@spell shield}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell enhance ability}",
+								"{@spell enlarge/reduce}",
+								"{@spell heat metal}",
+								"{@spell scorching ray}",
+								"{@spell shatter}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blink}",
+								"{@spell fireball}",
+								"{@spell wind wall}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Arcane Advantage",
+					"entries": [
+						"Once per turn, Garone can deal an extra 14 ({@damage 4d6}) damage to a creature he hits with a damaging spell attack if that target is within 5 feet of an ally of Garone and that ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Army Arcana",
+					"entries": [
+						"When Garone casts a spell that causes damage or that forces other creatures to make a saving throw, he can choose himself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw."
+					]
+				},
+				{
+					"name": "Infused Items",
+					"entries": [
+						"Garone carries a repeating {@item musket}, an enhanced defense {@item breastplate}, an enhanced wand and a {@item brooch of shielding}. All those items lose there magical properties four days after Garone died."
+					]
+				},
+				{
+					"name": "Sharpshooter",
+					"entries": [
+						"Attacking at long range doesn't impose disadvantage on Garones ranged weapon attack rolls. His ranged weapon attacks ignore half cover and three-quarters cover. Before he makes an attack with a ranged weapon that he is proficient with, Garone can choose to take a -5 penalty to the attack roll. If the attack hits, he adds +10 to the attack's damage."
+					]
+				},
+				{
+					"name": "Villainous Resistance (1/Day)",
+					"entries": [
+						"If the Garone fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Musket",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 120 ft., one target. {@h}10 ({@damage 1d12 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Scorching Ray (4/long rest)",
+					"entries": [
+						"While Garone wields his musket, he can cast {@spell scorching ray} without expanding a spell slot."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Flash of Genius",
+					"entries": [
+						"When Garone or another creature he can see within 30 feet of him makes an ability check or a saving throw, he can use his reaction to add a +4 bonus to the roll."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The aspiring hobgoblin warchief and artificer Garone recently came to the North Sword Coast in order to claim the territory left behind by the crackmaw tribe. He set up cmap in the old shrine of savras a few miles south of conyberry. Garone is using the ruins of conyberry to set up ambushes."
+				]
+			},
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CA"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Ik",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"page": 237,
+			"size": "L",
+			"type": "giant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 21"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 8,
+			"con": 16,
+			"int": 19,
+			"wis": 7,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Ik carries a {@item headband of intellect}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Ray of Frost",
+					"entries": [
+						"If Ik attacks with his greatsword, he can cast {@spell ray of frost} (5th level, {@hit 6} to hit) as a bonus action."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Ik is an ogre that once found a headband of intellect. He is the right hand man to the frost giant Bribnir."
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Ogre.png?v=1.117.4",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Garone's Eldritch Cannon",
+			"isNpc": true,
+			"source": "WitheringFury",
+			"size": "T",
+			"type": "construct",
+			"alignment": null,
+			"ac": [
+				18
+			],
+			"hp": {
+				"special": "60"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				{
+					"special": "all"
+				}
+			],
+			"trait": [
+				{
+					"name": "Eldritch Cannon",
+					"entries": [
+						"If the mending spell is cast on it, it regains 7 ({@damage 2d6}) hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Protector",
+					"entries": [
+						"The cannon emits a burst of positive energy that grants itself and each creature of Garones choice within 10 feet of it a number of temporary hit points equal to 13 ({@damage 2d8 + 4})."
+					]
+				}
+			]
+		},
+		{
+			"name": "Errich",
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "halfling",
+						"prefix": "ghostwise"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item green dragon scale mail}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 56",
+				"average": 119
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 18,
+			"int": 11,
+			"wis": 20,
+			"cha": 9,
+			"save": {
+				"con": "+9",
+				"int": "+5",
+				"wis": "+10"
+			},
+			"skill": {
+				"arcana": "+5",
+				"investigation": "+5",
+				"nature": "+5",
+				"survival": "+15"
+			},
+			"passive": 15,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Druidic",
+				"Halfling",
+				"telepathy 30ft."
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Errich is a 14th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Errich has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell infestation|XGE}",
+								"{@spell mold earth|XGE}",
+								"{@spell poison spray}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell fog cloud}",
+								"{@spell thunderwave}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell gentle repose}",
+								"{@spell heat metal}",
+								"{@spell hold person}",
+								"{@spell moonbeam}",
+								"{@spell spike growth}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell dispel magic}",
+								"{@spell feign death}",
+								"{@spell gaseous form}",
+								"{@spell plant growth}",
+								"{@spell protection from energy}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell confusion}",
+								"{@spell elemental bane|XGE}",
+								"{@spell giant insect}",
+								"{@spell hallucinatory terrain}",
+								"{@spell stoneskin}"
+							],
+							"slots": 0
+						},
+						"5": {
+							"spells": [
+								"{@spell antilife shell}",
+								"{@spell cloudkill}",
+								"{@spell contagion}",
+								"{@spell insect plague}",
+								"{@spell scrying}"
+							],
+							"slots": 0
+						},
+						"6": {
+							"spells": [
+								"{@spell conjure fey}"
+							],
+							"slots": 0
+						},
+						"7": {
+							"spells": [
+								"{@spell reverse gravity}"
+							],
+							"slots": 0
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Errich carries a {@item green dragon scale mail} and a {@item staff of withering}."
+					]
+				},
+				{
+					"name": "Fungal Body",
+					"entries": [
+						"Any critical hit against Errich counts as a normal hit instead, unless he's {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"Errich can move through the space of any creature that is of a size larger than him."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When Errich roll a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+					]
+				},
+				{
+					"name": "Villainous Resistance (1/Day)",
+					"entries": [
+						"If the errich fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Bloody Action",
+					"entries": [
+						"Immediately after Errich has lost more than half of his hit points, he causes the following effect: Errich gains the effects of his Symbiotic Entity feature until his hit points are reduced to 0 and he regains 20 temporary hit points at the start of each of his turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Symbiotic Entity (2/long rest)",
+					"entries": [
+						"Errich can awaken the spores in his body and gain 56 temporary hit points. Until he loses all these temporary hit points, he gain the following benefits:",
+						"• When Errich deal his Halo of Spores damage, he rolls the damage die a second time and adds it to the total.",
+						"• Errichs melee weapon attacks deal an extra 3 ({@damage 1d6}) poison damage to any target they hit."
+					]
+				},
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) bludgeoning damage if wielded with two hands."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Spreading Spores",
+					"entries": [
+						"While Errichs Symbiotic Entity feature is active, he can hurl spores up to 30 feet away. Where they swirl in a 10-foot cube for 1 minute. The spores disappear early if he use this feature again, if he dismiss them as a bonus action, or if his Symbiotic Entity feature is no longer active. Whenever a creature moves into the cube or starts its turn there, that creature takes Errichs Halo of Spores damage, unless the creature succeeds on a {@dc 18} Constitution saving throw. A creature can take this damage no more than once per turn. While the cube of spores persists, Errich can't use his Halo of Spores reaction."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fungal Infestation (5/long rest)",
+					"entries": [
+						"If a beast or a humanoid that is Small or Medium dies within 10 feet of Errich, he can use his reaction to animate it, causing it to stand up immediately with 1 hit point. The creature uses the zombie stat block in the Monster Manual. It remains animate for 1 hour, after which time it collapses and dies. In combat, the zombie's turn comes immediately after Errichs. It obeys his mental commands, and the only action it can take is the Attack action, making one melee attack."
+					]
+				},
+				{
+					"name": "Halo of Spores",
+					"entries": [
+						"When a creature Errich can see moves into a space within 10 feet of him or starts its turn there, he can use his reaction to deal {@damage 1d10} necrotic damage to that creature unless it succeeds on a {@dc 18} Constitution saving throw."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/ioxYVPp.png",
+			"languageTags": [
+				"AB",
+				"C",
+				"DU",
+				"H",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Karyn",
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"triton"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d10 + 80",
+				"average": 168
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 60
+			},
+			"str": 13,
+			"dex": 22,
+			"con": 20,
+			"int": 23,
+			"wis": 7,
+			"cha": 12,
+			"save": {
+				"str": "+6",
+				"con": "+10"
+			},
+			"skill": {
+				"acrobatics": "+11",
+				"history": "+11",
+				"perception": "+3",
+				"persuasion": "+6"
+			},
+			"passive": 13,
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Aquan",
+				"Common",
+				"Elvish"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Karyns spellcasting ability is Charisma (spell save {@dc 14}). She can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell fog cloud}",
+							"{@spell gust of wind}",
+							"{@spell wall of water|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Karyn is carrying a {@item Cloak of the Manta Ray}, {@item Glacir|WitheringFury}, a {@item Ring of Astonishing Intelligence|WitheringFury} and a {@item +2 Scimitar}."
+					]
+				},
+				{
+					"name": "Action Surge (2/lday)",
+					"entries": [
+						"On Karyns turn, she can take one additional action on top of her regular action and a possible bonus action."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The karyn can breathe air and water."
+					]
+				},
+				{
+					"name": "Arcane Shot {@recharge 4}",
+					"entries": [
+						"Once per turn when Karyn fires a magic arrow from a shortbow or longbow as part of the Attack action, she can apply one of her Arcane Shot options to that arrow.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Piercing Arrow.",
+									"entry": "When she uses this option, Karyn doesn't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a {@dc 19} Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 3 ({@damage 1d6}) piercing damage. On a successful save, a target takes half as much damage."
+								},
+								{
+									"type": "item",
+									"name": "Bursting Arrow.",
+									"entry": "She imbues her arrow with force energy drawn from the school of evocation. The energy detonates after Karyns attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take 7 ({@damage 2d6}) force damage each."
+								},
+								{
+									"type": "item",
+									"name": "Enfeebling Arrow.",
+									"entry": "She weaves necromantic magic into her arrow. The creature hit by the arrow takes an extra 7 ({@damage 2d6}) necrotic damage. The target must also succeed on a {@dc 19} Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of her next turn."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Curving Shot",
+					"entries": [
+						"When Karyn make an attack roll with a magic arrow and miss, she can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If Karyn fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Mobil",
+					"entries": [
+						"When Karyn uses the Dash action, difficult terrain doesn't cost her extra movement on that turn and when she make a melee attack against a creature, she doesn't provoke opportunity attacks from that creature for the rest of the turn, whether she hits or not."
+					]
+				},
+				{
+					"name": "Sharpshooter",
+					"entries": [
+						"Attacking at long range doesn't impose disadvantage on Karyns ranged weapon attack rolls. Her ranged weapon attacks ignore half cover and three-quarters cover. Before she make an attack with a ranged weapon that she is proficient with, Karyn can choose to take a -5 penalty to the attack roll. If the attack hits, she adds +10 to the attack's damage."
+					]
+				},
+				{
+					"name": "Bloody Action",
+					"entries": [
+						"Immediately after Karyn has lost more than half of her hit points, she causes the following effect:",
+						"The entire room becomes submerged in water and strong currents begin to flow, forcing all creatures, hostile to Karyn, to make a {@dc 19} Strength saving throw. On a failed save, a creature takes {@damage 2d10} bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and is not knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Karyn makes three weapon attacks."
+					]
+				},
+				{
+					"name": "Glacier",
+					"entries": [
+						"{@atk rw} {@hit 15} to hit, range 120/120 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage, plus 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "+2 Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d6 + 8}) slashing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Second Wind (1/day)",
+					"entries": [
+						"On Karyns turn, she can use a bonus action to regain 21 ({@damage 1d10 + 16}) hit points."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"Karyn moves up to half of her speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Glacier",
+					"entries": [
+						"Karyn makes one ranged attack using glacier."
+					]
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"Karyn cast a spell from her innate spellcasting list."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Karyn once was a member of the guard of the ancient triton settlement Cassiopaia. After her settlement got destroyed by sahuagin raiders, she decided to travel the world above the seas and helped to stop Mhecmunas 800 years ago. Recently, she got reanimated by the druid errich, a henchman of Mhecmunas."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/pZQ1aUC.png",
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AQ",
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"C",
+				"N",
+				"O",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Sengo Dalyrn",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"drow"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +2 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 3d10",
+				"average": 61
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 20,
+			"con": 10,
+			"int": 13,
+			"wis": 11,
+			"cha": 7,
+			"save": {
+				"dex": "+10",
+				"int": "+6"
+			},
+			"skill": {
+				"acrobatics": "+15",
+				"athletics": "+6",
+				"insight": "+5",
+				"nature": "+11",
+				"perception": "+10",
+				"sleight of hand": "+10",
+				"stealth": "+15",
+				"survival": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Thieves' cant",
+				"Undercommon"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Sengos spellcasting ability is Charisma (spell save {@dc 11}). He can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Action Surge (1/day)",
+					"entries": [
+						"On Sengos turn, he can take one additional action on top of his regular action and a possible bonus action."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"When Sengo is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Sengo has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Poisonous Weapons",
+					"entries": [
+						"Sengo always applies a strong poison of paralysis to his weapons before entering combat. If he hits with any weapon attack, the target must succeed on a {@dc 20} Constitution saving throw or become {@condition paralyzed} for 1 minute. A {@condition paralyzed} creature can repeat its saving throw at the end of its turn."
+					]
+				},
+				{
+					"name": "Second Wind",
+					"entries": [
+						"On Sengos turn, he can use a bonus action to regain 7 ({@damage 1d10 + 2}) hit points."
+					]
+				},
+				{
+					"name": "Sharpshooter",
+					"entries": [
+						"Attacking at long range doesn't impose disadvantage on Sengos ranged weapon attack rolls. His ranged weapon attacks ignore half cover and three-quarters cover. Before he makes an attack with a ranged weapon that he is proficient with, sengo can choose to take a -5 penalty to the attack roll. If the attack hits, he adds +10 to the attack's damage."
+					]
+				},
+				{
+					"name": "Skirmisher",
+					"entries": [
+						"Sengo can move up to half his speed as a reaction when an enemy ends its turn within 5 feet of him. This movement doesn't provoke opportunity attacks."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, Sengo can deal an extra 17 ({@damage 5d6}) damage to one creature he hits with an attack if he has advantage on the attack roll or another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and he doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"Sengo has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when he, the target of his attack, or whatever he are trying to perceive is in direct sunlight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "+2 Longbow",
+					"entries": [
+						"{@atk rw} {@hit 14} to hit, range 600 ft., one target. {@h}11 ({@damage 1d8 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Sengo can take a bonus action on each of his turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"When an attacker that Sengo can see hits him with an attack, he can use his reaction to halve the attack's damage against him."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A renowned bounty hounter and slaver among the drow, the cold blooded Sengo was hired by the drow settlement in gauntlgrym to capture the adventurers for the murder of the black spider."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/wBnlzPi.png",
+			"traitTags": [
+				"Fey Ancestry",
+				"Sneak Attack",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"TC",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Fomorian Zombie",
+			"source": "WitheringFury",
+			"size": "H",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"patchwork armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 138,
+				"formula": "12d12 + 60"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 23,
+			"dex": 6,
+			"con": 21,
+			"int": 3,
+			"wis": 6,
+			"cha": 5,
+			"save": {
+				"wis": "+1"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 8,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"understands Giant and Undercommon but can't speak"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is fire, radiant, or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The zombie makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Evil Eye",
+					"entries": [
+						"The zombie magically forces a creature it can see within 60 feet of it to make a {@dc 14} Charisma saving throw. The creature takes 27 ({@damage 6d8}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Curse of the Evil Eye (recharges after a short or long rest)",
+					"entries": [
+						"With a stare, the fomorian uses Evil Eye, but on a failed save, the creature is also cursed with magical deformities. While deformed, the creature has its speed halved and has disadvantage on ability checks, saving throws, and attacks based on Strength or Dexterity. The transformed creature can repeat the saving throw whenever it finishes a long rest, ending the effect on a success."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					"The uppeer body of a dead fomorian, reanimated by foul magic."
+				]
+			},
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"GI",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Mhecmunas",
+			"group": "Lichs",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 285,
+				"formula": "30d8 + 150"
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 20,
+			"int": 26,
+			"wis": 21,
+			"cha": 18,
+			"save": {
+				"con": "+12",
+				"int": "+15",
+				"wis": "+12"
+			},
+			"skill": {
+				"arcana": "+22",
+				"history": "+22",
+				"insight": "+12",
+				"perception": "+12",
+				"nature": "+15"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"acid",
+				"cold",
+				"lightning"
+			],
+			"immune": [
+				"necrotic",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic",
+				"Druidic",
+				"Dwarvish",
+				"Elvish",
+				"Giant",
+				"Primordial",
+				"Sylvan",
+				"Undercommon"
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Mhecmunas is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Mhecmunas has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell infestation|XGE}",
+								"{@spell mind sliver|TCE}",
+								"{@spell sapping sting|EGW}",
+								"{@spell toll the dead|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chromatic orb}",
+								"{@spell ray of sickness}",
+								"{@spell shield}"
+							],
+							"slots": 0
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell scorching ray}"
+							],
+							"slots": 0
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell hunger of Hadar}"
+							],
+							"slots": 0
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell Evard's black tentacles}",
+								"{@spell sickening radiance|XGE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell immolation|XGE}",
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell circle of death}",
+								"{@spell disintegrate}",
+								"{@spell eyebite}"
+							],
+							"slots": 3
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell forcecage}"
+							],
+							"slots": 3
+						},
+						"8": {
+							"spells": [
+								"{@spell Abi-Dalzim's horrid wilting|XGE}",
+								"{@spell maddening darkness|XGE}"
+							],
+							"slots": 2
+						},
+						"9": {
+							"spells": [
+								"{@spell time ravage|EGW}",
+								"{@spell time stop}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Mhecmunas carries a {@item Dancing Longsword} and the {@item Staff of the Withered|WitheringFury}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Mhecmunas fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"Mhecmunas' body turns to dust when he drops to 0 hit points, and his equipment is left behind. Mhecmunas gains a new body after {@dice 1d10} days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Mhecmunas' phylactery."
+					]
+				},
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"Mhecmunas has advantage on saving throws against any effect that turns undead."
+					]
+				},
+				{
+					"name": "Bloody Action",
+					"entries": [
+						"Immediately after Mhecmunas has lost more than half of his hit points for the first time, he causes the following effect:",
+						"vampiric roots sproud from the ground. Each creature on the ground, that Mhecmunas can see, must make a {@dc 20} Dexterity saving throw. On a failed save, a creature takes takes 3 ({@damage 1d6}) piercing damage and 22 ({@damage 4d10}) necrotic damage and is {@condition restrained}. On a successful save, a creature takes half as much damage and is not {@condition restrained}. Mhecmunas regains hit points equal to  half of the inflicted necrotic damage."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"Mhecmunas can move through other creatures and objects. He takes 5 ({@damage 1d10}) force damage if he ends his turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Paralyzing Touch",
+					"entries": [
+						"{@atk ms} {@hit 15} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) cold damage, and the target must succeed on a {@dc 20} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Staff (+3 Quarterstaff)",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage, or 9 ({@damage 1d8 + 5}) bludgeoning damage when used with two hands plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Invoke Curse",
+					"entries": [
+						"While holding the Staff of the Withered, Mhecmunas expends 1 charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 23} Constitution saving throw or be cursed. Until the curse is ended, the target suffers one level of {@condition exhaustion} and starts to decay, taking {@damage 1d6} necrotic damage at the end of each of its turns. {spell Greater restoration}, {@spell remove curse}, or similar magic ends the curse on the target."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Dancing Longsword",
+					"entries": [
+						"Mhecmunas can use a bonus action to toss this magic sword into the air and speak the command word. When he does so, the sword begins to hover, flies up to 30 feet, and attacks one creature of his choice within 5 feet of it. The sword uses his spell attack modifer to hit and adds his Intelligence modifier to  damage rolls.",
+						"While the sword hovers, he can use a bonus action to cause it to fly up to 30 feet to another spot within 30 feet of him. As part of the same bonus action, he can cause the sword to attack one creature within 5 feet of it."
+					]
+				},
+				{
+					"name": "Ethereal Jault",
+					"entries": [
+						"As a bonus action, Mhecmunas can magically move up to 30 feet through the ethereal plane."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "At-Will Spell",
+					"entries": [
+						"Mhecmunas casts one of his at-will spells."
+					]
+				},
+				{
+					"name": "Frightening Gaze (Costs 2 Actions)",
+					"entries": [
+						"Mhecmunas fixes his gaze on one creature he can see within 10 feet of him. The target must succeed on a {@dc 20} Wisdom saving throw against this magic or become {@condition frightened} for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target its immune to Acererak's gaze for the next 24 hours."
+					]
+				},
+				{
+					"name": "Disrupt Life (Costs 3 Actions)",
+					"entries": [
+						"Each creature within 20 feet of Mhecmunas must make a {@dc 20} Constitution saving throw against this magic, taking 42 ({@damage 12d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Vampiric Roots",
+					"entries": [
+						"Mhecmunas chooses up to three creature he can see within 30 feet of  him. Each creature must make a {@dc 20} Dexterity saving throw. On a failed save, a creature takes takes 3 ({@damage 1d6}) piercing damage and 44 ({@damage 8d10}) necrotic damage and is {@condition restrained}. On a successful save, a creature takes half as much damage and is not {@condition restrained}. Mhecmunas or his Phylactery regain hit points equal to half of the inflicted necrotic damage."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Lich",
+				"source": "MM"
+			},
+			"fluff": {
+				"entries": [
+					"Mhecmunas was an archlich slain hundreds of years ago by a group of ancient heroes. At times he took pleasure in torturing and killing powerful druids, as well as destroying nature. After Mhecmunas was destroyed, his essence found shelter in the seed of a willow plotting his revenge ever since."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Fj7hNy8.png",
+			"traitTags": [
+				"Incorporeal Movement",
+				"Legendary Resistances",
+				"Rejuvenation",
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"D",
+				"DR",
+				"DU",
+				"E",
+				"GI",
+				"P",
+				"S",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"N",
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Dreamer",
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 32",
+				"average": 68
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 18,
+			"int": 7,
+			"wis": 12,
+			"cha": 9,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"telepathy 60 ft."
+			],
+			"cr": "4",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The skum makes two Mind-Breaking Touch attacks."
+					]
+				},
+				{
+					"name": "Mind-Breaking Touch",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}18 ({@damage 4d8}) psychic damage, and the target has disadvantage on Wisdom saving throws until the end of the skum's next turn."
+					]
+				},
+				{
+					"name": "Psychic Gaze",
+					"entries": [
+						"the dreamer targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw against this magic or take 7 ({@damage 2d6}) psychic damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/GoS/Skum.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/GoS/Skum.png?v=1.117.4",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"TP"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Auntie",
+			"group": "Hags",
+			"isNpc": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 33",
+				"average": 82
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 19,
+			"wis": 16,
+			"cha": 16,
+			"skill": {
+				"arcana": "+7",
+				"deception": "+6",
+				"perception": "+6",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Sylvan"
+			],
+			"cr": {
+				"cr": "6",
+				"coven": "8"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The hag's innate spellcasting ability is Charisma (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell minor illusion}",
+						"{@spell sapping sting|EGW}",
+						"{@spell vicious mockery}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Shared Spellcasting (Coven Only)",
+					"headerEntries": [
+						"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
+					],
+					"footerEntries": [
+						"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|XGE}",
+								"{@spell ray of sickness}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell hold person}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell counterspell}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell phantasmal killer}",
+								"{@spell polymorph}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell enervation|XGE}",
+								"{@spell scrying}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell eyebite}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hag can breathe air and water."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom (Insight) check."
+					]
+				},
+				{
+					"name": "Hag Coven",
+					"entries": [
+						"When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+						"A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+					]
+				},
+				{
+					"name": "Hag Eye (Coven Only)",
+					"entries": [
+						"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes {@dice 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+						"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Illusory Appearance",
+					"entries": [
+						"The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.",
+						"The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 20} Intelligence (Investigation) check to discern that the hag is disguised."
+					]
+				},
+				{
+					"name": "Invisible Passage",
+					"entries": [
+						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Green Hag.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Green Hag.png?v=1.117.4",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"S"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Granny",
+			"group": "Hags",
+			"isNpc": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 33",
+				"average": 82
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 13,
+			"con": 16,
+			"int": 21,
+			"wis": 16,
+			"cha": 16,
+			"skill": {
+				"arcana": "+8",
+				"deception": "+6",
+				"perception": "+6",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Sylvan"
+			],
+			"cr": {
+				"cr": "6",
+				"coven": "8"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The hag's innate spellcasting ability is Charisma (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell minor illusion}",
+						"{@spell sapping sting|EGW}",
+						"{@spell vicious mockery}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Shared Spellcasting (Coven Only)",
+					"headerEntries": [
+						"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
+					],
+					"footerEntries": [
+						"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|XGE}",
+								"{@spell ray of sickness}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell hold person}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell counterspell}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell phantasmal killer}",
+								"{@spell polymorph}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell enervation|XGE}",
+								"{@spell scrying}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell eyebite}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hag can breathe air and water."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom (Insight) check."
+					]
+				},
+				{
+					"name": "Hag Coven",
+					"entries": [
+						"When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+						"A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+					]
+				},
+				{
+					"name": "Hag Eye (Coven Only)",
+					"entries": [
+						"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes {@dice 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+						"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Illusory Appearance",
+					"entries": [
+						"The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.",
+						"The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 20} Intelligence (Investigation) check to discern that the hag is disguised."
+					]
+				},
+				{
+					"name": "Invisible Passage",
+					"entries": [
+						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Green Hag.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Green Hag.png?v=1.117.4",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"S"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Mommy",
+			"group": "Hags",
+			"isNpc": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "fey",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 33",
+				"average": 82
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 19,
+			"wis": 16,
+			"cha": 16,
+			"skill": {
+				"arcana": "+7",
+				"deception": "+6",
+				"perception": "+6",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Sylvan"
+			],
+			"cr": {
+				"cr": "6",
+				"coven": "8"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The hag's innate spellcasting ability is Charisma (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell minor illusion}",
+						"{@spell sapping sting|EGW}",
+						"{@spell vicious mockery}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Shared Spellcasting (Coven Only)",
+					"headerEntries": [
+						"While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
+					],
+					"footerEntries": [
+						"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|XGE}",
+								"{@spell ray of sickness}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell hold person}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell counterspell}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell phantasmal killer}",
+								"{@spell polymorph}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell enervation|XGE}",
+								"{@spell scrying}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell eyebite}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hag can breathe air and water."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom (Insight) check."
+					]
+				},
+				{
+					"name": "Hag Coven",
+					"entries": [
+						"When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+						"A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+					]
+				},
+				{
+					"name": "Hag Eye (Coven Only)",
+					"entries": [
+						"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes {@dice 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+						"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Illusory Appearance",
+					"entries": [
+						"The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.",
+						"The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 20} Intelligence (Investigation) check to discern that the hag is disguised."
+					]
+				},
+				{
+					"name": "Invisible Passage",
+					"entries": [
+						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Green Hag.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Green Hag.png?v=1.117.4",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"S"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Chessa",
+			"shortName": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				},
+				{
+					"ac": 22,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}",
+						"{@spell shield of faith}"
+					]
+				}
+			],
+			"hp": {
+				"special": "152 (208) (16d8 + 80)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 20,
+			"int": 13,
+			"wis": 23,
+			"cha": 12,
+			"save": {
+				"wis": "+10",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+5",
+				"athletics": "+8",
+				"insight": "+10",
+				"perception": "+10",
+				"religion": "+5"
+			},
+			"senses": [
+				"truesight 30 ft."
+			],
+			"passive": 20,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Celestial",
+				"Primordial"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Chessa is a 16th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 19}, +11 to hit with spell attacks). Chessa has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}",
+								"{@spell toll the dead|XGE}",
+								"{@spell word of radiance|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bane}",
+								"{@spell command}",
+								"{@spell divine favor}",
+								"{@spell guiding bolt}",
+								"{@spell inflict wounds}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell continual flame}",
+								"{@spell hold person}",
+								"{@spell magic weapon}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell crusader's mantle}",
+								"{@spell dispel magic}",
+								"{@spell magic circle}",
+								"{@spell meld into stone}",
+								"{@spell spirit guardians}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}",
+								"{@spell freedom of movement}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contagion}",
+								"{@spell flame strike}",
+								"{@spell hold monster}",
+								"{@spell insect plague}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell harm}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell holy aura}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Chessa is carrying an {@item Amulet of Extraordinary Wisdom|witheringFury}, a {@item Cloak of Stepping|WitheringFury} and {@item Haul|WitheringFury}."
+					]
+				},
+				{
+					"name": "Channel Divinity (2/day)",
+					"entries": [
+						"."
+					]
+				},
+				{
+					"name": "Divine Strike",
+					"entries": [
+						"Once on each of her turns when Chessa hits a creature with a weapon attack, she can cause the attack to deal an extra 9 ({@damage 2d8}) damage of the same type dealt by the weapon to the target."
+					]
+				},
+				{
+					"name": "Guided Strike",
+					"entries": [
+						"When Chessa makes an attack roll, she can use her Channel Divinity to gain a +10 bonus to the roll."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If Chessa fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"Chessa has advantage on Constitution saving throws to maintain her concentration on a spell. When Chessa could make an opportunity attack, she can use her reaction to cast a spell, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only one creature."
+					]
+				},
+				{
+					"name": "Bloody Action",
+					"entries": [
+						"Immediately after Chessa has lost more than half of her hit points, she causes the following effect:",
+						"All pillars in the room emit a bright flash of light, forcing all creature, hostile to Chessa, to make a {@dc 19} Constitution saving throw. A creature takes 13 ({@damage 2d12}) radiant damage and is {@condition blinded} for 1 minute. On a successful save a creature takes half as much damage and is not {@condition blinded}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Disrupt Life.",
+					"entries": [
+						"Chessa uses her Channel Divinity. Each living creature within 20 feet of Chessa must make a {@dc 19} Constitution saving throw, taking 17 ({@damage 5d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Haul",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage, or 11 ({@damage 1d10 + 6}) slashing damage if used with both hands, plus 7 ({@damage 2d6}) radiant damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "War Priest (6/day)",
+					"entries": [
+						"When Chessa uses the Attack action, she can make one weapon attack as a bonus action."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Spell",
+					"entries": [
+						"Chessa cast a cantrip or a spell of 3rd-level or lower that has a casting time of one action."
+					]
+				},
+				{
+					"name": "Haul",
+					"entries": [
+						"Chessa makes one melee attack using haul."
+					]
+				},
+				{
+					"name": "Disrupt Life",
+					"entries": [
+						"Chessa uses her Disrupt Life feature."
+					]
+				},
+				{
+					"name": "Chessa",
+					"entries": [
+						"Chessa uses her Cloak of Stepping."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Long ago, Chessa was a reputable cleric of Torm, a god of courage. She helped to defeat Mhecmunas, when he threatend to destroy the world and was later buried with an essence of hew. Recently, she was reanimated by the withered eladrin and follower of Mhecmunas Marwan in order to ensure the essence of hew stays in the grave. Chessa doesn't want to be used as a tool of Mhecmunas, but can not resist her orders."
+				]
+			},
+			"tokenUrl": "https://imgur.com/TrnVQnP.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"P"
+			],
+			"damageTags": [
+				"N",
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded"
+			]
+		},
+		{
+			"name": "Oomph",
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					{
+						"tag": "dragonborn",
+						"prefix": "steel"
+					}
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item ring of protection}"
+					]
+				},
+				{
+					"ac": 17,
+					"from": [
+						"{@item ring of protection}, {@item mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 64",
+				"average": 136
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 13,
+			"dex": 17,
+			"con": 18,
+			"int": 12,
+			"wis": 13,
+			"cha": 23,
+			"save": {
+				"con": "+9",
+				"cha": "+11"
+			},
+			"skill": {
+				"athletics": "+6",
+				"deception": "+11",
+				"intimidation": "+11",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"resist": [
+				"lightning"
+			],
+			"immune": [
+				"poison",
+				"thunder"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Auran",
+				"Common",
+				"Draconic"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Oomph is a 16th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 19}, {@hit 12} to hit with spell attacks). Oomph has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell gust|XGE}",
+								"{@spell lightning lure|TCE}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}",
+								"{@spell sword burst|TCE}",
+								"{@spell thunderclap|XGE}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chaos bolt|XGE}",
+								"{@spell mage armor}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell shatter}",
+								"{@spell warding wind|XGE}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell ice storm}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell disintegrate}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell Abi-Dalzim's horrid wilting|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Oomph is carrying a {@item Ring of Protection}, {@item Blixt|WitheringFury} and a {@item Bracelet of Outstanding Charisma|WitheringFury}."
+					]
+				},
+				{
+					"name": "Heart of the Storm",
+					"entries": [
+						"Whenever Ooomph start casting a spell of 1st level or higher that deals lightning or thunder damage, all creatures of his choice that he can see within 10 feet of him take 8 lightning or thunder damage (his choice)."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If Oomph fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Metamagic",
+					"entries": [
+						"Oomph has 16 sorcery points. He can use only one Metamagic option on a spell when he casts it, unless otherwise noted.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Distant Spell.",
+									"entry": "When he casts a spell that has a range of 5 feet or greater, he can spend 1 sorcery point to double the range of the spell. When Oomph casts a spell that has a range of touch, he can spend 1 sorcery point to make the range of the spell 30 feet."
+								},
+								{
+									"type": "item",
+									"name": "Heightend Spell.",
+									"entry": "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
+								},
+								{
+									"type": "item",
+									"name": "Quickend Spell.",
+									"entry": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Bloody Action",
+					"entries": [
+						"Immediately after Oomph has lost more than half of his hit points, he causes the following effect:",
+						"Lightning crashes down at Oomph, forcing each creature within 15 feet of him to make a {@dc 19} Dexterity saving throw. On a failed save, a creature takes 22 ({@damage 4d10}) lightning damage and is pushed 15 feet away from Oomph in a strait line or half as much damage on a successful one. In addition, the next time Oompf deals lightning damage, that damage is maximized."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Breath Weapon {@recharge 5}",
+					"entries": [
+						"Oomph can use his action or bonus action to exhale destructive energy. Each creature in a 30-foot cone must make a {@dc 17} Constitution saving throw. A creature takes 17 ({@damage 5d6}) thunder damage on a failed save, and half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage, or 7 ({@damage 1d8 + 3}) bludgeoning damage if used with both hands, plus 7 ({@damage 2d6}) thunder damage and the target must succeed on a {@dc 19} Strength saving throw or be pushed in a straight line up to 15 feet away from Oomph."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Tempestous Magic",
+					"entries": [
+						"Oomph can use a bonus action on his turn immediately before or after he casts a spell of 1st level or higher to fly up to 10 feet without provoking opportunity attacks."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Storms Fury",
+					"entries": [
+						"When Oomph is hit by a melee attack, he can use his reaction to deal 16 lightning damage to the attacker. The attacker must also make a {@dc 19} Strength saving. On a failed save, the attacker is pushed in a straight line up to 20 feet away from Oomph."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Spell",
+					"entries": [
+						"Oomph casts a cantrip or a spell of 3rd-level or lower that has a casting time of one action."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Oompf moves up to half of his speed, without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Breath Weapon",
+					"entries": [
+						"Oompf uses his breath weapon."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Octavius Otto Maurice Phillip Harrenwell, Oomph for short, was an adventurer over 800 years ago. He was part of the heroes that originally defeated Mhecmunas. After his death he was buried together with his strusted staff blixt and an essence of hew in the howling revine. However, oomph was recently reanimated by errich to serve as a sentry for the essence of hew."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/wxWnG52.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"languageTags": [
+				"AU",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"T"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		},
+		{
+			"name": "Witherhulk",
+			"source": "WitheringFury",
+			"size": "L",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 50",
+				"average": 105
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 20,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherhulk is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two slam attacks."
+					]
+				},
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Witherling",
+			"source": "WitheringFury",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 21",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 16,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherling is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Witherhulk",
+			"source": "WitheringFury",
+			"size": "L",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 50",
+				"average": 105
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 20,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherhulk is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two slam attacks."
+					]
+				},
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		},
+		{
+			"name": "Witherhulk",
+			"source": "WitheringFury",
+			"size": "L",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 50",
+				"average": 105
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 20,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherhulk is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two slam attacks."
+					]
+				},
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		},
+		{
+			"name": "Witherhulk",
+			"source": "WitheringFury",
+			"size": "L",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 50",
+				"average": 105
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 20,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherhulk is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two slam attacks."
+					]
+				},
+				{
+					"name": "Withering Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		},
+		{
+			"name": "Aywin",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "WitheringFury",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "eladrin",
+						"prefix": "corrupted"
+					}
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item +3 hide armor}"
+					]
+				}
+			],
+			"hp": {
+				"special": "119 (168) (14d8 + 56)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 13,
+			"con": 19,
+			"int": 9,
+			"wis": 20,
+			"cha": 10,
+			"save": {
+				"wis": "+10",
+				"int": "+4"
+			},
+			"skill": {
+				"arcana": "+4",
+				"medicine": "+10",
+				"nature": "+4",
+				"perception": "+10",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Druidic",
+				"Sylvan"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Aywin is a 14th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, +10 to hit with spell attacks). Marwan has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell infestation|XGE}",
+								"{@spell primal savagery|XGE}",
+								"{@spell shillelagh}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell create or destroy water}",
+								"{@spell cure wounds}",
+								"{@spell fog cloud}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell dust devil|XGE}",
+								"{@spell earthbind|XGE}",
+								"{@spell flame blade}",
+								"{@spell heat metal}",
+								"{@spell hold person}",
+								"{@spell web}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell erupting earth|XGE}",
+								"{@spell stinking cloud}",
+								"{@spell vampiric touch}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell confusion}",
+								"{@spell elemental bane|XGE}",
+								"{@spell giant insect}",
+								"{@spell sickening radiance|XGE}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell antilife shell}",
+								"{@spell contagion}",
+								"{@spell insect plague}",
+								"{@spell negative energy flood|XGE}",
+								"{@spell wall of stone}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell bones of the earth|XGE}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell reverse gravity|PHB}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Villainous Resistance (2/Day)",
+					"entries": [
+						"If Aywin fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Aywin carries an {@item amulet of health}, a {@item +3 hide armor} and a {@item +1 quarterstaff}."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The Aywin has advantage on saving throws against being {@condition charmed}, and magic can't put the Aywin to sleep."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"Aywin has advantage on Constitution saving throws to maintain his concentration on a spell. When Aywin could make an opportunity attack, he can use his reaction to cast a spell, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only one creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Aura of Decay {@recharge 6}",
+					"entries": [
+						"Aywin can force each creature within 10 feet of him to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and Aywin regains hit points equal to half the inflicted damage. His witherling gains this feature as well."
+					]
+				},
+				{
+					"name": "Withering Shape (2/long rest)",
+					"entries": [
+						"Aywin can summon a witherling within 60 feet of him. Where the witherling appears, each creature in a 10-foot radius must make a Constitution saving throw or take 7 necrotic damage. The witherling stays for a duration of 1 minute, Aywin dismisses it as a bonus action, its hit points are reduce to zero, or Aywin uses this feature again. In combat, the witherling shares Aywins initiative count, but it takes its turn immediately after his. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless Aywin take a bonus action on his turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide, or Search action."
+					]
+				},
+				{
+					"name": "+1 Quaterstaff",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit ({@hit 11} to hit with {@spell shillelagh}), reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage or 10 ({@damage 1d8 + 6}) bludgeoning damage with {@spell shillelagh} or if wielded with two hands."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fey Step {@recharge 5}",
+					"entries": [
+						" Aywin can magically teleport up to 30 feet to an unoccupied space he can see. Immediately before Aywin uses his Fey Step, each creature of his choice that he can see within 5 feet of him takes 3 ({@damage 1d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"Aywin uses his aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Fey Step",
+					"entries": [
+						"Aywin uses his fey step feature."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					"Aywin once was a humble and kind young eladrin who found his way into the material plane due to an accident with a scroll of plane shift. Separated from his sisters, Shanna and Freya, he found an almost withered seed and planted it. This seed, however, was corrupted by Mhecmunas, who corrupted Aywin in the process. Now loyal to Mhecmunas, Aywin serves his new master by corrupting nature and spreading the essence of Mhecmunas over the world."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/Eosll67.png",
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			]
+		},
+		{
+			"name": "Witherbeast",
+			"source": "WitheringFury",
+			"size": "G",
+			"type": {
+				"type": "plant",
+				"tags": [
+					"undead"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d20 + 84",
+				"average": 210
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 9,
+			"con": 24,
+			"int": 1,
+			"wis": 5,
+			"cha": 3,
+			"senses": [
+				"blindsight 15 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 7,
+			"resist": [],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands common and druidic",
+				"but can't speak"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The witherbeast is immune to effects that turn undead."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the witherbeast moves at least 15 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the witherbeast fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The witherbeast has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the witherbeast takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The witherhulk makes two tusk attacks."
+					]
+				},
+				{
+					"name": "Aura of Decay {@recharge 8}",
+					"entries": [
+						"The witherbeast can force each creature within 15 feet of it to make a {@dc 18} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) necrotic damage and gains one level of {@condition exhaustion} and the witherbeast regains hit points equal to half the inflicted damage."
+					]
+				},
+				{
+					"name": "Withering Tusk",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				}
+			],
+			"legendaryActions": 1,
+			"legendary": [
+				{
+					"name": "Aura of Decay",
+					"entries": [
+						"The witherbeast uses its aura of decay feature. This use of the feature does not inflict {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Tusk",
+					"entries": [
+						"The witherbeast makes one tusk attack."
+					]
+				}
+			],
+			"tokenUrl": "https://i.imgur.com/OKcsgGo.png",
+			"traitTags": [
+				"Charge",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion",
+				"prone"
+			]
+		}
+	]
+}

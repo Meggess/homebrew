@@ -1,20 +1,22 @@
 {
 	"item": {
-		"collection/CGU.json": "collection"
+		"collection/CeldirasGuidetotheUnusual.json": "collection",
+		"collection/WitheringFury.json": "collection"
 	},
 	"monster": {
-		"collection/CGU.json": "collection"
+		"collection/CeldirasGuidetotheUnusual.json": "collection",
+		"collection/WitheringFury.json": "collection"
 	},
 	"optionalfeature": {
-		"collection/CGU.json": "collection"
+		"collection/CeldirasGuidetotheUnusual.json": "collection"
 	},
 	"spell": {
-		"collection/CGU.json": "collection"
+		"collection/CeldirasGuidetotheUnusual.json": "collection"
 	},
 	"subclass": {
-		"collection/CGU.json": "collection"
+		"collection/CeldirasGuidetotheUnusual.json": "collection"
 	},
 	"subclassFeature": {
-		"collection/CGU.json": "collection"
+		"collection/CeldirasGuidetotheUnusual.json": "collection"
 	}
 }
