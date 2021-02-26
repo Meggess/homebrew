@@ -1584,6 +1584,415 @@
 			]
 		}
 	],
+	"optionalfeature": [
+		{
+	        "name": "Aberation Oil",
+	        "source": "CeldirasGuidetotheUnusual",
+	        "featureType": "SOF",
+	        "entries": [
+	            "<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+	            "When you hit an abberation with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+	        ]
+    	},
+    	{
+    		"name": "Antidote",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 3",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, any poison effect on you ends immediatly and you gain resistance against poison damage. In addition, you have advantage on saving throws against being {@condition poisoned}."
+    		]
+    	},
+    	{
+    		"name": "Brute",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 30 seconds",
+    			"For the potions duration, you gain advantage on all melee weapon attacks that use strength. In addition, all attacks against you have advantage."
+    		]
+    	},
+    	{
+    		"name": "Bull's Eye",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, your weapon attacks score a critical hit on a roll of 19 or 20."
+    		]
+    	},
+    	{
+    		"name": "Celestial Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit a celestial with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+    		]
+    	},
+    	{
+    		"name": "Cold",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to fire damage. In addition, you don't suffer the effects of extrem heat."
+    		]
+    	},
+    	{
+    		"name": "Day",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> 2 hours",
+    			"For the potions duration, you gain darkvision out to a range of 60 feet."
+    		]
+    	},
+    	{
+    		"name": "Durable",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, you have advantage on Constitution saving throws."
+    		]
+    	},
+    	{
+    		"name": "Elemental Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+    		]
+    	},
+    	{
+    		"name": "Fey Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
+    		]
+    	},
+    	{
+    		"name": "Fiend Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit a fiend with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
+    		]
+    	},
+    	{
+    		"name": "Ground",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to lightning damage."
+    		]
+    	},
+    	{
+    		"name": "Leach",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to acid damage."
+    		]
+    	},
+    	{
+    		"name": "Poisonous Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 16 hits",
+    			"When you hit a creature with the coated weapon, the target must suceed on a Constitution saving throw or be {@condition poisoned} for 1 minute.",
+    			"A poisoned creature can repeat its saving throw at the end of its turn."
+    		]
+    	},
+    	{
+    		"name": "Potency",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, you can cast {@spell burning hands}, {@spell charm person}, {@spell shield of faith} and {@spell thunderclap} at will."
+    		]
+    	},
+    	{
+    		"name": "Regena",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, at the start of your turn, when you have at least 1 hit point left, but no more than half your hit point maximum, you regain hit points equal to your Wisdom modifier."
+    		]
+    	},
+    	{
+    		"name": "Resilience",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain a +4 to your Constitution score and Constitution score maximum to a maximum of 30.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"You gain an additional +1 for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Retaliate",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> 1 minute",
+    			"For the potions duration, when a creature damages you, the creature takes {@damage 1d10} psychic damage.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"The psychic damage increases by {@dice 1d10} for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Sight",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 2 hours",
+    			"For the potions duration, you gain the effects of the {@spell see invisibly} spell."
+    		]
+    	},
+    	{
+    		"name": "Slowing Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 16 hits",
+    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or have its speed reduced to 0 until the end of your next turn."
+    		]
+    	},
+    	{
+    		"name": "Steadfast",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"4"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you can't be {@condiiton stunned} or knocked {@condition prone}."
+    		]
+    	},
+    	{
+    		"name": "Stone",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"6"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to bludgeoning, piercing and slashing damage."
+    		]
+    	},
+    	{
+    		"name": "Thick Hide",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> Instantaneous",
+    			"You gain {@dice 1d4+4} temporary hit points.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"You gain additional 5 temporary hit points for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Thining Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"0"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"16 hits"
+    				]
+    			},
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 16 hits",
+    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or take an extra {@dice 1d6} damage of the weapons type. A creature that does not bleed automatically succeeds on its saving throw."
+    		]
+    	},
+    	{
+    		"name": "Undead Oil",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SOF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"0"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"8 hits"
+    				]
+    			},
+    			"<b>Toxicity:</b> 0",
+	            "<b>Duration:</b> 8 hits",
+    			"When you hit an undead with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
+    		]
+    	},
+    	{
+    		"name": "Vampire Bane",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"3"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"10 minutes"
+    				]
+    			},
+    			"<b>Toxicity:</b> 3",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, when a creature hits you with a bite or similar attack or drinks your blood, the creature takes {@damage 2d10} poison damage.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"You can take additional toxicity in order to increase the potions damage by {@dice 1d10} for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Warmth",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"6"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to cold damage. In addition, you don't suffer the effects of extrem cold."
+    		]
+    	},
+    	{
+    		"name": "Whirlwind",
+    		"source": "CeldirasGuidetotheUnusual",
+    		"featureType": "SPF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"8"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 minute"
+    				]
+    			},
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 1 minute",
+    			"For the potions duration, you can take the {@action dodge} action as a bonus action on your turn. In addition, you gain a +2 to your AC and your speed increases by 10 feet."
+    		]
+    	}
+	],
 	"spell": [
 		{
 			"name": "Catch Lightning",
@@ -2361,414 +2770,5 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
-	],
-	"optionalfeature": [
-		{
-	        "name": "Aberation Oil",
-	        "source": "CeldirasGuidetotheUnusual",
-	        "featureType": "SOF",
-	        "entries": [
-	            "<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-	            "When you hit an abberation with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-	        ]
-    	},
-    	{
-    		"name": "Antidote",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 3",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, any poison effect on you ends immediatly and you gain resistance against poison damage. In addition, you have advantage on saving throws against being {@condition poisoned}."
-    		]
-    	},
-    	{
-    		"name": "Brute",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 30 seconds",
-    			"For the potions duration, you gain advantage on all melee weapon attacks that use strength. In addition, all attacks against you have advantage."
-    		]
-    	},
-    	{
-    		"name": "Bull's Eye",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, your weapon attacks score a critical hit on a roll of 19 or 20."
-    		]
-    	},
-    	{
-    		"name": "Celestial Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit a celestial with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-    		]
-    	},
-    	{
-    		"name": "Cold",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to fire damage. In addition, you don't suffer the effects of extrem heat."
-    		]
-    	},
-    	{
-    		"name": "Day",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 2",
-	            "<b>Duration:</b> 2 hours",
-    			"For the potions duration, you gain darkvision out to a range of 60 feet."
-    		]
-    	},
-    	{
-    		"name": "Durable",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, you have advantage on Constitution saving throws."
-    		]
-    	},
-    	{
-    		"name": "Elemental Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-    		]
-    	},
-    	{
-    		"name": "Fey Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-    		]
-    	},
-    	{
-    		"name": "Fiend Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit a fiend with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
-    		]
-    	},
-    	{
-    		"name": "Ground",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to lightning damage."
-    		]
-    	},
-    	{
-    		"name": "Leach",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to acid damage."
-    		]
-    	},
-    	{
-    		"name": "Poisonous Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 16 hits",
-    			"When you hit a creature with the coated weapon, the target must suceed on a Constitution saving throw or be {@condition poisoned} for 1 minute.",
-    			"A poisoned creature can repeat its saving throw at the end of its turn."
-    		]
-    	},
-    	{
-    		"name": "Potency",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, you can cast {@spell burning hands}, {@spell charm person}, {@spell shield of faith} and {@spell thunderclap} at will."
-    		]
-    	},
-    	{
-    		"name": "Regena",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, at the start of your turn, when you have at least 1 hit point left, but no more than half your hit point maximum, you regain hit points equal to your Wisdom modifier."
-    		]
-    	},
-    	{
-    		"name": "Resilience",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain a +4 to your Constitution score and Constitution score maximum to a maximum of 30.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"You gain an additional +1 for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Retaliate",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 2",
-	            "<b>Duration:</b> 1 minute",
-    			"For the potions duration, when a creature damages you, the creature takes {@damage 1d10} psychic damage.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"The psychic damage increases by {@dice 1d10} for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Sight",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 2 hours",
-    			"For the potions duration, you gain the effects of the {@spell see invisibly} spell."
-    		]
-    	},
-    	{
-    		"name": "Slowing Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 16 hits",
-    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or have its speed reduced to 0 until the end of your next turn."
-    		]
-    	},
-    	{
-    		"name": "Steadfast",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"4"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 hour"
-    				]
-    			},
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you can't be {@condiiton stunned} or knocked {@condition prone}."
-    		]
-    	},
-    	{
-    		"name": "Stone",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"6"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 hour"
-    				]
-    			},
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to bludgeoning, piercing and slashing damage."
-    		]
-    	},
-    	{
-    		"name": "Thick Hide",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			"<b>Toxicity:</b> 2",
-	            "<b>Duration:</b> Instantaneous",
-    			"You gain {@dice 1d4+4} temporary hit points.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"You gain additional 5 temporary hit points for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Thining Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"0"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"16 hits"
-    				]
-    			},
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 16 hits",
-    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or take an extra {@dice 1d6} damage of the weapons type. A creature that does not bleed automatically succeeds on its saving throw."
-    		]
-    	},
-    	{
-    		"name": "Undead Oil",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SOF",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"0"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"8 hits"
-    				]
-    			},
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit an undead with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
-    		]
-    	},
-    	{
-    		"name": "Vampire Bane",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"3"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"10 minutes"
-    				]
-    			},
-    			"<b>Toxicity:</b> 3",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, when a creature hits you with a bite or similar attack or drinks your blood, the creature takes {@damage 2d10} poison damage.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"You can take additional toxicity in order to increase the potions damage by {@dice 1d10} for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Warmth",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"6"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 hour"
-    				]
-    			},
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to cold damage. In addition, you don't suffer the effects of extrem cold."
-    		]
-    	},
-    	{
-    		"name": "Whirlwind",
-    		"source": "CeldirasGuidetotheUnusual",
-    		"featureType": "SPF",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"8"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 minute"
-    				]
-    			},
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 1 minute",
-    			"For the potions duration, you can take the {@action dodge} action as a bonus action on your turn. In addition, you gain a +2 to your AC and your speed increases by 10 feet."
-    		]
-    	}
 	]
 }

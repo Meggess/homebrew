@@ -5,6 +5,9 @@
 	"monster": {
 		"collection/CGU.json": "collection"
 	},
+	"optionalfeature": {
+		"collection/CGU.json": "collection"
+	},
 	"spell": {
 		"collection/CGU.json": "collection"
 	},
