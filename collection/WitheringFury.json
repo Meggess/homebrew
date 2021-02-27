@@ -38,7 +38,7 @@
 			"reqAttune": "by a spellcaster",
 			"staff": true,
 			"weaponCategory": "simple",
-			"dmg1": "1d6",
+			"dmg1": "1d7",
 			"dmg2": "1d8",
 			"dmgType": "B",
 			"bonusSpellAttack": "+1",

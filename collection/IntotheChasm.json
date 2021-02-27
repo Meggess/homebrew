@@ -1,0 +1,524 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "IntotheChasm",
+				"abbreviation": "ItC",
+				"full": "Into the Chasm",
+				"url": "",
+				"authors": [
+					"Megges"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1614096528,
+		"dateLastModified": 1614096528
+	},
+	"item": [
+		{
+			"name": "Crown of the Forgotten",
+			"wondrous": true,
+			"rarity": "artifact",
+			"source": "WitheringFury",
+			"reqAttune": "by a warlock",
+			"entries": [
+				"The crown functions as a {@item +1 rod of the pact keeper|DMG}.",
+				"When you cast a warlock spell while wearing the crown, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your spell save DC or take {@damage 3d6} psychic damage and become {@condition frightened} of you until the start of your next turn."
+			]
+		},
+		{
+			"name": "Crown of the Forgotten (Empowered)",
+			"wondrous": true,
+			"rarity": "artifact",
+			"source": "WitheringFury",
+			"reqAttune": "by a warlock",
+			"entries": [
+				"The crown functions as a {@item +2 rod of the pact keeper|DMG}.",
+				"When you cast a warlock spell while wearing the crown, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your spell save DC or take {@damage 3d6} psychic damage and become {@condition frightened} of you until the start of your next turn.",
+				"The crown has 9 charges and regains {@dice 2d4 + 1} charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Crown of Madness",
+					"entries": [
+					  "As an action, you can cast {@spell crown of madness} without needing to concentrate on it and you can maintain control as a bonus action. Once you used this feature, you can't use it again until next dawn."
+					]
+				},
+				{
+				  "type": "entries",
+				  "name": "Mystic Regeneration",
+				  "entries": [
+				    "As a bonus action, you can regain one use of your Mystic Arcanum feature. When you do so, you must expand a number of charges equal to the spell level of the regained mystic arcanum."
+				  ]
+				},
+				{
+				  "type": "entries",
+				  "name": "Eldritch Ward",
+				  "entries": [
+				    "When you use your Mystic Arcanum feature, you can expand 2 charge and gain temporary hit points equal to the level of your mystic arcanum times your proficiency bonus."
+				  ]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Chuthel",
+			"group": "Dragons",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "IntotheChasm",
+			"size": "G",
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d20 + 154",
+				"average": 385
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false,
+				"climb": 40
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 25,
+			"int": 17,
+			"wis": 17,
+			"cha": 27,
+			"save": {
+				"dex": "+9",
+				"con": "+14",
+				"wis": "+10",
+				"cha": "+15"
+			},
+			"skill": {
+				"deception": "+15",
+				"insight": "+10",
+				"perception": "+17",
+				"stealth": "+9"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic",
+				"Undercommon",
+				"telepathy 60ft."
+			],
+			"cr": "26",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Chuthels spellcasting ability is Charisma (spell save {@dc 23}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell mind spike|XGE}"
+					],
+					"daily": {
+						"1": [
+							"{@spell psychic scream|XGE}"
+						],
+						"2": [
+							"{@spell synaptic static|XGE}",
+							"{@spell hold monster}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Chuthel fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Chuthel can use its Frightful Presence. She then makes three attacks: one with her bite and two with her claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 10 ({@damage 3d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of Chuthels choice that is within 120 feet and aware of her must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Chuthels Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Psychic Breath {@recharge 5}",
+					"entries": [
+						"Chuthel exhales psychoactive gas in a 90-foot cone. Each creature in the area must make a {@dc 22} Wisdom saving throw, taking 77 ({@damage 22d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"Chuthel makes a Wisdom (Perception) check. "
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"Chuthel makes a tail attack. "
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"Chuthel beats her wings. Each creature within 15 feet of her must succeed on a {@dc 20} Dexterity saving throw or take 12 ({@damage 2d6 + 5}) bludgeoning damage and be knocked {@condition prone}. Chuthel can then fly up to half its flying speed."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The ancient purple dragon Chuthel (pronounced Ku-Tel) once struck a deal with the outer god Nyarlathotep in her persuit of knowledge. She used the forbidden knowledge gained to advance her evil schemes and formed the Circle of Thoth to honor Nyarlathotep and Azathoth. Over the decades, Chuthel has formed a cult around herself as well. Her most devoted followers are a tribe of purple kobolds, who obey every command she gives them, some mind flayers and even a fomorian. All of her followers simply call her mother and are just as insane as Chuthel herself."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/PyXd94f.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			]
+		},
+		{
+			"name": "Glancer",
+			"source": "IntotheChasm",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 20",
+				"average": 42
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 18,
+			"int": 3,
+			"wis": 3,
+			"cha": 10,
+			"skill": {
+				"perception": "+0"
+			},
+			"senses": [
+				"truesight 15 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"necrotic",
+				"poison"
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Understands deep speech",
+				"but can't speak"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Strike",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Psychic Gaze",
+					"entries": [
+						"The glancer targets one creature it can see within 30 feet of him. The target must succeed on a {@dc 14} Wisdom saving throw against this magic or take 7 ({@damage 2d6}) psychic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Plaguechanged Behir",
+			"source": "IntotheChasm",
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d12 + 64"
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 40
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 18,
+			"int": 7,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The behir has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The behir makes two attacks: one with its bite and one to constrict."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage plus 17 ({@damage 2d10 + 6}) slashing damage. The target is {@condition grappled} (escape {@dc 16}) if the behir isn't already constricting a creature, and the target is {@condition restrained} until this grapple ends."
+					]
+				},
+				{
+					"name": "Chaos Breath {@recharge 5}",
+					"entries": [
+						"The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 66 ({@damage 12d10}) force damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
+						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Behir",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The serpentine behir crawls along floors and clambers up walls to reach its prey. Its lightning breath can incinerate most creatures, even as more powerful foes are constricted in its coils and eaten alive.",
+									"A behir's monstrous form resembles a combination of centipede and crocodile. Its scaled hide ranges from ultramarine to deep blue in color, fading to pale blue on its underside.",
+									{
+										"name": "Cavern Predators",
+										"type": "entries",
+										"entries": [
+											"Behirs lair in places inaccessible to other creatures, favoring locations where would-be intruders must make a harrowing climb to reach them. Deep pits, high caves in cliff walls, and caverns reached only by narrow, twisting tunnels are prime sites for a behir ambush. A behir's dozen legs allow it to scramble through its lair site with ease. When not climbing, it moves even faster by folding its legs beside its body and slithering like a snake.",
+											"Behirs swallow their prey whole, after which they enter a period of dormancy while they digest. While dormant, a behir chooses a hiding place where intruders in its lair might overlook it."
+										]
+									},
+									{
+										"name": "Foes of the Dragons",
+										"type": "entries",
+										"entries": [
+											"In times long forgotten, giants and dragons engaged in seemingly endless war. Storm giants created the first behirs as weapons against the dragons, and behirs retain a natural hatred for dragonkind.",
+											"A behir never makes its lair in an area it knows to be inhabited by a dragon. If a dragon attempts to establish a lair within a few dozen miles of a behir's lair, the behir is compelled to kill the dragon or drive it off. Only if the dragon proves too powerful to fight does a behir back down, seeking out a new lair site a great distance away."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Behir.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Behir.png?v=1.122.8",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/behir.mp3?v=1.122.8"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"languageTags": [
+				"DR",
+				"DS"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"O",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}

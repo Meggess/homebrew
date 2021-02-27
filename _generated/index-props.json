@@ -1,11 +1,13 @@
 {
 	"item": {
 		"collection/CeldirasGuidetotheUnusual.json": "collection",
-		"collection/WitheringFury.json": "collection"
+		"collection/WitheringFury.json": "collection",
+		"collection/IntotheChasm.json": "collection"
 	},
 	"monster": {
 		"collection/CeldirasGuidetotheUnusual.json": "collection",
-		"collection/WitheringFury.json": "collection"
+		"collection/WitheringFury.json": "collection",
+		"collection/IntotheChasm.json": "collection"
 	},
 	"optionalfeature": {
 		"collection/CeldirasGuidetotheUnusual.json": "collection"
