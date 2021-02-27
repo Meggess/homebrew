@@ -20,7 +20,7 @@
 			"name": "Crown of the Forgotten",
 			"wondrous": true,
 			"rarity": "artifact",
-			"source": "WitheringFury",
+			"source": "IntotheChasm",
 			"reqAttune": "by a warlock",
 			"entries": [
 				"The crown functions as a {@item +1 rod of the pact keeper|DMG}.",
@@ -31,7 +31,7 @@
 			"name": "Crown of the Forgotten (Empowered)",
 			"wondrous": true,
 			"rarity": "artifact",
-			"source": "WitheringFury",
+			"source": "IntotheChasm",
 			"reqAttune": "by a warlock",
 			"entries": [
 				"The crown functions as a {@item +2 rod of the pact keeper|DMG}.",

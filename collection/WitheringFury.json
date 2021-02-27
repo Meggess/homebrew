@@ -32,13 +32,13 @@
 			]
 		},
 		{
-			"name": "Blixt",
+			"name": "Bixt",
 			"rarity": "legendary",
 			"source": "WitheringFury",
 			"reqAttune": "by a spellcaster",
 			"staff": true,
 			"weaponCategory": "simple",
-			"dmg1": "1d7",
+			"dmg1": "1d6",
 			"dmg2": "1d8",
 			"dmgType": "B",
 			"bonusSpellAttack": "+1",
