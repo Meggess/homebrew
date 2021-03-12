@@ -2770,5 +2770,18 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
+	],
+	"variant": [
+		{
+			"name": "Instrument of the Bards",
+			"source": "CeldirasGuidetotheUnusual",
+			"type": "INS",
+			"rarity": "varies",
+			"reqAttune": "by a bard",
+			"wondrous": true,
+			"items": [
+				"Instrument of the Bards, Blileth Hurdy Gurdy"
+			]
+		}
 	]
 }
