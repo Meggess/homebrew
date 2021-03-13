@@ -1693,12 +1693,6 @@
 						"cha": 2
 					}
 				],
-				"heightAndWeight": {
-					"baseHeight": 52,
-					"heightMod": "2d10",
-					"baseWeight": 50,
-					"weightMod": "1d6"
-				},
 				"traitTags": [
 					"Skill Proficiency"
 				],
@@ -1721,10 +1715,6 @@
 						}
 					}
 				],
-				"soundClip": {
-					"type": "internal",
-					"path": "races/kenku-2.mp3"
-				},
 				"entries": [
 					{
 						"name": "Age",
@@ -1744,7 +1734,7 @@
 						"type": "entries",
 						"name": "Size",
 						"entries": [
-							"Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium."
+							"Kenku have a human-like frame, standing 5–7 feet tall and weigh between 90 and 120 pounds. Your size is Medium."
 						]
 					},
 					{
@@ -1753,6 +1743,13 @@
 							"You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects."
 						],
 						"type": "entries"
+					},
+					{
+						"type": "entries",
+						"name": "Flight",
+						"entries": [
+							"You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+						]
 					},
 					{
 						"name": "Kenku Training",
@@ -1767,6 +1764,13 @@
 							"You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom ({@skill Insight}) check opposed by your Charisma ({@skill Deception}) check."
 						],
 						"type": "entries"
+					},
+					{
+						"type": "entries",
+						"name": "Talons",
+						"entries": [
+							"Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						]
 					},
 					{
 						"name": "Languages",
