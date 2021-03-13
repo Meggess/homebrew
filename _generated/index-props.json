@@ -2,12 +2,14 @@
 	"item": {
 		"collection/CeldirasGuidetotheUnusual.json": "collection",
 		"collection/WitheringFury.json": "collection",
-		"collection/IntotheChasm.json": "collection"
+		"collection/IntotheChasm.json": "collection",
+		"collection/RagingFlames.json": "collection"
 	},
 	"monster": {
 		"collection/CeldirasGuidetotheUnusual.json": "collection",
 		"collection/WitheringFury.json": "collection",
-		"collection/IntotheChasm.json": "collection"
+		"collection/IntotheChasm.json": "collection",
+		"collection/RagingFlames.json": "collection"
 	},
 	"optionalfeature": {
 		"collection/CeldirasGuidetotheUnusual.json": "collection"
