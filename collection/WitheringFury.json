@@ -23,12 +23,10 @@
 			"source": "WitheringFury",
 			"reqAttune": true,
 	        "ability": {
-	    		"static": {
-	        		"wis": 23
-	    		}
+	    		"wis": 3
 			},
 			"entries": [
-				"While wearing this amulet, your Wisdom score is 23. The item has no effect on you if your Wisdom without the amulet is equal to or greater than 23."
+				"While wearing this amulet, your Wisdom score and Wisdom score maximum increases by 3."
 			]
 		},
 		{
@@ -60,12 +58,10 @@
 			"source": "WitheringFury",
 			"reqAttune": true,
 			"ability": {
-				"static": {
-					"cha": 23
-				}
+				"cha": 3
 			},
 			"entries": [
-				"While wearing this bracelet, your Charisma score is 23. The item has no effect on you if your Charisma without the bracelet is equal to or greater than 23."
+				"While wearing this amulet, your Charisma score and Charisma score maximum increases by 3."
 			]
 		},
 		{
@@ -226,12 +222,10 @@
 			"source": "WitheringFury",
 			"reqAttune": true,
 			"ability": {
-				"static": {
-					"int": 23
-				}
+				"int": 3
 			},
 			"entries": [
-				"While wearing this ring, your Intelligence score is 23. The item has no effect on you if your Intelligence without the ring is equal to or greater than 23."
+				"While wearing this amulet, your Intelligence score and Intelligence score maximum increases by 3."
 			]
 		},
 		{

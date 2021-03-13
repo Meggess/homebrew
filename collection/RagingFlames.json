@@ -1675,5 +1675,107 @@
 			],
 			"isNpc": true
 		}
+	],
+	"race": [
+		{
+			"name": "Ascended Kenku",
+			"source": "RagingFlames",
+			"page": "",
+			"size": "M",
+				"speed": {
+					"walk": 30,
+					"fly": 50
+				},
+				"ability": [
+					{
+						"dex": 2,
+						"wis": 1,
+						"cha": 2
+					}
+				],
+				"heightAndWeight": {
+					"baseHeight": 52,
+					"heightMod": "2d10",
+					"baseWeight": 50,
+					"weightMod": "1d6"
+				},
+				"traitTags": [
+					"Skill Proficiency"
+				],
+				"languageProficiencies": [
+					{
+						"common": true,
+						"primordial": true
+					}
+				],
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"deception",
+								"sleight of hand",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				],
+				"soundClip": {
+					"type": "internal",
+					"path": "races/kenku-2.mp3"
+				},
+				"entries": [
+					{
+						"name": "Age",
+						"type": "entries",
+						"entries": [
+							"Kenku have longer lifespans than humans. They reach maturity at about 12 years old and can live to 160."
+						]
+					},
+					{
+						"name": "Alignment",
+						"type": "entries",
+						"entries": [
+							"Kenku are chaotic creatures, rarely making enduring commitments, and they care mostly for preserving their own hides. They are generally chaotic neutral in outlook."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Size",
+						"entries": [
+							"Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium."
+						]
+					},
+					{
+						"name": "Expert Forgery",
+						"entries": [
+							"You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Kenku Training",
+						"entries": [
+							"You are proficient in your choice of two of the following skills: {@skill Acrobatics}, {@skill Deception}, {@skill Stealth}, and {@skill Sleight of Hand}."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Mimicry",
+						"entries": [
+							"You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom ({@skill Insight}) check opposed by your Charisma ({@skill Deception}) check."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Languages",
+						"entries": [
+							"You can read and write Common and Auran."
+						],
+						"type": "entries"
+					}
+				]
+		}
 	]
 }
