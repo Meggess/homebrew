@@ -57,7 +57,33 @@
 				  "entries": [
 				    "When you use your Mystic Arcanum feature, you can expand 2 charge and gain temporary hit points equal to the level of your mystic arcanum times your proficiency bonus."
 				  ]
-				}
+				},
+				{
+					"name": "Hat of the Harpy (Plaguechanged)",
+					"source": "IntotheChasm",
+					"page": 0,
+					"rarity": "unique",
+					"reqAttune": "by a bard",
+					"recharge": "dawn",
+					"wondrous": true,
+					"entries": [
+						"This masterfully crafted silk hat has a large purple feather on its side.",
+						{
+							"type": "entries",
+							"name": "Distracting Melody",
+							"entries": [
+								"While you wear the hat, when a creature targets you directly with an attack or a harmful spell, you can use your reaction to force the creature to make a wisdom saving throw against your spell save DC (a creature needn't make the save when it includes you in an area effect, such as the explosion of {@spell fireball}). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. A creature is immune to this effect, if it is immune to the {@condition charmed} condition or can't hear you. You can use this feature a number of times equal to your Charisma modifier and regain all expended uses daily at dawn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Luring Song",
+							"entries": [
+								"While you wear the hat, you can sing a magical melody. One humanoid and giant of your choice within 300 feet of you that can hear the song must succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} until the song ends. You must take a bonus action on your subsequent turns to continue singing. You can stop singing at any time. The song ends if you are {@condition incapacitated}. While {@condition charmed} this way, a target is {@condition incapacitated}. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward you by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than you, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. Once you use this feature, you can't use it again until the dawn of the next day."
+							]
+						}
+					]
+				}				
 			]
 		}
 	],
