@@ -10,6 +10,10 @@
 				"convertedBy": []
 			}
 		],
+		"optionalFeatureTypes": {
+			"SPF": "Strider Potion Formula",
+			"SOF": "Strider Oil Formula"
+		},
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
