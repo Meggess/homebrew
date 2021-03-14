@@ -558,9 +558,9 @@
 					]
 				},
 				{
-					"name": "Chaos Breath {@recharge 5}",
+					"name": "Plaguechanged Breath {@recharge 5}",
 					"entries": [
-						"The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 66 ({@damage 12d10}) force damage on a failed save, or half as much damage on a successful one."
+						"The behir exhales a 30-foot cone of chaotic energy. Each creature in that area must make a {@dc 16} Constitution saving throw. If the saving throw fails by 5 or more, the creature takes 44 ({@damage 8d10}) force damage is instantly {@condition petrified}. Otherwise, a creature that fails the save takes 44 ({@damage 8d10}) force damage and begins to turn to stone and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic."
 					]
 				},
 				{
