@@ -287,6 +287,115 @@
 			]
 		},
 		{
+			"name": "Fae Behir",
+			"source": "IntotheChasm",
+			"page": 0,
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d12 + 64"
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 40
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 18,
+			"int": 7,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"lightning"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "11",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The behir makes two attacks: one with its bite and one to constrict."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage plus 17 ({@damage 2d10 + 6}) slashing damage. The target is {@condition grappled} (escape {@dc 16}) if the behir isn't already constricting a creature, and the target is {@condition restrained} until this grapple ends."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
+						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Poison Breath {@recharge 5}",
+					"entries": [
+						"The behir exhales poisonous gas in a 30-foot cone. Each creature in that area must make a {@dc 16} Constitution saving throw. On a failed save the creature takes 21 ({@damage 6d6}) poison damage and is {@condition poisoned}. If failed by 5 or more it is also {@condition paralyzed} and if failed by 10 or more the creature starts to sufface, as its lungs and heart stop working. A creature can repeat its saving throw at the end of each of its turns. On a successful save, a creature takes half as much damage and is not {@condition poisoned}."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"poisoned",
+				"restrained"
+			]
+		},		
+		{
 			"name": "Glancer",
 			"source": "IntotheChasm",
 			"size": "M",
@@ -465,50 +574,7 @@
 			"environment": [
 				"underdark"
 			],
-			"fluff": {
-				"name": "Behir",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"The serpentine behir crawls along floors and clambers up walls to reach its prey. Its lightning breath can incinerate most creatures, even as more powerful foes are constricted in its coils and eaten alive.",
-									"A behir's monstrous form resembles a combination of centipede and crocodile. Its scaled hide ranges from ultramarine to deep blue in color, fading to pale blue on its underside.",
-									{
-										"name": "Cavern Predators",
-										"type": "entries",
-										"entries": [
-											"Behirs lair in places inaccessible to other creatures, favoring locations where would-be intruders must make a harrowing climb to reach them. Deep pits, high caves in cliff walls, and caverns reached only by narrow, twisting tunnels are prime sites for a behir ambush. A behir's dozen legs allow it to scramble through its lair site with ease. When not climbing, it moves even faster by folding its legs beside its body and slithering like a snake.",
-											"Behirs swallow their prey whole, after which they enter a period of dormancy while they digest. While dormant, a behir chooses a hiding place where intruders in its lair might overlook it."
-										]
-									},
-									{
-										"name": "Foes of the Dragons",
-										"type": "entries",
-										"entries": [
-											"In times long forgotten, giants and dragons engaged in seemingly endless war. Storm giants created the first behirs as weapons against the dragons, and behirs retain a natural hatred for dragonkind.",
-											"A behir never makes its lair in an area it knows to be inhabited by a dragon. If a dragon attempts to establish a lair within a few dozen miles of a behir's lair, the behir is compelled to kill the dragon or drive it off. Only if the dragon proves too powerful to fight does a behir back down, seeking out a new lair site a great distance away."
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Behir.jpg"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://5e.tools/img/MM/Behir.png?v=1.122.8",
+			"tokenUrl": "https://i.imgur.com/2pMnzvS.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/behir.mp3?v=1.122.8"

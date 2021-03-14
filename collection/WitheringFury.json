@@ -96,7 +96,7 @@
 			"source": "WitheringFury",
 			"reqAttune": "by a monk",
 			"entries": [
-				"The bottle functions as a {@item insignia of claws|HotDQ}. As an action, you can expend 2 ki points, take a deep sip and exhale a breath weapon. Each creature in a 15-foot cone must make a Dexterity or a Constitution saving throw (your choice) against your Ki save DC.",
+				"The bottle functions as a {@item insignia of claws|HotDQ}. As an bonus action, you can expend 2 ki points, take a deep sip and exhale a breath weapon. Each creature in a 15-foot cone must make a Dexterity or a Constitution saving throw (your choice) against your Ki save DC.",
 				"If you choose the Dexterity save, on a failed save, a creature takes {@dice 4d6} fire damage or half as much damage on a successful one.",
 				"If you choose the Constitution save, on a failed save, a creature is {@condition poisoned} for 1 minute. An affected creature can repeat its saving throw at the end of each of its turns."
 			]

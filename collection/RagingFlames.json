@@ -402,7 +402,7 @@
 			"charges": 4,
 			"entries": [
 				"The bottle functions as a +2 {@item insignia of claws|HotDQ} and you gain resistance to acid damage.",
-				"As an action, you can expend 2 ki points, take a deep sip and exhale a breath weapon. Each creature in a 15-foot cone must make a Dexterity or a Constitution saving throw (your choice) against your Ki save DC.",
+				"As an bonus action, you can expend 2 ki points, take a deep sip and exhale a breath weapon. Each creature in a 15-foot cone must make a Dexterity or a Constitution saving throw (your choice) against your Ki save DC.",
 				"If you choose the Dexterity save, on a failed save, a creature takes {@damage 4d6} fire damage or half as much damage on a successful one.",
 				"If you choose the Constitution save, on a failed save, a creature is {@condition poisoned} for 1 minute. An affected creature can repeat its saving throw at the end of each of its turns.",
 				"The bottle has 4 charges and regains {@dice 1d4} charges daily at dawn.",
@@ -1161,6 +1161,7 @@
 			"isNamedCreature": true,
 			"source": "RagingFlames",
 			"size": "G",
+			"tokenUrl": "https://i.imgur.com/skGST6T.png",
 			"type": {
 				"type": "fiend",
 				"tags": [
