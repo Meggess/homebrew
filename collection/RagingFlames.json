@@ -15,6 +15,35 @@
 		"dateAdded": 1614096524,
 		"dateLastModified": 1614096524
 	},
+	"object": [
+		{
+			"name": "Brimstone Cannon",
+			"source": "RG",
+			"reqAttune": "by a spellcaster",
+			"size": "G",
+			"objectType": "SW",
+			"ac": "30",
+			"hp": "200",
+			"immune": [
+			  "fire",
+				"poison",
+				"psychic"
+			],
+			"entries": [
+				"The brimstone cannon is a massive basalt dragon head carried by four fire giants. An attuned spellcaster can then fire a huge beam of fire energy from it. Before it can be fired, it must be aimed. It takes one action to aim and one action to fire it."
+			],
+			"actionEntries": [
+				{
+					"type": "entries",
+					"name": "Blast Breath",
+					"entries": [
+						"The cannon fires a 10-foot diameter beam of fire in a 200 feet line. Any creature in the area must make a DC 18 Dexterity saving throw, taking 91 ({@damage 26d6}) fire damage on a failed save, or half as much damage on a successful one. This damage can not be reduced in any other way."
+					]
+				}
+			],
+			"hasToken": true
+		}
+	],
 	"item": [
 		{
 			"name": "Amulet of Draconic Superiority",
