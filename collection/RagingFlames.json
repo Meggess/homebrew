@@ -19,7 +19,6 @@
 		{
 			"name": "Brimstone Cannon",
 			"source": "RagingFlames",
-			"reqAttune": "by a spellcaster",
 			"size": "G",
 			"objectType": "SW",
 			"ac": "30",
@@ -40,8 +39,7 @@
 						"The cannon fires a 10-foot diameter beam of fire in a 200 feet line. Any creature in the area must make a DC 18 Dexterity saving throw, taking 91 ({@damage 26d6}) fire damage on a failed save, or half as much damage on a successful one. This damage can not be reduced in any other way."
 					]
 				}
-			],
-			"hasToken": true
+			]
 		}
 	],
 	"item": [
@@ -1310,7 +1308,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Lord Alber carries an amulet of draconic superiority, a {@item brooch of shielding} and a {@item talisman of ultimate evil|DMG}."
+						"Lord Alber carries an {@item amulet of draconic superiority|RagingFlames}, a {@item brooch of shielding} and a {@item talisman of ultimate evil|DMG}."
 					]
 				}
 			],
