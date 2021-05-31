@@ -1,4 +1,7 @@
 {
+	"object": {
+		"collection/RagingFlames.json": "collection"
+	},
 	"item": {
 		"collection/CeldirasGuidetotheUnusual.json": "collection",
 		"collection/WitheringFury.json": "collection",
