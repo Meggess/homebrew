@@ -288,8 +288,9 @@
 						{
 							"type": "list",
 							"items": [
-								"Any good aligned celestial recognizes you as a hostile creature.",
-								"All holy water within 10 feet of you is instantly destroyed."
+								"Any good aligned celestials recognizes you as a hostile creature.",
+								"All holy water within 10 feet of you is instantly destroyed.",
+								"There is a 10% chance, that an avatar of {@deity Tyr} will come after you."
 							]
 						}
 					]
