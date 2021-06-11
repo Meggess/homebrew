@@ -22,21 +22,21 @@
 			"size": "G",
 			"objectType": "SW",
 			"ac": "30",
-			"hp": "200",
+			"hp": "400",
 			"immune": [
-			  "fire",
+			  	"fire",
 				"poison",
 				"psychic"
 			],
 			"entries": [
-				"The brimstone cannon is a massive basalt dragon head carried by four fire giants. An attuned spellcaster can then fire a huge beam of fire energy from it. Before it can be fired, it must be aimed. It takes one action to aim and one action to fire it."
+				"The brimstone cannon is a massive dragon head statue made of basalt carried by four fire giants. An attuned spellcaster can then fire a huge beam of fire energy from it. Before it can be fired, it must be aimed. It takes one action to aim and one action to fire it."
 			],
 			"actionEntries": [
 				{
 					"type": "entries",
 					"name": "Blast Breath",
 					"entries": [
-						"The cannon fires a 10-foot diameter beam of fire in a 200 feet line. Any creature in the area must make a DC 18 Dexterity saving throw, taking 91 ({@damage 26d6}) fire damage on a failed save, or half as much damage on a successful one. This damage can not be reduced in any other way."
+						"The cannon fires a 20-foot diameter beam of fire in a 200 feet line. Any creature in the area must make a DC 18 Dexterity saving throw, taking 91 ({@damage 26d6}) fire damage on a failed save, or half as much damage on a successful one. This damage can not be reduced in any other way."
 					]
 				}
 			]
@@ -63,7 +63,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you are attuned to the bracers, you can't be {@condition restrained} or {@condition grappled}. In addition, you can move through conducting objects and creatures as if they were dificult terrain, but you can't end your movement in it. If you move through a creature, the creature must succeed on a DC 17 Constitution saving throw or take {@damage 3d6} lightning damage."
+				"While you are attuned to the bracers, you can't be {@condition restrained} or {@condition grappled}. In addition, you can move through conducting objects and creatures as if they were difficult terrain, but you can't end your movement in it. If you move through a creature, the creature must succeed on a DC 17 Constitution saving throw or take {@damage 3d6} lightning damage."
 			]
 		}
 		,
@@ -105,7 +105,7 @@
 		}
 		,
 		{
-			"name": "Blazing Axe of Loderr",
+			"name": "Skjaersilden",
 			"source": "RagingFlames",
 			"page": 0,
 			"baseItem": "battleaxe|PHB",
@@ -131,12 +131,12 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"Long ago, the dwarven blacksmith and high priest of tharmekhûl bork loderr created the axe out of obsidian and adamantine to honor his patron deity. Tharmekhûl was pleased with the result and bestowed his blessing upon the axe and bork creating the artifect now known as the blazing axe of loderr.",
+				"Long ago, the dwarven blacksmith and high priest of {@deity Tharmekhûl} bork loderr created the axe out of obsidian and adamantine to honor his patron deity. {@deity Tharmekhûl} was pleased with the result and bestowed his blessing upon the axe and bork creating the artifect now known as Skjaersilden.",
 				{
 					"type": "entries",
 					"name": "Magic Weapon",
 					"entries": [
-						"The Blazing Axe of Loderr is a magic weapon that grants a +3 bonus to attack and damage rolls made with it. The axe also functions as a {@item belt of dwarvenkind}, a {@item dwarven thrower} and a {@item sword of sharpness}."
+						"Skjaersilden is a magic weapon that grants a +3 bonus to attack and damage rolls made with it. The axe also functions as a {@item belt of dwarvenkind}, a {@item dwarven thrower} and a {@item sword of sharpness}."
 					]
 				},
 				{
