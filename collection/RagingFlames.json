@@ -1251,19 +1251,19 @@
 				"cold",
 				"force",
 				"lightning",
-				"thunder",
+				"thunder"
+			],
+			"immune": [
+				"fire",
+				"poison",
 				{
-					"resist": [
+					"immune": [
 						"bludgeoning",
 						"piercing",
 						"slashing"
 					],
 					"note": "from nonmagical attacks"
 				}
-			],
-			"immune": [
-				"fire",
-				"poison"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -1363,6 +1363,12 @@
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
 						"Lord Alber beats his wings. Each creature within 20 ft. of him must succeed on a {@dc 28} Dexterity saving throw or take 24 ({@damage 4d6 + 10}) bludgeoning damage and 14 ({@damage 4d6}) fire damage and be knocked {@condition prone}. Lord Alber can then fly up to half his flying speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Meteor Call (Costs 5 Actions)",
+					"entries": [
+						"Meteor swarm -> Singular Meteor"
 					]
 				}
 			],
@@ -1701,6 +1707,196 @@
 				"deafened",
 				"incapacitated",
 				"paralyzed"
+			],
+			"isNpc": true
+		},
+		{
+			"name": "Zelsius",
+			"source": "RagingFlames",
+			"size": "H",
+			"type": "giant",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d12 + 102",
+				"average": 212
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 25,
+			"dex": 9,
+			"con": 23,
+			"int": 19,
+			"wis": 14,
+			"cha": 13,
+			"save": {
+				"dex": "+4",
+				"con": "+11",
+				"cha": "+6",
+				"int": "+9"
+			},
+			"skill": {
+				"athletics": "+12",
+				"perception": "+7",
+				"arcana": "+9",
+				"history": "+9"
+			},
+			"passive": 17,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Dwarvish",
+				"Giant",
+				"Ignan"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Rufus' innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell disguise self}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Zelsius is a 17-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Zelsius has the following artificer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell green flame blade|TCE}",
+								"{@spell mending}",
+								"{@spell message}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell absorb element}",
+								"{@spell cure wounds}",
+								"{@spell false life}",
+								"{@spell grease}",
+								"{@spell shield}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell heat metal}",
+								"{@spell scorching ray}",
+								"{@spell see invisibility}",
+								"{@spell shatter}",
+								"{@spell spider climb}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell fireball}",
+								"{@spell haste}",
+								"{@spell protection from energy}",
+								"{@spell wind wall}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell elemental bane}",
+								"{@spell ice storm}",
+								"{@spell summon construct|TCE}",
+								"{@spell wall of fire}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell wall of force}"
+							]
+						}
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two warhammer attacks."
+					]
+				},
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 60/240 ft., one target. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"D",
+				"GI",
+				"IG"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Fire Giant.png?v=1.131.2",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Fire Giant.jpg"
+						}
+					}
+				]
+			},
+			"bonus": [
+				{
+					"name": "Flamethrower",
+					"entries": [
+						"Zelsius causes his cannon to exhale fire in a 15-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 13 (@damage {@dice 3d8}}) fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
+					]
+				}
 			],
 			"isNpc": true
 		}
