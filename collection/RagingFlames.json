@@ -1412,6 +1412,214 @@
 			]
 		},
 		{
+			"name": "Maleeka al-Javid",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "genasi",
+						"prefix": "fire"
+					}
+				]
+			},
+			"source": "RagingFlames",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 127
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 13,
+			"con": 16,
+			"int": 12,
+			"wis": 10,
+			"cha": 18,
+			"passive": 10,
+			"cr": "10",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Maleeka's innate spellcasting ability is Constitution (spell save {@dc 16}, {@hit 8} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell produce flame}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell burning hands}"
+						]
+					},
+					"ability": "con",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Maleeka is a 15-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Maleeka has the following Sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell control flames|XGE}",
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell chromatic orb}",
+								"{@spell grease}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell blur}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell fire shield}",
+								"{@spell vitriolic sphere|XGE}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell cone of cold}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell chain lightning}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell plane shift}",
+								"{@spell prismatic spray}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell sunburst}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"shortName": "Maleeka",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Ignan"
+			],
+			"languageTags": [
+				"C",
+				"IG"
+			],
+			"save": {
+				"cha": "+9",
+				"con": "+8"
+			},
+			"resist": [
+				"fire"
+			],
+			"trait": [
+				{
+					"name": "Metamagic",
+					"entries": [
+						"Maleeka has 15 sorcery points. She can use only one Metamagic option on a spell when she casts it, unless otherwise noted.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Heightend Spell.",
+									"entry": "When she casts a spell that forces a creature to make a saving throw to resist its effects, she can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
+								},
+								{
+									"type": "item",
+									"name": "Twinned Spell.",
+									"entry": "When she casts a spell that targets only one creature and doesn't have a range of self, she can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip)."
+								},
+								{
+									"type": "item",
+									"name": "Transmuted Spell.",
+									"entry": "When she casts a spell that deals a type of damage from the following list, she can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Elemental Affinity",
+					"entries": [
+						"When Maleeka casts a spell that deals fire damage, she can add her Charisma modifier to one damage roll of that spell."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Draconic Wings",
+					"entries": [
+						"Maleeka can sprout a pair of dragon wings from her back, gaining a flying speed equal to your current speed. They last until she dismisses them as a bonus action on her turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, plus 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
 			"name": "Rufus Gaens",
 			"isNamedCreature": true,
 			"source": "RagingFlames",
@@ -1714,7 +1922,15 @@
 			"name": "Zelsius",
 			"source": "RagingFlames",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					{
+						"tag": "giant",
+						"prefix": "fire"
+					}
+				]
+			},
 			"alignment": [
 				"L",
 				"E"
@@ -1764,26 +1980,15 @@
 			"cr": "15",
 			"spellcasting": [
 				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Rufus' innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell disguise self}"
-					],
-					"ability": "cha",
-					"type": "spellcasting"
-				},
-				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Zelsius is a 17-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Zelsius has the following artificer spells prepared:"
+						"Zelsius is a 17-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Zelsius has the following Artificer spells prepared:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
 								"{@spell fire bolt}",
-								"{@spell green flame blade|TCE}",
+								"{@spell green-flame blade|TCE}",
 								"{@spell mending}",
 								"{@spell message}"
 							]
@@ -1791,7 +1996,7 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell absorb element}",
+								"{@spell absorb elements|XGE}",
 								"{@spell cure wounds}",
 								"{@spell false life}",
 								"{@spell grease}",
@@ -1822,7 +2027,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell elemental bane}",
+								"{@spell elemental bane|XGE}",
 								"{@spell ice storm}",
 								"{@spell summon construct|TCE}",
 								"{@spell wall of fire}"
@@ -1842,13 +2047,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The giant makes two warhammer attacks."
+						"Zelsius makes two warhammer attacks."
 					]
 				},
 				{
 					"name": "Warhammer",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
 					]
 				},
 				{
@@ -1894,7 +2099,7 @@
 				{
 					"name": "Flamethrower",
 					"entries": [
-						"Zelsius causes his cannon to exhale fire in a 15-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 13 (@damage {@dice 3d8}}) fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
+						"Zelsius causes his cannon to exhale fire in a 15-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 13 ({@damage 3d8}) fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
 					]
 				}
 			],
