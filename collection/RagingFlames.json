@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1614096524,
-		"dateLastModified": 1614096524
+		"dateAdded": 0,
+		"dateLastModified": 0
 	},
 	"object": [
 		{
@@ -23,6 +23,16 @@
 			"objectType": "SW",
 			"ac": "30",
 			"hp": "400",
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine"
+				}
+			],
 			"immune": [
 			  	"fire",
 				"poison",
@@ -131,7 +141,7 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"Long ago, the dwarven blacksmith and high priest of {@deity Tharmekhûl} bork loderr created the axe out of obsidian and adamantine to honor his patron deity. {@deity Tharmekhûl} was pleased with the result and bestowed his blessing upon the axe and bork creating the artifect now known as Skjaersilden.",
+				"Long ago, the dwarven blacksmith and high priest of {@deity Tharmekhûl} bork loderr created the axe out of obsidian and adamantine to honor his patron deity. {@deity Tharmekhûl} was pleased with the result and bestowed his blessing upon the axe and bork creating the artifact now known as Skjaersilden.",
 				{
 					"type": "entries",
 					"name": "Magic Weapon",
@@ -189,7 +199,7 @@
 					"type": "entries",
 					"name": "Conjure Fire Elemental",
 					"entries": [
-						"If you are holding the axe, you can use your action to cast the {@spell conjure elemental} spell from it, summoning a fire elemental. You can't use this property again until the next dawn."
+						"While you are holding the axe, you can use your action to cast the {@spell conjure elemental} spell from it, summoning a fire elemental. You can't use this property again until the next dawn."
 					]
 				},
 				{
