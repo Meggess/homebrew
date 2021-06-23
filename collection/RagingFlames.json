@@ -48,10 +48,10 @@
 			"source": "RagingFlames",
 			"page": 0,
 			"rarity": "legendary",
-			"reqAttune": "by a dragon",
+			"reqAttune": "by a true dragon",
 			"wondrous": true,
 			"entries": [
-				"While wearing this amulet, the minimum damage of your breath weapons and spells equal their average damage."
+				"While wearing this amulet, the minimum damage of your breath weapons and magic equals their average damage."
 			]
 		}
 		,

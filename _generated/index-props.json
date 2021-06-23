@@ -9,6 +9,7 @@
 		"collection/RagingFlames.json": "collection"
 	},
 	"monster": {
+		"collection/BearsBearsBears.json": "collection",
 		"collection/CeldirasGuidetotheUnusual.json": "collection",
 		"collection/WitheringFury.json": "collection",
 		"collection/IntotheChasm.json": "collection",
