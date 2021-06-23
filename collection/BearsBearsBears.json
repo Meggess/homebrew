@@ -59,7 +59,7 @@
                 {
                     "name": "Keen Smell",
                     "entries": [
-                        "The apex bear has advantage on Wisdom ({@skill perception}) checks that rely on smell."
+                        "The apex bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
                     ]
                 }
             ],
@@ -133,7 +133,7 @@
                 {
                     "name": "Keen Smell",
                     "entries": [
-                        "The dire bear has advantage on Wisdom ({@skill perception}) checks that rely on smell."
+                        "The dire bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
                     ]
                 }
             ],
@@ -207,7 +207,7 @@
                 {
                     "name": "Keen Smell",
                     "entries": [
-                        "The giant bear has advantage on Wisdom ({@skill perception}) checks that rely on smell."
+                        "The giant bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
                     ]
                 }
             ],
@@ -406,7 +406,7 @@
                 {
                     "name": "Keen Smell",
                     "entries": [
-                        "The bearcano has advantage on Wisdom ({@skill perception}) checks that rely on smell."
+                        "The bearcano has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
                     ]
                 },
                 {
