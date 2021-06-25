@@ -92,9 +92,10 @@
 			"name": "Mithral",
 			"source": "RagingFlames",
 			"page": 0,
-			"value": 80,
-			"weight": 1,
+			"rarity": "none",
 			"type": "TG",
+			"value": 8000,
+			"weight": 1,
 			"entries": [
 				""
 			]
