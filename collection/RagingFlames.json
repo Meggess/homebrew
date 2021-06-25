@@ -2748,7 +2748,7 @@
 				"text-left"
 			],
 			"colLabels": [
-				"{@dice 1d100}",
+				"{@dice d100}",
 				"Encounter"
 			],
 			"rows": [
@@ -2823,7 +2823,7 @@
 				"text-left"
 			],
 			"colLabels": [
-				"{@dice 1d3}",
+				"{@dice d3}",
 				"Ghosts"
 			],
 			"rows": [
