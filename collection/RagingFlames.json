@@ -63,8 +63,7 @@
 			"entries": [
 				"While wearing this amulet, the minimum damage of your breath weapons and magic equals their average damage."
 			]
-		}
-		,
+		},
 		{
 			"name": "Bracers of Jolting",
 			"source": "RagingFlames",
@@ -75,8 +74,7 @@
 			"entries": [
 				"While you are attuned to the bracers, you can't be {@condition restrained} or {@condition grappled}. In addition, you can move through conducting objects and creatures as if they were difficult terrain, but you can't end your movement in it. If you move through a creature, the creature must succeed on a DC 17 Constitution saving throw or take {@damage 3d6} lightning damage."
 			]
-		}
-		,
+		},
 		{
 			"name": "Mirror Shield",
 			"source": "RagingFlames",
@@ -89,8 +87,18 @@
 				"In addition, when you are subjected to a spell of 6th level or lower that targets only you, you can use your reaction and attempt to throw the spell back. When you do so, make a Charisma check against the casters spell save DC. On a success, the spell is thrown back at its caster, affecting him as if you had cast the spell.",
 				"You can use this feature twice and regain expended uses daily at dawn."
 			]
-		}
-		,
+		},
+		{
+			"name": "Mithral",
+			"source": "RagingFlames",
+			"page": 0,
+			"value": 80,
+			"weight": 1,
+			"type": "TG",
+			"entries": [
+				""
+			]
+		},
 		{
 			"name": "Obsidian Boots",
 			"source": "RagingFlames",
@@ -100,8 +108,7 @@
 			"entries": [
 				"While wearing the boots, you can't be knocked {@condition prone} and you can move across difficult terrain made of earth or stone without expending extra movement. In addition, you can walk over lava, treating it as difficult terrain."
 			]
-		}
-		,
+		},
 		{
 			"name": "Tiara of the Sea Empress",
 			"source": "RagingFlames",
@@ -112,8 +119,7 @@
 			"entries": [
 				"While you are attuned to the tiara, you can't be {@condition restrained} or {@condition grappled}. In addition you can enter a hostile creature's space and move through a space as narrow as 1 inch wide without squeezing."
 			]
-		}
-		,
+		},
 		{
 			"name": "Skjaersilden",
 			"source": "RagingFlames",
@@ -220,8 +226,7 @@
 			"attachedSpells": [
 				"conjure elemental"
 			]
-		}
-		,
+		},
 		{
 			"name": "Dress of Balder",
 			"source": "RagingFlames",
@@ -253,8 +258,7 @@
 					]
 				}
 			]
-		}
-		,
+		},
 		{
 			"name": "Heart of Darkness",
 			"source": "RagingFlames",
