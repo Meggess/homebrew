@@ -2770,31 +2770,31 @@
 				],
 				[
 					"57-64",
-					"1 {@monster alpha grick} + {@dice 1d4+1} {@monster grick}"
+					"1 {@creature grick alpha} + {@dice 1d4+1} {@creature grick|MM|gricks}"
 				],
 				[
 					"65-71",
-					"1 {@monster derro savant|MTF} + {@dice 2d4+2} {@monster derro|MTF}"
+					"1 {@creature derro savant|MTF} + {@dice 2d4+2} {@creature derro|MTF}"
 				],
 				[
 					"72-76",
-					"{@dice 1d2} {@monster fire elemental} + {@dice 3d6} {@monster magmin}"
+					"{@dice 1d2} {@creature fire elemental|MM|fire elementals} + {@dice 3d6} {@creature magmin|MM|magmins}"
 				],
 				[
 					"77-81",
-					"1 {@monster salamander} + {@dice 1d4+1} {@monster fire snake}"
+					"1 {@creature salamander} + {@dice 1d4+1} {@creature fire snake|MM|fire snakes}"
 				],
 				[
 					"82-86",
-					"{@monster ghost|MM|ghosts} (roll on the {@table gauntlgrym ghosts} table)"
+					"{@creature ghost|MM|ghosts} (roll on the {@table gauntlgrym ghosts|RagingFlames|ghosts table})"
 				],
 				[
 					"87-90",
-					"1 {@monster shadow assassin|WDMM} + {@dice 1d4} {@monster shadow}"
+					"1 {@creature shadow assassin|WDMM} + {@dice 1d4} {@creature shadow|MM|shadows}"
 				],
 				[
 					"91-93",
-					"1 {@monster murder of dire corbys|RagingFlames}"
+					"1 {@creature murder of dire corbys|RagingFlames}"
 				],
 				[
 					"94-96",
@@ -2802,11 +2802,11 @@
 				],
 				[
 					"97-98",
-					"1 {@monster wraith} + {@dice 1d6+1} {@monster specter}"
+					"1 {@creature wraith} + {@dice 1d6+1} {@creature specter|MM|specters}"
 				],
 				[
 					"99",
-					"{@dice 1d4} {@monster mind flayer}"
+					"{@dice 1d4} {@creature mind flayer|MM|mind flayers}"
 				],
 				[
 					"00",
