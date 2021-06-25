@@ -2743,6 +2743,10 @@
 			"name": "Gauntlgrym Residential Area Random Encounters",
 			"source": "RagingFlames",
 			"page": 0,
+			"colStyles": [
+				"text-center",
+				"text-left"
+			],
 			"colLabels": [
 				"{@dice 1d100}",
 				"Encounter"
@@ -2814,6 +2818,10 @@
 			"name": "Gauntlgrym Ghosts",
 			"source": "RagingFlames",
 			"page": 0,
+			"colStyles": [
+				"text-center",
+				"text-left"
+			],
 			"colLabels": [
 				"{@dice 1d3}",
 				"Ghosts"
