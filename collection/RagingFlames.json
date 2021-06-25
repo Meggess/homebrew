@@ -2737,5 +2737,73 @@
 					}
 				]
 		}
+	],
+	"table": [
+		{
+			"name": "Gauntlgrym Residential Area Random Encounters",
+			"source": "RagingFlames",
+			"page": 0,
+			"colLabels": [
+				"{@dice 1d100}",
+				"Encounter"
+			],
+			"rows": [
+				[
+					"1-20",
+					"21-38",
+					"39-48",
+					"49-56",
+					"57-64",
+					"65-71",
+					"72-76",
+					"77-81",
+					"82-86",
+					"87-90",
+					"91-93",
+					"94-96",
+					"97-98",
+					"99",
+					"00"
+				],
+				[
+					"searching kobolds",
+					"empty housing area",
+					"resting kobolds",
+					"alchemical laboratory",
+					"1 {@monster alpha grick} + {@dice 1d4+1} {@monster grick|MM|gricks}",
+					"1 {@monster derro savant|MTF} + {@dice 2d4+2} {@monster derro}",
+					"{@dice 1d2} {@monster fire elemental|MM|fire elementals} + {@dice 3d6} {@monster magmin|MM|magmins}",
+					"1 {@monster salamander} + {@dice 1d4+1} {@monster fire snake|MM|fire snakes}",
+					"{@monster ghost|MM|ghosts} (roll on the {@table gauntlgrym ghosts|RagingFlames|ghosts table})",
+					"1 {@monster shadow assassin|WDMM} + {@dice 1d4} {@monster shadow|MM|shadow}",
+					"1 {@monster murder of dire corbys|RagingFlames}",
+					"old tavern with casks of dwarven brandy",
+					"1 {@monster wraith} + {@dice 1d6+1} {@monster specter|MM|specters}",
+					"{@dice 1d4} {@monster mind flayer|MM|mindflayers}",
+					"scorched behir"
+				]
+			]
+		},
+		{
+			"name": "Gauntlgrym Ghosts",
+			"source": "RagingFlames",
+			"page": 0,
+			"colLabels": [
+				"{@dice 1d3}",
+				"Ghosts"
+			],
+			"rows": [
+				[
+					"1",
+					"2",
+					"3"
+				],
+				[
+					"a dwarven woman sweeping her home",
+					"three drunkards playing dice in a tavern",
+					"a dwarven woman cooking a stew"
+				]
+			]
+		}
 	]
 }
