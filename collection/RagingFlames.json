@@ -3144,105 +3144,105 @@
 			"rows": [
 				[
 					2,
-					"{@diety Moradin|MTF}",
+					"{@deity Moradin|MTF}",
 					"LG",
 					"hammer and anvil",
 					"creation, crafts, dwarfs"
 				],
 				[
 					3,
-					"{@diety Berronar Truesilver|MTF}",
+					"{@deity Berronar Truesilver|MTF}",
 					"LG",
 					"intertwined silver rings",
 					"hearth, home"
 				],
 				[
 					4,
-					"{@diety Dumathoin|MTF}",
+					"{@deity Dumathoin|MTF}",
 					"N",
 					"mountain sillouette with central gemstone",
 					"buried secrets and wealth, mining, gems, exploration, the dead"
 				],
 				[
 					5,
-					"{@diety Sharindlar|MTF}",
+					"{@deity Sharindlar|MTF}",
 					"CG",
 					"burning needle",
 					"healing romantic love, fertility, the moon"
 				],
 				[
 					6,
-					"{@diety Clangeddin Silverbeard|MTF}",
+					"{@deity Clangeddin Silverbeard|MTF}",
 					"LG",
 					"crossed silver axes",
 					"war, valor"
 				],
 				[
 					7,
-					"{@diety Vergadain|MTF}",
+					"{@deity Vergadain|MTF}",
 					"N",
 					"gold coin with the face of a dwarf",
 					"luck, wealth, thieves, chance, commerce, negotiation"
 				],
 				[
 					8,
-					"@diety Dugmaren Brightmantle|MTF}",
+					"{@deity Dugmaren Brightmantle|MTF}",
 					"CG",
 					"open book",
 					"invention, discovery"
 				],
 				[
 					9,
-					"{@diety Gorm Gulthyn|MTF}",
+					"{@deity Gorm Gulthyn|MTF}",
 					"LG",
 					"bronze half-mask",
 					"vigilance"
 				],
 				[
 					10,
-					"{@diety Haela Brightaxe|MTF}",
+					"{@deity Haela Brightaxe|MTF}",
 					"CG",
 					"upright sword whose blade is spiraled in flame",
 					"luck in battle"
 				],
 				[
 					11,
-					"{@diety Marthammor Duin|MTF}",
+					"{@deity Marthammor Duin|MTF}",
 					"NG",
 					"upright mace in front of a tall boot",
 					"wanderers, lightning, roads"
 				],
 				[
 					12,
-					"{@diety Thard Harr|MTF}",
+					"{@deity Thard Harr|MTF}",
 					"CG",
 					"two clawed gauntlets",
 					"wilderness, hunting"
 				],
 				[
 					13,
-					"{@diety Abbathor|MTF}",
+					"{@deity Abbathor|MTF}",
 					"NE",
 					"jeweled dagger, point down",
 					"greed"
 				],
 				[
 					14,
-					"{@diety Hanseath|MTF}",
+					"{@deity Hanseath|MTF}",
 					"CN",
 					"beer stein",
-					"brewing festivity, song"
+					"brewing, festivity, song"
 				],
 				[
 					15,
-					"{@diety Tharmekhûl|MTF}",
+					"{@deity Tharmekhûl|MTF}",
 					"N",
 					"fiery axe",
 					"fire, forges, molten rock"
 				],
 				[
 					16,
-					"{@diety Thautam|MTF}",
+					"{@deity Thautam|MTF}",
 					"N",
 					"blindfold",
 					"darkness, lost treasure, mysteries"
