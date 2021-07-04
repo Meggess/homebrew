@@ -2824,20 +2824,428 @@
 			],
 			"colLabels": [
 				"{@dice d3}",
-				"Ghosts"
+				"{@creature ghost|MM|Ghosts}"
 			],
 			"rows": [
 				[
-					"1",
+					1,
 					"a dwarven woman sweeping her home"
 				],
 				[
-					"2",
+					2,
 					"three drunkards playing dice in a tavern"
 				],
 				[
-					"3",
+					3,
 					"a dwarven woman cooking a stew"
+				]
+			]
+		},
+		{
+			"name": "Smelting",
+			"source": "RagingFlames",
+			"page": 0,
+			"colStyles": [
+				"text-left",
+				"text-center"
+			],
+			"colLabels": [
+				"Ore",
+				"DC"
+			],
+			"rows": [
+				[
+					"silver",
+					10
+				],
+				[
+					"gold",
+					14
+				],
+				[
+					"mithral",
+					18
+				],
+				[
+					"adamantine",
+					22
+				]
+			]
+		},
+		{
+			"name": "Finding Minerals",
+			"source": "RagingFlames",
+			"page": 0,
+			"colStyles": [
+				"text-left",
+				"text-center"
+			],
+			"colLabels": [
+				"Location",
+				"DC"
+			],
+			"rows": [
+				[
+					"kobold mine",
+					15
+				],
+				[
+					"old mine shaft",
+					10
+				],
+				[
+					"ghost mine",
+					12
+				],
+				[
+					"anywhere else",
+					17
+				]
+			]
+		},
+		{
+			"name": "Gemstone Cutting",
+			"source": "RagingFlames",
+			"page": 0,
+			"colStyles": [
+				"text-left",
+				"text-center"
+			],
+			"colLabels": [
+				"Value",
+				"DC"
+			],
+			"rows": [
+				[
+					"10gp",
+					10
+				],
+				[
+					"50gp",
+					12
+				],
+				[
+					"100gp",
+					15
+				],
+				[
+					"500gp",
+					17
+				],
+				[
+					"1000gp",
+					20
+				],
+				[
+					"5000gp",
+					22
+				]
+			]
+		},
+		{
+			"name": "Gauntlgrym Mining",
+			"source": "RagingFlames",
+			"page": 0,
+			"colStyles": [
+				"text-center",
+				"text-left"
+			],
+			"colLabels": [
+				"{@dice d100}",
+				"Mineral"
+			],
+			"rows": [
+				[
+					"01-16",
+					"silver ore"
+				],
+				[
+					"17-31",
+					"10gp gemstones"
+				],
+				[
+					"32-46",
+					"gold ore"
+				],
+				[
+					"47-61",
+					"50gp gemstones"
+				],
+				[
+					"62-71",
+					"mitrhal ore"
+				],
+				[
+					"72-81",
+					"100gp gemstones"
+				],
+				[
+					"82-88",
+					"500gp gemstones"
+				],
+				[
+					"89-94",
+					"adamantine ore"
+				],
+				[
+					"95-99",
+					"1000gp gemstones"
+				],
+				[
+					"00",
+					"5000gp gemstones"
+				]
+			]
+		},
+		{
+			"name": "Gauntlgrym Mines Random Encounters",
+			"source": "RagingFlames",
+			"page": 0,
+			"colStyles": [
+				"text-center",
+				"text-left"
+			],
+			"colLabels": [
+				"{@dice d20}",
+				"Encounter"
+			],
+			"rows": [
+				[
+					1,
+					"prying duergar"
+				],
+				[
+					2,
+					"{@dice 1d4} {@creature mind flayer|MM|mind flayers}"
+				],
+				[
+					3,
+					"{@dice 1d4+3} {@creature umber hulk|MM|umber hulks}"
+				],
+				[
+					4,
+					"1 {@creature shadow assassin|WDMM} + {@dice 1d4} {@creature shadow|MM|shadows}"
+				],
+				[
+					5,
+					"1 {@creature wraith} + {@dice 1d6+1} {@creature specter|MM|specters}"
+				],
+				[
+					6,
+					"{@dice 1d4+1} {@creature roper|MM|ropers} + {@dice 1d4+2} {@creature piercer|MM|piercers}"
+				],
+				[
+					7,
+					"{@dice 1d2} {@creature fire elemental|MM|fire elementals} + {@dice 3d6} {@creature magmin|MM|magmins}"
+				],
+				[
+					8,
+					"{@creature ghost|MM|dwarven ghosts} mining for mithral ore"
+				],
+				[
+					"9-10",
+					"{@dice 2d6+4} {@creature hook horror|MM|hook horrors}"
+				],
+				[
+					"11-12",
+					"duergar war band"
+				],
+				[
+					"13-15",
+					"mining kobolds"
+				],
+				[
+					"16-20",
+					"old mine shaft"
+				]
+			]
+		},
+		{
+			"name": "Gauntlgrym Iron Tabernacle Random Encounters",
+			"source": "RagingFlames",
+			"page": 0,
+			"colStyles": [
+				"text-center",
+				"text-left"
+			],
+			"colLabels": [
+				"{@dice d20}",
+				"Encounter"
+			],
+			"rows": [
+				[
+					1,
+					"kobold lair"
+				],
+				[
+					2,
+					"1 {@creature dire troll|MTF}"
+				],
+				[
+					3,
+					"{@dice 1d2} {@creature fire elemental|MM|fire elementals} + {@dice 3d6} {@creature magmin|MM|magmins}"
+				],
+				[
+					4,
+					"1 {@creature salamander} + {@dice 1d4+1} {@creature fire snake|MM|fire snakes}"
+				],
+				[
+					5,
+					"{@dice 2d6+4} {@creature gargoyle|MM|gargoyles}"
+				],
+				[
+					6,
+					"1 {@creature wraith} + {@dice 1d6+1} {@creature specter|MM|specters}"
+				],
+				[
+					7,
+					"1 {@creature shadow assassin|WDMM} + {@dice 1d4} {@creature shadow|MM|shadows}"
+				],
+				[
+					"8-9",
+					"duergar war band"
+				],
+				[
+					"10-11",
+					"1 {@creature grick alpha} + {@dice 1d4+1} {@creature grick|MM|gricks}"
+				],
+				[
+					"12-13",
+					"{@dice 2d6+4} {@creature hook horror|MM|hook horrors}"
+				],
+				[
+					"14-15",
+					"{@creature ghost|MM|ghosts} of dwarven priests praying"
+				],
+				[
+					"16-20",
+					"empty temple ruin"
+				]
+			]
+		},
+		{
+			"name": "The Morndinsamman",
+			"source": "RagingFlames",
+			"page": 0,
+			"colStyles": [
+				"text-center",
+				"text-left",
+				"text-center",
+				"text-left",
+				"text-left"
+			],
+			"colLabels": [
+				"{@dice 2d8}",
+				"Name",
+				"Alignment",
+				"Symbol",
+				"Portfolio"
+			],
+			"rows": [
+				[
+					2,
+					"{@diety Moradin|MTF}",
+					"LG",
+					"hammer and anvil",
+					"creation, crafts, dwarfs"
+				],
+				[
+					3,
+					"{@diety Berronar Truesilver|MTF}",
+					"LG",
+					"intertwined silver rings",
+					"hearth, home"
+				],
+				[
+					4,
+					"{@diety Dumathoin|MTF}",
+					"N",
+					"mountain sillouette with central gemstone",
+					"buried secrets and wealth, mining, gems, exploration, the dead"
+				],
+				[
+					5,
+					"{@diety Sharindlar|MTF}",
+					"CG",
+					"burning needle",
+					"healing romantic love, fertility, the moon"
+				],
+				[
+					6,
+					"{@diety Clangeddin Silverbeard|MTF}",
+					"LG",
+					"crossed silver axes",
+					"war, valor"
+				],
+				[
+					7,
+					"{@diety Vergadain|MTF}",
+					"N",
+					"gold coin with the face of a dwarf",
+					"luck, wealth, thieves, chance, commerce, negotiation"
+				],
+				[
+					8,
+					"@diety Dugmaren Brightmantle|MTF}",
+					"CG",
+					"open book",
+					"invention, discovery"
+				],
+				[
+					9,
+					"{@diety Gorm Gulthyn|MTF}",
+					"LG",
+					"bronze half-mask",
+					"vigilance"
+				],
+				[
+					10,
+					"{@diety Haela Brightaxe|MTF}",
+					"CG",
+					"upright sword whose blade is spiraled in flame",
+					"luck in battle"
+				],
+				[
+					11,
+					"{@diety Marthammor Duin|MTF}",
+					"NG",
+					"upright mace in front of a tall boot",
+					"wanderers, lightning, roads"
+				],
+				[
+					12,
+					"{@diety Thard Harr|MTF}",
+					"CG",
+					"two clawed gauntlets",
+					"wilderness, hunting"
+				],
+				[
+					13,
+					"{@diety Abbathor|MTF}",
+					"NE",
+					"jeweled dagger, point down",
+					"greed"
+				],
+				[
+					14,
+					"{@diety Hanseath|MTF}",
+					"CN",
+					"beer stein",
+					"brewing festivity, song"
+				],
+				[
+					15,
+					"{@diety Tharmekhûl|MTF}",
+					"N",
+					"fiery axe",
+					"fire, forges, molten rock"
+				],
+				[
+					16,
+					"{@diety Thautam|MTF}",
+					"N",
+					"blindfold",
+					"darkness, lost treasure, mysteries"
 				]
 			]
 		}
