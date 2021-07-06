@@ -352,6 +352,609 @@
 			]
 		},
 		{
+			"name": "Ancient Obsidian Dragon",
+			"source": "CeldirasGuidetotheUnusual",
+			"page": 0,
+			"size": "G",
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 420,
+				"formula": "24d20 + 168"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"climb": 40
+			},
+			"str": 28,
+			"dex": 10,
+			"con": 25,
+			"int": 26,
+			"wis": 19,
+			"cha": 18,
+			"save": {
+				"dex": "+7",
+				"con": "+14",
+				"int": "+15",
+				"wis": "+11"
+			},
+			"skill": {
+				"insight": "+11",
+				"perception": "+18",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 28,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon's innate spellcasting ability is Intelligence (spell save {@dc 23}; {@hit 15} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell demiplane}",
+							"{@spell mind blank}"
+						],
+						"3": [
+							"{@spell fire shield}",
+							"{@spell fireball}",
+							"{@spell flame strike}",
+							"{@spell plane shift}",
+							"{@spell scorching ray}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 (2d10 + 9) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}16 (2d6 + 9) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}18 (2d8 + 9) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 90-foot cone. Each creature in that area must make a {@dc 22} Dexterity saving throw, taking 88 (16d10) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (Perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Psionics (Costs 2 Actions)",
+					"entries": [
+						"The dragon uses its psionics ability to cast one spell."
+					]
+				},
+				{
+					"name": "Wing Attack (costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 24} Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"spellcastingTags": [
+				"P",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			]
+		},
+		{
+			"name": "Adult Obsidian Dragon",
+			"source": "CeldirasGuidetotheUnusual",
+			"page": 0,
+			"size": "H",
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d12 + 85",
+				"average": 195
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"climb": 40
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 21,
+			"int": 20,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"con": "+10",
+				"int": "+10",
+				"wis": "+7"
+			},
+			"skill": {
+				"insight": "+7",
+				"perception": "+12",
+				"stealth": "+5"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon's innate spellcasting ability is Intelligence (spell save {@dc 18}; {@hit 10} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell plane shift}, {@spell flame strike}"
+						],
+						"3": [
+							"{@spell fire shield}",
+							"{@spell fireball}",
+							"{@spell scorching ray}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}17 (2d10 + 6) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 (2d6 + 6) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 20 ft., one target. {@h}15 (2d8 + 6) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 15} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 66 (12d10) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (Perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Psionics (Costs 2 Actions)",
+					"entries": [
+						"The dragon uses its psionics ability to cast one spell."
+					]
+				},
+				{
+					"name": "Wing Attack (costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 19} Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"spellcastingTags": [
+				"P",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			]
+		},
+		{
+			"name": "Young Obsidian Dragon",
+			"source": "CeldirasGuidetotheUnusual",
+			"page": 0,
+			"size": "L",
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 60",
+				"average": 142
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 19,
+			"int": 18,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"dex": "+3",
+				"con": "+7",
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"insight": "+4",
+				"perception": "+7",
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon's innate spellcasting ability is Intelligence (spell save {@dc 15}; {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell fire shield}"
+						],
+						"3": [
+							"{@spell fireball}",
+							"{@spell scorching ray}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 (2d10 + 4) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 (2d6 + 4) slashing damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 30-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"spellcastingTags": [
+				"P",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			]
+		},
+		{
+			"name": "Obsidian Dragon Wyrmling",
+			"source": "CeldirasGuidetotheUnusual",
+			"page": 0,
+			"size": "M",
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 10",
+				"average": 32
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30,
+				"fly": 60,
+				"climb": 30,
+				"canHover": false
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 15,
+			"int": 15,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+2",
+				"con": "+4",
+				"int": "+4",
+				"wis": "+2"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+2"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon's innate spellcasting ability is Intelligence (spell save {@dc 12}; {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell fire ball}"
+						],
+						"3": [
+							"{@spell scorching ray}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}7 (1d10 + 2) piercing damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"spellcastingTags": [
+				"P",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			]
+		},
+		{
 			"name": "Ancient Purple Dragon",
 			"group": "Dragons",
 			"isNamedCreature": true,
@@ -479,6 +1082,175 @@
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
 						"The dragon beats her wings. Each creature within 15 feet of her must succeed on a {@dc 20} Dexterity saving throw or take 12 ({@damage 2d6 + 5}) bludgeoning damage and be knocked {@condition prone}. the dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"dragonCastingColor": "G",
+			"tokenUrl": "https://i.imgur.com/PyXd94f.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR",
+				"DS",
+				"TP",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			]
+		},
+		{
+			"name": "Adult Purple Dragon",
+			"group": "Dragons",
+			"isNamedCreature": true,
+			"source": "CeldirasGuidetotheUnusual",
+			"size": "H",
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d12 + 90",
+				"average": 207
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 21,
+			"int": 15,
+			"wis": 15,
+			"cha": 23,
+			"save": {
+				"dex": "+7",
+				"con": "+10",
+				"wis": "+7",
+				"cha": "+11"
+			},
+			"skill": {
+				"deception": "+11",
+				"insight": "+7",
+				"perception": "+12",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Deep Speech",
+				"Draconic",
+				"Undercommon",
+				"telepathy 60ft."
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"the dragon can use its Frightful Presence. She then makes three attacks: one with her bite and two with her claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 20 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragons choice that is within 120 feet and aware of her must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragons Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Psychic Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales psychoactive gas in a 60-foot cone. Each creature in the area must make a {@dc 18} Wisdom saving throw, taking 56 ({@damage 16d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (Perception) check. "
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack. "
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats her wings. Each creature within 10 feet of her must succeed on a {@dc 17} Dexterity saving throw or take 11 ({@damage 2d6 + 4}) bludgeoning damage and be knocked {@condition prone}. the dragon can then fly up to half its flying speed."
 					]
 				}
 			],
@@ -740,175 +1512,6 @@
 				"AOE",
 				"MW",
 				"RCH"
-			]
-		},
-		{
-			"name": "Adult Purple Dragon",
-			"group": "Dragons",
-			"isNamedCreature": true,
-			"source": "CeldirasGuidetotheUnusual",
-			"size": "H",
-			"type": "dragon",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 19,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d12 + 90",
-				"average": 207
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 80,
-				"canHover": false,
-				"climb": 40
-			},
-			"str": 18,
-			"dex": 14,
-			"con": 21,
-			"int": 15,
-			"wis": 15,
-			"cha": 23,
-			"save": {
-				"dex": "+7",
-				"con": "+10",
-				"wis": "+7",
-				"cha": "+11"
-			},
-			"skill": {
-				"deception": "+11",
-				"insight": "+7",
-				"perception": "+12",
-				"stealth": "+7"
-			},
-			"senses": [
-				"blindsight 60 ft.",
-				"darkvision 120 ft."
-			],
-			"passive": 22,
-			"immune": [
-				"psychic"
-			],
-			"conditionImmune": [
-				"charmed"
-			],
-			"languages": [
-				"Deep Speech",
-				"Draconic",
-				"Undercommon",
-				"telepathy 60ft."
-			],
-			"cr": "16",
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"If the dragon fails a saving throw, it can choose to succeed instead."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"the dragon can use its Frightful Presence. She then makes three attacks: one with her bite and two with her claws."
-					]
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
-					]
-				},
-				{
-					"name": "Claw",
-					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
-					]
-				},
-				{
-					"name": "Tail",
-					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 20 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Frightful Presence",
-					"entries": [
-						"Each creature of the dragons choice that is within 120 feet and aware of her must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragons Frightful Presence for the next 24 hours."
-					]
-				},
-				{
-					"name": "Psychic Breath {@recharge 5}",
-					"entries": [
-						"The dragon exhales psychoactive gas in a 60-foot cone. Each creature in the area must make a {@dc 18} Wisdom saving throw, taking 56 ({@damage 16d6}) psychic damage on a failed save, or half as much damage on a successful one."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Detect",
-					"entries": [
-						"The dragon makes a Wisdom (Perception) check. "
-					]
-				},
-				{
-					"name": "Tail Attack",
-					"entries": [
-						"The dragon makes a tail attack. "
-					]
-				},
-				{
-					"name": "Wing Attack (Costs 2 Actions)",
-					"entries": [
-						"The dragon beats her wings. Each creature within 10 feet of her must succeed on a {@dc 17} Dexterity saving throw or take 11 ({@damage 2d6 + 4}) bludgeoning damage and be knocked {@condition prone}. the dragon can then fly up to half its flying speed."
-					]
-				}
-			],
-			"environment": [
-				"underdark"
-			],
-			"dragonCastingColor": "G",
-			"tokenUrl": "https://i.imgur.com/PyXd94f.png",
-			"traitTags": [
-				"Legendary Resistances"
-			],
-			"senseTags": [
-				"B",
-				"SD"
-			],
-			"actionTags": [
-				"Frightful Presence",
-				"Multiattack"
-			],
-			"languageTags": [
-				"DR",
-				"DS",
-				"TP",
-				"U"
-			],
-			"damageTags": [
-				"B",
-				"P",
-				"S",
-				"Y"
-			],
-			"miscTags": [
-				"AOE",
-				"MW",
-				"RCH"
-			],
-			"conditionInflict": [
-				"frightened",
-				"prone"
 			]
 		},
 		{
