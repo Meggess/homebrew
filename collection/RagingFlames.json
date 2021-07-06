@@ -897,6 +897,110 @@
 			"isNpc": true
 		},
 		{
+			"name": "Fire Giant Chain Master",
+			"source": "RagingFlames",
+			"size": "H",
+			"type": "giant",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 162,
+				"formula": "13d12 + 78"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 25,
+			"dex": 9,
+			"con": 23,
+			"int": 16,
+			"wis": 14,
+			"cha": 13,
+			"save": {
+				"dex": "+3",
+				"con": "+10",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+6",
+				"arcana": "+7"
+			},
+			"passive": 16,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Giant",
+				"Infernal"
+			],
+			"cr": "10",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two Chain attacks."
+					]
+				},
+				{
+					"name": "Chain",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 20 ft., one target. {@h}28 ({@damage 3d6 + 7}) bludgeoning damage. The target is {@condition grappled} (escape {@dc 17}) if the giant isn't already grappling a creature. Until this grapple ends, the target is {@condition restrained} and has to make a Charisma saving throw (save {@dc 15}). On a failed save, the target is {@condition charmed} by the giant and obeys the giants verbal commands to the best of its abilities. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI",
+				"I"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Fire Giant.png?v=1.131.6",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Fire Giant.jpg"
+						}
+					}
+				]
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained",
+				"charmed"
+			]
+		},
+		{
 			"name": "Igrex",
 			"group": "Chromatic Dragon",
 			"source": "RagingFlames",
@@ -2329,19 +2433,6 @@
 					]
 				},
 				{
-					"name": "Bardic Inspiration (6/Long Rest)",
-					"entries": [
-						"Rufus uses a bonus action on his turn to choose one creature other than himself within 60 feet of him who can hear Rufus. That creature gains one Bardic Inspiration die, a {@dice d12}.",
-						"Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes."
-					]
-				},
-				{
-					"name": "Cunning Action",
-					"entries": [
-						"On each of his turns, Rufus can use a bonus action to take the Dash, Disengage, or Hide action."
-					]
-				},
-				{
 					"name": "Fey Ancestry",
 					"entries": [
 						"Magic can't put Rufus to sleep."
@@ -2350,7 +2441,7 @@
 				{
 					"name": "Master of Tactics",
 					"entries": [
-						"Rufus can use the Help action as a bonus action. Additionally, when he uses the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of Rufus, rather than within 5 feet of him, if the target can see or hear you."
+						"When Rufus uses the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of Rufus, rather than within 5 feet of him, if the target can see or hear him."
 					]
 				},
 				{
@@ -2441,6 +2532,230 @@
 				"deafened",
 				"incapacitated",
 				"paralyzed"
+			],
+			"isNpc": true,
+			"bonus": [
+				{
+					"name": "Bardic Inspiration (6/Long Rest)",
+					"entries": [
+						"Rufus chooses one creature other than himself within 60 feet of him who can hear Rufus. That creature gains one Bardic Inspiration die, a {@dice d12}.",
+						"Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Rufus takes the Dash, Disengage, Help or Hide action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Savalar Gadah",
+			"isNamedCreature": true,
+			"source": "RagingFlames",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gold half-dragon"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item robe of the archmagi}"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "17d8 + 51"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 16,
+			"int": 20,
+			"wis": 18,
+			"cha": 15,
+			"save": {
+				"int": "+11",
+				"wis": "+10"
+			},
+			"skill": {
+				"history": "+11",
+				"insight": "+10",
+				"perception": "+10",
+				"religion": "+11",
+				"arcana": "+11"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Giant",
+				"Ignan"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Savalar is a 17th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). Savalar has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell control flames|XGE}",
+								"{@spell fire bolt}",
+								"{@spell message}",
+								"{@spell mind sliver|TCE}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell chromatic orb}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell misty step}",
+								"{@spell scorching ray}",
+								"{@spell see invisibility}*"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}",
+								"{@spell sending}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell fire shield}*",
+								"{@spell greater invisibility}",
+								"{@spell summon greater demon|XGE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell immolation|XGE}",
+								"{@spell scrying}",
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell disintegrate}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell crown of stars|XGE}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell feeblemind}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell prismatic wall}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Savalar is carrying an {@item emblem of golden bones|WitheringFury}, a {@item robe of the archmagi} and a {@item staff of fire}."
+					]
+				},
+				{
+					"name": "Empowered Evocation",
+					"entries": [
+						"Savalar can add his Intelligence modifier to the damage roll of any wizard evocation spell he casts."
+					]
+				},
+				{
+					"name": "Sculpt Spells",
+					"entries": [
+						"When Savalar casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"Savalar uses one of the following breath weapons.",
+						"Fire Breath. Savalar exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.",
+						"Weakening Breath. Savalar exhales gas in a 15-foot cone. Each creature in that area must succeed on a {@dc 16} Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR",
+				"E",
+				"GI",
+				"IG"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"unconscious"
 			],
 			"isNpc": true
 		},
