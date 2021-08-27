@@ -1956,7 +1956,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Maleeka is a 15-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Maleeka has the following Sorcerer spells prepared:"
+						"Maleeka is a 15th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Maleeka has the following Sorcerer spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -2089,7 +2089,7 @@
 				{
 					"name": "Draconic Wings",
 					"entries": [
-						"Maleeka can sprout a pair of dragon wings from her back, gaining a flying speed equal to your current speed. They last until she dismisses them as a bonus action on her turn."
+						"Maleeka can sprout a pair of dragon wings from her back, gaining a flying speed equal to her current speed. They last until she dismisses them as a bonus action on her turn."
 					]
 				}
 			],
@@ -2559,7 +2559,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"gold half-dragon"
+					"obsidian half-dragon"
 				]
 			},
 			"alignment": [
@@ -2580,8 +2580,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60,
-				"canHover": false
+				"fly": 60
 			},
 			"str": 12,
 			"dex": 14,
@@ -2594,11 +2593,11 @@
 				"wis": "+10"
 			},
 			"skill": {
+				"arcana": "+11",
 				"history": "+11",
 				"insight": "+10",
 				"perception": "+10",
-				"religion": "+11",
-				"arcana": "+11"
+				"religion": "+11"
 			},
 			"senses": [
 				"blindsight 10 ft.",
@@ -2619,6 +2618,17 @@
 			"cr": "15",
 			"spellcasting": [
 				{
+					"name": "Innate Spellcasting (Psionics)",
+					"headerEntries": [
+						"Savalar's innate spellcasting ability is Intelligence (spell save {@dc 21}; {@hit 13} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell disguise self}"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
 					"name": "Spellcasting",
 					"headerEntries": [
 						"Savalar is a 17th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). Savalar has the following wizard spells prepared:"
@@ -2630,76 +2640,76 @@
 								"{@spell control flames|XGE}",
 								"{@spell fire bolt}",
 								"{@spell message}",
-								"{@spell mind sliver|TCE}",
+								"{@spell mind sliver|UASorcererAndWarlock}",
 								"{@spell prestidigitation}"
 							]
 						},
 						"1": {
+							"slots": 4,
 							"spells": [
 								"{@spell burning hands}",
 								"{@spell chromatic orb}",
 								"{@spell magic missile}",
 								"{@spell shield}"
-							],
-							"slots": 4
+							]
 						},
 						"2": {
+							"slots": 3,
 							"spells": [
 								"{@spell misty step}",
 								"{@spell scorching ray}",
 								"{@spell see invisibility}*"
-							],
-							"slots": 3
+							]
 						},
 						"3": {
+							"slots": 3,
 							"spells": [
 								"{@spell counterspell}",
 								"{@spell dispel magic}",
 								"{@spell fireball}",
 								"{@spell sending}"
-							],
-							"slots": 3
+							]
 						},
 						"4": {
+							"slots": 3,
 							"spells": [
 								"{@spell fire shield}*",
 								"{@spell greater invisibility}",
 								"{@spell summon greater demon|XGE}"
-							],
-							"slots": 3
+							]
 						},
 						"5": {
+							"slots": 2,
 							"spells": [
 								"{@spell immolation|XGE}",
 								"{@spell scrying}",
 								"{@spell synaptic static|XGE}"
-							],
-							"slots": 2
+							]
 						},
 						"6": {
+							"slots": 2,
 							"spells": [
 								"{@spell chain lightning}",
 								"{@spell disintegrate}"
-							],
-							"slots": 2
+							]
 						},
 						"7": {
+							"slots": 1,
 							"spells": [
 								"{@spell crown of stars|XGE}"
-							],
-							"slots": 1
+							]
 						},
 						"8": {
+							"slots": 1,
 							"spells": [
 								"{@spell feeblemind}"
-							],
-							"slots": 1
+							]
 						},
 						"9": {
+							"slots": 1,
 							"spells": [
 								"{@spell prismatic wall}"
-							],
-							"slots": 1
+							]
 						}
 					},
 					"ability": "int",
@@ -2724,15 +2734,25 @@
 					"entries": [
 						"When Savalar casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
 					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The Savalar Gadah has advantage on saving throws against being {@condition charmed}, and magic can't put the Savalar Gadah to sleep."
+					]
 				}
 			],
 			"action": [
 				{
-					"name": "Breath Weapons {@recharge 5}",
+					"name": "Staff",
 					"entries": [
-						"Savalar uses one of the following breath weapons.",
-						"Fire Breath. Savalar exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.",
-						"Weakening Breath. Savalar exhales gas in a 15-foot cone. Each creature in that area must succeed on a {@dc 16} Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, or 5 ({@damage 1d8 + 1}) bludgeoning damage if used with both hands."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"Savalar exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2749,15 +2769,35 @@
 				"IG"
 			],
 			"spellcastingTags": [
+				"P",
+				"I",
 				"CW"
 			],
 			"miscTags": [
+				"MW",
 				"AOE"
 			],
 			"conditionInflictSpell": [
-				"unconscious"
+				"blinded",
+				"invisible",
+				"petrified",
+				"restrained"
 			],
-			"isNpc": true
+			"fluff": {
+				"entries": [
+					"Savalar is the current court wizard of Neverwinter and a trusted advisor to its Lord Protector. Savalars uncontested loyalty, however, lays not by his Lord Protector ,but by his own mother, the ancient obsidian dragon Negil. Secretly he is in fact a high ranking member of the house of golden bones and currently tasked with summoning the demon lord {@creature Kalzifar|RagingFlames} to the Sword Coast.",
+					"Although he is an obsidian half-dragon, Savalar uses his innate psionic abilities to disguise himself as a gold half-dragon instead. He always wears a grey {@item robe of the archmagi} and usually leans on a {@item staff of fire}. ",
+					"Due to Savalars incredibly long life, because of his elven and draconic heritage, and his enormous intellect, he has mastered speaking several exotic languages fluently. On the other hand, Savalar often appears to be arrogant in conversations because of this. He is extraordinarily curious and always strifes to acquire more knowledge."
+				]
+			},
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"isNpc": true,
+			"tokenUrl": "https://i.imgur.com/f9v7vaO.png",
+			"damageTags": [
+				"B"
+			]
 		},
 		{
 			"name": "Zelsius",

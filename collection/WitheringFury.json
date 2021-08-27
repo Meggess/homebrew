@@ -6764,5 +6764,96 @@
 				"prone"
 			]
 		}
+	],
+	"spell": [
+		{
+			"name": "Dread Meadow",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"The ground in a 20-foot radius centered on a point within range becomes overgrown dark purplish to blackish vegetation, so called dread weed. The area becomes difficult terrain for the duration and each creature that starts its turn there or enters the area for the first time and isn't a construct, plant or undead must make a Constitution saving throw. On a failed save, a creature suffers one effect from the Dread Meadow table.",
+				{
+					"name": "Dread Meadow",
+					"type": "table",
+					"colLabels": [
+						"1d4",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"The creature takes {@dice 4d10} necrotic damage."
+						],
+						[
+							"2",
+							"The creature takes {@dice 2d10} poison damage and becomes poisoned for the duration. A poisoned creature takes {@dice 1d10} poison damage at the start of each of its turns and can repeat the saving throw at the end of each of its turns."
+						],
+						[
+							"3",
+							"The creature becomes paralyzed for the duration. A paralyzed creature can repeat its saving throw at the end of each of its turns."
+						],
+						[
+							"4",
+							"The creature becomes restrained and must repeat the saving throw at the end of its next turn. On a failed save, the creature becomes petrified for the duration. On a successful save, the creature is no longer restrained."
+						]
+					]
+				}
+			],
+			"source": "WitheringFury",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"damageInflict": [
+				"necrotic",
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"R"
+			]
+		}
 	]
 }
