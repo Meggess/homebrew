@@ -6807,9 +6807,8 @@
 				]
 			},
 			"entries": [
-				"The ground in a 20-foot radius centered on a point within range becomes overgrown dark purplish to blackish vegetation, so called dread weed. The area becomes difficult terrain for the duration and each creature that starts its turn there or enters the area for the first time and isn't a construct, plant or undead must make a Constitution saving throw. On a failed save, a creature suffers one effect from the Dread Meadow table.",
+				"The ground in a 20-foot radius centered on a point within range becomes overgrown dark purplish to blackish vegetation, so called dread weed. The area becomes difficult terrain for the duration and each creature that starts its turn there or enters the area for the first time and isn't a construct, plant or undead must make a Constitution saving throw. On a failed save, a creature suffers one effect from the following table:",
 				{
-					"name": "Dread Meadow",
 					"type": "table",
 					"colLabels": [
 						"1d4",
@@ -6822,19 +6821,19 @@
 					"rows": [
 						[
 							"1",
-							"The creature takes {@dice 4d10} necrotic damage."
+							"The creature takes {@damage 4d10} necrotic damage."
 						],
 						[
 							"2",
-							"The creature takes {@dice 2d10} poison damage and becomes poisoned for the duration. A poisoned creature takes {@dice 1d10} poison damage at the start of each of its turns and can repeat the saving throw at the end of each of its turns."
+							"The creature takes {@damage 2d10} poison damage and becomes {@condition poisoned} for the duration. A {@condition poisoned} creature takes {@damage 1d10} poison damage at the start of each of its turns and can repeat the saving throw at the end of each of its turns."
 						],
 						[
 							"3",
-							"The creature becomes paralyzed for the duration. A paralyzed creature can repeat its saving throw at the end of each of its turns."
+							"The creature becomes {@condition paralyzed} for the duration. A {@condition paralyzed} creature can repeat its saving throw at the end of each of its turns."
 						],
 						[
 							"4",
-							"The creature becomes restrained and must repeat the saving throw at the end of its next turn. On a failed save, the creature becomes petrified for the duration. On a successful save, the creature is no longer restrained."
+							"The creature becomes {@condition restrained} and must repeat the saving throw at the end of its next turn. On a failed save, the creature becomes {@condition petrified} for the duration. On a successful save, the creature is no longer restrained. If the creature is {@condition petrified} for the full duration of the spell, it stays {@condition petrified} until cured."
 						]
 					]
 				}
