@@ -48,7 +48,7 @@
 						"type": "entries",
 						"name": "Awakened",
 						"entries": [
-							"Kaladbolg awakens only after it has caused... points of necrotic damage to its wielder. Once the sword reaches an awakend state, it gains the following properties:",
+							"Kaladbolg awakens only after it has caused 45 points of necrotic damage to its wielder. Once the sword reaches an awakend state, it gains the following properties:",
 							{
 								"type": "list",
 								"items": [
