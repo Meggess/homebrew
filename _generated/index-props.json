@@ -19,12 +19,16 @@
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
 	},
 	"spell": {
-		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/WitheringFury.json": "collection"
 	},
 	"subclass": {
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
 	},
 	"subclassFeature": {
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
+	},
+	"variant": {
+		"collection/SwordofChaos.json": "collection"
 	}
 }

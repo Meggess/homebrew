@@ -372,32 +372,6 @@
 			]
 		}
 	],
-	"variant": [
-		{
-			"name": "Kaladbolg",
-			"type": "GV",
-			"source": "WitheringFury",
-			"requires": [
-				{
-					"sword": true,
-					"dmgType": "S"
-				}
-			],
-			"inherits": {
-				"namePrefix": "Kaladbolg ",
-				"source": "WitheringFury",
-				"rarity": "legendary",
-				"bonusWeapon": "+3",
-				"charges": "3",
-				"recharge": "dusk",
-				"reqAttune": true,
-				"entries": [
-					"This sword is made of a pitch black metal, with ruby inlays on its silver crossguard. This magic weapon grants a +3 bonus to attack and damage rolls made with it. The sword also functions as a {@item sword of sharpness}.",
-					"The sword has 3 charges and regains all expended charges daily at dusk. When you hit a creature with Kaladbolg, you can expend 1 charge of the sword and choose either acid, cold, fire, lightning, poison, or thunder damage. Your attack deals an extra {@dice 2d8} damage of the type you chose. If you have no charges left you can still use this property by taking necrotic damage equal to the extra damage you dealt. When you do so, your hit point maximum is reduced by an equal amount to the damage you took."
-				]
-			}
-		}
-	],
 	"monster": [
 		{
 			"name": "Torks",
