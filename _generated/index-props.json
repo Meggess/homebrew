@@ -3,28 +3,28 @@
 		"collection/RagingFlames.json": "collection"
 	},
 	"item": {
-		"collection/CeldirasGuidetotheUnusual.json": "collection",
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
 		"collection/WitheringFury.json": "collection",
 		"collection/IntotheChasm.json": "collection",
 		"collection/RagingFlames.json": "collection"
 	},
 	"monster": {
 		"collection/BearsBearsBears.json": "collection",
-		"collection/CeldirasGuidetotheUnusual.json": "collection",
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
 		"collection/WitheringFury.json": "collection",
 		"collection/IntotheChasm.json": "collection",
 		"collection/RagingFlames.json": "collection"
 	},
 	"optionalfeature": {
-		"collection/CeldirasGuidetotheUnusual.json": "collection"
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
 	},
 	"spell": {
-		"collection/CeldirasGuidetotheUnusual.json": "collection"
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
 	},
 	"subclass": {
-		"collection/CeldirasGuidetotheUnusual.json": "collection"
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
 	},
 	"subclassFeature": {
-		"collection/CeldirasGuidetotheUnusual.json": "collection"
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
 	}
 }
