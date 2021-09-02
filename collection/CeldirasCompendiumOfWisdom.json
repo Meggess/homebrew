@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "CeldirasGuidetotheUnusual",
-				"abbreviation": "CGU",
-				"full": "Celdira's Guide to the Unusual",
+				"json": "CeldirasCompendiumOfKnowledge",
+				"abbreviation": "CCK",
+				"full": "Celdira's Compendium of Knowledgel",
 				"url": "https://homebrewery.naturalcrit.com/share/ryvW1ZWEs54",
 				"authors": ["Megges"],
 				"convertedBy": []
@@ -21,7 +21,7 @@
 		{
 			"name": "Aleta",
 			"rarity": "very rare",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"sword": true,
 			"baseItem": "rapier",
 			"dmg1": "1d8",
@@ -40,7 +40,7 @@
 			"name": "Bottled Lightning",
 			"wondrous": true,
 			"rarity": "varies",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"entries": [
 				"In this bottle floats a blue glowing orb. Bolts of lightning lash out from the orb to the bottle whenever someone touches the bottle.",
 				"As an action, you can remove the stopper of the bottle unleashing the stored lightning in a 100 feet long and 5 feet wide line in the direction the bottle is facing or you can throw the bottle at a point you can see within 30 feet of you. The bottle shatters on impact unleashing the stored lightning in a 20-foot-radius sphere. Each creature in the area of effect must make a Dexterity saving throw. A creature takes damage according to the type of lightning stored in the bottle on a failed save, or half as much damage on a successful one. The DC for the saving throw is determined by the type of the stored lightning.",
@@ -92,14 +92,14 @@
 			"name": "Googles of Day",
 			"wondrous": true,
 			"rarity": "common",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"entries": [
 				"While wearing these dark lenses, you ignore the sunlight sensitivity feature if you have it."
 			]
 		},
 		{
 			"name": "Instrument of the Bards, Blileth Hurdy Gurdy",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"type": "INS",
 			"rarity": "legendary",
@@ -127,7 +127,7 @@
 			"name": "Tolling Bell",
 			"wondrous": true,
 			"rarity": "uncommon",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"attachedSpells": [
 				"Toll the Dead|XGE"
 			],
@@ -139,7 +139,7 @@
 	"monster": [
 		{
 			"name": "Racoon",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "S",
 			"type": "beast",
 			"alignment": [
@@ -213,7 +213,7 @@
 		},
 		{
 			"name": "Goro",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "L",
 			"type": {
 				"type": "fiend",
@@ -353,7 +353,7 @@
 		},
 		{
 			"name": "Ancient Obsidian Dragon",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "G",
 			"type": "dragon",
@@ -535,7 +535,7 @@
 		},
 		{
 			"name": "Adult Obsidian Dragon",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "H",
 			"type": "dragon",
@@ -718,7 +718,7 @@
 		},
 		{
 			"name": "Young Obsidian Dragon",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "L",
 			"type": "dragon",
@@ -846,7 +846,7 @@
 		},
 		{
 			"name": "Obsidian Dragon Wyrmling",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "M",
 			"type": "dragon",
@@ -958,7 +958,7 @@
 			"name": "Ancient Purple Dragon",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "G",
 			"type": "dragon",
 			"alignment": [
@@ -1127,7 +1127,7 @@
 			"name": "Adult Purple Dragon",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "H",
 			"type": "dragon",
 			"alignment": [
@@ -1296,7 +1296,7 @@
 			"name": "Young Purple Dragon",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "L",
 			"type": "dragon",
 			"alignment": [
@@ -1416,7 +1416,7 @@
 			"name": "Purple Dragon Wyrmling",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "M",
 			"type": "dragon",
 			"alignment": [
@@ -1516,7 +1516,7 @@
 		},
 		{
 			"name": "Witherling",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 114,
 			"size": "M",
 			"type": "undead",
@@ -1603,7 +1603,7 @@
 		},
 		{
 			"name": "Witherhulk",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "M",
 			"type": "undead",
 			"alignment": [
@@ -1690,7 +1690,7 @@
 		{
 			"name": "White Slaad",
 			"group": "Slaadi",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "L",
 			"type": {
 				"type": "aberration",
@@ -1934,7 +1934,7 @@
 		{
 			"name": "Black Slaad",
 			"group": "Slaadi",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "H",
 			"type": {
 				"type": "aberration",
@@ -2220,7 +2220,7 @@
 	"optionalfeature": [
 		{
 	        "name": "Aberation Oil",
-	        "source": "CeldirasGuidetotheUnusual",
+	        "source": "CeldirasCompendiumOfKnowledge",
 	        "featureType": "SOF",
 	        "entries": [
 	            "<b>Toxicity:</b> 0",
@@ -2230,7 +2230,7 @@
     	},
     	{
     		"name": "Antidote",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 3",
@@ -2240,7 +2240,7 @@
     	},
     	{
     		"name": "Brute",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 8",
@@ -2250,7 +2250,7 @@
     	},
     	{
     		"name": "Bull's Eye",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 4",
@@ -2260,7 +2260,7 @@
     	},
     	{
     		"name": "Celestial Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			"<b>Toxicity:</b> 0",
@@ -2270,7 +2270,7 @@
     	},
     	{
     		"name": "Cold",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 6",
@@ -2280,7 +2280,7 @@
     	},
     	{
     		"name": "Day",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 2",
@@ -2290,7 +2290,7 @@
     	},
     	{
     		"name": "Durable",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 4",
@@ -2300,7 +2300,7 @@
     	},
     	{
     		"name": "Elemental Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			"<b>Toxicity:</b> 0",
@@ -2310,7 +2310,7 @@
     	},
     	{
     		"name": "Fey Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			"<b>Toxicity:</b> 0",
@@ -2320,7 +2320,7 @@
     	},
     	{
     		"name": "Fiend Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			"<b>Toxicity:</b> 0",
@@ -2330,7 +2330,7 @@
     	},
     	{
     		"name": "Ground",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 6",
@@ -2340,7 +2340,7 @@
     	},
     	{
     		"name": "Leach",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 6",
@@ -2350,7 +2350,7 @@
     	},
     	{
     		"name": "Poisonous Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			"<b>Toxicity:</b> 0",
@@ -2361,7 +2361,7 @@
     	},
     	{
     		"name": "Potency",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 8",
@@ -2371,7 +2371,7 @@
     	},
     	{
     		"name": "Regena",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 8",
@@ -2381,7 +2381,7 @@
     	},
     	{
     		"name": "Resilience",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 8",
@@ -2398,7 +2398,7 @@
     	},
     	{
     		"name": "Retaliate",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 2",
@@ -2415,7 +2415,7 @@
     	},
     	{
     		"name": "Sight",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 4",
@@ -2425,7 +2425,7 @@
     	},
     	{
     		"name": "Slowing Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			"<b>Toxicity:</b> 0",
@@ -2435,7 +2435,7 @@
     	},
     	{
     		"name": "Steadfast",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			{
@@ -2459,7 +2459,7 @@
     	},
     	{
     		"name": "Stone",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			{
@@ -2483,7 +2483,7 @@
     	},
     	{
     		"name": "Thick Hide",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			"<b>Toxicity:</b> 2",
@@ -2500,7 +2500,7 @@
     	},
     	{
     		"name": "Thining Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			{
@@ -2524,7 +2524,7 @@
     	},
     	{
     		"name": "Undead Oil",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SOF",
     		"entries": [
     			{
@@ -2548,7 +2548,7 @@
     	},
     	{
     		"name": "Vampire Bane",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			{
@@ -2579,7 +2579,7 @@
     	},
     	{
     		"name": "Warmth",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			{
@@ -2603,7 +2603,7 @@
     	},
     	{
     		"name": "Whirlwind",
-    		"source": "CeldirasGuidetotheUnusual",
+    		"source": "CeldirasCompendiumOfKnowledge",
     		"featureType": "SPF",
     		"entries": [
     			{
@@ -2629,7 +2629,7 @@
 	"spell": [
 		{
 			"name": "Catch Lightning",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -2692,7 +2692,7 @@
 		},
 		{
 			"name": "Positive Energy Flood",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -2747,38 +2747,38 @@
 		{
 			"name": "College of Dancing",
 			"subclassFeatures": [
-				"College of Dancing|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|3",
-				"Rousing Dance|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|6",
-				"Master's Dance|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|14"
+				"College of Dancing|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|3",
+				"Rousing Dance|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|6",
+				"Master's Dance|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|14"
 			],
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"shortName": "Dancing",
 			"className": "Bard",
 			"classSource": "PHB"
 		},
 		{
 	        "name": "Circle of the Blight",
-	        "source": "CeldirasGuidetotheUnusual",
+	        "source": "CeldirasCompendiumOfKnowledge",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "shortName": "Blight",
 	        "subclassFeatures": [
-	            "Circle of Blight|Druid|PHB|Blight|CeldirasGuidetotheUnusual|2",
-	            "Aura of Decay|Druid|PHB|Blight|CeldirasGuidetotheUnusual|6",
-	            "Hulking Wither|Druid|PHB|Blight|CeldirasGuidetotheUnusual|10",
-	            "Master of Decay|Druid|PHB|Blight|CeldirasGuidetotheUnusual|14"
+	            "Circle of Blight|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|2",
+	            "Aura of Decay|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|6",
+	            "Hulking Wither|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|10",
+	            "Master of Decay|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|14"
       		]
 		},
 		{
 			"name": "Strider",
 			"subclassFeatures": [
-				"Strider|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3",
-				"Oils|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|7",
-				"Special Ingredient|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|10",
-				"Skilled Eye|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|15",
-				"Angel's Tear|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|18"
+				"Strider|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3",
+				"Oils|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|7",
+				"Special Ingredient|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|10",
+				"Skilled Eye|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|15",
+				"Angel's Tear|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|18"
 			],
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"shortName": "Strider",
 			"className": "Fighter",
 			"classSource": "PHB",
@@ -2787,7 +2787,7 @@
 					"subclasses": [
 						{
 							"name": "Strider",
-							"source": "CeldirasGuidetotheUnusual"
+							"source": "CeldirasCompendiumOfKnowledge"
 						}
 					],
 					"colLabels": [
@@ -2861,10 +2861,10 @@
 		{
 			"name": "Oath of the Bonfire",
 			"subclassFeatures": [
-				"Oath of the Bonfire|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3",
-				"Aura of Warmth|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|7",
-				"Lord of Flames|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|15",
-				"Blazing Nimbus|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|20"
+				"Oath of the Bonfire|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3",
+				"Aura of Warmth|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|7",
+				"Lord of Flames|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|15",
+				"Blazing Nimbus|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|20"
 			],
 			"additionalSpells": [
 				{
@@ -2898,7 +2898,7 @@
 					}
 				}
 			],
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"shortName": "Bonfire",
 			"className": "Paladin",
 			"classSource": "PHB"
@@ -2907,31 +2907,31 @@
 	"subclassFeature": [
 		{
 			"name": "College of Dancing",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"entries": [
 				"TODO",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Gracious Combat|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Gracious Combat|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inspiring Dance|Bard|PHB|Dancing|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Inspiring Dance|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|3"
 				}
 			]
 		},
 		{
 			"name": "Gracious Combat",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2941,11 +2941,11 @@
 		},
 		{
 			"name": "Inspiring Dance",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2955,11 +2955,11 @@
 		},
 		{
 			"name": "Rousing Dance",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2969,11 +2969,11 @@
 		},
 		{
 			"name": "Master's Dance",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2982,65 +2982,65 @@
 		},
 		{
 	        "name": "Circle of Blight",
-	        "source": "CeldirasGuidetotheUnusual",
+	        "source": "CeldirasCompendiumOfKnowledge",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "subclassSource": "CeldirasCompendiumOfKnowledge",
 	        "level": 2,
 	        "entries": [
 	            "TODO",
 	            {
 	            	"type": "refSubclassFeature",
-	            	"subclassFeature": "Withering Shape|Druid|PHB|Blight|CeldirasGuidetotheUnusual|2"
+	            	"subclassFeature": "Withering Shape|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|2"
 	            }
 	        ]
     	},
 		{
 	        "name": "Withering Shape",
-	        "source": "CeldirasGuidetotheUnusual",
+	        "source": "CeldirasCompendiumOfKnowledge",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "subclassSource": "CeldirasCompendiumOfKnowledge",
 	        "level": 2,
 	        "entries": [
 	            "Beginning at 2nd level, you can use your wild shape in more unnatural ways.",
-	            "As an action, you can expand one use of your wild shape feature to summon a {@creature witherling|CeldirasGuidetotheUnusual}. Choose a point within 60 feet of you where the {@creature witherling|CeldirasGuidetotheUnusual} appears, each creature in a 10-foot radius of that point must make a Constitution saving throw against your spell save DC or take necrotic damage equal to half your druid level. The {@creature witherling|CeldirasGuidetotheUnusual} stays for a duration of 1 minute, you dismiss it as a bonus action, its hit points are reduce to zero, or you use this feature again. In combat, the {@creature witherling|CeldirasGuidetotheUnusual} shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash}, {@action Disengage}, {@action Help}, {@action Hide}, or {@action Search} action."
+	            "As an action, you can expand one use of your wild shape feature to summon a {@creature witherling|CeldirasCompendiumOfKnowledge}. Choose a point within 60 feet of you where the {@creature witherling|CeldirasCompendiumOfKnowledge} appears, each creature in a 10-foot radius of that point must make a Constitution saving throw against your spell save DC or take necrotic damage equal to half your druid level. The {@creature witherling|CeldirasCompendiumOfKnowledge} stays for a duration of 1 minute, you dismiss it as a bonus action, its hit points are reduce to zero, or you use this feature again. In combat, the {@creature witherling|CeldirasCompendiumOfKnowledge} shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash}, {@action Disengage}, {@action Help}, {@action Hide}, or {@action Search} action."
 	        ]
     	},
 		{
 	        "name": "Aura of Decay",
-	        "source": "CeldirasGuidetotheUnusual",
+	        "source": "CeldirasCompendiumOfKnowledge",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "subclassSource": "CeldirasCompendiumOfKnowledge",
 	        "level": 6,
 	        "entries": [
 	            "Beginning at 6th level, you can steal the life force from creatures around you.",
-	            "As an action, you can force each creature within 10 feet of you to make a Constitution saving throw against your spell save DC. On a failed save, a creature takes {@damage 2d6} necrotic damage and gains one level of {@condition exhaustion} and you regain hit points equal to half the inflicted damage. Your {@creature witherling|CeldirasGuidetotheUnusual} gains this feature as well. Once you or your {@creature witherling|CeldirasGuidetotheUnusual} use this feature you can't use it again until you finish a short rest."
+	            "As an action, you can force each creature within 10 feet of you to make a Constitution saving throw against your spell save DC. On a failed save, a creature takes {@damage 2d6} necrotic damage and gains one level of {@condition exhaustion} and you regain hit points equal to half the inflicted damage. Your {@creature witherling|CeldirasCompendiumOfKnowledge} gains this feature as well. Once you or your {@creature witherling|CeldirasCompendiumOfKnowledge} use this feature you can't use it again until you finish a short rest."
 	        ]
     	},
 		{
 	        "name": "Hulking Wither",
-	        "source": "CeldirasGuidetotheUnusual",
+	        "source": "CeldirasCompendiumOfKnowledge",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "subclassSource": "CeldirasCompendiumOfKnowledge",
 	        "level": 10,
 	        "entries": [
-	            "Beginning at 10th level, whenever you use your withering shape feature, you can expend two uses of your wild shape feature to summon a {@creature witherhulk|CeldirasGuidetotheUnusual} instead of a {@creature witherling|CeldirasGuidetotheUnusual}"
+	            "Beginning at 10th level, whenever you use your withering shape feature, you can expend two uses of your wild shape feature to summon a {@creature witherhulk|CeldirasCompendiumOfKnowledge} instead of a {@creature witherling|CeldirasCompendiumOfKnowledge}"
 	        ]
     	},
 		{
 	        "name": "Master of Decay",
-	        "source": "CeldirasGuidetotheUnusual",
+	        "source": "CeldirasCompendiumOfKnowledge",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasGuidetotheUnusual",
+	        "subclassSource": "CeldirasCompendiumOfKnowledge",
 	        "level": 14,
 	        "entries": [
 	            "Beginning at 14th level, you have mastered your withering nature.",
@@ -3049,35 +3049,35 @@
     	},
     	{
 			"name": "Strider",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"entries": [
 				"Basically a Witcher",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Meditation|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Meditation|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Strider Lore|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Strider Lore|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alchemy|Fighter|PHB|Strider|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Alchemy|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3"
 				}
 			]
 		},
 		{
 			"name": "Meditation",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3086,11 +3086,11 @@
 		},
 		{
 			"name": "Strider Lore",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3100,11 +3100,11 @@
 		},
 		{
 			"name": "Alchemy",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3134,11 +3134,11 @@
 		},
 		{
 			"name": "Oils",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3148,11 +3148,11 @@
 		},
 		{
 			"name": "Special Ingredient",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -3183,11 +3183,11 @@
 		},
 		{
 			"name": "Skilled Eye",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3197,11 +3197,11 @@
 		},
 		{
 			"name": "Angel's Tear",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Fighter",
 			"classSource": "PHB",
 			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -3211,39 +3211,39 @@
 		},
 		{
 			"name": "Oath of the Bonfire",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"entries": [
 				"TODO",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Bonfire|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Tenets of the Bonfire|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Flaming Weapon|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Channel Divinity: Flaming Weapon|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Blind the Wicked|Paladin|PHB|Bonfire|CeldirasGuidetotheUnusual|3"
+					"subclassFeature": "Channel Divinity: Blind the Wicked|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Flaming Weapon",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3253,11 +3253,11 @@
 		},
 		{
 			"name": "Channel Divinity: Blind the Wicked",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3267,11 +3267,11 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3314,11 +3314,11 @@
 		},
 		{
 			"name": "Tenets of the Bonfire",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -3363,11 +3363,11 @@
 		},
 		{
 			"name": "Aura of Warmth",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -3377,11 +3377,11 @@
 		},
 		{
 			"name": "Lord of Flames",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -3390,11 +3390,11 @@
 		},
 		{
 			"name": "Blazing Nimbus",
-			"source": "CeldirasGuidetotheUnusual",
+			"source": "CeldirasCompendiumOfKnowledge",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasGuidetotheUnusual",
+			"subclassSource": "CeldirasCompendiumOfKnowledge",
 			"level": 20,
 			"header": 2,
 			"entries": [
