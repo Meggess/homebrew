@@ -140,7 +140,7 @@
 		{
 			"name": "Racoon",
 			"source": "CeldirasCompendiumOfKnowledge",
-			"size": "S",
+			"size": "T",
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -149,8 +149,8 @@
 				12
 			],
 			"hp": {
-				"formula": "1d6 + 1",
-				"average": 4
+				"formula": "1d4 + 1",
+				"average": 3
 			},
 			"speed": {
 				"walk": 20,
