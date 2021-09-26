@@ -23,7 +23,12 @@
 			"requires": [
 				{
 					"sword": true,
-					"dmgType": "S"
+					"dmgType": "S",
+					"name": [
+						"Greatsword",
+						"Longsword",
+						"Scimitar"
+					]
 				}
 			],
 			"inherits": {
