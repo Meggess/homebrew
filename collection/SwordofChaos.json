@@ -59,7 +59,7 @@
 								"items": [
 									"Kaladbolg becomes a {@item vorpal sword} instead of a {@item sword of sharpness}.",
 									"The extra damage increases to {@damage 3d6}.",
-									"If Kaladbolg has no charges left and you use it, roll a {dice d20}. If you roll a 1, roll on the Kaladbolg Surge table to create a magical effect."
+									"If Kaladbolg has no charges left and you use it, roll a {@dice d10}. If you roll a 1, roll on the Kaladbolg Surge table to create a magical effect."
 								]
 							}
 						]
