@@ -73,6 +73,7 @@
 						{
 							"type": "list",
 							"items": [
+								"You gain resistance to lightning damage.",
 								"The staff becomes a {@item +3 quarterstaff}.",
 								"You can use the staff as a spellcasting focus and you gain a +1 bonus to spell attacks and spell saving throw DCs.",
 								"The staff has 5 charges and regains {@dice 1d4 + 1} charges daily at dawn.",
