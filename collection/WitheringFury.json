@@ -31,24 +31,62 @@
 		},
 		{
 			"name": "Blixt",
-			"rarity": "legendary",
 			"source": "WitheringFury",
+			"page": 0,
+			"srd": true,
+			"type": "M",
+			"rarity": "artifact",
 			"reqAttune": "by a spellcaster",
-			"staff": true,
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"weight": 4,
 			"weaponCategory": "simple",
-			"dmg1": "1d6",
-			"dmg2": "1d8",
-			"dmgType": "B",
-			"bonusSpellAttack": "+1",
-			"bonusWeapon": "+2",
-			"sfcType": "arcane",
-			"focus": true,
 			"property": [
 				"V"
 			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+2",
+			"bonusSpellSaveDc": "+1",
+			"recharge": "dawn",
+			"charges": 5,
+			"staff": true,
 			"entries": [
-				"The staff functions as a {@item +1 wand of the war mage} and as a {@item +2 quarterstaff}.",
-				"When you hit with a melee attack using this staff, the target takes an extra {@dice 2d6} lightning damage and it must succeed on a Strength saving throw against your spell save DC or be pushed in a straight line up to 15 feet away from you."
+				"This staff is made of pure copper. Its end points look like they were exposed to intense heat.",
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"The staff functions as a {@item +2 quarterstaff}.",
+						"When you hit with a melee attack using this staff, the target takes an extra {@damage 2d6} lightning damage and it must succeed on a Strength saving throw against your spell save DC or be pushed in a straight line up to 15 feet away from you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exalted",
+					"entries": [
+						"Once Blixt reaches an exalted state, it gains the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"The staff becomes a {@item +3 quarterstaff}.",
+								"You can use the staff as a spellcasting focus and you gain a +1 bonus to spell attacks and spell saving throw DCs.",
+								"The staff has 5 charges and regains {@dice 1d4 + 1} charges daily at dawn.",
+								"<b>Call Lightning.</b> As an action, you can cast {@spell call lightning} without needing to concentrate on it. Once you used this feature, you can't use it again until next dawn.",
+								"<b>Lightning Strike.</b> When you cast a spell, you can expend 2 charges to deal {@damage 3d6} lightning damage to one creature the spell is affecting.",
+								"<b>Surge of Sorcery (requires attunement by a sorcerer).</b> As a bonus action, you can expend 2 charges and instantly regain 5 sorcery points. When you use this feature roll a [@dice d4}, on a 1, roll on the sorcerer's wild magic surge table",
+								"<b>Storm Sorcery (requires attunement by a sorcerer).</b> When you use a Metamagic option on a spell, you can expend 1 charge and immediately fly up to 30 feet without provoking opportunity attacks and cause each creature of your choice within 5 feet of you to take {@damage 2d4} lightning damage."
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"call lightning"
 			]
 		},
 		{
