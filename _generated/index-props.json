@@ -6,27 +6,32 @@
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
 		"collection/WitheringFury.json": "collection",
 		"collection/IntotheChasm.json": "collection",
-		"collection/RagingFlames.json": "collection"
+		"collection/RagingFlames.json": "collection",
+		"collection/WilbunsWordsOfWeirdness.json": "collection"
 	},
 	"monster": {
 		"collection/BearsBearsBears.json": "collection",
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
 		"collection/WitheringFury.json": "collection",
 		"collection/IntotheChasm.json": "collection",
-		"collection/RagingFlames.json": "collection"
+		"collection/RagingFlames.json": "collection",
+		"collection/WilbunsWordsOfWeirdness.json": "collection"
 	},
 	"optionalfeature": {
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
 	},
 	"spell": {
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
-		"collection/WitheringFury.json": "collection"
+		"collection/WitheringFury.json": "collection",
+		"collection/WilbunsWordsOfWeirdness.json": "collection"
 	},
 	"subclass": {
-		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/WilbunsWordsOfWeirdness.json": "collection"
 	},
 	"subclassFeature": {
-		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/WilbunsWordsOfWeirdness.json": "collection"
 	},
 	"variant": {
 		"collection/SwordofChaos.json": "collection"

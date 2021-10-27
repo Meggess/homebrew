@@ -112,7 +112,7 @@
             ],
             "ac": [
                 {
-                    "ac": 21,
+                    "ac": 20,
                     "from": [
                         "natural armor"
                     ]
@@ -128,8 +128,8 @@
             "str": 24,
             "dex": 19,
             "con": 27,
-            "int": 22,
-            "wis": 26,
+            "int": 19,
+            "wis": 14,
             "cha": 24,
             "save": {
                 "str": "+15",
@@ -137,15 +137,14 @@
                 "con": "+16"
             },
             "skill": {
-                "arcana": "+14",
-                "perception": "+24"
+                "arcana": "+12",
+                "perception": "+18"
             },
             "senses": [
                 "truesight 60 ft.",
-                "blindsight 120 ft.",
-                "darkvision 300 ft."
+                "darkvision 120 ft."
             ],
-            "passive": 34,
+            "passive": 28,
             "resist": [
                 "acid",
                 "cold",
@@ -155,6 +154,7 @@
             ],
             "immune": [
                 "necrotic",
+                "poison",
                 {
                     "immune": [
                         "bludgeoning",
@@ -190,16 +190,16 @@
                         "{@spell major image}"
                     ],
                     "daily": {
+                        "1e": [
+                            "{@spell blade of disaster|TCE}",
+                            "{@spell plane shift}",
+                            "{@spell power word kill}"
+                        ],
                         "2e": [
                             "{@spell disintegrate}",
                             "{@spell finger of death}",
                             "{@spell hold monster}",
                             "{@spell maddening darkness|XGE}"
-                        ],
-                        "1e": [
-                            "{@spell blade of disaster|TCE}",
-                            "{@spell plane shift}",
-                            "{@spell power word kill}"
                         ],
                         "3e": [
                             "{@spell dispel magic}",
@@ -273,7 +273,7 @@
                 {
                     "name": "Chaos Spray (Slaad Form Only) {@recharge 5}",
                     "entries": [
-                        "The slaad exhales mucus in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 24} Dexterity saving throw, taking 67 ({@damage 15d8}) necrotic damage on a failed save, or half as much damage on a successful one."
+                        "The slaad exhales mucus in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 24} Dexterity saving throw, taking 49 ({@damage 15d8}) necrotic damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
@@ -342,7 +342,6 @@
             ],
             "senseTags": [
                 "U",
-                "B",
                 "SD"
             ],
             "actionTags": [
@@ -413,8 +412,8 @@
             "str": 20,
             "dex": 19,
             "con": 24,
-            "int": 19,
-            "wis": 25,
+            "int": 17,
+            "wis": 14,
             "cha": 22,
             "save": {
                 "str": "+12",
@@ -422,14 +421,14 @@
                 "con": "+14"
             },
             "skill": {
-                "arcana": "+11",
-                "perception": "+21"
+                "arcana": "+10",
+                "perception": "+16"
             },
             "senses": [
                 "blindsight 60 ft.",
                 "darkvision 120 ft."
             ],
-            "passive": 31,
+            "passive": 26,
             "resist": [
                 "acid",
                 "cold",
