@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "RagingFlames",
-				"abbreviation": "RG",
+				"abbreviation": "RF",
 				"full": "Raging Flames",
 				"url": "",
 				"authors": [
@@ -118,7 +118,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you are attuned to the tiara, you can't be {@condition restrained} or {@condition grappled}. In addition you can enter a hostile creature's space and move through a space as narrow as 1 inch wide without squeezing."
+				"While you are attuned to the tiara, you can't be restrained or grappled. In addition you can enter a hostile creature's space and move through a space as narrow as 1 inch wide without squeezing. When you are hit by a nonmagical attack that deals bludgeoning, piercing or slashing damage, you can use your reaction to give yourself resistance against those damage types until the start of your next turn."
 			]
 		},
 		{
@@ -194,10 +194,10 @@
 						{
 						    "type": "list",
 						    "items": [
-		        				" You have immunity to fire damage",
-		        				" Your {@sense darkvision} can see through magical darkness",
-		        				" The scar you got from attuning to the axe turns into a tribal tattoo, giving you advantage on Charisma ({@skill Persuasion}) checks you make against dwarves",
-		        				" The bonus fire and radiant damage the axe deals increases to {@dice 2d6} each."
+		        				"When you are hit with an attack that deals fire damage, you can give yourself immunity to fire damage until the start of your next turn. After you use this feature, roll {@dice 1d6}, on a roll of 1-4 you can't use this feature again until the next dawn.",
+		        				"Your {@sense darkvision} can see through magical darkness",
+		        				"The scar you got from attuning to the axe turns into a tribal tattoo, giving you advantage on Charisma ({@skill Persuasion}) checks you make against dwarves",
+		        				"The bonus fire and radiant damage the axe deals increases to {@dice 1d10} each."
 		        			]
 						}
 					]
@@ -220,7 +220,7 @@
 					"type": "entries",
 					"name": "Destroying the Axe",
 					"entries": [
-						"The only way to destroy the axe is to melt it down in the fiery depths below Abriymoch the central city of the fourth layer of the nine hells phlegethos. It must remain there for fifty years in order to break down completly."
+						"The only way to destroy the axe is to melt it down in the fiery depths below Abriymoch the central city of the fourth layer of the nine hells, Phlegethos. It must remain there for fifty years in order to break down completly."
 					]
 				}
 			],
@@ -278,7 +278,7 @@
 					"type": "entries",
 					"name": "Magic Item",
 					"entries": [
-						"The heart can be used as a spellcasting focus and grants a +3 to spell attacks. It also functions as a {@item pearl of power}"
+						"The heart can be used as an arcane focus and grants a +3 to spell attacks and a +1 to spell save DCs. It also functions as a {@item pearl of power}"
 					]
 				},
 				{
@@ -304,7 +304,6 @@
 							"type": "list",
 							"items": [
 								"Any good aligned celestials recognizes you as a hostile creature.",
-								"All holy water within 10 feet of you is instantly destroyed.",
 								"There is a 10% chance, that an avatar of {@deity Tyr} will come after you."
 							]
 						}
@@ -314,14 +313,14 @@
 					"type": "entries",
 					"name": "Abyssal Fire",
 					"entries": [
-						"While attuned to the heart, you ignore resistance to fire damage whenever you cast a spell and use the heart as a spellcasting focus."
+						"When you cast a spell using the heart as a spellcasting focus, you can use your reaction to ignore resistance to fire damage on one target of the spell."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Ars Ignis",
 					"entries": [
-						"While attuned to the heart, the minimal fire damage you can deal with spells is equal to the average damage dealt by the spell."
+						"When you cast a spell that deals fire damage using the heart as a spellcasting focus, one target of the spell catches fire; until someone takes an action to douse the fire with holy water, the creature takes {@damage 1d10} fire damage at the start of each of its turns for the next {@dice 1d6} rounds."
 					]
 				},
 				{
@@ -1752,6 +1751,12 @@
 					"entries": [
 						"When Maleeka casts a spell that deals fire damage, she can add her Charisma modifier to one damage roll of that spell."
 					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Maleeka carries an {@item iron flask} containing {@creature Maegera the Dawn Titan|SKT}."
+					]
 				}
 			],
 			"bonus": [
@@ -1781,7 +1786,12 @@
 				"I",
 				"CS"
 			],
-			"isNpc": true
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"The fire genasi Maleeka al-Javid has draconic blood running through her veins granting her sorcerous powers. This powers manifest in the form of scales on her hands and arms and draconic looking eyes. She lived most of her live on the elemental plane of fire as a member of sultan Zaros division of the House of Golden Bones. Maleeka only recently came to Toril to help the fire giant Zelsius capture Maegera the Dawn Titan down in Gauntlgrym."
+				]
+			}
 		},
 		{
 			"name": "Murder of Dire Corbys",
@@ -1917,6 +1927,584 @@
 			"environment": [
 				"underdark"
 			]
+		},
+		{
+			"name": "Olthor",
+			"source": "RagingFlames",
+			"size": "H",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"stone"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d12 + 55",
+				"average": 126
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 15,
+			"con": 20,
+			"int": 10,
+			"wis": 15,
+			"cha": 9,
+			"skill": {
+				"medicine": "+5",
+				"nature": "+3",
+				"perception": "+5",
+				"athletics": "+12"
+			},
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Druidic",
+				"Giant"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Olthor is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell produce flame}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell entangle}",
+								"{@spell longstrider}",
+								"{@spell speak with animals}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell barkskin}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"GI"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://megges.eu/img/MM/Stone Giant.png",
+			"save": {
+				"dex": "+5",
+				"con": "+8",
+				"wis": "+5"
+			},
+			"trait": [
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"The giant has advantage on Dexterity ({@skill Stealth}) checks made to hide in rocky terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"reaction": [
+				{
+					"name": "Rock Catching",
+					"entries": [
+						"If a rock or similar object is hurled at the giant, the giant can, with a successful {@dc 10} Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+					]
+				}
+			],
+			"isNamedCreature": true,
+			"environment": [
+				"underdark"
+			],
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"Olthor is a stone giant druid and member of the circle of swords. He rarely visits the circle, however, spending most of his time in the underdark below the north sword coast. He can act as a guide through the underdark for any friend of the circle."
+				]
+			}
+		},
+		{
+			"name": "Reihrehk",
+			"source": "RagingFlames",
+			"size": "M",
+			"type": {
+				"type": "celestial",
+				"tags": [
+					"aasimon"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 90,
+				"canHover": false
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 18,
+			"int": 17,
+			"wis": 20,
+			"cha": 20,
+			"save": {
+				"int": "+7",
+				"wis": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"medicine": "+9",
+				"nature": "+7",
+				"perception": "+9",
+				"insight": "+9"
+			},
+			"passive": 19,
+			"languages": [
+				"all",
+				"telepathy 120ft."
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Reihrehk is an 20th-level spellcaster. Their spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). They have the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell mending}",
+								"{@spell poison spray}",
+								"{@spell produce flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell faerie fire}",
+								"{@spell speak with animals}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell beast sense}",
+								"{@spell hold person}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell conjure animals}",
+								"{@spell meld into stone}",
+								"{@spell water breathing}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dominate beast}",
+								"{@spell locate creature}",
+								"{@spell stoneskin}",
+								"{@spell wall of fire}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell mass cure wounds}",
+								"{@spell tree stride}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}",
+								"{@spell heroes' feast}",
+								"{@spell sunbeam}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell animal shapes}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell foresight}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Reihrehk magically polymorphs into a humanoid, beast or elemental that has a challenge rating equal to or less than their own, or back into their true form. They revert to their true form if they die. Any equipment they are wearing or carrying is absorbed or borne by the new form (Reihrehk's choice).",
+						"In a new form, Reihrehk retains their game statistics and ability to speak, but their AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and they gain any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that they lack."
+					]
+				},
+				{
+					"name": "Healing Touch (3/Day)",
+					"entries": [
+						"Reihrehk touches another creature. The target magically regains 20 ({@dice 4d8 + 2}) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+					]
+				},
+				{
+					"name": "Quaterstaff",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage, or 8 ({@damage 1d8 + 4}) bludgeoning damage if used with both hands, plus 18 ({@damage 4d8}) radiant damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Shapechanger"
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"paralyzed",
+				"prone",
+				"restrained"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://i.imgur.com/m3aV37J.png",
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Reihrehk has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Angelic Weapons",
+					"entries": [
+						"Reihrehk's weapon attacks are magical. When Reihrehk hits with any weapon, the weapon deals an extra {@damage 4d8} radiant damage (included in the attack)."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"Reihrehk is the acting archdruid of the circle of swords and a deva of Silvanus. However, only Rheidot knows about this. A thousand years ago they were tasked with protecting the Neverwinter Woods. Because of this task Reihrehk founded the circle of swords. In human form, they look like a short old man with long white hair and a full beard. They always lean on a staff made of willow. In deva form, they sprout angelic wings from their back and stand upright without the support of their staff. Due to their angelic nature, Reihrehk hates fiend of any kind and can barely tolerate anyone connected to one. When talking to strangers, They usually asume the role of a senile old fool and when in thoughts, they seem to randomly dose of. They communicate with silvanus in this way."
+				]
+			}
+		},
+		{
+			"name": "Rheidot",
+			"source": "RagingFlames",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 104,
+				"formula": "19d8 + 19"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 12,
+			"wis": 20,
+			"cha": 11,
+			"save": {
+				"int": "+4",
+				"wis": "+8"
+			},
+			"skill": {
+				"medicine": "+8",
+				"nature": "+4",
+				"perception": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"Celestial",
+				"Common",
+				"Druidic",
+				"Primordial"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Rheidot is a 15th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 10} to hit with spell attacks). He has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell mending}",
+								"{@spell poison spray}",
+								"{@spell produce flame}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell faerie fire}",
+								"{@spell speak with animals}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell beast sense}",
+								"{@spell hold person}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell conjure animals}",
+								"{@spell meld into stone}",
+								"{@spell water breathing}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dominate beast}",
+								"{@spell locate creature}",
+								"{@spell stoneskin}",
+								"{@spell wall of fire}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell mass cure wounds}",
+								"{@spell tree stride}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}",
+								"{@spell heroes' feast}",
+								"{@spell sunbeam}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell animal shapes}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Change Shape (2/Day)",
+					"entries": [
+						"Rheidot magically polymorphs into a beast or elemental with a challenge rating of 5 or less, and can remain in this form for up to 7 hours. Rheidot can choose whether his equipment falls to the ground, melds with his new form, or is worn by the new form. Rheidot reverts to his true form if he dies or falls {@condition unconscious}. Rheidot can revert to his true form using a bonus action on his turn.",
+						"While in a new form, Rheidot retains his game statistics and ability to speak, but his AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and he gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that he lacks. He can cast his spells with verbal or somatic components in his new form.",
+						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+					]
+				},
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if used with both hands."
+					]
+				}
+			],
+			"actionTags": [
+				"Shapechanger"
+			],
+			"languageTags": [
+				"CE",
+				"C",
+				"DU",
+				"P"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"paralyzed",
+				"prone",
+				"restrained"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://i.imgur.com/m3aV37J.png",
+			"fluff": {
+				"entries": [
+					"Eheidot is a druid and high ranking member of the circle of swords. Rheidot has a white beard, is lean and hagrad and wields a {@item staff of the woodlands}. Due to his old age he is exceptionally wise and insightful. Rheidot is almost always chewing on sage leaves. He is known to be kind and friendly in conversations but his friendliness quickly fades when offended. Because the druid lived in the Neverwinter Woods for over 800 years he knows the forest like the back of his hand. Rheidot believes that every living being should be treated with respect and he is always ready to make a sacrifice in order to serve a greater good. Over 800 years ago he was part of an adventuring party to stop the evil archlich Mhecmunas and sacrificed most of his druidic powers to achieve that goal. The lich survived, however, and recently tried to possess Rheidots body to complete his resurrection but his plans where foiled by a party of adventurers. Over the last five years most of his druidic powers returned to him."
+				]
+			},
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Rheidot is carrying a {@item staff of the woodlands}."
+					]
+				}
+			],
+			"isNpc": true
 		},
 		{
 			"name": "Rufus Gaens",
