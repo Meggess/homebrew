@@ -9,7 +9,8 @@
 				"authors": [
 					"Megges"
 				],
-				"convertedBy": []
+				"convertedBy": [],
+				"color": "ff3c00"
 			}
 		],
 		"dateAdded": 0,
@@ -2023,7 +2024,7 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"tokenUrl": "https://megges.eu/img/MM/Stone Giant.png",
+			"tokenUrl": "https://megges.eu/5eTools/img/MM/Stone Giant.png",
 			"save": {
 				"dex": "+5",
 				"con": "+8",

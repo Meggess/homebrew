@@ -1,0 +1,2779 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "MaR",
+				"abbreviation": "MaR",
+				"full": "The Martial Ranger",
+				"url": "https://www.gmbinder.com/share/-MTSf1NxHva3nZH6U45C",
+				"authors": [
+					"AgenderArcee"
+				],
+				"convertedBy": [
+                    "Megges"
+                ],
+                "color": "109e38"
+			}
+		],
+		"optionalFeatureTypes": {
+			"BS:T": "Basic Snare; Trapper",
+			"AS:T": "Advanced Snare; Trapper",
+            "MT:R": "Martial Talent; Ranger"
+		},
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "class": [
+        {
+            "name": "Martial Ranger",
+            "source": "MaR",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "{@item shield|phb|shields}"
+                ],
+                "weapon": [
+                    "simple",
+                    "martial"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "animal handling",
+                                "athletics",
+                                "insight",
+                                "investigation",
+                                "medicine",
+                                "nature",
+                                "perception",
+                                "stealth",
+                                "survival"
+                            ],
+                            "count": 3
+                        }
+                    }
+                ]
+            },     
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
+					"(a) two {@item shortsword|phb|shortswords} or (b) two {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+                    "A {@item longbow|phb} and a {@item quiver|phb} of {@item arrows (20)|phb|20 arrows}",
+                    "An {@item herbalism kit|phb} (if not provided by your background)"
+                ],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"scale mail|phb"
+						],
+						"b": [
+							"leather armor|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "shortsword|phb",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimpleMelee",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"longbow|phb",
+							"arrows (20)|phb",
+                            "herbalism kit|phb"
+						]
+					}
+				]
+            },
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"{@item shield|phb|shields}"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"animal handling",
+									"athletics",
+									"insight",
+									"investigation",
+									"nature",
+									"perception",
+									"stealth",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					],
+					"weapons": [
+						"simple",
+						"martial"
+					]
+				}
+			},
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Hunter's Prey Uses",
+                        "Hunter's Prey Damage",
+                        "Natural Healer"
+                    ],
+                    "rows": [
+                        [
+                            2,
+                            "{@dice 1d6}",
+                            "-"
+                        ],
+                        [
+                            2,
+                            "{@dice 1d6}",
+                            "{@dice 1d6}"
+                        ],
+                        [
+                            3,
+                            "{@dice 1d6}",
+                            "{@dice 1d6}"
+                        ],
+                        [
+                            3,
+                            "{@dice 1d6}",
+                            "{@dice 2d6}"
+                        ],
+                        [
+                            4,
+                            "{@dice 1d6}",
+                            "{@dice 2d6}"
+                        ],
+                        [
+                            4,
+                            "{@dice 1d6}",
+                            "{@dice 3d6}"
+                        ],
+                        [
+                            5,
+                            "{@dice 1d8}",
+                            "{@dice 3d6}"
+                        ],
+                        [
+                            5,
+                            "{@dice 1d8}",
+                            "{@dice 4d6}"
+                        ],
+                        [
+                            6,
+                            "{@dice 1d8}",
+                            "{@dice 4d6}"
+                        ],
+                        [
+                            6,
+                            "{@dice 1d8}",
+                            "{@dice 5d6}"
+                        ],
+                        [
+                            7,
+                            "{@dice 1d8}",
+                            "{@dice 5d6}"
+                        ],
+                        [
+                            7,
+                            "{@dice 1d8}",
+                            "{@dice 6d6}"
+                        ],
+                        [
+                            8,
+                            "{@dice 1d10}",
+                            "{@dice 6d6}"
+                        ],
+                        [
+                            8,
+                            "{@dice 1d10}",
+                            "{@dice 7d6}"
+                        ],
+                        [
+                            9,
+                            "{@dice 1d10}",
+                            "{@dice 7d6}"
+                        ],
+                        [
+                            9,
+                            "{@dice 1d10}",
+                            "{@dice 8d6}"
+                        ],
+                        [
+                            10,
+                            "{@dice 1d10}",
+                            "{@dice 8d6}"
+                        ],
+                        [
+                            10,
+                            "{@dice 1d10}",
+                            "{@dice 9d6}"
+                        ],
+                        [
+                            11,
+                            "{@dice 1d12}",
+                            "{@dice 9d6}"
+                        ],
+                        [
+                            "Unlimited",
+                            "{@dice 1d12}",
+                            "{@dice 10d6}"
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+				"Hunter's Prey|Martial Ranger|MaR|1|MaR",
+				"Wilderness Expertise|Martial Ranger|MaR|1|MaR",
+				"Favored Terrain|Martial Ranger|MaR|1|MaR",
+				"Fighting Style|Martial Ranger|MaR|2|MaR",
+				"Natural Healer|Martial Ranger|MaR|2|MaR",
+				{
+                    "classFeature": "Ranger Archetype|Martial Ranger|MaR|3|MaR",
+                    "gainSubclassFeature": true
+                },
+				"Favored Enemy|Martial Ranger|MaR|3|MaR",
+				"Ability Score Improvement|Martial Ranger|MaR|4|MaR",
+				"Martial Versatility|Ranger||4|TCE",
+				"Extra Attack|Martial Ranger|MaR|5|MaR",
+                "Martial Talent|Martial Ranger|MaR|5|MaR",
+                "Roving|Martial Ranger|MaR|6|MaR",
+                "Favored Enemy improvement|Martial Ranger|MaR|6|MaR",
+                {
+                    "classFeature": "Ranger Archetype Feature|Ranger||7|PHB",
+                    "gainSubclassFeature": true
+                },
+                "Hunter's Instinct|Martial Ranger|MaR|7|MaR",
+                "Wild Stride|Martial Ranger|MaR|8|MaR",
+                "Ability Score Improvement|Ranger||8|",
+                "Favored Terrain Master|Martial Ranger|MaR|9|MaR",
+                "Nature's Veil|Martial Ranger|MaR|10|MaR",
+                "Favored Terrain improvement|Martial Ranger|MaR|10|MaR",
+                {
+                    "classFeature": "Ranger Archetype Feature|Ranger||11|PHB",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Ranger||12",
+                "Tireless Endurance|Martial Ranger|MaR|13|MaR",
+                "Ability Score Improvement|Fighter||14|PHB",
+                "Favored Enemy improvement|Martial Ranger|MaR|14|MaR",
+                {
+                    "classFeature":"Ranger Archetype Feature|Ranger||15|PHB",
+                    "gainSubclassFeature":true
+                },
+                "Ability Score Improvement|Ranger||16",
+                "Split Focus|Martial Ranger|MaR|17|MaR",
+                "Favored Terrain improvement|Martial Ranger|MaR|17|MaR",
+                "Killer Instinct|Martial Ranger|MaR|18|MaR",
+                "Ability Score Improvement|Ranger||19",
+                "Apex Predator|Martial Ranger|MaR|20|MaR"
+			],
+            "subclassTitle": "Ranger Archetype"
+
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Hunter's Prey",
+            "source": "MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you may use your bonus action to mark a single creature as your prey. You must be able to see or hear this creature, or succeed on a Wisdom (Survival) check to track it, the difficulty of which is determined by the Dungeon Master based on your access to tracks or other clues. You can also mark prey when you roll initiative, without expending a bonus action.",
+                "You have advantage on Wisdom (Survival) or Intelligence (Investigation) checks to track your prey, as well as Wisdom (Perception) checks to find them. In addition, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack. This damage increases to 1d8 at 7th level, 1d10 at 13th level, and 1d12 at 19th level.",
+                "You can have only one creature marked as your prey at a time. This designation lasts until your next long rest, or until you mark a new creature as your prey. You may mark prey the number of times shown for your ranger level in the Martial Ranger class table, and you regain all expended uses when you complete a short or long rest."
+            ]
+        },
+        {
+            "name": "Wilderness Expertise",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 1,
+            "entries": [
+                "At 1st level, you gain proficiency in Nature and Survival. If you were already proficient in either of these skills, your proficiency bonus is doubled for any ability check you make with that skill."
+            ]
+        },
+        {
+            "name": "Favored Terrain",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 1,
+            "entries": [
+                	"You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. At 1st level, choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark.",
+                    "When you make an Intelligence or Wisdom check related to your favored terrain or the creatures that dwell there, you have advantage on the check if you are using a skill that you’re proficient in. When in that terrain, you can ignore the effects of non-magical difficult terrain, and all enemies that attempt to track you by non-magical means have disadvantage. You can also move stealthily at a normal pace.",
+                    "At 10th level, you can add a second type of favored terrain, as long as you have spent at least a week traveling in it. You can add additional favored terrain types at level-up, but they must replace one of your current two; you cannot have more than two at a time, unless stated otherwise. At 17th level, you can add a third terrain type, increasing your maximum to three"
+            ]
+        },
+        {
+            "name": "Favored Terrain improvement",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 10,
+            "entries": [
+                    "At 10th level, you can add a second type of favored terrain, as long as you have spent at least a week traveling in it. You can add additional favored terrain types at level-up, but they must replace one of your current two; you cannot have more than two at a time, unless stated otherwise."
+            ]
+        },
+        {
+            "name": "Favored Terrain improvement",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 17,
+            "entries": [
+                	"At 17th level, you can add a third terrain type, increasing your maximum to three"
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Archery"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blind Fighting|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Defense"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Dueling"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Great Weapon Fighting"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Superior Technique|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Thrown Weapon Fighting|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Two-Weapon Fighting"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Natural Healer",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 2,
+            "entries": [
+                "Your experience surviving in the harsh wilderness has taught you how to identify and make use of medicinal plants. Starting at 2nd level, you may spend 1 hour a day searching a natural area for helpful herbs and fungi; this can count as part of a short or long rest. Roll a Wisdom (Survival) check against the DC corresponding to your environment. You have advantage on this check in your favored terrain.",
+                {
+                    "type": "entries",
+                    "name": "Natural Healer DC",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Enviroment",
+                                "DC"
+                            ],
+                            "colStyles": [
+                                "col-6",
+                                "col-6 text-center"
+                            ],
+                            "rows": [
+                                [
+                                    "Forest, Grassland, Swamp",
+                                    10
+                                ],
+                                [
+                                    "Mountain, Coast",
+                                    15
+                                ],
+                                [
+                                    "Arctic, Desert, Underdark",
+                                    20
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "On a success, you find enough herbs to produce a number of healing poultices equal to your Wisdom modifier. You must have an herbalism kit to produce these items, which must be done at the end of your search time as part of the same hour. On a failure, you can only produce a number equal to half your Wisdom modifier (rounded down).",
+                "Healing poultices are non-magical items which can be applied by any creature with Survival or Medicine proficiency to itself or an adjacent creature, using an action on their turn. The target creature regains hit points equal to 1d6 for every two levels you have in this class (rounded down, as shown in the Martial Ranger table) and loses the poisoned condition. The healing poultice is consumed by this use. Healing poultices lose their potency 24 hours after being produced."
+            ]
+        },
+        {
+            "name": "Ranger Archetype",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you choose to emulate the ideals and training of a ranger archetype. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+            ]
+        },
+        {
+            "name": "Favored Enemy",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 3,
+            "entries": [
+                "By 3rd level, you have studied a specific type of enemy creature and can hunt it more easily. Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select a race of humanoid, such as gnolls or elves. You may also choose a particular faction, such as the Zhentarim in the Forgotten Realms or a Dragonmarked House in Eberron.",
+                "You have advantage on Wisdom (Survival) checks to track these creatures, and Intelligence checks to recall or discover information about them, such as Nature or Investigation checks. You also have advantage on saving throws against your favored enemy's characteristic innate abilities, such as a dragon's Frightful Presence or Breath Weapon, but not against spells they cast.",
+                "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+                "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures. You can change one of your favored enemy choices when you gain a level in this class."
+            ]
+        },
+        {
+            "name": "Favored Enemy improvement",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 6,
+            "entries": [
+                "At 6th, You choose one additional favored enemy, as well as an associated language."
+            ]
+        },
+        {
+            "name": "Favored Enemy improvement",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 14,
+            "entries": [
+                "At 14th, You choose one additional favored enemy, as well as an associated language."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, and again at 8th,  12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. "
+            ]
+        },
+        {
+            "name": "Martial Talent",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 5,
+            "entries": [
+                "At 5th level, you become further specialized in a form of combat characteristic of rangers. Choose one of the following options:",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Far Shot|MaR"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Mighty Strike|MaR"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Twin Takedown|MaR"
+                        }
+                    ]
+                },
+                "You can replace your Martial Talent with another option whenever you reach a level in this class that grants the Ability Score Improvement feature."
+            ]
+        },
+        {
+            "name": "Roving",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 6,
+            "entries": [
+                "At 6th level, your walking speed increases by 5 feet, and you gain a climbing speed and swimming speed equal to your walking speed. Your speeds increase by an additional 5 feet while in your favored terrain."
+            ]
+        },
+        {
+            "name": "Hunter's Instinct",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, your sharply honed instincts allow you to act quickly in the face of danger. You add a bonus to your initiative rolls equal to your Wisdom modifier."
+            ]
+        },
+        {
+            "name": "Wild Stride",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 8,
+            "entries": [
+                "Beginning at 8th level, your movement is unaffected by all difficult terrain, including magical difficult terrain."
+            ]
+        },
+        {
+            "name": "Favored Terrain Master",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 9,
+            "entries": [
+                "At 9th level, your mastery of your favored terrain grants you benefits even outside of it. You gain a benefit based on your favored terrain type. If you have multiple favored terrains, you gain the benefit associated with each type.",
+                {
+                    "type": "entries",
+                    "name": "Arctic",
+                    "entries": [
+                        "You gain resistance to cold damage, and you don’t suffer the effects of extreme cold."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Coast",
+                    "entries": [
+                        "Your swimming speed increases by 10 feet and you can hold your breath for up to 15 minutes."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Forest",
+                    "entries": [
+                        "You gain resistance to fire damage, and you don’t suffer the effects of extreme heat."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Grassland",
+                    "entries": [
+                        "Your walking speed increases by 10 feet; this does not affect your climbing or swimming speeds."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mountain",
+                    "entries": [
+                        "Your climbing speed increases by 10 feet and you have resistance to damage from falling."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Swamp",
+                    "entries": [
+                        "You gain resistance to poison damage and advantage on saving throws against poison."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Underdark",
+                    "entries": [
+                        "You gain darkvision out to a range of 60 feet. If you already have darkvision, increase its range by 30 feet."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nature's Veil",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 10,
+            "entries": [
+                "At 10th level, you can add your proficiency bonus to Stealth checks made in natural terrain, or double your proficiency bonus instead if you were already proficient in Stealth, and you have advantage on Stealth checks made in your favored terrain. You can also Hide as a bonus action in any terrain. You cannot be tracked by non-magical means in any terrain, unless you wish to leave a trail."
+            ]
+        },
+        {
+            "name": "Tireless Endurance",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 13,
+            "entries": [
+                "At 13th level, you persist through pain, exhaustion, and even near-death. As an action, you can give yourself a number of temporary hit points equal to 2d6 + your Constitution modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+                "Whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.",
+                "In addition, you have advantage on death saving throws."
+            ]
+        },
+        {
+            "name": "Split Focus",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 17,
+            "entries": [
+                "Starting at 17 level, you can focus on two foes at once, hunting both of them down. When you mark prey with Hunter's Prey,  you can pick up to two creatures as your prey at the cost of one use, and you can have two active prey simultaneously."
+            ]
+        },
+        {
+            "name": "Killer Instinct",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 18,
+            "entries": [
+                "Beginning at 18th level, you can strike the most evasive of enemies, even those hiding behind obscured visibility or magical protection. Your attack rolls against creatures marked as your prey ignore disadvantage. You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't both blinded and deafened."
+            ]
+        },
+        {
+            "name": "Apex Predator",
+            "source":"MaR",
+            "className":"Martial Ranger",
+            "classSource":"MaR",
+            "level": 20,
+            "entries": [
+                "At 20th level, you become an unparalleled hunter of your enemies. Add a bonus equal to your Wisdom modifier to all attack and damage rolls made against creatures marked as your prey."
+            ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "Herbalist Initiate",
+            "source": "MaR",
+            "page": 0,
+            "prerequisite": [
+                {
+                    "proficiency": [
+                        {
+                            "skill": "Survival"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You gain proficiency with herbalism kits, and learn how to use them to produce healing poultices.",
+                "You may spend 1 hour a day searching a natural area for helpful herbs and fungi; this can count as part of a short or long rest. Roll a Wisdom ({@skill Survival}) check against the DC corresponding to your environment.",
+                {
+                    "type": "entries",
+                    "name": "Natural Healer DC",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Enviroment",
+                                "DC"
+                            ],
+                            "colStyles": [
+                                "col-6",
+                                "col-6 text-center"
+                            ],
+                            "rows": [
+                                [
+                                    "Forest, Grassland, Swamp",
+                                    10
+                                ],
+                                [
+                                    "Mountain, Coast",
+                                    15
+                                ],
+                                [
+                                    "Arctic, Desert, Underdark",
+                                    20
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "On a success, you find enough herbs to produce a number of *healing poultices* equal to half your Wisdom modifier (rounded up). You must have an herbalism kit to produce these items, which must be done at the end of your search time as part of the same hour. On a failure, you produce no healing poultices, and cannot attempt to produce more until you complete a long rest.",
+                "If you have the Natural Healer feature from the martial ranger class, you instead can produce one additional healing poultice when you use that feature.",
+                "Healing poultices are non-magical items which can be applied to an adjacent creature by any creature with {@skill Survival} or {@skill Medicine} proficiency, using an action on their turn. The target creature regains {@dice 2d4} hit points and loses the {@condition poisoned} condition. The healing poultice* is consumed by this use. Healing poultices lose their potency 24 hours after being produced. If you are a ranger, your additional healing poultice healing scales with your ranger level as normal."
+            ]
+        },
+        {
+            "name": "Snarecrafting Adept",
+            "source": "MaR",
+            "page": 0,
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "wis",
+                            "int"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You are skilled in devising simple traps. You gain proficiency with tinker's tools, and you learn to craft two snares of your choice from the Basic Snares list (see the Trapper archetype from the ranger class). If you have the Snarecrafter feature, you learn two additional Basic Snares; if you have the Advanced Snarecrafter feature, you can learn one Advanced Snare instead."
+                    ]
+                },
+                "A snare is built within a single 5-foot square. Once constructed, it can't be moved without destroying or triggering the snare.",
+                "Crafting a snare takes one minute and requires you to be holding tinker's tools in both hands. You can have a number of snares crafted equal to half your proficiency bonus, rounded up.",
+                "Your snare DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat. All saving throws and checks triggered by snares use your snare DC.",
+                "You can choose whether the snare is visible or hidden; if you choose hidden, a creature must succeed on a {@skill Perception} or {@skill Investigation} check against your snare DC to find it."
+            ]
+        },
+        {
+            "name": "Survivalist",
+            "source": "MaR",
+            "page": 0,
+            "ability": [
+                {
+                    "wis": 1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in the {@skill Survival} skill, and you gain the benefits of the Favored Terrain feature from the ranger class for one terrain type, choosing from arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark."
+                    ]
+                },
+                "If you already have one or more favored terrains, you add an additional terrain type, but you cannot gain the Favored Terrain Master benefit from the favored terrain granted by this feat, if you have that feature."
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Collar of Primal Might +1",
+            "source": "MaR",
+            "page": 0,
+            "rarity": "uncommon",
+            "wondrous": true,
+            "bonusWeapon": "+1",
+            "entries": [
+                "A collar woven with druidic spells to empower loyal beasts. While a beast wears this collar, its natural weapons are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and gain a +1 bonus to attack and damage rolls."
+            ]
+        },
+        {
+            "name": "Collar of Primal Might +2",
+            "source": "MaR",
+            "page": 0,
+            "rarity": "rare",
+            "wondrous": true,
+            "bonusWeapon": "+2",
+            "entries": [
+                "A collar woven with druidic spells to empower loyal beasts. While a beast wears this collar, its natural weapons are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and gain a +2 bonus to attack and damage rolls."
+            ]
+        },
+        {
+            "name": "Collar of Primal Might +3",
+            "source": "MaR",
+            "page": 0,
+            "rarity": "very rare",
+            "wondrous": true,
+            "bonusWeapon": "+3",
+            "entries": [
+                "A collar woven with druidic spells to empower loyal beasts. While a beast wears this collar, its natural weapons are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and gain a +3 bonus to attack and damage rolls."
+            ]
+        },
+        {
+            "name": "Harness of Flight",
+            "source": "MaR",
+            "page": 0,
+            "rarity": "very rare",
+            "reqAttune": "by a beast",
+            "reqAttuneTags": [
+                {
+                    "creatureType": "beast"
+                }
+            ],
+            "wondrous": true,
+            "entries": [
+                "A harness of leather straps which, when worn by a beast, grants the wearer a flying speed equal to its walking speed."
+            ]
+        },
+        {
+            "name": "Whistle of Calling",
+            "source": "MaR",
+            "page": 0,
+            "rarity": "uncommon",
+            "reqAttune": "by a beast and its master",
+            "reqAttuneTags": [
+                {
+                    "creatureType": "beast"
+                }
+            ],
+            "wondrous": true,
+            "entries": [
+                "This whistle emits a loud, shrill note. When the user blows this whistle, their beast companion is instantly teleported to a safe space of the user's choice within 30 feet of them. The creature must be within 1 mile, and any effect that bars or hampers teleportation also impedes this effect. The whistle is useless unless attuned to a specific beast; attuning the whistle is a special ritual that takes 10 minutes. The whistle can be attuned to a new beast at will."
+            ]
+        }        
+    ],
+    "monster": [
+        {
+            "name": "Drake Hatchling Companion",
+            "source": "MaR",
+            "summonedByClass": "Martial Ranger|MaR",
+            "size": "S",
+            "type": "dragon",
+            "alignment": null,
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "special": "4 + five times your ranger level (the drake has a number of Hit Dice [d6s] equal to your martial ranger level)"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 30,
+                "canHover": false
+            },
+            "str": 15,
+            "dex": 12,
+            "con": 13,
+            "int": 10,
+            "wis": 11,
+            "cha": 13,
+            "senses": [
+                "darkvision 40 ft."
+            ],
+            "passive": "10+PB",
+            "pbNote": "equals your bonus",
+            "senseTags": [
+                "D"
+            ],
+            "damageTags": [
+                "P",
+                "F"
+            ],
+            "shortName": "drake",
+            "resist": [
+                {
+                    "special": "Determined by Draconic Essence type."
+                }
+            ],
+            "languages": [
+                "Draconic"
+            ],
+            "languageTags": [
+                "DR"
+            ],
+            "save": {
+                "cha": "+1+PB",
+                "dex": "+1+PB"
+            },
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit PB+2} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit PB+2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hatchling Breath Weapon {@recharge 6}",
+                    "entries": [
+                        "{@atk rw} {@hit PB+1} to hit, range 30 ft., one target. {@h}8 ({@damage 2d6}) damage determined by Draconic Essence type."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "actionTags": [
+                "Breath Weapon"
+            ],
+            "group": "Drake"
+        },
+        {
+            "name": "Drake Wyrmling Companion",
+            "source": "MaR",
+            "summonedByClass": "Martial Ranger|MaR",
+            "size": "M",
+            "type": "dragon",
+            "alignment": null,
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "special": "5 + five times your martial ranger level (the drake has a number of Hit Dice [d8s] equal to your martial ranger level)"
+            },
+            "speed": {
+                "walk": 35,
+                "fly": 40,
+                "special": "additional speed based on Distinctive Movement choice",
+                "canHover": false
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 15,
+            "int": 11,
+            "wis": 13,
+            "cha": 15,
+            "senses": [
+                "darkvision 40 ft."
+            ],
+            "passive": "11+PB",
+            "pbNote": "equals your bonus",
+            "senseTags": [
+                "D"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "shortName": "drake",
+            "languages": [
+                "Draconic"
+            ],
+            "languageTags": [
+                "DR"
+            ],
+            "save": {
+                "cha": "+1 plus PB",
+                "dex": "+1 plus PB",
+                "con": "+2 plus PB"
+            },
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit PB+3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit PB+3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Wyrmling Breath Weapon {@recharge 6}",
+                    "entries": [
+                        "The wyrmling exhales a blast of energy. All creatures in a certain area must succeed at a saving throw, taking 10 ({@damage 3d6}) damage on a failed save or half as much on a successful save. The damage type, area, and type of saving throw are determined by your drake's Draconic Essence."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "actionTags": [
+                "Breath Weapon"
+            ],
+            "group": "Drake",
+            "skill": {
+                "perception": "+1 plus PB",
+                "stealth": "+2 plus PB"
+            },
+            "immune": [
+                {
+                    "special": "Determined by Draconic Essence type."
+                }
+            ]
+        }
+    ],
+    "optionalfeature": [
+		{
+			"name": "Far Shot",
+			"source": "MaR",
+			"featureType": [
+				"MT:R"
+			],
+			"entries": [
+				"Double your ranged or thrown weapons’ short and long ranges. (Attacking at long range still imposes disadvantage)."
+			]
+		},
+		{
+			"name": "Mighty Strike",
+			"source": "MaR",
+			"featureType": [
+				"MT:R"
+			],
+			"entries": [
+				"If you are wielding only one melee weapon and use it to hit your prey, you can choose to reroll your Hunter's Prey damage. You must take the new result."
+			]
+		},
+		{
+			"name": "Twin Takedown",
+			"source": "MaR",
+			"featureType": [
+				"MT:R"
+			],
+			"entries": [
+				"When you engage in two-weapon fighting, you can make your offhand attack as part of the Attack action, instead of using your bonus action."
+			]
+		},
+		{
+			"name": "Alarm Snare",
+			"source": "MaR",
+			"featureType": [
+				"BS:T"
+			],
+			"entries": [
+				"You create an alarm snare by rigging one or more noisy objects to a trip wire or pressure plate. When a Small or larger creature enters the square, the snare makes a noise loud enough that it can be heard by all creatures within 200 feet."
+			]
+		},
+		{
+			"name": "Hampering Snare",
+			"source": "MaR",
+			"featureType": [
+				"BS:T"
+			],
+			"entries": [
+				"You arrange brambles, wires, sticky goo, or other materials to interfere with a creature’s movement. A five-foot radius circle of difficult terrain forms when this snare is triggered. A creature can use its action to clear the difficult terrain from one five-foot square they are standing on or adjacent to."
+			]
+		},
+		{
+			"name": "Hobbling Snare",
+			"source": "MaR",
+			"featureType": [
+				"BS:T"
+			],
+			"entries": [
+				"You rig vines, ropes, or wires to cinch tight around a creature that triggers this snare. It must succeed on a Dexterity saving throw or have its speed halved for 1 minute, or until it uses an action to untangle itself."
+			]
+		},
+		{
+			"name": "Marking Snare",
+			"source": "MaR",
+			"featureType": [
+				"BS:T"
+			],
+			"entries": [
+				"A snare used to track or identify. On a failed Dexterity saving throw it marks the triggering creature with a sticky dye or scent marker, ranging from a small mark to a bucket of paint. The creature is marked for 24 hours or until it washes itself for ten minutes."
+			]
+		},
+		{
+			"name": "Signaling Snare",
+			"source": "MaR",
+			"featureType": [
+				"BS:T"
+			],
+			"entries": [
+				"A subtle snare that does not reveal itself when triggered or affect the triggering creature, but instead causes a small disruption to the terrain that can be used for tracking."
+			]
+		},
+		{
+			"name": "Spike Snare",
+			"source": "MaR",
+			"featureType": [
+				"BS:T"
+			],
+			"entries": [
+				"This basic snare consists of hidden spikes that rely on a creature’s momentum to lacerate or potentially impale it when it triggers the snare. The creature must attempt a Dexterity saving throw or take 2d8 piercing damage, or half that much on a successful save. The snare counts as difficult terrain."
+			]
+		},
+		{
+			"name": "Trip Snare",
+			"source": "MaR",
+			"featureType": [
+				"BS:T"
+			],
+			"entries": [
+				"You set a cunning wire to trip a creature. A creature that triggers the snare must make a Dexterity saving throw or fall prone until its next turn. The snare counts as difficult terrain, even on a success."
+			]
+		},
+		{
+			"name": "Biting Snare",
+			"source": "MaR",
+			"featureType": [
+				"AS:T"
+			],
+			"entries": [
+				"A snare whose jaws shut tight on the leg of a creature that steps on it. The creature must succeed on a Dexterity saving throw or take 6d6 piercing damage, or half as much on a successful save, and have its speed halved until it succeeds at an Athletics check to remove the snare."
+			]
+		},
+		{
+			"name": "Bomb Snare",
+			"source": "MaR",
+			"featureType": [
+				"AS:T"
+			],
+			"entries": [
+				" An alchemical incendiary readied to blow. Upon this snare being triggered, every creature within a 10-foot radius must succeed on a Dexterity saving throw or take 6d6 fire damage, or half as much on a success."
+			]
+		},
+		{
+			"name": "Poison Dart Snare",
+			"source": "MaR",
+			"featureType": [
+				"AS:T"
+			],
+			"entries": [
+				"A pressure plate or tripwire triggers a volley of poison-tipped darts. Each creature within a 10-foot radius of the snare must succeed on a Dexterity saving throw or take 1d4 piercing damage and 2d8 poison damage, and succeed on a Constitution saving throw or gain the poisoned condition.  It can repeat the save at the end of each of its turns, and is no longer poisoned on a success. A creature that succeeds is immune to this effect for 24 hours."
+			]
+		},
+		{
+			"name": "Stunning Snare",
+			"source": "MaR",
+			"featureType": [
+				"AS:T"
+			],
+			"entries": [
+				"A weight swings down to bash the triggering creature senseless. It must succeed on a Dexterity saving throw or take 6d6 bludgeoning damage and be stunned until the end of its next turn"
+			]
+		}
+    ],
+    "subclass": [
+        {
+            "name": "Hunter",
+            "shortName": "Hunter",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Hunter|Martial Ranger|MaR|Hunter|MaR|3|MaR",
+                "Defensive Tactics|Martial Ranger|MaR|Hunter|MaR|7|MaR",
+                "Multiattack|Martial Ranger|MaR|Hunter|MaR|11|MaR",
+                "Superior Hunter's Defense|Martial Ranger|MaR|Hunter|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Beast Master",
+            "shortName": "Beast Master",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Beast Master|Martial Ranger|MaR|Beast Master|MaR|3|MaR",
+                "Exceptional Training|Martial Ranger|MaR|Beast Master|MaR|7|MaR",
+                "Bestial Fury|Martial Ranger|MaR|Beast Master|MaR|11|MaR",
+                "Share Prey|Martial Ranger|MaR|Beast Master|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Gloom Stalker",
+            "shortName": "Gloom Stalker",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Gloom Stalker|Martial Ranger|MaR|Gloom Stalker|MaR|3|MaR",
+                "Shadow Sense|Martial Ranger|MaR|Gloom Stalker|MaR|7|MaR",
+                "Stalker's Flurry|Martial Ranger|MaR|Gloom Stalker|MaR|11|MaR",
+                "Shadowy Dodge|Martial Ranger|MaR|Gloom Stalker|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Monster Slayer",
+            "shortName": "Monster Slayer",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Monster Slayer|Martial Ranger|MaR|Monster Slayer|MaR|3|MaR",
+                "Iron Mind|Martial Ranger|MaR|Monster Slayer|MaR|7|MaR",
+                "Magic-User's Nemesis|Martial Ranger|MaR|Monster Slayer|MaR|11|MaR",
+                "Slayer's Counter|Martial Ranger|MaR|Monster Slayer|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Herbalist",
+            "shortName": "Herbalist",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Herbalist|Martial Ranger|MaR|Herbalist|MaR|3|MaR",
+                "Resilient Constitution|Martial Ranger|MaR|Herbalist|MaR|7|MaR",
+                "Poisoner|Martial Ranger|MaR|Herbalist|MaR|7|MaR",
+                "Combat Healer|Martial Ranger|MaR|Herbalist|MaR|11|MaR",
+                "Herbal Master|Martial Ranger|MaR|Herbalist|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Outrider",
+            "shortName": "Outrider",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Outrider|Martial Ranger|MaR|Outrider|MaR|3|MaR",
+                "Ranger's Charge|Martial Ranger|MaR|Outrider|MaR|7|MaR",
+                "Trampling Charge|Martial Ranger|MaR|Outrider|MaR|11|MaR",
+                "Legendary Bond|Martial Ranger|MaR|Outrider|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Trapper",
+            "shortName": "Trapper",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Trapper|Martial Ranger|MaR|Trapper|MaR|3|MaR",
+                "Quick Snares|Martial Ranger|MaR|Trapper|MaR|7|MaR",
+                "Ensnaring Weapons|Martial Ranger|MaR|Trapper|MaR|7|MaR",
+                "Advanced Snarecrafter|Martial Ranger|MaR|Trapper|MaR|11|MaR",
+                "Snare Master|Martial Ranger|MaR|Trapper|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Warden",
+            "shortName": "Warden",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "spellcastingAbility": "wis",
+            "casterProgression": "1/3",
+            "cantripProgression": [
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+            ],
+            "spellsKnownProgression": [
+                0,
+                0,
+                3,
+                4,
+                4,
+                4,
+                5,
+                6,
+                6,
+                7,
+                8,
+                8,
+                9,
+                10,
+                10,
+                11,
+                11,
+                11,
+                12,
+                13
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "shillelagh"
+                        ],
+                        "7": [
+                            "speak with animals",
+                            "beast sense"
+                        ],
+                        "15": [
+                            "speak with plants",
+                            "locate creature",
+                            "commune with nature"
+                        ]
+                    }
+                }
+            ],
+            "subclassTableGroups": [
+                {
+                    "subclasses": [
+                        {
+                            "name": "Warden",
+                            "source": "MaR"
+                        }
+                    ],
+                    "colLabels": [
+                        "{@filter Cantrips Known|spells|level=0|subclass=Martial Ranger: Warden}",
+                        "{@filter Spells Known|spells|subclass=Martial Ranger. Warden}"
+                    ],
+                    "rows": [
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            3
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            5
+                        ],
+                        [
+                            3,
+                            6
+                        ],
+                        [
+                            3,
+                            6
+                        ],
+                        [
+                            4,
+                            7
+                        ],
+                        [
+                            4,
+                            8
+                        ],
+                        [
+                            4,
+                            8
+                        ],
+                        [
+                            4,
+                            9
+                        ],
+                        [
+                            4,
+                            10
+                        ],
+                        [
+                            4,
+                            10
+                        ],
+                        [
+                            4,
+                            11
+                        ],
+                        [
+                            4,
+                            11
+                        ],
+                        [
+                            4,
+                            11
+                        ],
+                        [
+                            4,
+                            12
+                        ],
+                        [
+                            4,
+                            13
+                        ]
+                    ]
+                },
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "subclasses": [
+                        {
+                            "name": "Warden",
+                            "source": "MaR"
+                        }
+                    ],
+                    "colLabels": [
+                        "{@filter 1st|spells|level=1|subclass=Martial Ranger: Warden}",
+                        "{@filter 2nd|spells|level=2|subclass=Martial Ranger: Warden}",
+                        "{@filter 3rd|spells|level=3|subclass=Martial Ranger: Warden}",
+                        "{@filter 4th|spells|level=4|subclass=Martial Ranger: Warden}"
+                    ],
+                    "rows": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "subclassFeatures": [
+                "Warden|Martial Ranger|MaR|Warden|MaR|3|MaR",
+                "Primeval Awareness|Martial Ranger|MaR|Warden|MaR|7|MaR",
+                "Vanish|Martial Ranger|MaR|Warden|MaR|11|MaR",
+                "Primal Communion|Martial Ranger|MaR|Warden|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Bounty Hunter",
+            "shortName": "Bounty Hunter",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Bounty Hunter|Martial Ranger|MaR|Bounty Hunter|MaR|3|MaR",
+                "Paranoid Vigilance|Martial Ranger|MaR|Bounty Hunter|MaR|7|MaR",
+                "Sneak Attacker|Martial Ranger|MaR|Bounty Hunter|MaR|11|MaR",
+                "Eye for an Eye|Martial Ranger|MaR|Bounty Hunter|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Horizon Walker",
+            "shortName": "Horizon Walker",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Horizon Walker|Martial Ranger|MaR|Horizon Walker|MaR|3|MaR",
+                "Planar Wanderer|Martial Ranger|MaR|Horizon Walker|MaR|7|MaR",
+                "Planar Step|Martial Ranger|MaR|Horizon Walker|MaR|7|MaR",
+                "Slayer|Martial Ranger|MaR|Horizon Walker|MaR|11|MaR",
+                "Key to the Cosmos|Martial Ranger|MaR|Horizon Walker|MaR|15|MaR"
+            ]
+        },
+        {
+            "name": "Drakewarden",
+            "shortName": "Drakewarden",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassFeatures": [
+                "Drakewarden|Martial Ranger|MaR|Drakewarden|MaR|3|MaR",
+                "Bond of Fang and Scale|Martial Ranger|MaR|Drakewarden|MaR|7|MaR",
+                "Draconic Evolution|Martial Ranger|MaR|Drakewarden|MaR|11|MaR",
+                "Perfected Bond|Martial Ranger|MaR|Drakewarden|MaR|15|MaR"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+			"name": "Hunter",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Hunter",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"The hunter is the most classic of ranger archetypes. Whether you stand as a self-sufficient outlander or as the bulwark between civilization and the terrors of the wild, you excel in specialized techniques for taking down your prey.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Eye|Martial Ranger|MaR|Hunter|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Quarry|Martial Ranger|MaR|Hunter|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Beast Master",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"The Beast Master archetype embodies friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ranger's Companion|Martial Ranger|MaR|Beast Master|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Animal Whisperer|Martial Ranger|MaR|Beast Master|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Gloom Stalker",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Gloom stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a gloom stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dread Ambusher|Martial Ranger|MaR|Gloom Stalker|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Umbral Sight|Martial Ranger|MaR|Gloom Stalker|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Monster Slayer",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A monster slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained to resist such monsters' supernatural powers, slayers are experts at unearthing and defeating mighty, mystical foes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Monster Expert|Martial Ranger|MaR|Monster Slayer|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Slayer's Insight|Martial Ranger|MaR|Monster Slayer|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Herbalist",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Herbalists are masters of foraging, able to quickly spot and identify useful plants and craft potent medicines from them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Forager|Martial Ranger|MaR|Herbalist|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Herbal Adept|Martial Ranger|MaR|Herbalist|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Outrider",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Outrider",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Many rangers disdain the idea of riding an animal companion, but for some this is the ultimate expression of the bond between ranger and beast. Whether charging over a hillside or riding wild and free across the plains, outriders and their mounts fight and live as one",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonded Mount|Martial Ranger|MaR|Outrider|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Born to Ride|Martial Ranger|MaR|Outrider|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Trapper",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Trapper",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Some rangers prefer to let their quarry come to them, setting cunning traps for unsuspecting prey. Trappers use snares not only to catch prey, but also to track them, and to alert themselves to approaching danger. Skilled trappers can even rig together a half-readied snare in combat, turning a simple melee into a minefield.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Snarecrafter|Martial Ranger|MaR|Trapper|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Trap Finder|Martial Ranger|MaR|Trapper|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Warden",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Warden",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"All rangers have a deep connection to the wilderness, but wardens delve even further, into the realm of primal mysticism. Wardens are often trained by a druidic circle, in order to serve as the first line of defense between the civilized world and the mysteries of the wild.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellcasting|Martial Ranger|MaR|Warden|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Druidic Warrior|Martial Ranger|MaR|Warden|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Bounty Hunter",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"While you are as at home in the wilds as any ranger, your hunt has brought you into jungles of brick and mortar, where you stalk the most dangerous game: people. You have learned how to navigate cities and towns which have set themselves apart from the natural world; learned to blend in among its citizens and ferret out their secrets. You understand that civilization, after all, is simply another form of nature to master.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Urban Ranger|Martial Ranger|MaR|Bounty Hunter|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gumshoe|Martial Ranger|MaR|Bounty Hunter|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Horizon Walker",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"You are first and foremost an explorer, never satisfied staying long in the same place, always seeking new experiences and challenges - even those beyond your world.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Adaptive Adventurer|Martial Ranger|MaR|Horizon Walker|MaR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Exploit Weakness|Martial Ranger|MaR|Horizon Walker|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Drakewarden",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Very rarely, an intrepid ranger might acquire a lost dragon egg. The bond that results when it hatches can last a lifetime.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hatchling Companion|Martial Ranger|MaR|Drakewarden|MaR|3"
+				}
+			]
+		},
+        {
+			"name": "Hunter's Eye",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Hunter",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+                "At 3rd level, you gain proficiency in the Perception skill. If you were already proficient in Perception, double your proficiency bonus for any ability checks made using this skill."
+			]
+		},
+        {
+			"name": "Hunter's Quarry",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Hunter",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain one of the following features of your choice.",
+                {
+                    "type": "entries",
+                    "name": "Colossus Slayer",
+                    "entries": [
+                        "Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hit point maximum. You can deal this extra damage only once per turn."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Giant Killer",
+                    "entries": [
+                        "When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Horde Breaker",
+                    "entries": [
+                        "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+                    ]
+
+                }
+			]
+		},
+        {
+			"name": "Defensive Tactics",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Hunter",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain one of the following features of your choice.",
+                {
+                    "type": "entries",
+                    "name": "Escape the Horde",
+                    "entries": [
+                        "Opportunity attacks against you are made with disadvantage."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Multiattack Defense",
+                    "entries": [
+                        "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Steel Will",
+                    "entries": [
+                        "You have advantage on saving throws against being frightened."
+                    ]
+
+                }
+			]
+		},
+        {
+			"name": "Multiattack",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Hunter",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain one of the following features of your choice.",
+                {
+                    "type": "entries",
+                    "name": "Focused Barrage",
+                    "entries": [
+                        "When you only attack one creature on your turn, you can make one additional weapon attack as a bonus action."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Hunter's Volley.",
+                    "entries": [
+                        "Once per turn, when you make a ranged weapon attack, you can make one additional ranged weapon attack against a creature within 10 feet of your target. Additionally, you can apply your Hunter's Prey damage when you hit any creature within 10 feet of your prey with a ranged weapon attack, as long as you also attack your prey on that turn."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Whirlwind Strike",
+                    "entries": [
+                        "Once per turn, when you make a melee weapon attack, you can use your momentum to sweep through multiple creatures. Make one additional melee weapon attack against every creature within 5 feet, aside from your original target."
+                    ]
+
+                }
+			]
+		},
+        {
+			"name": "Superior Hunter's Defense",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Hunter",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain one of the following features of your choice.",
+                {
+                    "type": "entries",
+                    "name": "Evasion",
+                    "entries": [
+                        "When you are subjected to an effect, such as a red dragon’s fiery breath or a *lightning bolt* spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Stand Against the Tide",
+                    "entries": [
+                        "When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+                    ]
+
+                },
+                {
+                    "type": "entries",
+                    "name": "Uncanny Dodge",
+                    "entries": [
+                        "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you."
+                    ]
+
+                }
+			]
+		},
+        {
+			"name": "Ranger's Companion",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. It is able to understand simple speech and commands. The beast grows along with you, using your proficiency bonus (PB) as its own. The beast can be created using the steps in Appendix A: Companion Creation. Choose traits that fit the type of creature you wish to bond with, or use one of the example stat blocks.",
+                "In combat, the beast acts during your turn and moves at your command. It can use its reaction and bonus action (if applicable) on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can instead sacrifice one of your attacks when you take the Attack action to command the beast to use an Attack, Dash, Disengage or Help action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.",
+                "Like a player character, the beast becomes unconscious at 0 hit points and makes death saving throws. If the beast has died within the last hour, you can spend 10 minutes using a *healing poultice* to revive it with half the hit points normally provided by the *healing poultice*. You cannot revive the beast again in this way until you and your companion have completed a long rest.",
+                "The beast also follows all resting rules that apply to player characters, including the ability to roll Hit Dice to regain hit points on a short rest."
+			]
+		},
+        {
+			"name": "Animal Whisperer",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain proficiency in Animal Handling. If you were already proficient in Animal Handling, double your proficiency bonus for any ability checks made using this skill."
+			]
+		},
+        {
+			"name": "Exceptional Training",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, your beast companion can use the Help action instead of the Dodge action on any turn in which you did not give it a command."
+			]
+		},
+        {
+			"name": "Bestial Fury",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"Starting at 11th level, when you command your beast companion to take the Attack action, the beast can make two attacks."
+			]
+		},
+        {
+			"name": "Share Prey",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"Beginning at 15th level, your beast companion shares the benefits of Hunter's Prey when attacking or tracking any creature you have marked as your prey."
+			]
+		},
+        {
+			"name": "Dread Ambusher",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you master the art of the ambush. At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 damage of the weapon's damage type."
+            ]
+		},
+        {
+			"name": "Umbral Sight",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your eyes have become accustomed to heavy darkness. You gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.",
+                "You are also adept at evading creatures that rely on darkvision. While in dim light or darkness, you have advantage on Stealth checks to hide from any creature that relies on darkvision to see you."
+            ]
+		},
+        {
+			"name": "Shadow Sense",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Your senses are finely attuned to detect nearby foes even when blinded or in magical darkness. At 7th level, you gain blindsight with a range of 10 feet, or an additional 10 feet if you already have blindsight.",
+                "In addition, you can stand still, focus, and extend your senses further, picking up on the subtlest vibrations, even through walls. As an action, you can grant yourself tremorsense within a 30 foot radius. Moving or taking damage causes you to lose this sense. You can use this feature a number of times equal to your proficiency bonus, and regain all uses upon completing a long rest."
+			]
+		},
+        {
+			"name": "Stalker's Flurry",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action."
+			]
+		},
+        {
+			"name": "Shadowy Dodge",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Gloom Stalker",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, you can dodge in unforeseen ways, making expert use of the shadows around you. Whenever a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll."
+			]
+		},
+        {
+			"name": "Monster Expert",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"You have an encyclopedic knowledge of all things strange and supernatural. At 3rd level, you gain proficiency in the Arcana and Religion skills, and your proficiency bonus is doubled for one of these skills (your choice)."
+			]
+		},
+        {
+			"name": "Slayer's Insight",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your eye is keenly trained on how best to hurt even the most exotic of creatures. When you use Hunter's Prey to mark a creature you can see within 60 feet of you, you can make an Intelligence skill check: Nature, Arcana, etc. depending on the creature type (DC equals 10 + half the target's CR). If you succeed, you immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are, as well as condition immunities. You also deal an additional 1d8 damage on your first weapon attack to hit that creature, and others with the same name, each turn until your next long rest"
+			]
+		},
+        {
+			"name": "Iron Mind",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"By 7th level, you have honed your ability to resist the mind-altering powers of your quarry. You gain  proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+			]
+		},
+        {
+			"name": "Magic-User's Nemesis",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain the ability to thwart someone else's magic. When you see a creature casting a spell or teleporting within range of a weapon you are holding, you can use your reaction to make an attack against that creature with that weapon. If this attack is a critical hit, the spell or teleport fails and is wasted."
+			]
+		},
+        {
+			"name": "Slayer's Counter",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Monster Slayer",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If your prey forces you to make a saving throw, you can use your reaction to make one weapon attack against them, provided they are within range of a weapon you are holding. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects."
+			]
+		},
+        {
+			"name": "Forager",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you halve the time needed to find herbs using Natural Healer to thirty minutes per day, and the Natural Healer DC of all terrain types is decreased for you by 5. The number of *healing poultices* you can produce per day increases to 2 + your Wisdom modifier, or half that number on a failed Survival check (rounded down)."
+			]
+		},
+        {
+			"name": "Herbal Adept",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, add your Wisdom modifier to the healing provided by healing poultices you produce. Your proficiency bonus is doubled for any skill check you make with an herbalist's kit, and you have proficiency in the Medicine skill if you did not already. If you were already proficient, double your proficiency bonus when you make a Medicine check."
+			]
+		},
+        {
+			"name": "Resilient Constitution",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"At 7th level, your experience surviving on wild forage in the wilderness has made you hardy. You gain proficiency in Constitution saving throws, and have advantage on saving throws against being poisoned."
+			]
+		},
+        {
+			"name": "Poisoner",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you can use your herbalism kit to craft poisons, as though it were a poisoner's kit."
+			]
+		},
+        {
+			"name": "Combat Healer",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"You can heal and fight almost simultaneously. Starting at 11th level, when you use your action to apply a healing poultice, you can make one weapon attack as part of the same action."
+			]
+		},
+        {
+			"name": "Herbal Master",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"Your medicines have become more advanced and versatile, even soothing the mind as well as the body. Starting at 15th level, if your healing poultices are applied to a creature that is poisoned, paralyzed, blinded, deafened, frightened or charmed, any and all of those conditions immediately end on that creature."
+			]
+		},
+        {
+			"name": "Bonded Mount",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Outrider",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a Medium or Large beast companion, typically but not exclusively a horse (see Appendix A for options to create a different companion; it cannot use the Light array or Flyer speed). Your companion is trained to understand and obey your commands and uses your proficiency bonus (PB).",
+                "Your companion acts on your turn and moves at your command. It can use its reaction and bonus action (if applicable) on its own, but the only action it takes is the Dodge action, unless you use a bonus action on your turn to command it to take the Attack, Dash, Disengage or Help action; you must be mounted to command it in this way. If you are incapacitated, the beast can take any action of its choice, not just Dodge.",
+                "Like a player character, the beast becomes unconscious at 0 hit points and makes death saving throws. If the beast has died within the last hour, you can spend 10 minutes using a *healing poultice* to revive it with half the hit points normally provided by the *healing poultice.* You cannot revive the beast again in this way until you and your companion have completed a long rest.",
+                "The beast also follows all resting rules that apply to player characters, including the ability to roll Hit Dice to regain hit points on a short rest."
+			]
+		},
+        {
+			"name": "Born to Ride",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Outrider",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, your mastery as a rider becomes apparent. You gain proficiency with the Animal Handling skill, and you can double your proficiency bonus for this skill if you were already proficient. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you’re not incapacitated.",
+                "Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
+			]
+		},
+        {
+			"name": "Ranger's Charge",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Outrider",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you use your mount's momentum to deadly effect. If your mount moves at least 20 feet uninterrupted while you are riding it and you take the Attack action, the first of your attacks to hit that turn deals an additional 1d8 damage."
+			]
+		},
+        {
+			"name": "Trampling Charge",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Outrider",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"Starting at 11th level, you can spur your mount to plow through whole groups of enemies. Use your action to command your mount to move in a straight line up to its speed. It can move through occupied spaces, which count as difficult terrain. All creatures in its path must succeed on a Dexterity saving throw (DC = 8 + its Strength modifier + your proficiency bonus) or take 6d6 bludgeoning damage, or half as much on a successful save. A Huge or larger enemy blocks the path of the charge but still takes damage. This movement does not trigger attacks of opportunity.",
+                "You can use this feature a number of times equal to your proficiency bonus, and regain all uses after you and your mount complete a long rest."
+			]
+		},
+        {
+			"name": "Legendary Bond",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Outrider",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"At 15th level, the bond between you and your mount has grown so strong that you instinctively understand each other. Once per turn, you can command your mount to Attack, Dash, Disengage or Help as part of your action, instead of using your bonus action."
+			]
+		},
+        {
+			"name": "Snarecrafter",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Trapper",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain proficiency with tinker's tools, and you learn to craft two snares of your choice from the {@filter Basic Snares|optionalfeatures|feature type=BS:T} list. You learn two more Basic Snares at 7th level.",
+                "A snare is built within a single 5-foot square. Once constructed, it can’t be moved without destroying or triggering the snare.",
+                "Crafting a snare takes one minute and requires you to be holding tinker's tools in both hands. You can have a number of snares crafted at one time equal to your proficiency bonus.",
+                "Your snare DC equals 8 + your proficiency bonus + your Wisdom modifier. All saving throws and checks triggered by snares use your snare DC. You can choose whether the snare is visible or hidden; if you choose hidden, a creature must succeed on a Perception or Investigation check against your snare DC to find it."
+			]
+		},
+        {
+            "name": "Trap Finder",
+            "source": "MaR",
+            "className": "Martial Ranger",
+            "classSource": "MaR",
+            "subclassShortName": "Trapper",
+            "subclassSource": "MaR",
+            "level": 3,
+            "entries": [
+                "Your expertise in making traps makes them easy to spot for you. Starting at 3rd level, you have advantage on Perception or Investigation checks to find hidden traps."
+            ]
+        },
+        {
+			"name": "Quick Snares",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Trapper",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you can rig a snare in only moments. You can craft snares that normally take 1 minute using one action. The snare is visible unless you use a bonus action to hide it, which requires a successful Stealth check against nearby enemies' passive Perception."
+			]
+		},
+        {
+			"name": "Ensnaring Weapons",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Trapper",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you can make an attack with a net as a bonus action. You also gain proficiency with the bolas, a ranged martial weapon (range 20/60) that deals 1d4 damage on a hit and costs 5 gp. A creature hit by a bolas must succeed on a Dexterity saving throw or be restrained and knocked prone. Escape follows the same rules as for a net. The escape DC for both weapons becomes your snare DC."
+			]
+		},
+        {
+			"name": "Advanced Snarecrafter",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Trapper",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"At 11th level, you begin to experiment with more powerful and dangerous snares. You learn how to craft two snares from the {@filter Advanced Snares|optionalfeatures|feature type=AS:T} list. You cannot use Quick Snares with Advanced Snares."
+			]
+		},
+        {
+			"name": "Snare Master",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Trapper",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"At 15th level, double the number of snares you can have crafted at a single time. Once per turn, when you use the Attack action, you can craft a Basic Snare in place of one of your attacks, rather than using a full action."
+			]
+		},
+        {
+			"name": "Spellcasting",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+            "subclassShortName": "Warden",
+            "subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"When you reach 3rd level, you augment your martial prowess with the ability to cast spells.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You learn three cantrips: *shillelagh* and two other cantrips of your choice from the druid spell list. You learn another druid cantrip of your choice at 10th level. These cantrips become warden spells for you."
+					]
+				},
+                {
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Warden Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell *ensnaring strike* and have a 1st-level and a 2nd-level spell slot available, you can cast *ensnaring strike* using either slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st Level and Higher",
+					"entries": [
+						"You know three 1st-level spells of your choice from the druid or ranger spell list, two of which must be from the transmutation or conjuration schools. These spells become warden spells for you.",
+						"The Spells Known column of the Warden Spellcasting table shows when you learn more druid or ranger spells of 1st level or higher. Each of these spells must be a transmutation or conjuration spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+						"The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
+                        "Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the druid or ranger spell list. The new spell must be of a level for which you have spell slots, and it must be a transmutation or conjuration spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your spellcasting ability for your warden spells, since they are derived from your instinctive connection to primal magic. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warden spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				},
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You can use a druidic focus as a spellcasting focus for your warden spells."
+                    ]
+                }
+			]
+		},
+        {
+			"name": "Druidic Warrior",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Warden",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, when you cast *shillelagh,* you can target up to two quarterstaves or clubs that you are holding. The duration of the spell increases to 1 hour. If you are holding a quarterstaff affected by *shillelagh* in two hands, the damage die increases to a d12.",
+                "In addition, when you hit your marked prey with a spell attack roll from a warden spell, add your Hunter's Prey damage as you would with a weapon attack."
+            ]
+		},
+        {
+			"name": "Primeval Awareness",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Warden",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, you can use your action to focus your awareness on the region around you. For 1 minute, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, undead, and your favored enemy if it's not already on the list; how many there are; and roughly how close they are, though not their exact location.",
+                "In addition, you learn *speak with animals* and *beast sense,* and can cast either without expending a spell slot. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
+			]
+		},
+        {
+			"name": "Vanish",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Warden",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"Starting at 11th level, you can draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, for 1 minute in non-natural terrain, 10 minutes in natural terrain, or one hour in your favored terrain. The effect ends if you take damage or make an attack.",
+                "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+        {
+			"name": "Primal Communion",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Warden",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"Beginning at 15th level, you learn *speak with plants,* *locate creature* and *commune with nature,* and you can cast each one once without expending a spell slot. Once you cast one of these spells with this feature, you can't cast that spell with it again until you finish a long rest."
+			]
+		},
+        {
+			"name": "Urban Ranger",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a unique type of favored terrain: urban, characterized by artificial buildings and streets. This does not count against your maximum favored terrains.",
+                "Because of the dearth of native plant life, you cannot gather herbs for Natural Healer in this terrain; however, you can always find a local herbalist or apothecary who can sell you the necessary herbs to produce your healing poultices; once per day, you can produce up to your Wisdom modifier as part of a short rest, at the cost of 1 gp per healing poultice (the combined cost of the requisite herbs).",
+                "In addition, you gain the City Secrets feature from the urchin background in the Player's Handbook.",
+                "At 9th level, you gain the following Favored Terrain Master benefit, as you can disappear into a crowd or alleyway as easily as you do into a forest or cavern:",
+                "<b>Urban.</b> You can hide while only lightly obscured, such as by fog or shadows, and urban environments are considered natural terrain for you"
+            ]
+		},
+        {
+			"name": "Gumshoe",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain proficiency in the Investigation skill. If you were already proficient, your proficiency bonus is doubled for ability checks made with this skill. You also have proficiency with thieves' tools and disguise kits."
+			]
+		},
+        {
+			"name": "Paranoid Vigilance",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"Surrounded by potential threats in close quarters, you are constantly on alert and ready to fight. Starting at 7th level, you have advantage on initiative rolls, and you are never surprised in combat. You also have advantage on attack rolls against creatures that are surprised."
+			]
+		},
+        {
+			"name": "Sneak Attacker",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"You strike without warning, dispatching your quarry before they can even see your face. Starting at 11th level, once per turn, you can deal an additional 2d6 damage to a creature with a weapon attack if you have advantage on the attack roll, or if a conscious ally is adjacent to your target and you do not have disadvantage."
+			]
+		},
+        {
+			"name": "Eye for an Eye",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Bounty Hunter",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"At 15th level, experienced in street violence, you respond to injury in kind. If you are hit with a weapon attack by a creature you can see, you can use your reaction to make one weapon attack against that creature if it is within range of a weapon you are holding."
+			]
+		},
+        {
+			"name": "Adaptive Adventurer",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you are able to adapt to new environments incredibly quickly. As a bonus action, you can change your favored terrain to any terrain type you have spent at least one day in, replacing an existing favored terrain.",
+                "You can also use your bonus action to change your favored enemy to any type of creature you have fought and marked as your prey with the Hunter's Prey feature within the last day, replacing an existing favored enemy.",
+                "You regain use of each feature after completing a long rest."
+			]
+		},
+        {
+			"name": "Exploit Weakness",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"You quickly become familiar with certain enemies' weak spots. At 3rd level, once per turn, you deal an additional 1d8 damage when you hit a favored enemy."
+			]
+		},
+        {
+			"name": "Planar Wanderer",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"At 7th level, you can even adapt to otherworldly environments. You gain an additional favored terrain, which does not count against your maximum, and access to planar terrain types: Upper Planes, Lower Planes, Feywild, Shadowfell, Mechanus, Limbo and the Elemental Chaos. As usual, you must have spent at least one day in one of these terrain types before designating it as your favored terrain.",
+                "The Natural Healer DC for all planar terrains is 25.",
+                "When you gain the Favored Terrain Master feature at 9th level, add the following to the list of potential benefits:",
+                "<b>Elemental Chaos.</b> You gain resistance to one of the following damage types of your choice: fire, cold, lightning or non-magical bludgeoning.",
+                "<b>Feywild.</b> You have advantage on saving throws against being charmed.",
+                "<b>Limbo.</b> You gain resistance to psychic damage",
+                "<b>Lower Planes.</b> You have advantage on saving throws against being frightened.",
+                "<b>Mechanus.</b> You gain proficiency with tinker's tools and thieves' tools, and have advantage on ability checks made with these tool kits",
+                "<b>Shadowfell.</b> You gain resistance to necrotic damage.",
+                "<b>Upper Planes.</b> You gain resistance to radiant damage."
+			]
+		},
+        {
+			"name": "Planar Step",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"You learn to briefly shift through interplanar space. Starting at 7th level, you can cast the *misty step* spell once, and regain use of this feature when you finish a short or long rest."
+			]
+		},
+        {
+			"name": "Slayer",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"At 11th level, you may make an additional weapon attack when you take the Attack action against a favored enemy."
+			]
+		},
+        {
+			"name": "Key to the Cosmos",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Horizon Walker",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"At 15th level, your planar travels have caused your soul to become attuned to the weave between worlds. You can cast *misty step* twice per short rest instead of once; additionally, you can cast *dimension door* once per long rest, and either *teleport* or *plane shift* once every seven long rests. You still need to provide all necessary spell components."
+			]
+		},
+        {
+			"name": "Hatchling Companion",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "MaR",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a drake hatchling companion. This creature has imprinted on you from birth and will follow your commands. The drake grows along with you, using your proficiency bonus (PB) as its own. You choose the drake's color, which determines its Draconic Essence damage type and later Breath Weapon type, as shown in the Draconic Essence table.",
+                {
+                    "type": "entries",
+                    "name": "Draconic Essence",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Drake Color",
+                                "Damage Type",
+                                "Wyrmling Breath Weapon"
+                            ],
+                            "rows": [
+                                [
+                                    "Gold, red",
+                                    "Fire",
+                                    "15' cone (Dex save)"
+                                ],
+                                [
+                                    "Brass",
+                                    "Fire",
+                                    "5' by 30' line (Dex save)"
+                                ],
+                                [
+                                    "Silver, white",
+                                    "Cold",
+                                    "15' cone (Con save)"
+                                ],
+                                [
+                                    "Bronze, blue",
+                                    "Lightning",
+                                    "5' by 30' line (Dex save)"
+                                ],
+                                [
+                                    "Copper, black",
+                                    "Acid",
+                                    "5' by 30' line (Dex save)"
+                                ],
+                                [
+                                    "Green",
+                                    "Poison",
+                                    "15' cone (Con save)"
+                                ],
+                                [
+                                    "Amethyst",
+                                    "Force",
+                                    "15' cone (Str save)"
+                                ],
+                                [
+                                    "Crystal",
+                                    "Radiant",
+                                    "15' cone (Con save)"
+                                ],
+                                [
+                                    "Emerald",
+                                    "Psychic",
+                                    "15' cone (Int save)"
+                                ],
+                                [
+                                    "Sapphire",
+                                    "Thunder",
+                                    "15' cone (Con save)"
+                                ],
+                                [
+                                    "Topaz",
+                                    "Necrotic",
+                                    "15' cone (Con save)"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "In combat, the drake acts during your turn and moves at your command. It can use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can instead sacrifice one of your attacks when you take the Attack action to command the drake to use an Attack, Dash, Disengage or Help action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.",
+                "Like a player character, the drake becomes unconscious at 0 hit points and makes death saving throws. If the drake has died within the last hour, you can spend 10 minutes using a *healing poultice* to revive it with half the hit points normally provided by the *healing poultice*. You cannot revive the drake again in this way until you and your companion have completed a long rest.",
+                "The drake also follows all resting rules that apply to player characters, including the ability to roll Hit Dice to regain hit points on a short rest.",
+                "In addition, you learn to speak, read and write Draconic."
+			]
+		},
+        {
+			"name": "Bond of Fang and Scale",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "MaR",
+			"level": 7,
+			"entries": [
+				"At 7th level, your drake companion develops into a drake wyrmling."
+			]
+		},
+        {
+			"name": "Draconic Evolution",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "MaR",
+			"level": 11,
+			"entries": [
+				"At 11th level, your drake companion develops into a young drake."
+			]
+		},
+        {
+			"name": "Perfected Bond",
+			"source": "MaR",
+			"className": "Martial Ranger",
+			"classSource": "MaR",
+			"subclassShortName": "Drakewarden",
+			"subclassSource": "MaR",
+			"level": 15,
+			"entries": [
+				"At 15th level, your drake companion develops into an adult drake."
+			]
+		}
+    ]
+}

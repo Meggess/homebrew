@@ -7,12 +7,13 @@
 				"full": "Celdira's Compendium of Knowledgel",
 				"url": "https://homebrewery.naturalcrit.com/share/ryvW1ZWEs54",
 				"authors": ["Megges"],
-				"convertedBy": []
+				"convertedBy": [],
+				"color": "cc293f"
 			}
 		],
 		"optionalFeatureTypes": {
-			"SPF": "Strider Potion Formula",
-			"SOF": "Strider Oil Formula"
+			"PF:S": "Potion Formula; Strider",
+			"OF:S": "Oil Formula; Strider"
 		},
 		"dateAdded": 0,
 		"dateLastModified": 0
@@ -1696,7 +1697,7 @@
 		{
 	        "name": "Aberation Oil",
 	        "source": "CeldirasCompendiumOfKnowledge",
-	        "featureType": "SOF",
+	        "featureType": "OF:S",
 	        "entries": [
 	            "<b>Toxicity:</b> 0",
 	            "<b>Duration:</b> 8 hits",
@@ -1706,7 +1707,7 @@
     	{
     		"name": "Antidote",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 3",
 	            "<b>Duration:</b> 1 hour",
@@ -1716,7 +1717,7 @@
     	{
     		"name": "Brute",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 8",
 	            "<b>Duration:</b> 30 seconds",
@@ -1726,7 +1727,7 @@
     	{
     		"name": "Bull's Eye",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 4",
 	            "<b>Duration:</b> 10 minutes",
@@ -1736,7 +1737,7 @@
     	{
     		"name": "Celestial Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			"<b>Toxicity:</b> 0",
 	            "<b>Duration:</b> 8 hits",
@@ -1746,7 +1747,7 @@
     	{
     		"name": "Cold",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 6",
 	            "<b>Duration:</b> 1 hour",
@@ -1756,7 +1757,7 @@
     	{
     		"name": "Day",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 2",
 	            "<b>Duration:</b> 2 hours",
@@ -1766,7 +1767,7 @@
     	{
     		"name": "Durable",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 4",
 	            "<b>Duration:</b> 10 minutes",
@@ -1776,7 +1777,7 @@
     	{
     		"name": "Elemental Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			"<b>Toxicity:</b> 0",
 	            "<b>Duration:</b> 8 hits",
@@ -1786,7 +1787,7 @@
     	{
     		"name": "Fey Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			"<b>Toxicity:</b> 0",
 	            "<b>Duration:</b> 8 hits",
@@ -1796,7 +1797,7 @@
     	{
     		"name": "Fiend Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			"<b>Toxicity:</b> 0",
 	            "<b>Duration:</b> 8 hits",
@@ -1806,7 +1807,7 @@
     	{
     		"name": "Ground",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 6",
 	            "<b>Duration:</b> 1 hour",
@@ -1816,7 +1817,7 @@
     	{
     		"name": "Leach",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 6",
 	            "<b>Duration:</b> 1 hour",
@@ -1826,7 +1827,7 @@
     	{
     		"name": "Poisonous Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			"<b>Toxicity:</b> 0",
 	            "<b>Duration:</b> 16 hits",
@@ -1837,7 +1838,7 @@
     	{
     		"name": "Potency",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 8",
 	            "<b>Duration:</b> 10 minutes",
@@ -1847,7 +1848,7 @@
     	{
     		"name": "Regena",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 8",
 	            "<b>Duration:</b> 10 minutes",
@@ -1857,7 +1858,7 @@
     	{
     		"name": "Resilience",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 8",
 	            "<b>Duration:</b> 1 hour",
@@ -1874,7 +1875,7 @@
     	{
     		"name": "Retaliate",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 2",
 	            "<b>Duration:</b> 1 minute",
@@ -1891,7 +1892,7 @@
     	{
     		"name": "Sight",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 4",
 	            "<b>Duration:</b> 2 hours",
@@ -1901,7 +1902,7 @@
     	{
     		"name": "Slowing Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			"<b>Toxicity:</b> 0",
 	            "<b>Duration:</b> 16 hits",
@@ -1911,7 +1912,7 @@
     	{
     		"name": "Steadfast",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			{
     				"type": "entries",
@@ -1935,7 +1936,7 @@
     	{
     		"name": "Stone",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			{
     				"type": "entries",
@@ -1959,7 +1960,7 @@
     	{
     		"name": "Thick Hide",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			"<b>Toxicity:</b> 2",
 	            "<b>Duration:</b> Instantaneous",
@@ -1976,7 +1977,7 @@
     	{
     		"name": "Thining Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			{
     				"type": "entries",
@@ -2000,7 +2001,7 @@
     	{
     		"name": "Undead Oil",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SOF",
+    		"featureType": "OF:S",
     		"entries": [
     			{
     				"type": "entries",
@@ -2024,7 +2025,7 @@
     	{
     		"name": "Vampire Bane",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			{
     				"type": "entries",
@@ -2055,7 +2056,7 @@
     	{
     		"name": "Warmth",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			{
     				"type": "entries",
@@ -2079,7 +2080,7 @@
     	{
     		"name": "Whirlwind",
     		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "SPF",
+    		"featureType": "PF:S",
     		"entries": [
     			{
     				"type": "entries",
@@ -2583,7 +2584,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain the ability to create {@filter strider potions|optionalfeatures|feature type=SPF}. These potions are posionous to everyone that is not a strider.",
+				"At 3rd level, you gain the ability to create {@filter strider potions|optionalfeatures|feature type=PF:S}. These potions are posionous to everyone that is not a strider.",
 				{
 		    		"type": "entries",
 		    		"name": "Preparing Formulae and using Mixtures",
@@ -2617,8 +2618,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learned to create {@filter oils|optionalfeatures|feature type=SOF} in addition to potions using your alchemy feature. You can now prepare {@filter oils|optionalfeatures|feature type=SOF}.",
-				"As an action, you can apply an oil to your weapon granting it the {@filter oils|optionalfeatures|feature type=SOF} benefits. The effect lasts for its duration or until you spend one minute removing the oil from the weapon. If you apply a second oil to the weapon before finishing a short rest, the {@filter oils|optionalfeatures|feature type=SOF} neutralize eachother."
+				"At 7th level, you learned to create {@filter oils|optionalfeatures|feature type=OF:S} in addition to potions using your alchemy feature. You can now prepare {@filter oils|optionalfeatures|feature type=OF:S}.",
+				"As an action, you can apply an oil to your weapon granting it the {@filter oils|optionalfeatures|feature type=OF:S} benefits. The effect lasts for its duration or until you spend one minute removing the oil from the weapon. If you apply a second oil to the weapon before finishing a short rest, the {@filter oils|optionalfeatures|feature type=OF:S} neutralize eachother."
 			]
 		},
 		{

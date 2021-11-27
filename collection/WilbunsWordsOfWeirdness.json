@@ -9,7 +9,8 @@
 				"authors": [
 					"Megges"
 				],
-				"convertedBy": []
+				"convertedBy": [],
+                "color": "991ec9"
 			}
 		],
 		"dateAdded": 0,
@@ -685,6 +686,79 @@
             ]
         },
         {
+            "name": "Inflict Madness",
+            "level": 3,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "source": "WWW",
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "areaTags": [
+                "ST"
+            ],
+            "miscTags": [
+                "SGT"
+            ],
+            "savingThrow": [
+                "charisma"
+            ],
+            "entriesHigherLevel": [
+                {
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you can target one additional humanoid for each slot level above 3rd. The humanoids must be within 30 feet of each other when you target them."
+                    ]
+                }
+            ],
+            "entries": [
+                "Choose a humanoid that you can see within range. The target must succeed on a Charisma saving throw or be afflicted with short-term madness for the duration. At the end of each of its turns, the target can make another Charisma saving throw. On a success, the spell ends on the target."
+            ]
+        },
+        {
             "name": "Wilbun's Tentacle Arm",
             "level": 1,
             "school": "T",
@@ -753,6 +827,66 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Wilbun's Words of Weirdness",
+            "level": 9,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 300
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "You flood a 30-foot cube centered on a point you choose within reach with energies from the far realm. When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature make a Charisma saving throw. On a failed save, a creature takes {@damage 4d10} psychic damage and suffers a short-term madness for 10 minutes. On a successful save, it takes half as much damage and doesn't suffer a short-term madness. At the end of each of its turns, an affected creature can repeat the saving throw, taking {@damage 4d10} psychic damage on a failed save, or ending the madness on a successful one.",
+                "In addition, any spell cast within the cube triggers a wild magic surge. Roll on the Wild Magic Surge table to determine the effect."
+            ],
+            "source": "WWW",
+            "damageInflict": [
+                "psychic"
+            ],
+            "areaTags": [
+                "C"
+            ],
+            "savingThrow": [
+                "charisma"
+            ],
+            "components": {
+                "v": true
+            }
         }
     ],
     "subclass": [
