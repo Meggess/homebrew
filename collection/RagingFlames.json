@@ -19,6 +19,7 @@
 	"cult": {
 		"name": "House of Golden Bones",
 		"source": "RagingFlames",
+		"type": "Draconic",
 		"goal": {
 			"entry": "undermine organisations and governments to gather influence and herold the rise of there master to godhood"
 		},
