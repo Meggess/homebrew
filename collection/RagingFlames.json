@@ -19,11 +19,10 @@
 	"cult": {
 		"name": "House of Golden Bones",
 		"source": "RagingFlames",
-		"type": "Draconic",
 		"goal": {
 			"entry": "undermine organisations and governments to gather influence and herold the rise of there master to godhood"
 		},
-		"cultist": {
+		"cultists": {
 			"entry": "Nobles hungering for power, NPCs and creatures with an affiliation with fire"
 		},
 		"entries": [
