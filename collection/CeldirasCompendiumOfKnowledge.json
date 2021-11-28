@@ -18,6 +18,42 @@
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
+	"feat": [
+		{
+			"name": "Apothecary",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"prerequisite": [
+				{
+					"other": "Proficiency in {@skill Medicine}"
+				}
+			],
+			"entries": [
+				"Your relentless tinkering with herbs and studying of medicine gives you the ability to create medical pastes and small amounts of potions.",
+				"When you finish a long rest, you can create medical paste. As an bonus action, a creature can apply this paste, instantly regaining hit points equal to your proficiency bonus or curing itself from one poison affecting it.",
+				"You make enough paste for a number of doses equal to your proficiency modifier."
+			]
+		},
+		{
+			"name": "Spin to Win",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"prerequisite": [
+				{
+					"other": "Strength 16 or higher and Proficiency with Greatswords, Greataxes or Mauls"
+				}
+			],
+			"entries": [
+				"You have learned to use the weight of your weapon for your advantage.",
+				"As an attack, while wielding a greatsword, greataxe or maul, you can perform a spin attack. Each creature in a 5-foot radius centered on you must succeed on a Dexterity saving throw against your Spin to Win save DC or take the damage of your weapon.",
+				{
+					"type": "abilityDc",
+					"name": "Spin to Win",
+					"attributes": [
+						"str"
+					]
+				}
+			]
+		}		
+	],
 	"item": [
 		{
 			"name": "Aleta",
@@ -2101,6 +2137,327 @@
     			"For the potions duration, you can take the {@action dodge} action as a bonus action on your turn. In addition, you gain a +2 to your AC and your speed increases by 10 feet."
     		]
     	}
+	],
+	"race": [
+		{
+			"name": "Frogfolk",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"creatureTypes": [
+				"fey"
+			],
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"size": [
+				"M",
+				"S"
+			],
+			"speed":{
+				"walk": 30,
+				"swim": 30
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency",
+				"Uncommon Race"
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Frogfolk have shorter lifespans than humans. They reach maturity at about 12 years old and can live up to 60 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"TODO"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Frogfolk are between 3 and 4 feet tall and average about 50 pounds. Your size is small or medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet and you have a swimming speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your froglike physiology, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frog's Talent",
+					"entries": [
+						"You have proficiency in the Stealth skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Standing Leap",
+					"entries": [
+						"Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					]
+				}
+			]
+		},
+		{
+			"name": "Half-Gnome",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"ability": [
+				{
+					"int": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"wis",
+							"cha"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"size": [
+				"M",
+				"S"
+			],
+			"speed": 25,
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnomish": true,
+					"any": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"acrobatics",
+							"sleight of hand",
+							"stealth",
+							"arcana",
+							"history",
+							"investigation",
+							"nature",
+							"religion",
+							"animal handling",
+							"insight",
+							"medicine",
+							"perception",
+							"survival",
+							"deception",
+							"intimidation",
+							"performance",
+							"persuasion"
+						],
+						"count": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Uncommon Race"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-gnomes mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 250 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Half-gnomes just like their gnome ancestors are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-gnomes are between 4 and 5 feet tall and average about 50 pounds. Your size is small or medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your gnome blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gnome Cunning",
+					"entries": [
+						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skill Versatility",
+					"entries": [
+						"You gain proficiency in two skills or tools of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Gnomish and one extra language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kuo-Toa",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"ability": [
+				{
+					"str": 1,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"size": "M",
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"darkvision": 120,
+			"traitTags": [
+				"Amphibious",
+				"Monstrous Race"				
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Kuo-Toa reach adulthood at age 8 and live up to 60 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Kuo-Toa are insane creatures prone to creating their own gods, and are led by brutal archpriests. Most Kuo-Toa are neutral evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 ft. and a swim speed of 30 ft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Otherworldly Perception",
+					"entries": [
+						"You can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. You can pinpoint such a creature that is moving."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slippery",
+					"entries": [
+						"You have advantage on ability checks and saving throws made to escape a grapple."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write in Common and Undercommon."
+					]
+				}
+			]
+		}
 	],
 	"spell": [
 		{

@@ -689,14 +689,9 @@
         {
             "name": "Herbalist Initiate",
             "source": "MaR",
-            "page": 0,
             "prerequisite": [
                 {
-                    "proficiency": [
-                        {
-                            "skill": "Survival"
-                        }
-                    ]
+                    "other": "Proficiency in {@skill Survival}"
                 }
             ],
             "entries": [
