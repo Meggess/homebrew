@@ -19,17 +19,11 @@
 	"cult": {
 		"name": "House of Golden Bones",
 		"source": "RagingFlames",
-		"goal": {
-			"entry": "undermine organisations and governments to gather influence and herold the rise of there master to godhood"
-		},
-		"cultists": {
-			"entry": "Nobles hungering for power, NPCs and creatures with an affiliation with fire"
-		},
 		"entries": [
 			"TODO",
 			{
 				"type": "entries",
-				"name": "Heat of the eternal flame",
+				"name": "Heat of the Eternal Flame",
 				"entries": [
 					"The creature gains resistance to fire damage and all its weapon attacks deal an extra 7 ({@damage 2d6}) fire damage."
 				]
