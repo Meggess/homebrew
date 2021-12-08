@@ -1722,7 +1722,7 @@
 					]
 				},
 				{
-					"name": "Corrosive Bite",
+					"name": "Corrosive Spittle",
 					"entries": [
 						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}7 ({@damage 2d6}) fire damage."
 					]
@@ -1731,7 +1731,7 @@
 			"environment": [
 				"desert",
 				"mountain",
-				"underwater"
+				"underdark"
 			],
 			"senseTags": [
 				"D"

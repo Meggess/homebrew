@@ -16,27 +16,29 @@
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
-	"cult": {
-		"name": "House of Golden Bones",
-		"source": "RagingFlames",
-		"type": "Draconic",
-		"goal": {
-			"entry": "Undermine organisations and governments to gather influence and herold the rise of there master to godhood"
-		},
-		"cultists": {
-			"entry": "Nobles hungering for power, NPCs and creatures affiliated fire"
-		},
-		"entries": [
-			"TODO",
-			{
-				"type": "entries",
-				"name": "Heat of the Eternal Flame",
-				"entries": [
-					"The creature gains resistance to fire damage and all its weapon attacks deal an extra 7 ({@damage 2d6}) fire damage."
-				]
-			}
-		]
-	},
+	"cult": [
+		{
+			"name": "House of Golden Bones",
+			"source": "RagingFlames",
+			"type": "Draconic",
+			"goal": {
+				"entry": "Undermine organisations and governments to gather influence and herold the rise of there master to godhood"
+			},
+			"cultists": {
+				"entry": "Nobles hungering for power, NPCs and creatures affiliated with fire"
+			},
+			"entries": [
+				"TODO",
+				{
+					"type": "entries",
+					"name": "Heat of the Eternal Flame",
+					"entries": [
+						"The creature gains resistance to fire damage and all its weapon attacks deal an extra 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			]
+		}
+	],
 	"object": [
 		{
 			"name": "Brimstone Cannon",

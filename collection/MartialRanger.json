@@ -1887,6 +1887,7 @@
 			"subclassShortName": "Hunter",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"At 7th level, you gain one of the following features of your choice.",
                 {
@@ -1923,6 +1924,7 @@
 			"subclassShortName": "Hunter",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"At 11th level, you gain one of the following features of your choice.",
                 {
@@ -1959,6 +1961,7 @@
 			"subclassShortName": "Hunter",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"At 15th level, you gain one of the following features of your choice.",
                 {
@@ -2022,6 +2025,7 @@
 			"subclassShortName": "Beast Master",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Beginning at 7th level, your beast companion can use the Help action instead of the Dodge action on any turn in which you did not give it a command."
 			]
@@ -2034,6 +2038,7 @@
 			"subclassShortName": "Beast Master",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"Starting at 11th level, when you command your beast companion to take the Attack action, the beast can make two attacks."
 			]
@@ -2046,6 +2051,7 @@
 			"subclassShortName": "Beast Master",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"Beginning at 15th level, your beast companion shares the benefits of Hunter's Prey when attacking or tracking any creature you have marked as your prey."
 			]
@@ -2083,6 +2089,7 @@
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Your senses are finely attuned to detect nearby foes even when blinded or in magical darkness. At 7th level, you gain blindsight with a range of 10 feet, or an additional 10 feet if you already have blindsight.",
                 "In addition, you can stand still, focus, and extend your senses further, picking up on the subtlest vibrations, even through walls. As an action, you can grant yourself tremorsense within a 30 foot radius. Moving or taking damage causes you to lose this sense. You can use this feature a number of times equal to your proficiency bonus, and regain all uses upon completing a long rest."
@@ -2096,6 +2103,7 @@
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action."
 			]
@@ -2108,6 +2116,7 @@
 			"subclassShortName": "Gloom Stalker",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"Starting at 15th level, you can dodge in unforeseen ways, making expert use of the shadows around you. Whenever a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll."
 			]
@@ -2144,6 +2153,7 @@
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"By 7th level, you have honed your ability to resist the mind-altering powers of your quarry. You gain  proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
 			]
@@ -2156,6 +2166,7 @@
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"At 11th level, you gain the ability to thwart someone else's magic. When you see a creature casting a spell or teleporting within range of a weapon you are holding, you can use your reaction to make an attack against that creature with that weapon. If this attack is a critical hit, the spell or teleport fails and is wasted."
 			]
@@ -2168,6 +2179,7 @@
 			"subclassShortName": "Monster Slayer",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If your prey forces you to make a saving throw, you can use your reaction to make one weapon attack against them, provided they are within range of a weapon you are holding. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects."
 			]
@@ -2204,6 +2216,7 @@
 			"subclassShortName": "Herbalist",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"At 7th level, your experience surviving on wild forage in the wilderness has made you hardy. You gain proficiency in Constitution saving throws, and have advantage on saving throws against being poisoned."
 			]
@@ -2216,6 +2229,7 @@
 			"subclassShortName": "Herbalist",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Starting at 7th level, you can use your herbalism kit to craft poisons, as though it were a poisoner's kit."
 			]
@@ -2228,6 +2242,7 @@
 			"subclassShortName": "Herbalist",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"You can heal and fight almost simultaneously. Starting at 11th level, when you use your action to apply a healing poultice, you can make one weapon attack as part of the same action."
 			]
@@ -2240,6 +2255,7 @@
 			"subclassShortName": "Herbalist",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"Your medicines have become more advanced and versatile, even soothing the mind as well as the body. Starting at 15th level, if your healing poultices are applied to a creature that is poisoned, paralyzed, blinded, deafened, frightened or charmed, any and all of those conditions immediately end on that creature."
 			]
@@ -2280,6 +2296,7 @@
 			"subclassShortName": "Outrider",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Starting at 7th level, you use your mount's momentum to deadly effect. If your mount moves at least 20 feet uninterrupted while you are riding it and you take the Attack action, the first of your attacks to hit that turn deals an additional 1d8 damage."
 			]
@@ -2292,6 +2309,7 @@
 			"subclassShortName": "Outrider",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"Starting at 11th level, you can spur your mount to plow through whole groups of enemies. Use your action to command your mount to move in a straight line up to its speed. It can move through occupied spaces, which count as difficult terrain. All creatures in its path must succeed on a Dexterity saving throw (DC = 8 + its Strength modifier + your proficiency bonus) or take 6d6 bludgeoning damage, or half as much on a successful save. A Huge or larger enemy blocks the path of the charge but still takes damage. This movement does not trigger attacks of opportunity.",
                 "You can use this feature a number of times equal to your proficiency bonus, and regain all uses after you and your mount complete a long rest."
@@ -2305,6 +2323,7 @@
 			"subclassShortName": "Outrider",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"At 15th level, the bond between you and your mount has grown so strong that you instinctively understand each other. Once per turn, you can command your mount to Attack, Dash, Disengage or Help as part of your action, instead of using your bonus action."
 			]
@@ -2344,6 +2363,7 @@
 			"subclassShortName": "Trapper",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Starting at 7th level, you can rig a snare in only moments. You can craft snares that normally take 1 minute using one action. The snare is visible unless you use a bonus action to hide it, which requires a successful Stealth check against nearby enemies' passive Perception."
 			]
@@ -2356,6 +2376,7 @@
 			"subclassShortName": "Trapper",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Starting at 7th level, you can make an attack with a net as a bonus action. You also gain proficiency with the bolas, a ranged martial weapon (range 20/60) that deals 1d4 damage on a hit and costs 5 gp. A creature hit by a bolas must succeed on a Dexterity saving throw or be restrained and knocked prone. Escape follows the same rules as for a net. The escape DC for both weapons becomes your snare DC."
 			]
@@ -2368,6 +2389,7 @@
 			"subclassShortName": "Trapper",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"At 11th level, you begin to experiment with more powerful and dangerous snares. You learn how to craft two snares from the {@filter Advanced Snares|optionalfeatures|feature type=AS:T} list. You cannot use Quick Snares with Advanced Snares."
 			]
@@ -2380,6 +2402,7 @@
 			"subclassShortName": "Trapper",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"At 15th level, double the number of snares you can have crafted at a single time. Once per turn, when you use the Attack action, you can craft a Basic Snare in place of one of your attacks, rather than using a full action."
 			]
@@ -2470,6 +2493,7 @@
 			"subclassShortName": "Warden",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Beginning at 7th level, you can use your action to focus your awareness on the region around you. For 1 minute, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, undead, and your favored enemy if it's not already on the list; how many there are; and roughly how close they are, though not their exact location.",
                 "In addition, you learn *speak with animals* and *beast sense,* and can cast either without expending a spell slot. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest."
@@ -2483,6 +2507,7 @@
 			"subclassShortName": "Warden",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"Starting at 11th level, you can draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become invisible, along with any equipment you are wearing or carrying, for 1 minute in non-natural terrain, 10 minutes in natural terrain, or one hour in your favored terrain. The effect ends if you take damage or make an attack.",
                 "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
@@ -2496,6 +2521,7 @@
 			"subclassShortName": "Warden",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"Beginning at 15th level, you learn *speak with plants,* *locate creature* and *commune with nature,* and you can cast each one once without expending a spell slot. Once you cast one of these spells with this feature, you can't cast that spell with it again until you finish a long rest."
 			]
@@ -2536,6 +2562,7 @@
 			"subclassShortName": "Bounty Hunter",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"Surrounded by potential threats in close quarters, you are constantly on alert and ready to fight. Starting at 7th level, you have advantage on initiative rolls, and you are never surprised in combat. You also have advantage on attack rolls against creatures that are surprised."
 			]
@@ -2548,6 +2575,7 @@
 			"subclassShortName": "Bounty Hunter",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"You strike without warning, dispatching your quarry before they can even see your face. Starting at 11th level, once per turn, you can deal an additional 2d6 damage to a creature with a weapon attack if you have advantage on the attack roll, or if a conscious ally is adjacent to your target and you do not have disadvantage."
 			]
@@ -2560,6 +2588,7 @@
 			"subclassShortName": "Bounty Hunter",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"At 15th level, experienced in street violence, you respond to injury in kind. If you are hit with a weapon attack by a creature you can see, you can use your reaction to make one weapon attack against that creature if it is within range of a weapon you are holding."
 			]
@@ -2598,6 +2627,7 @@
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"At 7th level, you can even adapt to otherworldly environments. You gain an additional favored terrain, which does not count against your maximum, and access to planar terrain types: Upper Planes, Lower Planes, Feywild, Shadowfell, Mechanus, Limbo and the Elemental Chaos. As usual, you must have spent at least one day in one of these terrain types before designating it as your favored terrain.",
                 "The Natural Healer DC for all planar terrains is 25.",
@@ -2619,6 +2649,7 @@
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"You learn to briefly shift through interplanar space. Starting at 7th level, you can cast the *misty step* spell once, and regain use of this feature when you finish a short or long rest."
 			]
@@ -2631,6 +2662,7 @@
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"At 11th level, you may make an additional weapon attack when you take the Attack action against a favored enemy."
 			]
@@ -2643,6 +2675,7 @@
 			"subclassShortName": "Horizon Walker",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"At 15th level, your planar travels have caused your soul to become attuned to the weave between worlds. You can cast *misty step* twice per short rest instead of once; additionally, you can cast *dimension door* once per long rest, and either *teleport* or *plane shift* once every seven long rests. You still need to provide all necessary spell components."
 			]
@@ -2742,6 +2775,7 @@
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "MaR",
 			"level": 7,
+            "header": 2,
 			"entries": [
 				"At 7th level, your drake companion develops into a drake wyrmling."
 			]
@@ -2754,6 +2788,7 @@
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "MaR",
 			"level": 11,
+            "header": 2,
 			"entries": [
 				"At 11th level, your drake companion develops into a young drake."
 			]
@@ -2766,6 +2801,7 @@
 			"subclassShortName": "Drakewarden",
 			"subclassSource": "MaR",
 			"level": 15,
+            "header": 2,
 			"entries": [
 				"At 15th level, your drake companion develops into an adult drake."
 			]

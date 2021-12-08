@@ -1,0 +1,307 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "OJS",
+				"abbreviation": "OJS",
+				"full": "Ordi's Journal of Seafaring",
+				"url": "",
+				"authors": [
+					"Megges"
+				],
+				"convertedBy": [],
+				"color": "1bcede"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "item": [
+		{
+			"name": "Harpoon",
+			"source": "OJS",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V",
+                "S"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you hit a creature that is at most one size category larger than you with a harpoon, you can force it to succeed on a strength contest against you or be pulled up to 20 feet towards you."
+					]
+				}
+			]
+		}
+    ],
+    "monster": [
+
+    ],
+    "subclass": [
+        {
+			"name": "Oath of the Sea",
+			"subclassFeatures": [
+				"Oath of the Sea|Paladin|PHB|Sea|OJS|3",
+				"Ranged Smite|Paladin|PHB|Sea|OJS|7",
+				"Raging Sea|Paladin|PHB|Sea|OJS|15",
+				"Avatar of the Sea|Paladin|PHB|Sea|OJS|20"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"create or destroy water",
+							"fog cloud"
+						],
+						"5": [
+							"gust of wind",
+                            {
+							    "name": "warding wind",
+                                "source": "XGE"
+                            }
+						],
+						"9": [
+							"lightning arrow",
+                            {
+                                "name": "tidal wave",
+                                "source": "XGE"
+                            }
+						],
+						"13": [
+							"control water",
+							"freedom of movement"
+						],
+						"17": [
+							{
+								"name": "control winds",
+								"source": "XGE"
+							},
+							{
+								"name": "maelstrom",
+								"source": "XGE"
+							}
+						]
+					}
+				}
+			],
+			"source": "OJS",
+			"shortName": "Sea",
+			"className": "Paladin",
+			"classSource": "PHB"
+		}
+    ],
+    "subclassFeature" : [
+		{
+			"name": "Oath of the Sea",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 3,
+			"entries": [
+				"TODO",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Sea|Paladin|PHB|Sea|OJS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin|PHB|Sea|OJS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Sea|OJS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Seafaring Proficiencies|Paladin|PHB|Sea|OJS|3"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain the following Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.",
+                {
+                    "type": "entries",
+                    "name": "Oceanic Adaption",
+                    "entries": [
+                        "You can use your channel divinity to adapt to the vast ocean. As an action, you can expend one use of your channel divinity and give a number of creature up to your Charisma modifier (minimum of one) that you can see within 30 feet of you a swimming speed of 30 feet and the ability to breath under water for up to 1 hour as long as you are not incapacitated."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Striking Wave",
+                    "entries": [
+                        "Immediately after you deal damage to a creature with your Divine Smite feature, you can force that creature to make a Strength saving throw against your paladin spell save DC. On a failed save the creature is knocked {@condition prone}, as if struck by a wave. "
+                    ]
+                }
+			]
+		},
+		{
+			"name": "Seafaring Proficiencies",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain proficiency with {@item harpoon|OJS|harpoons}, navigator's tools and {@filter vehicles (water)|items|type=vehicle (water)}.",
+                "A harpoon is a martial weapon that deals {@dice 1d6} piercing damage and has the versatile ({@dice 1d8}) and thrown property (range 20/60 feet). Using a harpoon underwater does not impose disadvantage. In addition, when you hit a creature at most one size category larger than you with a harpoon, you can force it to succeed on a strength contest against you or be pulled up to 20 feet towards you."
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Sea Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell create or destroy water}, {@spell fog cloud}"
+						],
+						[
+							"5th",
+							"{@spell gust of wind}, {@spell warding wind|XGE}"
+						],
+						[
+							"9th",
+							"{@spell lightning arrow}, {@spell tidal wave|XGE}"
+						],
+						[
+							"13th",
+							"{@spell control water}, {@spell freedom of movement}"
+						],
+						[
+							"17th",
+							"{@spell control winds|XGE}, {@spell maelstrom|XGE}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Sea",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"A paladin who assumes the Oath of the Watchers swears to safeguard the sea and all protect all seafarers from harm.",
+                {
+                    "type": "entries",
+                    "name": "TODO",
+                    "entries": [
+                        "TODO"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "TODO",
+                    "entries": [
+                        "TODO"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "TODO",
+                    "entries": [
+                        "TODO"
+                    ]
+                }	
+			]
+		},
+		{
+			"name": "Ranged Smite",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 7,
+            "header": 2,
+			"entries": [
+				"Starting at 7th level, you gain the ability to use your divine smite feature on ranged weapon attacks."
+			]
+		},
+		{
+			"name": "Raging Sea",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 15,
+            "header": 2,
+			"entries": [
+				"Starting at 15th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your paladin level. The attacker must also make a Strength saving throw against your paladin spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you."
+			]
+		},
+		{
+			"name": "Avatar of the Sea",
+			"source": "OJS",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Sea",
+			"subclassSource": "OJS",
+			"level": 20,
+            "header": 2,
+			"entries": [
+				"You can empower yourself with the might and rage of the sea. As a bonus action, you gain the following benefits for 1 minute:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain resistance to cold, lightning and thunder damage.",
+                        "You gain swim speed 60 feet and the ability to breath under water.",
+                        "As a bonus action, you can choose one creature you can see with in 30 feet of you. The target must make a Dexterity saving throw against your paladin spell save DC. The target takes {@damage 4d6} lightning damage on a failed save, or half as much damage on a successful one.",
+                        "When you hit a creature with a weapon attack, you can use your reaction forcing the creature to make a Constitution saving throw against your paladin spell save DC. On a failed save, the creature is {@condition stunned} until the end of its next turn."
+                    ]
+                },
+                "Once you use this feature, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
+			]
+		}
+    ]
+}
