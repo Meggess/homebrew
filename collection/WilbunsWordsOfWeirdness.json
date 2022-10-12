@@ -237,7 +237,8 @@
             "type": {
                 "type": "aberration",
                 "tags": [
-                    "shapechanger"
+                    "shapechanger",
+                    "slaad"
                 ]
             },
             "alignment": [
@@ -521,7 +522,8 @@
             "type": {
                 "type": "aberration",
                 "tags": [
-                    "shapechanger"
+                    "shapechanger",
+                    "slaad"
                 ]
             },
             "alignment": [
@@ -761,7 +763,7 @@
     "spell": [
         {
             "name": "Chaos Cloud",
-            "level": 3,
+            "level": 4,
             "school": "E",
             "time": [
                 {

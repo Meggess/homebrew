@@ -268,7 +268,7 @@
 							"type": "list",
 							"items": [
 								"The bonus to attack and damage rolls increases to +3.",
-								"You gain resistance to cold damage.",
+								"You gain resistance to fire damage.",
 								"Eldfjall has 5 charges and regains {@dice 1d4+1} charges daily at dawn.",
 								"<b>Earthen Grasp.</b> As an action, you can cast {@spell maximilian's earthen grasp|XGE} (save DC 17) without needing to concentrate on it and you can use its features as bonus actions. Once you used this feature, you can't use it again until next dawn.",
 								"<b>Fire Rune.</b> When you hit a creature with this weapon, you can expend 2 charges and invoke a {@optfeature fire rune|TCE} (DC 17) on that attack.",
@@ -402,8 +402,8 @@
 							"type": "list",
 							"items": [
 								"THe bonus to attack and damage rolls increases to +3.",
-								"You gain resistance to fire damage.",
-								"The cloak has 4 charges and regains {@dice 1d4} charges daily at dawn.",
+								"You gain resistance to cold damage.",
+								"The bow has 4 charges and regains {@dice 1d4} charges daily at dawn.",
 								"<b>Sleet Storm.</b> As an action, you can cast {@spell sleet storm} (save DC 17) without needing to concentrate on it. Once you used this feature, you can't use it again until next dawn.",
 								"<b>Frozen Solid.</b> When you hit a creature with Glacier, you can expend 2 charges and try to freeze the target in place. The target must succeed on a DC 17 Constitution saving throw or become {@condition petrified} until the end of your next turn, but instead of resistance to bludgeoning and fire damage it gains Vulnerability to bludgeoning and fire damage. The condition ends early if it takes any fire damage.",
 								"<b>Frigid Air</b> As a bonus action, you can expend 2 charges and cause the air around you to become freezing dealing {@damage 3d6} cold damage to each creature of your choice within 5 feet of you."
@@ -430,7 +430,7 @@
 					"type": "entries",
 					"name": "Luring Song.",
 					"entries": [
-						"While you wear the hat, as a bonus action, you can sing a magical melody. One humanoid or giant of your choice within 300 feet of you that can hear the song must succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} until the song ends. You must take a bonus action on your subsequent turns to continue singing. You can stop singing at any time. The song ends if you are incapacitated. While {@condition charmed} this way, a target is {@condition incapacitated}. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward you by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than you, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. Once you use this feature, you can't use it again until the dawn of the next day."
+						"While you wear the hat, as a bonus action, you can sing a magical melody. One humanoid or giant of your choice within 60 feet of you that can hear the song must succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} until the song ends. You must take a bonus action on your subsequent turns to continue singing. You can stop singing at any time. The song ends if you are incapacitated. While {@condition charmed} this way, a target is {@condition incapacitated}. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward you by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than you, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. Once you use this feature, you can't use it again until the dawn of the next day."
 					]
 				}
 			]
@@ -654,6 +654,23 @@
 			]
 		}
 	],
+	"legendaryGroup": [
+		{
+			"name": "Mhecmunas",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), Mhecmunas can take a lair action to cause one of the following magical effects; Mhecmunas can't use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Mhecmunas rolls a d8 and regains a spell slot of that level or lower. If he has no spent spell slots of that level or lower, nothing happens.",
+						"Mhecmunas targets one creature he can see within 30 feet of him. A crackling cord of negative energy tethers the lich to the target. Whenever the lich takes damage, the target must make a DC 18 Constitution saving throw. On a failed save, the lich takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in the lich's lair.",
+						"Mhecmunas chooses up to three creature he can see within 30 feet of him. Each creature must make a DC 18 Strength saving throw. On a failed save, a creature takes takes 3 (1d6) piercing damage and 33 (6d10) necrotic damage and is restrained. On a successful save, a creature takes half as much damage and is not restrained. As an action, a creature can try to free itself or another creature within its reach, doing so with a successful DC 189 Strength (Athletics) check. Mhecmunas or his Phylactery regain hit points equal to half of the inflicted necrotic damage."
+					]
+				}
+			],
+			"source": "WitheringFury"
+		}
+	],
 	"monster": [
 		{
 			"name": "Auntie",
@@ -661,7 +678,15 @@
 			"isNpc": true,
 			"source": "WitheringFury",
 			"size": "M",
-			"type": "fey",
+			"type": {
+				"type": "fey",
+				"tags": [
+					{
+						"tag": "hag",
+						"prefix": "green"
+					}
+				]
+			},
 			"alignment": [
 				"N",
 				"E"
@@ -950,21 +975,21 @@
 						},
 						"1": {
 							"spells": [
-								"{@spell create or destroy water}",
-								"{@spell cure wounds}",
-								"{@spell fog cloud}"
+								"{@spell absorb elements|XGE}",
+								"{@spell fog cloud}",
+								"{@spell ice knife|XGE}"
 							],
 							"slots": 4
 						},
 						"2": {
 							"spells": [
-								"{@spell blindness/deafness}",
 								"{@spell dust devil|XGE}",
 								"{@spell earthbind|XGE}",
 								"{@spell flame blade}",
 								"{@spell heat metal}",
 								"{@spell hold person}",
-								"{@spell web}"
+								"{@spell web}",
+								"{@spell wither and bloom|SCC}"
 							],
 							"slots": 3
 						},
@@ -972,8 +997,7 @@
 							"spells": [
 								"{@spell dispel magic}",
 								"{@spell erupting earth|XGE}",
-								"{@spell stinking cloud}",
-								"{@spell vampiric touch}"
+								"{@spell stinking cloud}"
 							],
 							"slots": 3
 						},
@@ -981,7 +1005,7 @@
 							"spells": [
 								"{@spell blight}",
 								"{@spell confusion}",
-								"{@spell elemental bane|XGE}",
+								"{@spell freedom of movement}",
 								"{@spell giant insect}",
 								"{@spell sickening radiance|XGE}",
 								"{@spell stoneskin}"
@@ -991,22 +1015,22 @@
 						"5": {
 							"spells": [
 								"{@spell antilife shell}",
-								"{@spell contagion}",
+								"{@spell cone of cold}",
+								"{@spell dread meadow|WitheringFury}",
 								"{@spell insect plague}",
-								"{@spell negative energy flood|XGE}",
 								"{@spell wall of stone}"
 							],
 							"slots": 2
 						},
 						"6": {
 							"spells": [
-								"{@spell bones of the earth|XGE}"
+								"{@spell flesh to stone}"
 							],
 							"slots": 1
 						},
 						"7": {
 							"spells": [
-								"{@spell reverse gravity|PHB}"
+								"{@spell draconic transformation|FTD}"
 							],
 							"slots": 1
 						}
@@ -1101,13 +1125,13 @@
 			],
 			"languageTags": [
 				"C",
-				"DU",
 				"E",
+				"DU",
 				"S"
 			],
 			"damageTags": [
-				"B",
-				"N"
+				"N",
+				"B"
 			],
 			"spellcastingTags": [
 				"CD"
@@ -2105,6 +2129,7 @@
 		{
 			"name": "Garone",
 			"group": "Goblinoids",
+			"tokenUrl": "https://5e.tools/img/VGM/Hobgoblin%20Devastator.png",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
@@ -2343,7 +2368,15 @@
 			"isNpc": true,
 			"source": "WitheringFury",
 			"size": "M",
-			"type": "fey",
+			"type": {
+				"type": "fey",
+				"tags": [
+					{
+						"tag": "hag",
+						"prefix": "green"
+					}
+				]
+			},
 			"alignment": [
 				"N",
 				"E"
@@ -2555,7 +2588,12 @@
 			"source": "WitheringFury",
 			"page": 237,
 			"size": "L",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"ogre"
+				]
+			},
 			"alignment": [
 				"C",
 				"E"
@@ -3375,7 +3413,15 @@
 			"isNpc": true,
 			"source": "WitheringFury",
 			"size": "M",
-			"type": "fey",
+			"type": {
+				"type": "fey",
+				"tags": [
+					{
+						"tag": "hag",
+						"prefix": "green"
+					}
+				]
+			},
 			"alignment": [
 				"N",
 				"E"
@@ -3881,10 +3927,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					{
-						"tag": "half-dragon",
-						"prefix": "gold"
-					}
+					"half-obsidian dragon"
 				]
 			},
 			"alignment": [
@@ -4712,7 +4755,10 @@
 			"type": {
 				"type": "undead",
 				"tags": [
-					"dragon"
+					{
+						"tag": "dragon",
+						"prefix": "green"
+					}
 				]
 			},
 			"alignment": [
@@ -4869,9 +4915,9 @@
 			"source": "WitheringFury",
 			"size": "G",
 			"type": {
-				"type": "plant",
+				"type": "undead",
 				"tags": [
-					"undead"
+					"plant"
 				]
 			},
 			"alignment": [

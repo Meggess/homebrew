@@ -11,10 +11,6 @@
 				"color": "cc293f"
 			}
 		],
-		"optionalFeatureTypes": {
-			"PF:S": "Potion Formula; Strider",
-			"OF:S": "Oil Formula; Strider"
-		},
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
@@ -32,27 +28,7 @@
 				"When you finish a long rest, you can create medical paste. As an bonus action, a creature can apply this paste, instantly regaining hit points equal to your proficiency bonus or curing itself from one poison affecting it.",
 				"You make enough paste for a number of doses equal to your proficiency modifier."
 			]
-		},
-		{
-			"name": "Spin to Win",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"prerequisite": [
-				{
-					"other": "Strength 16 or higher and Proficiency with Greatswords, Greataxes or Mauls"
-				}
-			],
-			"entries": [
-				"You have learned to use the weight of your weapon for your advantage.",
-				"As an attack, while wielding a greatsword, greataxe or maul, you can perform a spin attack. Each creature in a 5-foot radius centered on you must succeed on a Dexterity saving throw against your Spin to Win save DC or take the damage of your weapon.",
-				{
-					"type": "abilityDc",
-					"name": "Spin to Win",
-					"attributes": [
-						"str"
-					]
-				}
-			]
-		}		
+		}	
 	],
 	"item": [
 		{
@@ -126,12 +102,61 @@
 			]
 		},
 		{
+			"name": "Cold Iron",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"page": 0,
+			"rarity": "none",
+			"type": "TG",
+			"value": 20,
+			"weight": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Chardalyn",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"A chardalyn is a small black oval stone. If the stone is targeted directly by a spell of 6th level or lower, the spell has no effect, but is instead stored within the chardalyn. If the stone is included in the area of effect of a spell of 6th level or lower, there is a {@chance 50|50 percent} chance that the spell is absorbed into the chardalyn.",
+				"As an action, a creature can crush a chardalyn that absorbed a spell or throw it at a point within 40 feet. The stored spell is then released using the statistics of the original caster."
+			]
+		},		
+		{
 			"name": "Googles of Day",
 			"wondrous": true,
 			"rarity": "common",
 			"source": "CeldirasCompendiumOfKnowledge",
 			"entries": [
 				"While wearing these dark lenses, you ignore the sunlight sensitivity feature if you have it."
+			]
+		},
+		{
+			"name": "Hat of the Harpy",
+			"source": "CeldirasCompendiumofKnowledge",
+			"page": 0,
+			"rarity": "very rare",
+			"reqAttune": "by a bard",
+			"recharge": "dawn",
+			"wondrous": true,
+			"entries": [
+				"This masterfully crafted silk hat has a large purple feather on its side.",
+				{
+					"type": "entries",
+					"name": "Distracting Melody",
+					"entries": [
+						"While you wear the hat, when a creature targets you directly with an attack or a harmful spell, you can use your reaction to force the creature to make a wisdom saving throw against your spell save DC (a creature needn't make the save when it includes you in an area effect, such as the explosion of a {@spell fireball} spell). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. A creature is immune to this effect, if it is immune to the {@condition charmed} condition or can't hear you. You can use this feature a number of times equal to your Charisma modifier and regain all expended uses daily at dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Luring Song",
+					"entries": [
+						"While you wear the hat, you can sing a magical melody. One humanoid and giant of your choice within 60 feet of you that can hear the song must succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} until the song ends. You must take a bonus action on your subsequent turns to continue singing. You can stop singing at any time. The song ends if you are {@condition incapacitated}. While {@condition charmed} this way, a target is {@condition incapacitated}. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward you by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than you, the target can repeat the saving throw. A {@condition charmed} target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. Once you use this feature, you can't use it again until the dawn of the next day."
+					]
+				}
 			]
 		},
 		{
@@ -158,6 +183,23 @@
 				"protection from evil and good",
 				"glibness",
 				"modify memory"
+			]
+		},
+		{
+			"name": "Netherese Portal Mirror",
+			"source": "CeldirasCompendiumOfKnowledge",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"A netherese portal mirror is a large object consisting of several floating silver shards and was used by the netherese for quick transportation and communication.",
+				"Each Mirror has a designated location connected to it. While attuned to the mirror and within 30 feet of it, you can transform the mirror into a portal to its connected location for 10 minutes or until you use an action to close it.",
+				"Furthermore, as an action while within 10 feet of the mirror, you can name one person. If the person is on the same plane of existance as you, they appear in the mirror and you can talk to them as if they were standing next to you.",
+				"Once every seven days, you can cast {@spell gate} opening the portal in the mirror. However, you can not draw creatures through the portal."
+			],
+			"attachedSpells": [
+				"gate"
 			]
 		},
 		{
@@ -393,7 +435,12 @@
 			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "G",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
 			"tokenUrl": "https://i.imgur.com/TnggTlV.png",
 			"alignment": [
 				"N",
@@ -576,7 +623,12 @@
 			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "H",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
 			"tokenUrl": "https://i.imgur.com/TnggTlV.png",
 			"alignment": [
 				"N",
@@ -760,7 +812,12 @@
 			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "L",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
 			"tokenUrl": "https://i.imgur.com/TnggTlV.png",
 			"alignment": [
 				"N",
@@ -889,7 +946,12 @@
 			"source": "CeldirasCompendiumOfKnowledge",
 			"page": 0,
 			"size": "M",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
 			"tokenUrl": "https://i.imgur.com/2C9d4nv.png",
 			"alignment": [
 				"N",
@@ -1001,7 +1063,12 @@
 			"isNamedCreature": true,
 			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "G",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"chromatic"
+				]
+			},
 			"alignment": [
 				"C",
 				"E"
@@ -1170,7 +1237,12 @@
 			"isNamedCreature": true,
 			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "H",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"chromatic"
+				]
+			},
 			"alignment": [
 				"C",
 				"E"
@@ -1339,7 +1411,12 @@
 			"isNamedCreature": true,
 			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "L",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"chromatic"
+				]
+			},
 			"alignment": [
 				"C",
 				"E"
@@ -1459,7 +1536,12 @@
 			"isNamedCreature": true,
 			"source": "CeldirasCompendiumOfKnowledge",
 			"size": "M",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"chromatic"
+				]
+			},
 			"alignment": [
 				"C",
 				"E"
@@ -1728,415 +1810,6 @@
 				"MW"
 			]
 		}
-	],
-	"optionalfeature": [
-		{
-	        "name": "Aberation Oil",
-	        "source": "CeldirasCompendiumOfKnowledge",
-	        "featureType": "OF:S",
-	        "entries": [
-	            "<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-	            "When you hit an abberation with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-	        ]
-    	},
-    	{
-    		"name": "Antidote",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 3",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, any poison effect on you ends immediatly and you gain resistance against poison damage. In addition, you have advantage on saving throws against being {@condition poisoned}."
-    		]
-    	},
-    	{
-    		"name": "Brute",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 30 seconds",
-    			"For the potions duration, you gain advantage on all melee weapon attacks that use strength. In addition, all attacks against you have advantage."
-    		]
-    	},
-    	{
-    		"name": "Bull's Eye",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, your weapon attacks score a critical hit on a roll of 19 or 20."
-    		]
-    	},
-    	{
-    		"name": "Celestial Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit a celestial with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-    		]
-    	},
-    	{
-    		"name": "Cold",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to fire damage. In addition, you don't suffer the effects of extrem heat."
-    		]
-    	},
-    	{
-    		"name": "Day",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 2",
-	            "<b>Duration:</b> 2 hours",
-    			"For the potions duration, you gain darkvision out to a range of 60 feet."
-    		]
-    	},
-    	{
-    		"name": "Durable",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, you have advantage on Constitution saving throws."
-    		]
-    	},
-    	{
-    		"name": "Elemental Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-    		]
-    	},
-    	{
-    		"name": "Fey Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit an elemental with the coated weapon, the target takes an extra {@damage 2d6} force damage."
-    		]
-    	},
-    	{
-    		"name": "Fiend Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit a fiend with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
-    		]
-    	},
-    	{
-    		"name": "Ground",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to lightning damage."
-    		]
-    	},
-    	{
-    		"name": "Leach",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to acid damage."
-    		]
-    	},
-    	{
-    		"name": "Poisonous Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 16 hits",
-    			"When you hit a creature with the coated weapon, the target must suceed on a Constitution saving throw or be {@condition poisoned} for 1 minute.",
-    			"A poisoned creature can repeat its saving throw at the end of its turn."
-    		]
-    	},
-    	{
-    		"name": "Potency",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, you can cast {@spell burning hands}, {@spell charm person}, {@spell shield of faith} and {@spell thunderclap} at will."
-    		]
-    	},
-    	{
-    		"name": "Regena",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, at the start of your turn, when you have at least 1 hit point left, but no more than half your hit point maximum, you regain hit points equal to your Wisdom modifier."
-    		]
-    	},
-    	{
-    		"name": "Resilience",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain a +4 to your Constitution score and Constitution score maximum to a maximum of 30.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"You gain an additional +1 for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Retaliate",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 2",
-	            "<b>Duration:</b> 1 minute",
-    			"For the potions duration, when a creature damages you, the creature takes {@damage 1d10} psychic damage.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"The psychic damage increases by {@dice 1d10} for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Sight",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 2 hours",
-    			"For the potions duration, you gain the effects of the {@spell see invisibly} spell."
-    		]
-    	},
-    	{
-    		"name": "Slowing Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 16 hits",
-    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or have its speed reduced to 0 until the end of your next turn."
-    		]
-    	},
-    	{
-    		"name": "Steadfast",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"4"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 hour"
-    				]
-    			},
-    			"<b>Toxicity:</b> 4",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you can't be {@condiiton stunned} or knocked {@condition prone}."
-    		]
-    	},
-    	{
-    		"name": "Stone",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"6"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 hour"
-    				]
-    			},
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to bludgeoning, piercing and slashing damage."
-    		]
-    	},
-    	{
-    		"name": "Thick Hide",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			"<b>Toxicity:</b> 2",
-	            "<b>Duration:</b> Instantaneous",
-    			"You gain {@dice 1d4+4} temporary hit points.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"You gain additional 5 temporary hit points for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Thining Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"0"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"16 hits"
-    				]
-    			},
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 16 hits",
-    			"When you hit a creature with the coated weapon, the target must succeed on a Constitution saving throw or take an extra {@dice 1d6} damage of the weapons type. A creature that does not bleed automatically succeeds on its saving throw."
-    		]
-    	},
-    	{
-    		"name": "Undead Oil",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "OF:S",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"0"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"8 hits"
-    				]
-    			},
-    			"<b>Toxicity:</b> 0",
-	            "<b>Duration:</b> 8 hits",
-    			"When you hit an undead with the coated weapon, the target takes an extra {@damage 2d6} radiant damage."
-    		]
-    	},
-    	{
-    		"name": "Vampire Bane",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"3"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"10 minutes"
-    				]
-    			},
-    			"<b>Toxicity:</b> 3",
-	            "<b>Duration:</b> 10 minutes",
-    			"For the potions duration, when a creature hits you with a bite or similar attack or drinks your blood, the creature takes {@damage 2d10} poison damage.",
-    			{
-    				"type": "entries",
-    				"name": "Higher Potency",
-    				"entries": [
-    					"You can take additional toxicity in order to increase the potions damage by {@dice 1d10} for each additional 2 points of toxicity you take."
-    				]
-    			}
-    		]
-    	},
-    	{
-    		"name": "Warmth",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"6"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 hour"
-    				]
-    			},
-    			"<b>Toxicity:</b> 6",
-	            "<b>Duration:</b> 1 hour",
-    			"For the potions duration, you gain resistance to cold damage. In addition, you don't suffer the effects of extrem cold."
-    		]
-    	},
-    	{
-    		"name": "Whirlwind",
-    		"source": "CeldirasCompendiumOfKnowledge",
-    		"featureType": "PF:S",
-    		"entries": [
-    			{
-    				"type": "entries",
-    				"name": "Toxicity",
-    				"entries": [
-    					"8"
-    				]
-    			},
-    			{
-    				"type": "entries",
-    				"name": "Duration",
-    				"entries": [
-    					"1 minute"
-    				]
-    			},
-    			"<b>Toxicity:</b> 8",
-	            "<b>Duration:</b> 1 minute",
-    			"For the potions duration, you can take the {@action dodge} action as a bonus action on your turn. In addition, you gain a +2 to your AC and your speed increases by 10 feet."
-    		]
-    	}
 	],
 	"race": [
 		{
@@ -2578,18 +2251,6 @@
 	],
 	"subclass": [
 		{
-			"name": "College of Dancing",
-			"subclassFeatures": [
-				"College of Dancing|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|3",
-				"Rousing Dance|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|6",
-				"Master's Dance|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|14"
-			],
-			"source": "CeldirasCompendiumOfKnowledge",
-			"shortName": "Dancing",
-			"className": "Bard",
-			"classSource": "PHB"
-		},
-		{
 	        "name": "Circle of the Blight",
 	        "source": "CeldirasCompendiumOfKnowledge",
 	        "className": "Druid",
@@ -2601,95 +2262,6 @@
 	            "Hulking Wither|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|10",
 	            "Master of Decay|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|14"
       		]
-		},
-		{
-			"name": "Strider",
-			"subclassFeatures": [
-				"Strider|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3",
-				"Oils|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|7",
-				"Special Ingredient|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|10",
-				"Skilled Eye|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|15",
-				"Angel's Tear|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|18"
-			],
-			"source": "CeldirasCompendiumOfKnowledge",
-			"shortName": "Strider",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassTableGroups": [
-				{
-					"subclasses": [
-						{
-							"name": "Strider",
-							"source": "CeldirasCompendiumOfKnowledge"
-						}
-					],
-					"colLabels": [
-						"Toxicity Limit"
-					],
-					"rows": [
-						[
-							0
-						],
-						[
-							0
-						],
-						[
-							4
-						],
-						[
-							5
-						],
-						[
-							6
-						],
-						[
-							7
-						],
-						[
-							14
-						],
-						[
-							15
-						],
-						[
-							16
-						],
-						[
-							17
-						],
-						[
-							18
-						],
-						[
-							19
-						],
-						[
-							27
-						],
-						[
-							28
-						],
-						[
-							29
-						],
-						[
-							30
-						],
-						[
-							31
-						],
-						[
-							32
-						],
-						[
-							37
-						],
-						[
-							38
-						]
-					]
-				}
-			]
 		},
 		{
 			"name": "Oath of the Bonfire",
@@ -2738,81 +2310,6 @@
 		}
 	],
 	"subclassFeature": [
-		{
-			"name": "College of Dancing",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Bard",
-			"classSource": "PHB",
-			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 3,
-			"entries": [
-				"TODO",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Gracious Combat|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Inspiring Dance|Bard|PHB|Dancing|CeldirasCompendiumOfKnowledge|3"
-				}
-			]
-		},
-		{
-			"name": "Gracious Combat",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Bard",
-			"classSource": "PHB",
-			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"When you join the College of Dancing at 3rd level, you learn how to use certain weapons in a more graceful and swift way and your nimble movements allow you to doge attacks.",
-				"For you, quaterstaffs, sickles and spears gain the finesse property. Futhermore, while you are not wearing any armor or using a shield, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier."
-			]
-		},
-		{
-			"name": "Inspiring Dance",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Bard",
-			"classSource": "PHB",
-			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Starting at 3rd level, your dance can inspire others.",
-				"When a creature other than youself within 60 feet of you that you can see makes a saving throw or an attack roll, you can use your reaction to expend one use of your Bardic Inspiration, rolling a Bardic Inspiration die and adding the number rolled to the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or saving throw succeeds or fails. To gain this benefit, a creature must be able to see you."
-			]
-		},
-		{
-			"name": "Rousing Dance",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Bard",
-			"classSource": "PHB",
-			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"At 6th level, you can use your action to start dancing. If you do so, choose one creature within 60 feet of you that you can see, that creature must make a Wisdom saving throw against your spell save DC. On a failed save the creature starts dancing wasting its next turn in the process. On your subsequent turns, you can use your bonus action to sustain the dance. A dancing creature can repeat its saving throw at the end of its turn to end the effect early. The creature is immune if it can't see you or it is immune to being charmed.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Master's Dance",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Bard",
-			"classSource": "PHB",
-			"subclassShortName": "Dancing",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"Starting at 14th level, whenever you use your Inspiring Dance feature, you can roll a d6 and use it instead of expending a Bardic Inspiration die."
-			]
-		},
 		{
 	        "name": "Circle of Blight",
 	        "source": "CeldirasCompendiumOfKnowledge",
@@ -2880,168 +2377,6 @@
 	            "You are immune to poison and disease and you gain resistance to necrotic damage."
 	        ]
     	},
-    	{
-			"name": "Strider",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 3,
-			"entries": [
-				"Basically a Witcher",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Meditation|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Strider Lore|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Alchemy|Fighter|PHB|Strider|CeldirasCompendiumOfKnowledge|3"
-				}
-			]
-		},
-		{
-			"name": "Meditation",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"At 3rd level, instead of sleeping for 8 hours, you can enter a deep meditational trance for 4 hour."
-			]
-		},
-		{
-			"name": "Strider Lore",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"At 3rd level, you gain proficiency with alchemist's supplies.",
-				"Futhermore, you learn to cast the {@spell friends}, {@spell gust}, {@spell mold earth}, {@spell produce flame} and {@spell resistance} cantrips. Wisdom is your spellcasting ability for them."
-			]
-		},
-		{
-			"name": "Alchemy",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"At 3rd level, you gain the ability to create {@filter strider potions|optionalfeatures|feature type=PF:S}. These potions are posionous to everyone that is not a strider.",
-				{
-		    		"type": "entries",
-		    		"name": "Preparing Formulae and using Mixtures",
-		    		"entries": [
-		    			"Whenever you finish a long rest, you prepare a number of formulae equal to your Wisdom modifier + your fighter level divided by three. The formulae must be for potions. Preparing the formulae reflects four hours of brewing as part of your long rest, creating the mixtures you will use until your next long rest. As a bonus action on your turn, you can ingest a potion gaining its benefits, but increasing your toxicity level. If you use the same potion twice their effects don't stack."
-		    		]
-		    	},
-		    	{
-		    		"type": "entries",
-		    		"name": "Toxicity Level and Toxixity Limit",
-		    		"entries": [
-		    			"When you ingest a potion, your toxicity level increases by an amount noted in the formula. Your toxicity limit determines how high your toxicity level can get without suffering any drawbacks. When your toxicity level exceeds your toxicity limit, you take an amount of d10s of poison damage equal to the formulas toxicity cost ignoring resistances and immunities and your hit point maximum is reduced by an amount equal to the poison damage you took. After you reduced your toxicity level below your toxicity limit, you can restore your hit point maximum using a greater restoration spell or similar magic. Additionally, you become poisoned until your toxicity level no longer exceeds your toxicity limit.When you finish a long rest, your toxicity level is reduced back to zero."
-		    		]
-		    	},
-				{
-					"type": "abilityDc",
-					"name": "Alchemy",
-					"attributes": [
-						"wis"
-					]
-				}
-			]
-		},
-		{
-			"name": "Oils",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"At 7th level, you learned to create {@filter oils|optionalfeatures|feature type=OF:S} in addition to potions using your alchemy feature. You can now prepare {@filter oils|optionalfeatures|feature type=OF:S}.",
-				"As an action, you can apply an oil to your weapon granting it the {@filter oils|optionalfeatures|feature type=OF:S} benefits. The effect lasts for its duration or until you spend one minute removing the oil from the weapon. If you apply a second oil to the weapon before finishing a short rest, the {@filter oils|optionalfeatures|feature type=OF:S} neutralize eachother."
-			]
-		},
-		{
-			"name": "Special Ingredient",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"At 10th level, you can add one of three special ingedients to your potions.",
-				"When you ingest a potion, you can choose one of the following effects to gain in addition to the potions normal effect. After you chose one ingredient, you can't choose that ingredient again until you finish a long rest.",
-				{
-					"type": "entries",
-					"name": "Giant's Toe",
-					"entries": [
-						"You added a bit of a giant's toe to your potion giving you a +3 to all strength based damage rolls you make within the next minute."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Troll Blood",
-					"entries": [
-						"You added a bit of a troll's blood. At the start of your turn, when you are not incapacitated and have not taken acid or fire damage this round, you regain an amount of hit points equal to your fighter level divided by three (rounded down) for the next minute."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Celestial Liver",
-					"entries": [
-						"You added a bit of a celestial's liver reducing your toxicity level by an amount equal to your fighter level divided by three (rounded down)."
-					]
-				}
-			]
-		},
-		{
-			"name": "Skilled Eye",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"At 15th level, your knowledge about monsters grants you insight into a monsters defenses.",
-				"On your turn, you can target one creature and make a Wisdom (Insight) check against a DC equal to 10 + the target's challenge rating divided by two, in order to gain insight into either the targets hit points, weaknesses or resistances and immunities. You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest."
-			]
-		},
-		{
-			"name": "Angel's Tear",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Strider",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"At 18th level, you learned how to create a special potion.",
-				"As an action, you can ingest that potion reducing your toxicity level to zero and ending all potion effects on you. After you used this feature, you can't use it again unit you finish a long rest."	
-			]
-		},
 		{
 			"name": "Oath of the Bonfire",
 			"source": "CeldirasCompendiumOfKnowledge",

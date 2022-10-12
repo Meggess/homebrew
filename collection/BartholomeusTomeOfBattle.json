@@ -1,0 +1,2663 @@
+{ 
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BTB",
+				"abbreviation": "BTB",
+				"full": "Bartholomeus' Tome of Battle",
+				"url": "",
+				"authors": [
+					"Megges"
+				],
+				"convertedBy": [],
+				"color": "2596be",
+				"version": "0.2"
+			}
+		],
+		"optionalFeatureTypes": {
+			"SF": "Potion Formula; Strider"
+		},
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "baseitem": [
+		{
+			"name": "Battleaxe",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"V",
+                "AP"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Flail",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"weapon": true,
+            "property": [
+                "ML"
+            ]
+		},
+		{
+			"name": "Glaive",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H",
+                "MS"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Greataxe",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 7,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H",
+                "AP"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatsword",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H",
+                "MF"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Halberd",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H",
+                "MT"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Longsword",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V",
+                "MF"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Maul",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H",
+                "MP"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Morningstar",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+            "dmg2": "1d10",
+			"mace": true,
+			"weapon": true,
+            "property": [
+                "V",
+                "AP"
+            ]
+		},
+		{
+			"name": "Pike",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 18,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H",
+                "MB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Trident",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V",
+                "MR"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"weapon": true
+		},
+		{
+			"name": "War Pick",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"dmg1": "2d4",
+			"dmgType": "P",
+			"weapon": true,
+            "property": [
+                "AP"
+            ]
+		},
+		{
+			"name": "Warhammer",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V",
+                "MP"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Boomerang",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 50,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+                "S"
+			],
+			"range": "30/90",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If you miss an attack with the boomerang and there is enough space around for it to return to you, it returns to you at the start of your next turn."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Harpoon",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V",
+                "S"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you hit a creature that is at most one size category larger than you with a harpoon, you can force it to succeed on a strength contest against you or be pulled up to 20 feet towards you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sword Breaker",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+                "F",
+                "L",
+                "S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+            "dagger": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you are attacked with a sword or sword-like weapon while you use the sword breaker, you gain a +1 bonus to your ac for that attack."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Sword Cane",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+                "F",
+                "S"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true,
+            "sword": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While sheathed, this weapon looks like a normal walking cane."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Chakram",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 2000,
+			"weaponCategory": "exotic",
+			"property": [
+                "F",
+                "L",
+                "T"
+			],
+            "range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Meteor Hammer",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2500,
+			"weaponCategory": "exotic",
+			"property": [
+                "F",
+                "R",
+                "S",
+                "2H"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+            "dmg2": "1d4",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If you attack with a meteor hammer as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} bludgeoning damage on a hit and can't benefit from the weapons reach property."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "War Fan",
+			"source": "BTB",
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 5000,
+			"weaponCategory": "exotic",
+			"property": [
+                "F",
+                "L",
+                "S",
+                "T"
+			],
+            "range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+            "dmg2": "1d4",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Once per turn, immediatly after you make an attack with the fan, or as a bonus action on your turn, you can fold or unfold the fan. When you do so, you gain a +1 to the next attack roll you make until the end of your next turn. In its folded state, the fan deals {@damage 1d4} bludgeoning damage instead of {@damage 1d6} slashing damage and has the thrown property with a normal range of 20 feet and a long range of 60 feet."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Bolas",
+			"source": "BTB",
+			"type": "R",
+			"rarity": "none",
+			"weight": 1,
+			"value": 10,
+			"weaponCategory": "exotic",
+			"property": [
+                "S",
+                "T"
+			],
+            "range": "20/60",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"A Large or smaller creature hit by a bolas is knocked prone and can't stand up until it is freed. A bolas has no effect on creatures that are formless, don't need legs to move, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the bolas (AC 10) also frees the creature without harming it, ending the effect and destroying the bolas."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Buckler",
+			"source": "BTB",
+			"type": "S",
+			"rarity": "none",
+			"weight": 3,
+			"value": 500,
+            "ac": "1"
+		},
+		{
+			"name": "Tower Shield",
+			"source": "BTB",
+			"type": "S",
+			"rarity": "none",
+			"weight": 40,
+			"value": 3000,
+			"property": [
+                "H",
+                "S"
+			],
+            "ac": "2",
+            "stealth": true,
+            "strength": "15",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"As a bonus action, you can hide behind the shield to gain full cover until the start of your next turn."
+                    ]
+				}
+			]
+		}
+    ],
+	"classFeature": [
+		{
+			"name": "Bonus Proficiency",
+			"source": "BTB",
+			"className": "Bard",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1st-level bard {@variantrule optional class features|tce|optional feature}}",
+				"You are proficient with {@item buckler|BTB|bucklers} and {@item sword cane|BTB|sword canes}."
+			]
+		},
+		{
+			"name": "Countercharm",
+			"source": "BTB",
+			"className": "Bard",
+			"classSource": "PHB",
+			"level": 6,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 6th-level bard {@variantrule optional class features|tce|optional feature}, which replaces the Countercharm feature",
+				"Starting at 6th level, your magnificent presence disrupts mind-influencing effects. You and each creatue of your choice within 30 feet of you have advantage on saving throws against being frightened or charmed. You must be consious grant this bonusand a creature must be able to hear or see you to gain this benefit."
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "BTB",
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1st-level monk {@variantrule optional class features|tce|optional feature}}",
+				"You are proficient with one exotic weapon of your choice."
+			]
+		},
+		{
+			"name": "Step of The Wind",
+			"source": "BTB",
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2nd-level monk {@variantrule optional class features|tce|optional feature}, which replaces the Step of the Wind feature}",
+				"As a bonus action, you can take the Disengage or Dash action and your jump distance is doubled for the turn. You can use this feature a number of times equal to your proficiency bonus and regain all expended uses after you finish a long rest.",
+				"Alternatively, you can expend 1 ki point to use this feature."
+			]
+		},
+		{
+			"name": "Perfected Self",
+			"source": "BTB",
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 20,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 20th-level monk {@variantrule optional class features|tce|optional feature}}, which replaces the Perfected Self feature",
+				"At 20th level, you become a paragon of self control. Your Dexterity and Constitution scores increase by 4. Your maximum for those scores is now 24."
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1st-level rogue {@variantrule optional class features|tce|optional feature}}",
+				"You are proficient with {@item buckler|BTB|bucklers}, {@item scimitar||scimitars} and {@item sword cane|BTB|sword canes}."
+			]
+		}
+	],
+	"condition": [
+		{
+			"name": "Frozen",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"A frozen creature is incapacitated and can't move or speak.",
+						"The creature automatically fails Strength and Dexterity saving throws.",
+						"Attack rolls against the creature have advantage.",
+						"The creature has vulnerability to bludgeoning damage.",
+						"If the creature takes any amount of fire damage the condition ends on it."
+					]
+				}
+			]
+		}
+	],
+    "feat": [
+		{
+			"name": "Rover",
+			"source": "BTB",
+			"entries": [
+				"Your walking speed increases by 5 feet, and you gain a climbing speed and swimming speed equal to your walking speed."
+			]
+		},
+		{
+			"name": "Rune Knight Initiate",
+			"source": "BTB",
+			"prerequisite": [
+				{
+					"other": "Proficiency with {@item smith's tools}"
+				}
+			],
+			"entries": [
+				"You learned to carve runes imbued with magic. As a result, you learn one rune of your choice from among the runes available to rune knights.",
+                "Whenever you finish a long rest, you can touch a objects equal and inscribe the rune onto the objects. To be eligible, an object must be a weapon, a suit of armor, a shield, a piece of jewelry, or something else you can wear or hold in a hand. Your rune remains on an object until you finish a long rest.",
+                "If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Constitution modifier.",
+                "Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's rune with another one available to the rune knight."
+			]
+		},
+		{
+			"name": "Barrage",
+			"source": "BTB",
+			"prerequisite": [
+				{
+					"other": "Proficiency with daggers or darts"
+				}
+			],
+			"entries": [
+				"You have learned to throw multiple projectiles with one swift motion.",
+                "As an action, you can throw daggers or darts in a 20-foot cone. When you do so, a number of creature of your choice within that area equal to the number of weapons you throw must succeed on a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or take the thrown weapons damage. If a creature fails its saving throw by 5 or more, it takes an extra {@damage 1d8} damage of the weapon's type.",
+                "The extra damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+			]
+		},
+		{
+			"name": "Dash Attack",
+			"source": "BTB",
+			"entries": [
+				"You have learned to use the momentum of your movement for your attacks.",
+                "Immediatly after you take the dash action, you can make one melee weapon attack as a bonus action.",
+                "In addition, if you move at least 10 feet straight towards a target and then hit it with a melee weapon attack on the same turn, the target takes an extra {@damage 1d10} damage of the weapon's type.",
+                "The extra damage increases by {@damage 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
+			]
+		},
+		{
+			"name": "Shield Bash",
+			"source": "BTB",
+			"prerequisite": [
+				{
+					"other": "Proficiency with any kind of shield"
+				}
+			],
+			"entries": [
+				"You have learned to use your shield in more offensive ways.",
+                "When a creature misses you with a melee attack while you are wielding a shield, you can use your reaction and bash the creature with your shield. It takes {@damage 1d4} bludgeoning damage and the next attack roll against the creature is made with advantage.",
+                "If you are wielding a spiked shield, you deal the damage of the shield instead of the bludgeoning damage."
+			]
+		},
+		{
+			"name": "Spin Attack",
+			"source": "BTB",
+			"prerequisite": [
+				{
+					"other": "Proficiency with greatswords or greataxes"
+				}
+			],
+			"entries": [
+				"You have learned to use the weight of your weapon for your advantage.",
+                "As an action, while wielding a greatsword or greataxe, you can perform a spin attack. When you do so, make a melee weapon attack against each creature within 5 feet of you. A creature hit by your attack has to succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone} by the attack. If a creature fails its saving throw by 5 or more, it takes an extra {@damage 1d6} damage of the weapon's type.",
+                "The extra damage increases by {@damage 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+			]
+		}
+    ],
+    "item": [
+		{
+			"name": "Amulet of Warning",
+			"source": "BTB",
+			"page": 0,
+            "wondrous": true,
+			"rarity": "common",
+            "attunement": "by a strider",
+			"entries": [
+				"While wearing this amulet, you can't be suprised, except when incapacitated by something other than nonmagical sleep. The amulet magically awakens you if you are sleeping naturally when combat begins."
+			]
+		},
+        {
+            "name": "+1 Arcane Bracers",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "uncommon",
+            "reqAttune": "by an arcane archer",
+            "wondrous": true,
+            "entries": [
+                "This bracers are made of pure silver engraved with elvish runes glowing in a faint blue. While wearing these bracers you gain a +1 bonus to the damage and DC of your arcane shots.",
+                "In addition, you can use a bonus action to regain two uses of your Arcane Shot feature. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "+2 Arcane Bracers",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "rare",
+            "reqAttune": "by an arcane archer",
+            "wondrous": true,
+            "entries": [
+                "This bracers are made of pure silver engraved with elvish runes glowing in a faint blue. While wearing these bracers you gain a +2 bonus to the damage and DC of your arcane shots.",
+                "In addition, you can use a bonus action to regain two uses of your Arcane Shot feature. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "+3 Arcane Bracers",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "very rare",
+            "reqAttune": "by an arcane archer",
+            "wondrous": true,
+            "entries": [
+                "This bracers are made of pure silver engraved with elvish runes glowing in a faint blue. While wearing these bracers you gain a +3 bonus to the damage and DC of your arcane shots.",
+                "In addition, you can use a bonus action to regain two uses of your Arcane Shot feature. You can't use this property again until you finish a long rest."
+            ]
+        },
+		{
+			"name": "Behir Splint",
+			"source": "BTB",
+			"page": 0,
+			"baseItem": "splint armor|PHB",
+			"type": "HA",
+			"resist": [
+				"lightning"
+			],
+			"rarity": "very rare",
+			"weight": 60,
+			"ac": 17,
+			"strength": "15",
+			"stealth": true,
+			"entries": [
+				"While wearing this armor, you gain resistance to lightning damage."
+			]
+		},
+        {
+            "name": "+1 Brass Bracelet",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "While wearing this bracelet, you gain a +1 bonus to attack and damage roll made of your unarmed strikes."
+            ]
+        },
+        {
+            "name": "+2 Brass Bracelet",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "While wearing this bracelet, you gain a +2 bonus to attack and damage roll made of your unarmed strikes."
+            ]
+        },
+        {
+            "name": "+3 Brass Bracelet",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "While wearing this bracelet, you gain a +3 bonus to attack and damage roll made of your unarmed strikes."
+            ]
+        },
+        {
+            "name": "+1 Feral Kilt",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "uncommon",
+            "reqAttune": "by a barbarian",
+            "reqAttuneTags": [
+                {
+                    "class": "barbarian"
+                }
+            ],
+            "wondrous": true,
+            "entries": [
+                "This kilt is made from fur of various apex predators. While wearing this magic item, you gain a +1 bonus to your rage damage and unarmored defense.",
+                "In addition, you can use a bonus action to move up to your movement speed towards a hostile creature."
+            ]
+        },
+        {
+            "name": "+2 Feral Kilt",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "rare",
+            "reqAttune": "by a barbarian",
+            "reqAttuneTags": [
+                {
+                    "class": "barbarian"
+                }
+            ],
+            "wondrous": true,
+            "entries": [
+                "This kilt is made from fur of various apex predators. While wearing this magic item, you gain a +2 bonus to your rage damage and unarmored defense.",
+                "In addition, you can use a bonus action to move up to your movement speed towards a hostile creature."
+            ]
+        },
+        {
+            "name": "+3 Feral Kilt",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "very rare",
+            "reqAttune": "by a barbarian",
+            "reqAttuneTags": [
+                {
+                    "class": "barbarian"
+                }
+            ],
+            "wondrous": true,
+            "entries": [
+                "This kilt is made from fur of various apex predators. While wearing this magic item, you gain a +3 bonus to your rage damage and unarmored defense.",
+                "In addition, you can use a bonus action to move up to your movement speed towards a hostile creature."
+            ]
+        },
+        {
+            "name": "+1 Gauntlets of Superiority",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "uncommon",
+            "reqAttune": "by a battle master",
+            "wondrous": true,
+            "entries": [
+                "This pair of masterfully crafted gauntlets is made of high quality steel. While wearing this magic item, you gain a +1 bonus to the damage and DC of your maneuvers.",
+                "In addition, you can use a bonus action to regain 2 superiority dice. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "+2 Gauntlets of Superiority",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "rare",
+            "reqAttune": "by a battle master",
+            "wondrous": true,
+            "entries": [
+                "This pair of masterfully crafted gauntlets is made of high quality steel. While wearing this magic item, you gain a +2 bonus to the damage and DC of your maneuvers.",
+                "In addition, you can use a bonus action to regain 2 superiority dice. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "+3 Gauntlets of Superiority",
+            "source": "BTB",
+            "page": 0,
+            "rarity": "very rare",
+            "reqAttune": "by a battle master",
+            "wondrous": true,
+            "entries": [
+                "This pair of masterfully crafted gauntlets is made of high quality steel. While wearing this magic item, you gain a +3 bonus to the damage and DC of your maneuvers.",
+                "In addition, you can use a bonus action to regain 2 superiority dice. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Transdimensional Dagger",
+            "source": "BTB",
+            "page": 0,
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "rarity": "rare",
+            "reqAttune": true,
+            "weight": 1,
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "dagger": true,
+            "weapon": true,
+            "entries": [
+                "This dagger seems to fade in and out of the ethereal plane in random intervals.",
+                "Immediatly after you threw the dagger, you can use a bonus action and teleport yourself to the dagger. When you do so, you appear in the nearest unoccupied space of the dagger and it reappears in your hand."
+            ]
+        }
+    ],
+	"itemProperty": [
+		{
+			"abbreviation": "AP",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Armor Piercing",
+					"entries": [
+						"When you attack a creature wearing medium or heavy armor, you gain a bonus to your attack roll equal to half your proficiency bonus (rounded down)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ML",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lunge",
+					"entries": [
+						"Once per turn, when you make a melee weapon attack on your turn, you can increase your reach for that attack by 5 feet."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MS",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sweep",
+					"entries": [
+						"Once per turn, when you hit a creature with a melee weapon attack, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Proficiency bonus. The damage is of the same type dealt by the original attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MF",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Feint",
+					"entries": [
+						"You can use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll this turn against that creature."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MT",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Trip",
+					"entries": [
+						"When you hit a creature with a weapon attack, you can attempt to knock the target down. If the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MP",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Push",
+					"entries": [
+						"Once per turn, when you hit a creature with a weapon attack, you can attempt to drive the target back. If the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 10 feet away from you."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MR",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Riposte",
+					"entries": [
+						"When a creature misses you with a melee attack, you can use your reaction to make a melee weapon attack against the creature."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MB",
+			"source": "BTB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"When a creature you can see moves into the reach you have with this weapon, you can use your reaction to make one attack against the creature."
+					]
+				}
+			]
+		}
+    ],
+	"optionalfeature": [
+		{
+			"name": "Eldritch Rune",
+			"source": "BTB",
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"This rune overflows with the raw magical energy of eldritch giants. While wearing or carrying an object inscribed with this rune, you gain a bonus to all Intelligence (Arcana) checks and Intelligence (History) checks you make regarding magic or magic items equal to your proficiency bonus.",
+				"In addition, when you or a creature you can see within 30 feet of you takes damage from a spell, you can use your reaction to invoke this rune and give the creature resistance to that damage until the start of its next turn.",
+				"Once you invoke this rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Fog Rune",
+			"source": "BTB",
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"This rune channels the innate stealthiness of fog giants. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Stealth) checks and can attempt to hide even when you are only lightly obscured by fog or mist.",
+				"In addition, you can invoke this rune as a bonus action covering you in a small cloud of mist. For 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it, you gain a +1 bonus to your armor class and you are lightly obscured.",
+				"Once you invoke this rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Fomorian Rune",
+			"source": "BTB",
+			"featureType": [
+				"RN"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Fighter"
+						},
+						"subclass": {
+							"name": "Rune Knight"
+						}
+					}
+				}
+			],
+			"entries": [
+				"This rune bears the magic that once cursed the fomorian race. While wearing or carrying an object inscribed with this rune, you can't be surprised, except when incapacitated.",
+				"In addition, you can invoke this runes magic as a bonus action unleashing the fomorian curse onto one creature you can see within 60 feet of you. The creature must succeed on a Charisma saving throw or become cursed with magical deformities for 1 minute or until you lose conentration (as if concentrating on a spell).",
+				"While deformed, the creature has its speed halved and has disadvantage on ability checks, saving throws, and attacks based on Strength or Dexterity. A cursed creature can repeat its saving throw at the end of its turn ending the effect on a successful one.",
+				"Once you invoke this rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Runt Rune",
+			"source": "BTB",
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"This rune evokes the ferociousness of ettins. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Perception) checks.",
+				"In addition, when you or a creature you can see within 30 feet of you must make a saving throw against being blinded, deafened, frightened, stunned or be knocked unconscious, you can use your reaction to invoke this rune and give the creature advantage on the saving throw.",
+				"Once you invoke this rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Flaming Arrow",
+			"source": "BTB",
+			"featureType": [
+				"AS"
+			],
+			"entries": [
+				"You enhance your arrow with fire magic. The creature hit by the arrow takes an extra {@damage 2d6} fire damage and it catches fire; until someone takes an action to douse the fire, the creature takes 1d10 fire damage at the start of each of its turns.",
+				"The fire damage increases to {@damage 4d6} and {@damage 2d10} when you reach 18th level in this class."
+			]
+		},
+    	{
+    		"name": "Brute",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 30 seconds",
+    			"For the potions duration, you gain advantage on all melee weapon attacks that use strength. In addition, all attacks against you have advantage."
+    		]
+    	},
+    	{
+    		"name": "Bull's Eye",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, your weapon attacks score a critical hit on a roll of 19 or 20."
+    		]
+    	},
+    	{
+    		"name": "Cold",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to fire damage. In addition, you don't suffer the effects of extrem heat."
+    		]
+    	},
+    	{
+    		"name": "Day",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> 2 hours",
+    			"For the potions duration, you gain darkvision out to a range of 60 feet."
+    		]
+    	},
+    	{
+    		"name": "Durable",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, you have advantage on Constitution saving throws."
+    		]
+    	},
+    	{
+    		"name": "Ground",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to lightning damage."
+    		]
+    	},
+    	{
+    		"name": "Leach",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to acid damage."
+    		]
+    	},
+    	{
+    		"name": "Regena",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 10 minutes",
+    			"For the potions duration, at the start of your turn, when you have at least 1 hit point left, but no more than half your hit point maximum, you regain hit points equal to your Wisdom modifier."
+    		]
+    	},
+    	{
+    		"name": "Sight",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 2 hours",
+    			"For the potions duration, you gain the effects of the {@spell see invisibly} spell."
+    		]
+    	},
+    	{
+    		"name": "Steadfast",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"4"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 4",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you can't be {@condiiton stunned} or knocked {@condition prone}."
+    		]
+    	},
+    	{
+    		"name": "Stone",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"6"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to bludgeoning, piercing and slashing damage."
+    		]
+    	},
+    	{
+    		"name": "Thick Hide",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			"<b>Toxicity:</b> 2",
+	            "<b>Duration:</b> Instantaneous",
+    			"You gain {@dice 1d4+4} temporary hit points.",
+    			{
+    				"type": "entries",
+    				"name": "Higher Potency",
+    				"entries": [
+    					"You gain additional 5 temporary hit points for each additional 2 points of toxicity you take."
+    				]
+    			}
+    		]
+    	},
+    	{
+    		"name": "Warmth",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"6"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 hour"
+    				]
+    			},
+    			"<b>Toxicity:</b> 6",
+	            "<b>Duration:</b> 1 hour",
+    			"For the potions duration, you gain resistance to cold damage. In addition, you don't suffer the effects of extrem cold."
+    		]
+    	},
+    	{
+    		"name": "Whirlwind",
+    		"source": "BTB",
+    		"featureType": "SF",
+    		"entries": [
+    			{
+    				"type": "entries",
+    				"name": "Toxicity",
+    				"entries": [
+    					"8"
+    				]
+    			},
+    			{
+    				"type": "entries",
+    				"name": "Duration",
+    				"entries": [
+    					"1 minute"
+    				]
+    			},
+    			"<b>Toxicity:</b> 8",
+	            "<b>Duration:</b> 1 minute",
+    			"For the potions duration, you can take the {@action dodge} action as a bonus action on your turn. In addition, you gain a +2 to your AC and your speed increases by 10 feet."
+    		]
+    	}
+	],
+    "subclass": [
+		{
+			"name": "Path of the Berserker",
+			"shortName": "Berserker",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Path of the Berserker|Barbarian|PHB|Berserker|BTB|3",
+				"Mindless Rage|Barbarian|PHB|Berserker|PHB|6",
+				"Frenzy|Barbarian|PHB|Berserker|BTB|10",
+				"Retaliation|Barbarian|PHB|Berserker|PHB|14"
+			]
+		},
+		{
+			"name": "Path of the Brute",
+			"shortName": "Brute",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Path of the Brute|Barbarian|PHB|Brute|BTB|3",
+				"Empowered Strikes|Barbarian|PHB|Brute|BTB|6",
+				"Discombobulate|Barbarian|PHB|Brute|BTB|10",
+				"Choke Hold|Barbarian|PHB|Brute|BTB|14"
+			]
+		},
+		{
+			"name": "College of Dancing",
+			"subclassFeatures": [
+				"College of Dancing|Bard|PHB|Dancing|BTB|3",
+				"Rousing Dance|Bard|PHB|Dancing|BTB|6",
+				"Master's Dance|Bard|PHB|Dancing|BTB|14"
+			],
+			"source": "BTB",
+			"shortName": "Dancing",
+			"className": "Bard",
+			"classSource": "PHB"
+		},
+		{
+	        "name": "Circle of Ferocity",
+	        "source": "BTB",
+	        "className": "Druid",
+	        "classSource": "PHB",
+	        "shortName": "Ferocity",
+	        "subclassFeatures": [
+	            "Circle of Ferocity|Druid|PHB|Ferocity|BTB|2",
+	            "Extra Attack|Druid|PHB|Ferocity|BTB|6",
+	            "Primal Strikes|Druid|PHB|Ferocity|BTB|10",
+	            "Bestial Movement|Druid|PHB|Ferocity|BTB|14"
+      		]
+		},
+		{
+			"name": "Arcane Archer",
+			"shortName": "Arcane Archer",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": [
+							"prestidigitation"
+						]
+					}
+				},
+				{
+					"innate": {
+						"3": [
+							"druidcraft"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Arcane Archer|Fighter|PHB|Arcane Archer|BTB|3",
+				"Magic Arrow|Fighter|PHB|Arcane Archer|XGE|7",
+				"Volatile Shot|Fighter|PHB|Arcane Archer|BTB|7",
+				"Additional Arcane Shot Option|Fighter|PHB|Arcane Archer|XGE|7",
+				"Additional Arcane Shot Option|Fighter|PHB|Arcane Archer|XGE|10",
+				"Curving Shot|Fighter|PHB|Arcane Archer|BTB|15",
+				"Additional Arcane Shot Option|Fighter|PHB|Arcane Archer|XGE|15",
+				"Additional Arcane Shot Option|Fighter|PHB|Arcane Archer|XGE|18",
+				"Disintegrating Shot|Fighter|PHB|Arcane Archer|BTB|18"
+			]
+		},
+		{
+			"name": "Strider",
+			"subclassFeatures": [
+				"Strider|Fighter|PHB|Strider|BTB|3",
+				"Blade Oils|Fighter|PHB|Strider|BTB|7",
+				"Special Ingredient|Fighter|PHB|Strider|BTB|10",
+				"Skilled Eye|Fighter|PHB|Strider|BTB|15",
+				"Angel's Tear|Fighter|PHB|Strider|BTB|18"
+			],
+			"source": "BTB",
+			"shortName": "Strider",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Strider",
+							"source": "BTB"
+						}
+					],
+					"colLabels": [
+						"Toxicity Limit"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							16
+						],
+						[
+							17
+						],
+						[
+							18
+						],
+						[
+							19
+						],
+						[
+							27
+						],
+						[
+							28
+						],
+						[
+							29
+						],
+						[
+							30
+						],
+						[
+							31
+						],
+						[
+							32
+						],
+						[
+							37
+						],
+						[
+							38
+						]
+					]
+				}
+			]
+		},
+		{
+	        "name": "Jester",
+	        "source": "BTB",
+	        "className": "Rogue",
+	        "classSource": "PHB",
+	        "shortName": "Jester",
+	        "subclassFeatures": [
+	            "Jester|Rogue|PHB|Jester|BTB|3",
+	            "Juggling|Rogue|PHB|Jester|BTB|9",
+	            "nasty Insults|Rogue|PHB|Jester|BTB|13",
+	            "Suprising Throws|Rogue|PHB|Jester|BTB|17"
+      		]
+		},
+		{
+	        "name": "Gambler",
+	        "source": "BTB",
+	        "className": "Rogue",
+	        "classSource": "PHB",
+	        "shortName": "Gambler",
+	        "subclassFeatures": [
+	            "Gambler|Rogue|PHB|Gambler|BTB|3",
+	            "Lucky Seven|Rogue|PHB|Gambler|BTB|9",
+	            "Gambler's Luck|Rogue|PHB|Gambler|BTB|13",
+	            "Risky Gambit|Rogue|PHB|Gambler|BTB|17"
+      		]
+		}
+    ],
+    "subclassFeature": [
+		{
+			"name": "Path of the Berserker",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "BTB",
+			"level": 3,
+			"entries": [
+				"For some barbarians, rage is a means to an end\u2014that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Intimidating Presence|Barbarian|PHB|Berserker|BTB|3"
+				}
+			]
+		},
+		{
+			"name": "Intimidating Presence",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this path at 3rd level, you strike fear in the hearts of your opponents. While raging, any creature of your choice within 30 feet of you that can see you must succeed on a Wisdom saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier) or be {@condition frightend} of you until your rage ends. A frightend creature can repeat its saving throw at the end of its turn.",
+				"If a creature succeeds on its saving throw, it is immune to this feature for the next 24 hours."
+			]
+		},
+		{
+			"name": "Frenzy",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "BTB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you can enter a frenzy when you rage. When you do so, your melee weapon attacks deal extra damage equal to your proficiency bonus for the duration of your rage.",
+				"In addition, your bloodlust startles your opponents. As a bonus action, you can choose a creature frightend of you within 30 feet of you. The creature must succeed on another Wisdom saving throw, or its speed is reduced to 0 and it can't cast spells or concentrate on them until the end of your next turn. On subsequent turns, you can use your bonus action to extend the duration of this effect on the creature until the end of your next turn.",
+				"When your rage ends, you suffer one level of {@condition exhaustion}."
+			]
+		},
+		{
+			"name": "Path of the Brute",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Brute",
+			"subclassSource": "BTB",
+			"level": 3,
+			"entries": [
+				"Some barbarians deem it unsatisfying to maul there foes with weapons. They think it is way better to simple bash in heads with their bare hands. Barbarians like this follow the Path of the Brute.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unarmed Attacks|Barbarian|PHB|Brute|BTB|3"
+				}
+			]
+		},
+		{
+			"name": "Unarmed Attacks",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Brute",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this path at 3rd level, your unarmed strikes can deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier on a hit.",
+				"At the start of each of your turns, you can deal {@damage 1d4} bludgeoning damage to one creature grappled by you.",
+				"While raging, the damage die of your unarmed strikes increases to {@damage 1d8} and the damage you can deal to a grappled creature increses to {@damage 1d6}. In addition, you can make one grapple attempt as a bonus action."
+			]
+		},
+		{
+			"name": "Empowered Strikes",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Brute",
+			"subclassSource": "BTB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, while raging, your unarmed strikes and the damage you deal to a grappled creature count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Discombobulate",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Brute",
+			"subclassSource": "BTB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you learned to discombobulate creatures with your unarmed strikes. Once per turn, when you hit a creature with an unarmed strike, you can force the target to make a Constitution saving throw (DC equal to 8 + your Strength modifier + your proficiency bonus). On a failed save, the creature has disadvantage on attack rolls until the end of their next turn."
+			]
+		},
+		{
+			"name": "Choke Hold",
+			"source": "BTB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Brute",
+			"subclassSource": "BTB",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can try to strangle a creature grappled by you. Once per turn, as an attack on your turn while raging, you can force a creature grappled by you to make a Constitution saving throw (DC equal to 8 + your Strength modifier + your proficiency bonus). On a failed save, the creature falls unconscious for 10 minutes. An unconscious creature can repeat its saving throw at the end of its turn. You can use this feature a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "College of Dancing",
+			"source": "BTB",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "BTB",
+			"level": 3,
+			"entries": [
+				"Members of the College of Dancing dedicated themselves to the art of dancing. They have learned to use there swift movements to inspire or dace others.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gracious Combat|Bard|PHB|Dancing|BTB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Inspiring Dance|Bard|PHB|Dancing|BTB|3"
+				}
+			]
+		},
+		{
+			"name": "Gracious Combat",
+			"source": "BTB",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of Dancing at 3rd level, you learn how to use certain weapons in a more graceful and swift way and your nimble movements allow you to doge attacks.",
+				"For you, quaterstaffs, sickles and spears gain the finesse property. Futhermore, while you are not wearing any armor or using a shield, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Inspiring Dance",
+			"source": "BTB",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, your dance can inspire others.",
+				"When a creature other than youself within 60 feet of you that you can see makes a saving throw or an attack roll, you can use your reaction to expend one use of your Bardic Inspiration, rolling a Bardic Inspiration die and adding the number rolled to the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or saving throw succeeds or fails. To gain this benefit, a creature must be able to see you."
+			]
+		},
+		{
+			"name": "Rousing Dance",
+			"source": "BTB",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "BTB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can use your action to start dancing. If you do so, choose one creature within 60 feet of you that you can see, that creature must make a Wisdom saving throw against your spell save DC. On a failed save the creature starts dancing wasting its next turn in the process. On your subsequent turns, you can use your bonus action to sustain the dance. A dancing creature can repeat its saving throw at the end of its turn to end the effect early. The creature is immune if it can't see you or it is immune to being charmed.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Master's Dance",
+			"source": "BTB",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancing",
+			"subclassSource": "BTB",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, whenever you use your Inspiring Dance feature, you can roll a d6 and use it instead of expending a Bardic Inspiration die."
+			]
+		},
+		{
+			"name": "Circle of Ferocity",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"entries": [
+				"Druids of the Circle of Ferocity embrace the untaimed nature of the wilderness. These Druids channel primal magic through their own bodies to aid them in combat and turn them into beasts themself. They learned to grow bestial features and fight with the savagery of a wild animal when threatened.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid|PHB|Ferocity|BTB|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primal Ferocity|Druid|PHB|Ferocity|BTB|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Feral Form|Druid|PHB|Ferocity|BTB|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "BTB",
+			"page": 39,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Your connection to the wilderness grants you access to certain spells. At 2nd level, you learn the primal savagery cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Ferocity Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"caption": "Circle of Ferocity Spells",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell jump}, {@spell zephyr strike|XGE}"
+						],
+						[
+							"3rd",
+							"{@spell alter self}, {@spell spider climb}"
+						],
+						[
+							"5th",
+							"{@spell ashardalon's stride|FTD}, {@spell fly}"
+						],
+						[
+							"7th",
+							"{@spell fire shield}, {@spell guardian of nature|XGE}"
+						],
+						[
+							"9th",
+							"{@spell contagion}, {@spell tree stride}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Primal Ferocity",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Starting at 2nd level, you gain the ability to manifest a natural weapon. As an action, you can manifest your natural weapon and immediatly make one melee weapon attack with it and you can dismiss the weapon at any time (no action reqiured). You choose the weapons form when you gain this feature:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Claws|Druid|PHB|Ferocity|BTB|2"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Fangs|Druid|PHB|Ferocity|BTB|2"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Horns|Druid|PHB|Ferocity|BTB|2"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Tail|Druid|PHB|Ferocity|BTB|2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Claws",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Each of your hands transforms into a claw, which you can use as a weapon if it's empty and deals {@damage 1d6} slashing damage on a hit. Once per turn, when you hit a creature with a claw attack, you can force the creature to make a Constitution saving throw against your spell save DC or start bleeding on a failure. A bleeding creature takes {@damage 1d6} slashing damage at the start of of its turns until it or a creature within 5 feet of it takes an action to quench the wound."
+			]
+		},
+		{
+			"name": "Fangs",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"You grow venomous fangs in your mouth, which deal {@damage 1d4} piercing damage on a hit. Once per turn, when you hit a creature with a fang attack, you can force the creature to make a Constitution saving throw against your spell save DC taking {@damage 2d10} poison damage and becoming poisoned for 1 minute on a failure. A poisoned creature can repeat its saving throw at the end of its turn in order to end the effect early."
+			]
+		},
+		{
+			"name": "Horns",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"You grow a pair of pointy horns, which deal {@damage 1d10} piercing damage on a hit. If you move at least 15 feet straight towards a target an then hit it with a horn attack on the same turn, the target takes an extra {@damage 2d6} piercing damage."
+			]
+		},
+		{
+			"name": "Tail",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"You grow a lashing, clubbed tail, which deals {@damage 1d8} bludgeoning damage on a hit and has the reach property. Once per turn, when you hit a creature with a tail attack, you can force the creature to make a Strength saving throw be pushed 10 feet back."
+			]
+		},
+		{
+			"name": "Feral Form",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At second level, you learned to channel your ferocity with your magic. As a bonus action, you can expend one use of your wild shape feature and tranform into your feral form. When you do so, you gain temporary hitpoints equal to twice your proficiency bonus and the following properties:",
+				{
+					"type": "list",
+					"items": [
+						"At the start of your turn, you gain temporary hit points equal to twice your proficiency bonus.",
+						"Your walking speed increases by 10 feet.",
+						"Your melee weapon attacks deal an extra {@damage 1d4} acid, cold, fire, lightning, poison or thunder damage (your choice when you enter your feral form)."
+					]
+				},
+				"This form lasts for 1 minute. It ends early if you are knocked unconscious or you use a bonus action on your turn to end it.",
+				"The extra damage increases by {@damage 1d4} when you reach 6th level ({@damage 2d4}), 10th level ({@damage 3d4}) and 14th level ({@damage 4d4}) in the druid class."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Primal Strikes",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, attacks with your natural weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage while in your feral form."
+			]
+		},
+		{
+			"name": "Bestial Movement",
+			"source": "BTB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Ferocity",
+			"subclassSource": "BTB",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, your feral form grants you additional mobility. While in your feral form, you have a swimming speed or a climbing speed equal to your walking speed (your choice when you gain this feature). In addition, you can use a bonus action on your turn to expend one spell slot and increase your walking speed your walking speed by an amount equal to five times the spell's slot level."
+			]
+		},
+		{
+			"name": "Arcane Archer",
+			"source": "BTB",
+			"page": 28,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "BTB",
+			"level": 3,
+			"entries": [
+				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Archer Lore|Fighter|PHB|Arcane Archer|XGE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Shot|Fighter|PHB|Arcane Archer|BTB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Shot Options|Fighter|PHB|Arcane Archer|BTB|3"
+				}
+			]
+		},
+		{
+			"name": "Arcane Shot",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see \"Arcane Shot Options\" below).",
+				"Once per turn, when you fire an arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You can use this ability a number of time equal to your Intelligence modifier and you regain all expended uses when you finish a short or long rest.",
+				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+			]
+		},
+		{
+			"name": "Arcane Shot Options",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.",
+				"If an option requires a saving throw, your Arcane Shot save DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Arcane Shot",
+					"attributes": [
+						"int"
+					]
+				},
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Banishing Arrow|XGE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Beguiling Arrow|XGE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Bursting Arrow|XGE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Enfeebling Arrow|XGE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Flaming Arrow|BTB"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Grasping Arrow|XGE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Piercing Arrow|XGE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Seeking Arrow|XGE"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Shadow Arrow|XGE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Volatile Shot",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "BTB",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you can imbue your arrows with a large amount of magic. When you fire an arrow from a shortbow or longbow as part of the Attack action, you can shot an arrow infused with volatile magic.",
+				"When you do so, choose a point that you can see within 90 feet of you. Each creature in a 20-foot radius sphere centered on that point must make a Dexterity saving throw against your Arcane Shot save DC. On a failed save, a creature takes {@damage 8d6} force damage or half as much damage on a successful one.",
+				"Once you used this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Curving Shot",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "BTB",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
+			]
+		},
+		{
+			"name": "Disintegrating Shot",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "BTB",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can imbue your arrows with disintegration magic. As an action, you can shot an arrow in a 100 feet long 5 feet wide line. Each creature in that area must succeed on a Dexterity saving throw against your Arcane Shot save DC or take {@damage 5d6 + 20} force damage. A creature is disintegrated if this damage leaves it with 0 hit points.",
+				"Once you used this feature, you can't use it again until you finish a long rest."
+			]
+		},
+    	{
+			"name": "Strider",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 3,
+			"entries": [
+				"Striders dedicate their life to hunting monsters and often sell their skills to townsfolk in need of a monster hunter. They augment their martial prowess with a special form of alchemy granting them abilities that mimic their prey. However, striders need to mutate their own bodies in order to endure the toxic potions they brew. Because of this, most common folk mistrust striders and most of their orders were driven to the fringes of society.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strider Lore|Fighter|PHB|Strider|BTB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strider Resilience|Fighter|PHB|Strider|BTB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Alchemy|Fighter|PHB|Strider|BTB|3"
+				}
+			]
+		},
+		{
+			"name": "Strider Resilience",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage."
+			]
+		},
+		{
+			"name": "Strider Lore",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you gain proficiency with alchemist's supplies. Furthermore, instead of sleeping for 8 hours, you can enter a deep meditational trance for 4 hour."
+			]
+		},
+		{
+			"name": "Alchemy",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to create {@filter strider potions|optionalfeatures|feature type=SF}. These potions are posionous to everyone that is not a strider.",
+				{
+		    		"type": "entries",
+		    		"name": "Preparing Formulae and using Mixtures",
+		    		"entries": [
+		    			"Whenever you finish a long rest, you prepare a number of formulae equal to your Wisdom modifier + your fighter level divided by three. The formulae must be for potions. Preparing the formulae reflects four hours of brewing as part of your long rest, creating the mixtures you will use until your next long rest. As a bonus action on your turn, you can ingest a potion gaining its benefits, but increasing your toxicity level. If you use the same potion twice their effects don't stack."
+		    		]
+		    	},
+		    	{
+		    		"type": "entries",
+		    		"name": "Toxicity Level and Toxixity Limit",
+		    		"entries": [
+		    			"When you ingest a potion, your toxicity level increases by an amount noted in the formula. Your toxicity limit determines how high your toxicity level can get without suffering any drawbacks. When your toxicity level exceeds your toxicity limit, you take an amount of d10s of poison damage equal to the formulas toxicity cost ignoring resistances and immunities and your hit point maximum is reduced by an amount equal to the poison damage you took. After you reduced your toxicity level below your toxicity limit, you can restore your hit point maximum using a greater restoration spell or similar magic. Additionally, you become poisoned until your toxicity level no longer exceeds your toxicity limit.When you finish a long rest, your toxicity level is reduced back to zero."
+		    		]
+		    	}
+			]
+		},
+		{
+			"name": "Blade Oils",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you learned to create oils for your blades. As part of a short or long rest you can coat one melee weapon that deals slashing or piering damage with a special oil.",
+				"When you do so, choose one of type of creature: Abberations, celestials, dragons, elementals, fey, fiends, giants, montrosities, plants or undead. When you hit a creature of the chosen type with the coated weapon, your attack counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage and the creature must succeed on a Constitution saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier). On a failed save, the creature takes an extra {@damage 2d6} acid damage.",
+				"The weapon stays coated until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Special Ingredient",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you can add one of three special ingedients to your potions.",
+				"When you ingest a potion, you can choose one of the following effects to gain in addition to the potions normal effect. After you chose one ingredient, you can't choose that ingredient again until you finish a long rest.",
+				{
+					"type": "entries",
+					"name": "Giant's Toe",
+					"entries": [
+						"You added a bit of a giant's toe to your potion giving you a +3 to all strength based damage rolls you make within the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Troll Blood",
+					"entries": [
+						"You added a bit of a troll's blood. At the start of your turn, when you are not incapacitated and have not taken acid or fire damage this round, you regain an amount of hit points equal to your fighter level divided by three (rounded down) for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Celestial Liver",
+					"entries": [
+						"You added a bit of a celestial's liver reducing your toxicity level by an amount equal to your fighter level divided by three (rounded down)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skilled Eye",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your knowledge about monsters grants you insight into a creatures defenses. On your turn, you can choose a creature you can see and make a Wisdom (Insight) check to gain insight into either the targets hit points, vunerabilities or resistances and immunities. The DC for this check equals 10 + half the target's challenge rating (rounded down).",
+				"You can use this feature a number of times equal to your proficieny bonus and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Angel's Tear",
+			"source": "BTB",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Strider",
+			"subclassSource": "BTB",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you learned how to create a special potion.",
+				"As an action, you can ingest that potion reducing your toxicity level to zero and ending all potion effects on you. After you used this feature, you can't use it again unit you finish a long rest."	
+			]
+		},
+		{
+			"name": "Jester",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Jester",
+			"subclassSource": "BTB",
+			"level": 3,
+			"entries": [
+				"Jesters are masters at hand-eye-coordination and use cunning to play their opponents like a fiddle. They constantly insult their enemies while chugging knives at them and dodging their attacks.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Swift Throws|Rogue|PHB|Jester|BTB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Taunt|Rogue|PHB|Jester|BTB|3"
+				}
+			]
+		},
+		{
+			"name": "Swift Throws",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Jester",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
+				"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
+			]
+		},
+		{
+			"name": "Taunt",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Jester",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you have learned to focus the anger of your opponents onto you. As an bonus action, you can start taunting a creature that you can see within 60 feet of you. At the start of its turn, the creature must succeed on a Wisdom saving throw (DC equal to 8 + your Charisma modifier + your proficiency bonus) or it can't target any creature other than you with an attack or harmful spell until the start of its next turn. On a successful save, the creature is immune to this feature for the next 24 hours. A creature immune if it can't see or hear you or if it's immune to being charmed."	
+			]
+		},
+		{
+			"name": "Juggling",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Jester",
+			"subclassSource": "BTB",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, as a bonus action, you can start juggling a number of weapons equal to your proficiency bonus until you end it as a bonus action. The weapons must have the thrown and light properties, both your hands must be free to use this feature and you can't use the dash action for the duration. When you use the attack action while juggling, you can make a number of attacks equal to your proficiency bonus divided by 2 (rounded down) throwing weapons you are juggling. Your juggling ends early when you have thrown all weapons you were juggling.",
+				"When you attack with one of the weapons, you can try to add a new weapon to your juggling. When you do so, make a Dexterity saving throw. The DC is equal to 12 + the number of weapons you are currently juggling. On a failed save, your jugging ends and all juggled weapons fall to the ground in front of you. On a successful save, the weapon is added to your juggling.",
+				"When you take damage while juggling, you have to succeed on a Dexterity saving throw (DC equal to 8 + half the damage taken + the number of juggled weapons) or your juggling ends and the juggled weapons fall to the ground."
+			]
+		},
+		{
+			"name": "Nasty Insults",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Jester",
+			"subclassSource": "BTB",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, you learned to use your knowledge of people in a different way. When a creature you can see within 60 feet of you targets you directly with an attack, you can use your reaction and give the creature disadvantage on the attack roll. A creature is immune to this feature if it can't hear you or if it's immune to being charmed.",
+				"You can use this feature a number this feature a number of times equal to your Charisma modifier (minimum of 1) and regain all expended uses when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Suprising Throws",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Jester",
+			"subclassSource": "BTB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you have advantage on any ranged weapon attack that you make using a weapon with the thrown property."	
+			]
+		},
+		{
+			"name": "Gambler",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "BTB",
+			"level": 3,
+			"entries": [
+				"Gamblers have the bad habit of taking risks regardless of the circumstances. However, they seem to be unbelievably lucky succeeding against even the worst of odds.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fool's Proficiency|Rogue|PHB|Gambler|BTB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wager|Rogue|PHB|Gambler|BTB|3"
+				}
+			]
+		},
+		{
+			"name": "Wager",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you start to wager with your abilities. You can give yourself a bonus to one ability check, attack roll or saving throw you are about to make. You choose the bonus, but it can't be higher than half your proficiency bonus. When you do so, the next ability check, saving throw or attack roll you make is reduced by an amount equal to the bonus you gave yourself. You have to decide on using this feature before you roll the d20."	
+			]
+		},
+		{
+			"name": "Fool's Proficiency",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "BTB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain proficiency with one other type of gaming set of your choice. You also gain proficiency in the Sleight of Hand skill or another skill of your choice from the list of skills available to rogues at 1st level, if you are already proficient in the Sleight of Hand skill."	
+			]
+		},
+		{
+			"name": "Lucky Seven",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "BTB",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, your luck aids you in your exploits. When you make an ability check or saving throw and roll a natural seven, you automatically succeed on the roll. In addition, when you make an attack roll and roll a natural seven, you score a critical hit."	
+			]
+		},
+		{
+			"name": "Gambler's Luck",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "BTB",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, your lucky nature can turn a failure into a success. When you make an ability check, attack roll or saving throw, you can reroll the d20 and must use the new roll.",
+				"You can use this feature a number of times equal to your proficinecy bonus and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Risky Gambit",
+			"source": "BTB",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "BTB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you deal your sneak attack damage to a creature and you roll a 1 or 2 on a sneak attack die, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2. When you do so, attack rolls against you have advantage until the end of your next turn."	
+			]
+		}
+    ],
+    "variant": [
+        {
+            "name": "Booming Arrow",
+			"type": "GV",
+            "source": "BTB",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Booming ",
+                "source": "BTB",
+                "rarity": "rare",
+                "entries": [
+                    "A booming arrow is a magic weapon infused with thunder magic. If a creature takes damage from the arrow, a burst of thunderous sound that can be heard up to 100 feet away is created and the creature and each creature with in 10 feet of it must make a DC 17 Constitution saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is deafend for 1 minute. On a successful save, a creature takes half as much damage and isn't deafend. A deafend creature can repeat its saving throw at the end of its turn.",
+                    "Once a booming arrow deals damage to a creature, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Corroding Arrow",
+			"type": "GV",
+            "source": "BTB",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Corroding ",
+                "source": "BTB",
+                "rarity": "rare",
+                "entries": [
+                    "A corroding arrow is a magic weapon infused with acid magic. If a creature takes damage from the arrow, the creature has acid splashed over it; until someone takes an action to wipe of the acid, the creature takes {@damage 1d4} acid damage at the start of each of each of its turns. In addition, nonmagical armor worn by the creature is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. 2-inch-thick, nonmagical wood or metal hit by the arrow is disolved in 1 round.",
+                    "Once a corroding arrow splashes a creature or an object, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Flame Arrow",
+            "type": "GV",
+            "source": "BTB",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Flame ",
+                "source": "BTB",
+                "rarity": "rare",
+                "entries": [
+                    "A flame arrow is a magic weapon infused with fire magic. If a creature takes damage from the arrow, the creature catches fire; until someone takes an action to douse the fire, the creature takes {@damage 1d8} fire damage at the start of each of its turns. If you hit a flammable object with the arrow the object ignites.",
+                    "Once a flame arrow ignites a creature or an object, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Frigid Arrow",
+			"type": "GV",
+            "source": "BTB",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Frigid ",
+                "source": "BTB",
+                "rarity": "rare",
+                "entries": [
+                    "A frigid arrow is a magic weapon infused with ice magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming {@condition frozen|BTB} until the end of its next turn on a failed save. If you hit water with the arrow, the water freezes in a 5-foot cube for 1 minute.",
+                    "Once a frigid arrow forces a creature to make a saving throw, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Shocking Arrow",
+			"type": "GV",
+            "source": "BTB",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Shocking ",
+                "source": "BTB",
+                "rarity": "rare",
+                "entries": [
+                    "A shocking arrow is a magic weapon infused with lightning magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming stunned until the end of its next turn on a failed save. If the arrow hits an object that can conduct electricity, its effect extends to any creature touching the object.",
+                    "Once a shocking arrow stuns a creature, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Returning Weapon",
+            "type": "GV",
+            "source": "BTB",
+            "requires": [
+                {
+                    "weapon": true
+                }
+            ],
+            "excludes": {
+                "type": "R",
+                "name": [
+                    "Battleaxe",
+                    "Club",
+                    "Flail",
+                    "Hooked Shortspear",
+                    "Mace",
+                    "Morningstar",
+                    "Quarterstaff",
+                    "Sickle",
+                    "War Pick",
+                    "Warhammer",
+                    "Sword Breaker"
+                ],
+                "property": [
+                    "2H",
+                    "H",
+                    "R"
+                ],
+                "sword": true
+            },
+            "inherits": {
+                "namePrefix": "Returning ",
+                "source": "BTB",
+                "rarity": "common",
+                "entries": [
+                    "This weapon returns to the wielder's hand immediately after it is used to make a ranged attack."
+                ]
+            }
+        },
+        {
+            "name": "Cold Iron Weapon",
+            "type": "GV",
+            "source": "BTB",
+            "requires": [
+                {
+                    "type": "M"
+                },
+                {
+                    "type": "A"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Cold Iron ",
+                "source": "BTB",
+                "rarity": "none",
+                "weapon": true,
+                "valueExpression": "[[baseItem.value]] * 2",
+                "entries": [
+                    "Melee weapons or ammunition made of cold iron are unusually effective against demons and fey. Attacks made with a cold iron weapon ignore resistance and immunity to nonmagical attacks of any demon or fey hit by them.",
+                    "The cold iron version of a melee weapon costs twice as much as the normal version."
+                ]
+            }
+        },
+        {
+            "name": "Mithral Weapon",
+            "type": "GV",
+            "source": "BTB",
+            "requires": [
+                {
+                    "type": "M"
+                },
+                {
+                    "type": "A"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Mithral ",
+                "source": "BTB",
+                "rarity": "none",
+                "weapon": true,
+                "valueExpression": "[[baseItem.value]] + 30000",
+                "entries": [
+                    "Melee weapons or ammunition made of or coated with mithral are unusually effective against celestials. Attacks made with a mithral weapon ignore resistance and immunity to nonmagical attacks of any celestial hit by them.",
+                    "The mithral version of a melee weapon costs 300 gp more than the normal version, whether the weapon is made of the metal or coated with it."
+                ]
+            }
+        },
+        {
+            "name": "Spiked Shield",
+            "type": "GV",
+            "source": "BTB",
+            "requires": [
+                {
+                    "type": "S"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Spiked ",
+                "source": "BTB",
+                "rarity": "none",
+                "weapon": true,
+                "valueExpression": "[[baseItem.value]] + 1000",
+                "entries": [
+                    "Any shield with spikes implanted into its front is called a spiked shield. A spiked shield can be used as a martial melee weapon and deals {@damage 1d6} piercing damage. If you successfully shove a creature using the shield, the creature takes the damage of the shield in addition to the shoves normal effect.",
+                    "The spiked version of a shield costs 10 gp more than the normal version."
+                ]
+            }
+        },
+        {
+            "name": "Serrated Blade",
+            "type": "GV",
+            "source": "BTB",
+            "requires": [
+                {
+                    "dmgType": "S"
+                }
+            ],
+            "excludes": {
+                "name": [
+                    "Whip",
+                    "War Fan"
+                ]
+            },
+            "inherits": {
+                "namePrefix": "Serrated ",
+                "source": "BTB",
+                "rarity": "none",
+                "weapon": true,
+                "valueExpression": "[[baseItem.value]] + 1500",
+                "entries": [
+                    "Serrated blades are designed to inflict more gruesome wounds.",
+                    "Any martial weapon dealing slashing damage except for whips can have serrated versions. When you hit a creature with a serrated blade, the creature must make a Constitution saving throw. The DC for this save equals 10 + your proficiency bonus.",
+                    "On a failed save, a creature starts bleeding and takes {@damage 1d10} slashing damage at the start of each of its turns until it or a creature within 5 feet of it takes an action to quench the wound.",
+                    "The serrated version of a weapon costs 15 gp more than the normal version."
+                ]
+            }
+        }
+    ],
+	"variantrule": [
+		{
+			"name": "Bard Optional Features",
+			"source": "BTB",
+			"ruleType": "VO",
+			"entries": [
+				"You gain class features in the Player's Handbook when you reach certain levels in your class. This section offers an additionalfeature that you can gain as a bard. Unlike the features in the *Player's Handbook*, you don't gain the feature automatically. Consulting with your DM, you decide whether to gain the feature in this section if you meet the level requirement noted in the feature's description.",
+				{
+					"type": "entries",
+					"name": "Bonus Proficiency",
+					"entries": [		
+						"{@i 1st-level bard {@variantrule optional class features|tce|optional feature}}",
+						"You are proficient with {@item buckler|BTB|bucklers} and {@item sword cane|BTB|sword canes}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countercharm",
+					"entries": [		
+						"{@i 6th-level bard {@variantrule optional class features|tce|optional feature}, which replaces the Countercharm feature}",
+						"Starting at 6th level, your magnificent presence disrupts mind-influencing effects. You and each creatue of your choice within 30 feet of you have advantage on saving throws against being frightened or charmed. You must be consious grant this bonusand a creature must be able to hear or see you to gain this benefit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rogue Optional Features",
+			"source": "BTB",
+			"ruleType": "VO",
+			"entries": [
+				"You gain class features in the *Player's Handbook* when you reach certain levels in your class. This section offers an additionalfeature that you can gain as a rogue. Unlike the features in the *Player's Handbook*, you don't gain the feature automatically. Consulting with your DM, you decide whether to gain the feature in this section if you meet the level requirement noted in the feature's description.",
+				{
+					"type": "entries",
+					"name": "Bonus Proficiency",
+					"entries": [		
+						"{@i 1st-level rogue {@variantrule optional class features|tce|optional feature}}",
+						"You are proficient with {@item buckler|BTB|bucklers}, {@item scimitar|PHB|scimitars} and {@item sword cane|BTB|sword canes}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Monk Optional Features",
+			"source": "BTB",
+			"ruleType": "VO",
+			"entries": [
+				"You gain class features in the *Player's Handbook* when you reach certain levels in your class. This section offers an additionalfeature that you can gain as a monk. Unlike the features in the *Player's Handbook*, you don't gain the feature automatically. Consulting with your DM, you decide whether to gain the feature in this section if you meet the level requirement noted in the feature's description.",
+				{
+					"type": "entries",
+					"name": "Bonus Proficiency",
+					"entries": [
+						"{@i 1st-level monk {@variantrule optional class features|tce|optional feature}}",
+						"You are proficient with one exotic weapon of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Step of the Wind",
+					"entries": [
+						"{@i 2nd-level monk {@variantrule optional class features|tce|optional feature}, which replaces the Step of the Wind feature}",
+						"As a bonus action, you can take the Disengage or Dash action and your jump distance is doubled for the turn. You can use this feature a number of times equal to your proficiency bonus and regain all expended uses after you finish a long rest.",
+						"Alternatively, you can expend 1 ki point to use this feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Perfected Self",
+					"entries": [
+						"{@i 20th-level monk {@variantrule optional class features|tce|optional feature}, which replaces the Perfected Self feature}",
+						"At 20th level, you become a paragon of self control. Your Dexterity and Constitution scores increase by 4. Your maximum for those scores is now 24."
+					]
+				}
+			]
+		}
+	]
+}

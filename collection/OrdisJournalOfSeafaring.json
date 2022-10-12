@@ -17,35 +17,7 @@
 		"dateLastModified": 0
 	},
     "item": [
-		{
-			"name": "Harpoon",
-			"source": "OJS",
-			"type": "M",
-			"rarity": "none",
-			"weight": 3,
-			"value": 200,
-			"weaponCategory": "martial",
-			"property": [
-				"T",
-				"V",
-                "S"
-			],
-			"range": "20/60",
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"dmg2": "1d8",
-			"spear": true,
-			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special",
-					"entries": [
-						"When you hit a creature that is at most one size category larger than you with a harpoon, you can force it to succeed on a strength contest against you or be pulled up to 20 feet towards you."
-					]
-				}
-			]
-		}
+		
     ],
     "monster": [
 

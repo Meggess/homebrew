@@ -10,7 +10,7 @@
 					"Megges"
 				],
 				"convertedBy": [],
-				"color": "ff3c00"
+				"color": "ffd700"
 			}
 		],
 		"dateAdded": 0,
@@ -96,7 +96,8 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you are attuned to the bracers, you can't be {@condition restrained} or {@condition grappled}. In addition, you can move through conducting objects and creatures as if they were difficult terrain, but you can't end your movement in it. If you move through a creature, the creature must succeed on a DC 17 Constitution saving throw or take {@damage 3d6} lightning damage."
+				"While you are attuned to the bracers, you can't be {@condition restrained} or {@condition grappled}.",
+				"In addition, you can move through conducting objects and creatures as if they were difficult terrain, but you can't end your movement in it. If you move through a creature, the creature must succeed on a DC 17 Constitution saving throw or take {@damage 3d6} lightning damage."
 			]
 		},
 		{
@@ -131,7 +132,8 @@
 			"rarity": "legendary",
 			"wondrous": true,
 			"entries": [
-				"While wearing the boots, you can't be knocked {@condition prone} and you can move across difficult terrain made of earth or stone without expending extra movement. In addition, you can walk over lava, treating it as difficult terrain."
+				"While wearing the boots, you can't be knocked {@condition prone} and you can move across difficult terrain made of earth or stone without expending extra movement.",
+				"In addition, you can stand on and walk across molten rock as if it were solid ground."
 			]
 		},
 		{
@@ -142,7 +144,9 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you are attuned to the tiara, you can't be restrained or grappled. In addition you can enter a hostile creature's space and move through a space as narrow as 1 inch wide without squeezing. When you are hit by a nonmagical attack that deals bludgeoning, piercing or slashing damage, you can use your reaction to give yourself resistance against those damage types until the start of your next turn."
+				"While you are attuned to the tiara, you can't be {@condition restrained} or {@condition grappled}.",
+				"In addition you can enter a hostile creature's space but you can't end your turn there and move through a space as narrow as 1 inch wide without squeezing.",
+				"When you are hit by an nonmagical attack that deals bludgeoning, piercing or slashing damage, you can use your reaction to give yourself immunity to the damage of the attack."
 			]
 		},
 		{
@@ -172,7 +176,7 @@
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"Long ago, the dwarven blacksmith and high priest of {@deity Tharmekhûl} bork loderr created the axe out of obsidian and adamantine to honor his patron deity. {@deity Tharmekhûl} was pleased with the result and bestowed his blessing upon the axe and bork creating the artifact now known as Skjaersilden.",
+				"Long ago, the dwarven blacksmith and high priest of Tharmekhûl Bork Loderr created the axe out of obsidian and adamantine to honor his patron deity. Tharmekhûl was pleased with the result and bestowed his blessing upon the axe and bork creating the artifact now known as Skjaersilden.",
 				{
 					"type": "entries",
 					"name": "Magic Weapon",
@@ -220,7 +224,7 @@
 						    "items": [
 		        				"When you are hit with an attack that deals fire damage, you can give yourself immunity to fire damage until the start of your next turn. After you use this feature, roll {@dice 1d6}, on a roll of 1-4 you can't use this feature again until the next dawn.",
 		        				"Your {@sense darkvision} can see through magical darkness",
-		        				"The scar you got from attuning to the axe turns into a tribal tattoo, giving you advantage on Charisma ({@skill Persuasion}) checks you make against dwarves",
+		        				"The scar you got from attuning to the axe turns into a tribal tattoo, removing the disadvantage on Charisma ({@skill Persuasion}) checks you make",
 		        				"The bonus fire and radiant damage the axe deals increases to {@dice 1d10} each."
 		        			]
 						}
@@ -351,7 +355,7 @@
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The heart has 7 charges and regains all expended charges daily at dusk. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: {@spell fireball} (1 charge), {@spell wall of fire} (1 charge), {@spell immolation} (2 charges), @spell fire storm} (3 charges), {@spell incendiary cloud} (3 charges), {@spell meteor swarm} (4 charges).",
+						"The heart has 7 charges and regains all expended charges daily at dusk. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: {@spell fireball} (1 charge), {@spell wall of fire} (1 charge), {@spell immolation} (2 charges), {@spell fire storm} (3 charges), {@spell incendiary cloud} (3 charges), {@spell meteor swarm} (4 charges).",
 						"While attuned to the heart, Kalzifar can cast the heart's spells using 2 fewer charges (minimum of 0). In addition, he gains the following traits:"
 					]
 				},
@@ -403,7 +407,10 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"rock gnome"
+					{
+						"tag": "gnome",
+						"prefix": "rock"
+					}
 				]
 			},
 			"alignment": [
@@ -591,7 +598,15 @@
 			"name": "Fire Giant Chain Master",
 			"source": "RagingFlames",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					{
+						"tag": "giant",
+						"prefix": "fire"
+					}
+				]
+			},
 			"alignment": [
 				"L",
 				"E"
@@ -692,11 +707,129 @@
 			]
 		},
 		{
+			"name": "Flame Ogre",
+			"source": "RagingFlames",
+			"basicRules": true,
+			"size": "L",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"ogre"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d10 + 28",
+				"average": 66
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 21,
+			"dex": 8,
+			"con": 19,
+			"int": 7,
+			"wis": 10,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"cr": "4",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ogre makes one morningstar and one scorching ray attack."
+					]
+				},
+				{
+					"name": "Morningstar",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Scorching Ray",
+					"entries": [
+						"{@atk rs} {@hit 2} to hit, range 120 ft., one target. {@h}7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://megges.eu/5eTools/img/MM/Ogre.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://megges.eu/5eTools/img/bestiary/MM/Ogre.jpg"
+						}
+					}
+				]
+			},
+			"skill": {
+				"athletics": "+7"
+			},
+			"resist": [
+				"fire"
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
 			"name": "Igrex",
 			"group": "Chromatic Dragon",
 			"source": "RagingFlames",
 			"size": "H",
-			"type": "dragon",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"chromatic"
+				]
+			},
 			"alignment": [
 				"C",
 				"E"
@@ -1959,7 +2092,10 @@
 			"type": {
 				"type": "giant",
 				"tags": [
-					"stone"
+					{
+						"tag": "giant",
+						"prefix": "stone"
+					}
 				]
 			},
 			"alignment": [
@@ -2109,7 +2245,7 @@
 			"type": {
 				"type": "celestial",
 				"tags": [
-					"aasimon"
+					"angel"
 				]
 			},
 			"alignment": [
@@ -2840,7 +2976,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"obsidian half-dragon"
+					"half-obsidian dragon"
 				]
 			},
 			"alignment": [
