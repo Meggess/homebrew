@@ -595,6 +595,187 @@
 			"isNpc": true
 		},
 		{
+			"name": "Baldur Bärenfuß",
+			"isNamedCreature": true,
+			"source": "RagingFlames",
+			"page": 0,
+			"size": [
+				"M",
+				"L"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"druid",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 13,
+					"condition": "in bear form",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 170,
+				"formula": "20d8 + 80"
+			},
+			"speed": {
+				"walk": {
+					"number": 25,
+					"condition": "or 40 ft. in bear form"
+				}
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 18,
+			"int": 12,
+			"wis": 20,
+			"cha": 12,
+			"save": {
+				"int": "+6",
+				"wis": "+10"
+			},
+			"skill": {
+				"perception": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				"cold",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Dwarvish",
+				"Undercommon"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Humanoid Form Only)",
+					"headerEntries": [
+						"Baldur casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
+					],
+					"daily": {
+						"1": [
+							"{@spell draconic transformation|FTD}"
+						],
+						"2": [
+							"{@spell chaos cloud|WWW}"
+						],
+						"3e": [
+							"{@spell dispel magic}",
+							"{@spell enlarge/reduce}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Keen Smell (Bear Form Only)",
+					"entries": [
+						"Baldur has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Baldur uses his Zernareth's Grasp feature, if available. Also, while in Humanoid Form, he also makes two Savage Slash or Wildfire attacks and he can replace one attack with one use of Spellcasting. While in Bear Form, Baldur makes three Bite or Savage Slash attacks."
+					]
+				},
+				{
+					"name": "Bite (Bear Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Savage Slash",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d10}) acid damage."
+					]
+				},
+				{
+					"name": "Wildfire (Humanoid Form Only)",
+					"entries": [
+						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}13 ({@damage 3d8}) fire damage."
+					]
+				},
+				{
+					"name": "Zernareth's Grasp {@recharge 4}",
+					"entries": [
+						"Tendrils of dark energy erupt from a point you can see within 30 feet of you and batter all creatures within 10 feet of that point. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 14 ({@damage 4d6}) necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Shape Change",
+					"entries": [
+						"Baldur transforms into his bear form or back into its true form, which is humanoid. Its statistics, other than its speed and amor class, are the same in each form. Baldur reverts to its true form if it dies."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"D",
+				"U"
+			],
+			"damageTags": [
+				"A",
+				"F",
+				"N",
+				"P"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"spellcastingTags": [
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"invisible"
+			]
+		},
+		{
 			"name": "Fire Giant Chain Master",
 			"source": "RagingFlames",
 			"size": "H",
@@ -1462,7 +1643,7 @@
 													],
 													[
 														"81–00",
-														"\"Just let my take out your heart real quick.\""
+														"\"Just let me take out your heart real quick.\""
 													]
 												]
 											}
@@ -3402,6 +3583,264 @@
 				}
 			],
 			"isNpc": true
+		},
+		{
+			"name": "Zernareth",
+			"isNamedCreature": true,
+			"source": "RagingFlames",
+			"page": 0,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"sorcerer"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 253,
+				"formula": "22d12 + 110"
+			},
+			"speed": {
+				"walk": 10,
+				"swim": 40
+			},
+			"str": 21,
+			"dex": 9,
+			"con": 21,
+			"int": 26,
+			"wis": 17,
+			"cha": 18,
+			"save": {
+				"con": "+11",
+				"int": "+14",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+14",
+				"history": "+20",
+				"perception": "+15",
+				"religion": "+14"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 25,
+			"resist": [
+				"cold",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Deep Speech",
+				"Gnomish",
+				"Undercommon",
+				"telepathy 120 ft."
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The aboleth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
+					],
+					"will": [
+						"{@spell arms of hadar}",
+						"{@spell dissonant whispers}",
+						"{@spell magnify gravity|EGW}"
+					],
+					"daily": {
+						"1": [
+							"{@spell wilbun's words of weirdness|WWW}"
+						],
+						"2": [
+							"{@spell disintegrate}",
+							"{@spell feeblemind}"
+						],
+						"3": [
+							"{@spell raulothim's psychic lance|FTD}",
+							"{@spell synaptic static|XGE}"
+						],
+						"4": [
+							"{@spell tasha's mind whip|TCE}",
+							"{@spell hunger of hadar}",
+							"{@spell chaos cloud|WWW}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The aboleth can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Zernareth's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Mucous Cloud",
+					"entries": [
+						"While underwater, the aboleth is surrounded by a cloud of sticky mucus. A creature that touches the aboleth or hits it with a melee attack while within 5 feet of it must succeed on a {@dc 18} Strength saving throw or be {@condition restrained} until the end of the aboleth's next turn."
+					]
+				},
+				{
+					"name": "Probing Telepathy",
+					"entries": [
+						"If a creature the aboleth can see communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the Zernareth fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Zernareth makes three attacks. It can replace one attack with a use of Spellcasting."
+					]
+				},
+				{
+					"name": "Arcane Blast",
+					"entries": [
+						"{@atk rs} {@hit 14} to hit, range 120 ft., one target. {@h}16 ({@damage 3d10}) force damage."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}15 ({@damage 3d6 + 5}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Mind Disrupting Wave {@recharge}",
+					"entries": [
+						"Zernareth unleashs the power of its mind to blast the intellect of each creature of its choice within 30 feet of it, that it can see. Each target must make an {@dc 18} Intelligence saving throw. On a failed save, a target takes 49 ({@damage 14d6}) psychic damage and is {@condition stunned} for 1 minute. On a successful save, a target takes half as much damage and isn't {@condition stunned}. If a target is killed by this damage, its head explodes, assuming it has one.",
+						"A {@condition stunned} target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Enslave {@recharge 4}",
+					"entries": [
+						"The aboleth targets one creature it can see within 30 feet of itself. The target must succeed on a {@dc 18} Wisdom saving throw or be magically {@condition charmed} by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The {@condition charmed} target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.",
+						"The {@condition charmed} target can repeat the saving throw whenever it takes damage, ending the effect on itself on a success. No more than once every 24 hours, the target can repeat the saving throw when it is at least 1 mile away from the aboleth."
+					]
+				},
+				{
+					"name": "Starry Mote (3/Day)",
+					"entries": [
+						"{@atk rs} {@hit 14} to hit, range 120/120 ft., one target. {@h}26 ({@damage 4d12}) radiant damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Maddening Words",
+					"entries": [
+						"When a creature that Zernareth can see within 60 feet of it makes an attack roll against it, Zernareth can use its reaction to subtract 4 ({@dice 1d8}) from the attack roll."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Break Concentration",
+					"entries": [
+						"The aboleth forces a creature, that is concentrating on a spell, it can see within 60 feet of it to make a {@dc 18} Wisdom saving throw. On a failed save the creatures concentration os broken."
+					]
+				},
+				{
+					"name": "Tail Swipe",
+					"entries": [
+						"The aboleth makes one Tail attack."
+					]
+				},
+				{
+					"name": "Psychic Drain (Costs 2 Actions)",
+					"entries": [
+						"One creature {@condition charmed} by the aboleth takes 10 ({@damage 3d6}) psychic damage, and the aboleth regains hit points equal to the damage dealt."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"DS",
+				"G",
+				"U",
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"O",
+				"R",
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"charmed",
+				"restrained",
+				"stunned"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"N",
+				"O",
+				"Y"
+			]
 		}
 	],
 	"race": [
