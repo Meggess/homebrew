@@ -17,7 +17,24 @@
 		"dateLastModified": 0
 	},
     "item": [
-		
+		{
+			"name": "Aleta",
+			"rarity": "very rare",
+			"source": "OJS",
+			"sword": true,
+			"baseItem": "rapier",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bonusWeapon": "+2",
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"entries": [
+				"This magic weapon looks like the snout of a swordfish and you gain a +2 bonus to attack and damage rolls made with it.",
+				"Instead of making a melee weapon attack with this sword, you can make a ranged weapon attack against a creature within 60 feet of you. This attack launches a small swordfish from the tip of the blade toward the target."
+			]
+		}
     ],
     "monster": [
 

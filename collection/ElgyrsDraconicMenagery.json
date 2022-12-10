@@ -1,0 +1,1207 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "ElgyrsDraconicMenagery",
+				"abbreviation": "EDM",
+				"full": "Elgyr's Draconic Menagery",
+				"url": "",
+				"authors": [
+					"Megges"
+				],
+				"convertedBy": [],
+				"color": "87a4ad"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"monster": [
+		{
+			"name": "Adult Temporal Dragon",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"planar"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d12 + 128",
+				"average": 232
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false
+			},
+			"str": 25,
+			"dex": 10,
+			"con": 26,
+			"int": 19,
+			"wis": 21,
+			"cha": 26,
+			"passive": 27,
+			"cr": "18",
+			"languages": [
+				"Draconic",
+				"Primordial"
+			],
+			"languageTags": [
+				"DR",
+				"P"
+			],
+			"save": {
+				"cha": "+14",
+				"con": "+14",
+				"str": "+13",
+				"wis": "+11"
+			},
+			"skill": {
+				"perception": "+17",
+				"stealth": "+6"
+			},
+			"immune": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"exhaustion"
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The dragon doesn't require food or air."
+					]
+				},
+				{
+					"name": "Temporal Mastery",
+					"entries": [
+						"The dragon chooses its place in the initiative order instead of rolling."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Unusual Nature"
+			],
+			"shortName": "dragon",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes one Bite attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage, plus 7 ({@damage 2d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Temporal Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a beam of temporal energy in a 90-foot line that is 5 feet wide. Each creature in that area must make a {@dc 22} Constitution saving throw. On a failed save, the creature takes 52 ({@damage 8d12}) necrotic damage and is weakend until the end of its next turn. A weakend creature has disadvantage on all {@dice d20} tests. On a successful save, the creature takes half as much damage and isn't weakened."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"bonus": [
+				{
+					"name": "Temporal Step",
+					"entries": [
+						"The dragon magically teleports to an unoccupied space it can see within 60 feet of it."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Temporal Shunt {@recharge 6}",
+					"entries": [
+						"When a creature the dragon can see makes an attack roll or casts a spell, it can force the creature to make a {@dc 22} Wisdom saving throw. On a failed save, the creature vanishes, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember being affected by this ability."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The dragon makes one Claw or Tail attack."
+					]
+				},
+				{
+					"name": "Shift Initiative (Costs 2 Actions)",
+					"entries": [
+						"The dragon alters time around a creature it can see within 120 feet of it. The creature must succeed on a {@dc 22} Wisdom saving throw (the creature can choose to fail) or have its initiative count increased or decreased (the dragons choice) by 3 ({@dice 1d6}). "
+					]
+				},
+				{
+					"name": "Time Ravage (Costs 3 Actions)",
+					"entries": [
+						"The dragon casts {@spell time ravage|EGW} requiring no spell components and using Constitution as its spell casting ability."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			],
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			]
+		},
+		{
+			"name": "Ancient Temporal Dragon",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"planar"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "25d20 + 250",
+				"average": 512
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 30,
+			"int": 19,
+			"wis": 23,
+			"cha": 28,
+			"passive": 30,
+			"cr": "24",
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"Draconic",
+				"Primordial"
+			],
+			"languageTags": [
+				"DR",
+				"P"
+			],
+			"save": {
+				"cha": "+16",
+				"wis": "+13",
+				"con": "+17",
+				"str": "+15"
+			},
+			"skill": {
+				"perception": "+20",
+				"stealth": "+7"
+			},
+			"immune": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"exhaustion"
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The dragon doesn't require food or air."
+					]
+				},
+				{
+					"name": "Temporal Mastery",
+					"entries": [
+						"The dragon chooses its place in the initiative order instead of rolling."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Unusual Nature"
+			],
+			"shortName": "dragon",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes one Bite attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage, plus 10 ({@damage 3d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Temporal Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a beam of temporal energy in a 120-foot line that is 10 feet wide. Each creature in that area must make a {@dc 25} Constitution saving throw. On a failed save, the creature takes 78 ({@damage 12d12}) necrotic damage and is weakend until the end of its next turn. A weakend creature has disadvantage on all {@dice d20} tests. On a successful save, the creature takes half as much damage and isn't weakened."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"bonus": [
+				{
+					"name": "Temporal Step",
+					"entries": [
+						"The dragon magically teleports to an unoccupied space it can see within 60 feet of it."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Temporal Shunt {@recharge 6}",
+					"entries": [
+						"When a creature the dragon can see makes an attack roll or casts a spell, it can force the creature to make a {@dc 25} Wisdom saving throw. On a failed save, the creature vanishes, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember being affected by this ability."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The dragon makes one Claw or Tail attack."
+					]
+				},
+				{
+					"name": "Shift Initiative (Costs 2 Actions)",
+					"entries": [
+						"The dragon alters time around a creature it can see within 120 feet of it. The creature must succeed on a {@dc 25} Wisdom saving throw (the creature can choose to fail) or have its initiative count increased or decreased (the dragons choice) by 4 ({@dice 1d8}). "
+					]
+				},
+				{
+					"name": "Time Ravage (Costs 3 Actions)",
+					"entries": [
+						"The dragon casts {@spell time ravage|EGW} requiring no spell components and using Constitution as its spell casting ability."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			]
+		},
+		{
+			"name": "Temporal Dragon Wyrmling",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"planar"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 32",
+				"average": 68
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 18,
+			"int": 15,
+			"wis": 17,
+			"cha": 20,
+			"passive": 16,
+			"cr": "5",
+			"languages": [
+				"Draconic",
+				"Primordial"
+			],
+			"languageTags": [
+				"DR",
+				"P"
+			],
+			"save": {
+				"cha": "+8",
+				"con": "+7",
+				"str": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"stealth": "+3",
+				"perception": "+6"
+			},
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The dragon doesn't require food or air."
+					]
+				}
+			],
+			"traitTags": [
+				"Unusual Nature"
+			],
+			"shortName": "dragon",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage, plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Temporal Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a beam of temporal energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 15} Constitution saving throw. On a failed save, the creature takes 19 ({@damage 3d12}) necrotic damage and is weakend until the end of its next turn. A weakend creature has disadvantage on all {@dice d20} tests. On a successful save, the creature takes half as much damage and isn't weakened."
+					]
+				}
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			],
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"B",
+				"D"
+			]
+		},
+		{
+			"name": "Temporal Greatwyrm",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"planar"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "28d20 + 280",
+				"average": 574
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120,
+				"canHover": false
+			},
+			"str": 29,
+			"dex": 12,
+			"con": 30,
+			"int": 19,
+			"wis": 24,
+			"cha": 30,
+			"passive": 33,
+			"cr": "28",
+			"senses": [
+				"truesight 150 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"Draconic",
+				"Primordial"
+			],
+			"languageTags": [
+				"DR",
+				"P"
+			],
+			"save": {
+				"cha": "+18",
+				"wis": "+15",
+				"con": "+18",
+				"str": "+17"
+			},
+			"skill": {
+				"perception": "+23",
+				"intimidation": "+18",
+				"stealth": "+9"
+			},
+			"immune": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (4/Day)",
+					"entries": [
+						"If the greatwyrm fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The greatwyrm doesn't require food, drink or air."
+					]
+				},
+				{
+					"name": "Temporal Mastery",
+					"entries": [
+						"The greatwyrm chooses its place in the initiative order instead of rolling."
+					]
+				},
+				{
+					"name": "Planar Awakening (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 425 hit points, it recharges its Breath Weapon and Temporal Shunt, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the \"Mythic Actions\" section for 1 hour. Award a party an additional 120,000 XP (240,000 XP total) for defeating the greatwyrm after its Planar Awakening activates."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Unusual Nature"
+			],
+			"shortName": "greatwyrm",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The greatwyrm makes one Bite attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) piercing damage, plus 13 ({@damage 2d12}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d8 + 9}) force damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 19}) and is {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} this way at a time."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Temporal Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a beam of temporal energy in a 150-foot line that is 15 feet wide. Each creature in that area must make a {@dc 26} Constitution saving throw. On a failed save, the creature takes 91 ({@damage 14d12}) necrotic damage and is weakend until the end of its next turn. A weakend creature has disadvantage on all {@dice d20} tests. On a successful save, the creature takes half as much damage and isn't weakened."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"O",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"bonus": [
+				{
+					"name": "Temporal Step",
+					"entries": [
+						"The greatwyrm magically teleports to an unoccupied space it can see within 90 feet of it."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Temporal Shunt {@recharge 6}",
+					"entries": [
+						"When a creature the greatwyrm can see makes an attack roll or casts a spell, it can force the creature to make a {@dc 26} Wisdom saving throw. On a failed save, the creature vanishes, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember being affected by this ability."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The greatwyrm makes one Claw or Tail attack."
+					]
+				},
+				{
+					"name": "Shift Initiative (Costs 2 Actions)",
+					"entries": [
+						"The greatwyrm alters time around a creature it can see within 120 feet of it. The creature must succeed on a {@dc 26} Wisdom saving throw (the creature can choose to fail) or have its initiative count increased or decreased (the greatwyrms choice) by 4 ({@dice 1d8}). "
+					]
+				},
+				{
+					"name": "Time Ravage (Costs 3 Actions)",
+					"entries": [
+						"The greatwyrm casts {@spell time ravage|EGW} requiring no spell components and using Constitution as its spell casting ability."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			],
+			"conditionInflict": [
+				"grappled",
+				"paralyzed",
+				"prone",
+				"restrained"
+			],
+			"mythicHeader": [
+				"If the greatwyrm's Planar Awakening trait has activated in the last hour, it can use the options below as legendary actions."
+			],
+			"mythic": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The greatwyrm makes one Bite attack."
+					]
+				},
+				{
+					"name": "Time Freeze (Costs 2 Actions)",
+					"entries": [
+						"The greatwyrm tries to magically freeze time for creatures around it. Each creature of the greatwyrms choice in a 10-foot radius sphere centered on the greatwyrm must succeed on a {@dc 26} Charisma saving throw or be {@condition paralyzed} for 3 ({@dice 1d4+1}) turns. A {@condition paralyzed} creature doesn't remember what happend while they were {@condition paralyzed} and it can repeat its saving throw at the end. This effect ends early on a creature, if it is affected by any harmful effects or if it succeeds on its saving throw."
+					]
+				}
+			]
+		},
+		{
+			"name": "Young Temporal Dragon",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"planar"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 72",
+				"average": 138
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false
+			},
+			"str": 21,
+			"dex": 10,
+			"con": 22,
+			"int": 17,
+			"wis": 19,
+			"cha": 24,
+			"passive": 22,
+			"cr": "11",
+			"languages": [
+				"Draconic",
+				"Primordial"
+			],
+			"languageTags": [
+				"DR",
+				"P"
+			],
+			"save": {
+				"cha": "+11",
+				"con": "+10",
+				"str": "+9",
+				"wis": "+8"
+			},
+			"skill": {
+				"perception": "+12",
+				"stealth": "+4"
+			},
+			"immune": [
+				"necrotic"
+			],
+			"trait": [
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The dragon doesn't require food or air."
+					]
+				}
+			],
+			"traitTags": [
+				"Unusual Nature"
+			],
+			"shortName": "dragon",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes one Bite attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Temporal Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a beam of temporal energy in a 60-foot line that is 5 feet wide. Each creature in that area must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes 39 ({@damage 6d12}) necrotic damage and is weakend until the end of its next turn. A weakend creature has disadvantage on all {@dice d20} tests. On a successful save, the creature takes half as much damage and isn't weakened."
+					]
+				}
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"bonus": [
+				{
+					"name": "Temporal Step",
+					"entries": [
+						"The dragon magically teleports to an unoccupied space it can see within 60 feet of it."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			],
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			]
+		}
+	],
+	"subclass": [	
+		{
+			"name": "The Greatwyrm",
+			"shortName": "Greatwyrm",
+			"source": "ElgyrsDraconicMenagery",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"name": "Chromatic Dragon",
+					"expanded": {
+						"1": [
+							"chromatic orb"
+						],
+						"2": [
+							"scorching ray"
+						],
+						"3": [
+							"protection from energy"
+						],
+						"4": [
+							"vitriolic sphere|XGE"
+						],
+						"5": [
+							"cone of cold"
+						]
+					}
+				},
+				{
+					"name": "Metallic Dragon",
+					"expanded": {
+						"1": [
+							"command"
+						],
+						"2": [
+							"alter self"
+						],
+						"3": [
+							"haste"
+						],
+						"4": [
+							"polymorph"
+						],
+						"5": [
+							"dominate person"
+						]
+					}
+				},
+				{
+					"name": "Gem Dragon",
+					"expanded": {
+						"1": [
+							"catapult|XGE"
+						],
+						"2": [
+							"levitate"
+						],
+						"3": [
+							"sending"
+						],
+						"4": [
+							"confusion"
+						],
+						"5": [
+							"telekinesis"
+						]
+					}
+				},
+				{
+					"name": "Planar Dragon",
+					"expanded": {
+						"1": [
+							"sleep"
+						],
+						"2": [
+							"detect thoughts"
+						],
+						"3": [
+							"blink"
+						],
+						"4": [
+							"freedom of movement"
+						],
+						"5": [
+							"dispel evil and good"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"The Greatwyrm|Warlock||Greatwyrm|ElgyrsDraconicMenagery|1",
+				"Breath Weapon|Warlock||Greatwyrm|ElgyrsDraconicMenagery|6",
+				"Aspect of the Greatwyrm|Warlock||Greatwyrm|ElgyrsDraconicMenagery|10",
+				"Draconic Transformation|Warlock||Greatwyrm|ElgyrsDraconicMenagery|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "The Greatwyrm",
+			"source": "ElgyrsDraconicMenagery",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Greatwyrm",
+			"subclassSource": "ElgyrsDraconicMenagery",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Dragon Family",
+					"colLabels": [
+						"{@dice 1d4}",
+						"Family",
+						"Aspect",
+						"Dragon"
+					],
+					"colStyles": [
+						"col-center",
+						"col-left",
+						"col-left",
+						"col-left"
+					],
+					"rows": [
+						[
+							"1",
+							"Chromatic",
+							"Frightful Presence",
+							"Black, Blue, Brown, Green, Grey, Purple, Red, White, Yellow"
+						],
+						[
+							"2",
+							"Metallic",
+							"Frightful Presence",
+							"Adamantine, Brass, Bronze, Cobalt, Copper, Gold, Iron, Mercury, Silver, Steel"
+						],
+						[
+							"2",
+							"Gem",
+							"Psychic Step",
+							"Amethyst, Crystal, Emerald, Obsidian, Sapphire, Topaz"
+						],
+						[
+							"4",
+							"Planar",
+							"Unusual Nature",
+							"Lunar, Moonstone, Solar, Temporal"
+						]
+					]
+				},
+				"TODO",
+				{
+					"type": "table",
+					"caption": "Associated Damage Types",
+					"colLabels": [
+						"Dragon",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-left",
+						"col-left"
+					],
+					"rows": [
+						[
+							"Black, Brown, Copper, Gray",
+							"Acid"
+						],
+						[
+							"Lunar, Silver, White",
+							"Cold"
+						],
+						[
+							"Brass, Gold, Obsidian, Red, Yellow",
+							"Fire"
+						],
+						[
+							"Adamantine, Amethyst",
+							"Force"
+						],
+						[
+							"Blue, Bronze, Iron",
+							"Lightning"
+						],
+						[
+							"Temporal, Topaz",
+							"Necrotic"
+						],
+						[
+							"Green, Mercury",
+							"Poison"
+						],
+						[
+							"Cobalt, Crystal, Moonstone, Solar",
+							"Radiant"
+						],
+						[
+							"Sapphire, Steel",
+							"Thunder"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expanded Spell List",
+					"entries": [
+						"The Greatwyrm lets you choose from an expanded list of spells when you learn a warlock spell. The Greatwyrm Expanded Spells table shows the greatwyrm spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's family: chromatic, metallic, gem or planar.",
+						{
+							"type": "table",
+							"caption": "Greatwyrm Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Chromatic Dragon",
+								"Metallic Dragon",
+								"Gem Dragon",
+								"Planar Dragon"
+							],
+							"colStyles": [
+								"col-center",
+								"col-left",
+								"col-left",
+								"col-left",
+								"col-left"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell chromatic orb}",
+									"{@spell command}",
+									"{@spell catapult|XGE}",
+									"{@spell sleep}"
+								],
+								[
+									"2nd",
+									"{@spell scorching ray}",
+									"{@spell alter self}",
+									"{@spell levitate}",
+									"{@spell detect thoughts}"
+								],
+								[
+									"3rd",
+									"{@spell protection from energy}",
+									"{@spell haste}",
+									"{@spell sending}",
+									"{@spell blink}"
+								],
+								[
+									"4th",
+									"{@spell vitriolic sphere|XGE}",
+									"{@spell polymorph}",
+									"{@spell confusion}",
+									"{@spell freedom of movement}"
+								],
+								[
+									"5th",
+									"{@spell cone of cold}",
+									"{@spell dominate person}",
+									"{@spell telekinesis}",
+									"{@spell dispel evil and good}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Affinity|Warlock||Greatwyrm|ElgyrsDraconicMenagery|1|ElgyrsDraconicMenagery"
+				}
+			]
+		},
+		{
+			"name": "Draconic Affinity",
+			"source": "ElgyrsDraconicMenagery",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Greatwyrm",
+			"subclassSource": "ElgyrsDraconicMenagery",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Some of your patrons magic empowered you. Starting a 1st level, you can read, speak and write draconic and you gain resistance to the damage type associated to your patron."
+			]
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "ElgyrsDraconicMenagery",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Greatwyrm",
+			"subclassSource": "ElgyrsDraconicMenagery",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, as a bonus action, you can exhale destructive energy in a 30-foot line that is 5 feet wide or a 15-foot cone (your choice). Each creature in that area must succeed on a Dexterity saving throw against your spell save DC or take {@damage 2d10} damage of the type affiliated with your patron. You can use this feature a number of time equal to your proficiency bonus and regain all expended uses after you finish a long rest. Alternatively, you can expend one of your warlock spell slots to immediatly regain all expended uses of this feature.",
+				"This feature's damage increases by 1d10 when you reach 11th level ({@damage 3d10}) and 17th level ({@damage 4d10})."
+			]
+		},
+		{
+			"name": "Aspect of the Greatwyrm",
+			"source": "ElgyrsDraconicMenagery",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Greatwyrm",
+			"subclassSource": "ElgyrsDraconicMenagery",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your Patron bestowed some of its power onto you. You gain one of the following features depending on the family of your patron:",
+				{
+					"type": "entries",
+					"name": "Frightful Presence",
+					"header": 3,
+					"entries": [
+						"As an action, you can force each creature of your choice that is within 30 feet of you and aware of you to succeed on a Wisdom saving throw against your spell save DC or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this feature for the next 24 hours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psychic Step",
+					"header": 3,
+					"entries": [
+						"As a bonus action, you magically teleport to an unoccupied space you can see within 30 feet of it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unusual Nature",
+					"header": 3,
+					"entries": [
+						"You don't require food or air."
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Transformation",
+			"source": "ElgyrsDraconicMenagery",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Greatwyrm",
+			"subclassSource": "ElgyrsDraconicMenagery",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you learned to manifest some of your patrons magic. As a bonus action, you manifest draconic features like scales and wings. When you do so, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain blindsight out to a range of 30 feet.",
+						"you gain a flying speed equal to your walking speed.",
+						"You breath weapon deals an additional 1d10 damage and its area increases to a 90-foot line or a 60-foot cone.",
+						"Immediatly after you assume your draconic form, you can use your breath weapon once."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a short rest, unless you expend one of your warlock spell slots to use it again."
+			]
+		}
+	]
+}
