@@ -2591,7 +2591,7 @@
 			"source": "BTB",
 			"ruleType": "VO",
 			"entries": [
-				"You gain class features in the Player's Handbook when you reach certain levels in your class. This section offers an additionalfeature that you can gain as a bard. Unlike the features in the *Player's Handbook*, you don't gain the feature automatically. Consulting with your DM, you decide whether to gain the feature in this section if you meet the level requirement noted in the feature's description.",
+				"You gain class features in the Player's Handbook when you reach certain levels in your class. This section offers additional features that you can gain as a bard. Unlike the features in the *Player's Handbook*, you don't gain the feature automatically. Consulting with your DM, you decide whether to gain the feature in this section if you meet the level requirement noted in the feature's description.",
 				{
 					"type": "entries",
 					"name": "Bonus Proficiency",

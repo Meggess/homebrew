@@ -18,6 +18,196 @@
 	},
 	"monster": [
 		{
+			"name": "Adult Mercury Dragon",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"metallic"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d12 + 98",
+				"average": 189
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false,
+				"climb": 40
+			},
+			"str": 21,
+			"dex": 16,
+			"con": 24,
+			"int": 12,
+			"wis": 15,
+			"cha": 19,
+			"passive": 22,
+			"cr": "14",
+			"shortName": "dragon",
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"skill": {
+				"acrobatics": "+8",
+				"stealth": "+8",
+				"perception": "+12"
+			},
+			"save": {
+				"dex": "+8",
+				"con": "+12",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"immune": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The dragon can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Legendary Resistances"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons:"
+					]
+				},
+				{
+					"name": "Poison Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 20} Constitution saving throw, taking 49 ({@damage 11d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Blinding Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 20} Constitution saving throw or can't see the dragon for 1 minutes. An affected creature can repeat its saving throw at the end of its turn."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"S",
+				"Y"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The dragon makes one claw or Tail attack."
+					]
+				},
+				{
+					"name": "Outmaneuver",
+					"entries": [
+						"The dragon moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Draconic Mockery (Costs 2 Actions)",
+					"entries": [
+						"The dragon magically mocks a creature that it can see within 90 feet of it. The target must make a {@dc 17} Wisdom saving throw. On a failed save, the creature takes 13 ({@damage 3d8}) psychic damage and has disadvantage on attack rolls until the end of its next turn. On a successful save a creature takes half as much damage and suffers no additional effects."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"environment": [
+				"mountain"
+			]
+		},
+		{
 			"name": "Adult Temporal Dragon",
 			"size": [
 				"H"
@@ -203,6 +393,203 @@
 			]
 		},
 		{
+			"name": "Ancient Mercury Dragon",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"metallic"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d20 + 136",
+				"average": 314
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80,
+				"canHover": false
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 27,
+			"int": 14,
+			"wis": 17,
+			"cha": 21,
+			"passive": 27,
+			"cr": "21",
+			"shortName": "dragon",
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"skill": {
+				"perception": "+17",
+				"stealth": "+10",
+				"acrobatics": "+10"
+			},
+			"save": {
+				"dex": "+10",
+				"con": "+15",
+				"wis": "+10",
+				"cha": "+12"
+			},
+			"immune": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The dragon can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Legendary Resistances"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 20} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons:"
+					]
+				},
+				{
+					"name": "Poison Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 23} Constitution saving throw, taking 63 ({@damage 14d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Blinding Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 23} Constitution saving throw or can't see the dragon for 1 minutes. An affected creature can repeat its saving throw at the end of its turn."
+					]
+				},
+				{
+					"name": "Shape Change",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+						"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"S",
+				"Y"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The dragon makes one claw or Tail attack."
+					]
+				},
+				{
+					"name": "Outmaneuver",
+					"entries": [
+						"The dragon moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Draconic Mockery (Costs 2 Actions)",
+					"entries": [
+						"The dragon magically mocks a creature that it can see within 90 feet of it. The target must make a {@dc 20} Wisdom saving throw. On a failed save, the creature takes 22 ({@damage 5d8}) psychic damage and has disadvantage on attack rolls until the end of its next turn. On a successful save a creature takes half as much damage and suffers no additional effects."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"environment": [
+				"mountain"
+			]
+		},
+		{
 			"name": "Ancient Temporal Dragon",
 			"size": [
 				"G"
@@ -383,6 +770,339 @@
 			"environment": [
 				"arctic",
 				"mountain"
+			]
+		},
+		{
+			"name": "Mercury Dragon Wyrmling",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"metallic"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 10",
+				"average": 32
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"canHover": false,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 15,
+			"int": 12,
+			"wis": 11,
+			"cha": 15,
+			"passive": 14,
+			"cr": "1",
+			"shortName": "dragon",
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"skill": {
+				"stealth": "+5",
+				"perception": "+4"
+			},
+			"save": {
+				"dex": "+5",
+				"con": "+4",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"immune": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The dragon can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons:"
+					]
+				},
+				{
+					"name": "Poison Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 12} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Blinding Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 12} Constitution saving throw or can't see the dragon for 1 minutes. An affected creature can repeat its saving throw at the end of its turn."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"environment": [
+				"mountain"
+			]
+		},
+		{
+			"name": "Mercury Greatwyrm",
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"metallic"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "25d20 + 250",
+				"average": 512
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120,
+				"canHover": false,
+				"climb": 60
+			},
+			"str": 26,
+			"dex": 20,
+			"con": 30,
+			"int": 20,
+			"wis": 23,
+			"cha": 30,
+			"passive": 32,
+			"cr": "26",
+			"shortName": "greatwyrm",
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"skill": {
+				"perception": "+22",
+				"insight": "+14",
+				"acrobatics": "+13"
+			},
+			"save": {
+				"dex": "+13",
+				"con": "+18",
+				"wis": "+14",
+				"cha": "+18",
+				"int": "+13"
+			},
+			"immune": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The greatwyrm can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Legendary Resistance (4/Day)",
+					"entries": [
+						"If the greatwyrm fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Metallic Awakening (recharges after a Short or Long Rest)",
+					"entries": [
+						"If the greatwyrm would be reduced to 0 hit points, its current hit point total instead resets to 450 hit points, it recharges its Breath Weapon, and it regains any expended uses of Legendary Resistance. Additionally, the greatwyrm can now use the options in the \"Mythic Actions\" section for 1 hour. Award a party an additional 90,000 XP (180,000 XP total) for defeating the greatwyrm after its Metallic Awakening activates."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Legendary Resistances"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage, plus 13 ({@damage 2d12}) force damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 18}) and is {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} in this way at a time."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d10 + 8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 24} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Breath Weapon {@recharge 5}",
+					"entries": [
+						"The greatwyrm uses one of the following breath weapons:"
+					]
+				},
+				{
+					"name": "Poison Breath",
+					"entries": [
+						"The greatwyrm exhales poisonous gas in a 300-foot cone. Each creature in that area must make a {@dc 26} Constitution saving throw, taking 104 ({@damage 24d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Blinding Breath",
+					"entries": [
+						"The greatwyrm exhales poisonous gas in a 300-foot cone. Each creature in that area must succeed on a {@dc 26} Constitution saving throw or can't see the dragon for 1 minutes. An affected creature can repeat its saving throw at the end of its turn."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"O",
+				"P",
+				"S",
+				"T",
+				"Y"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"environment": [
+				"mountain"
+			],
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"conditionInflict": [
+				"grappled",
+				"incapacitated",
+				"prone",
+				"restrained"
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The greatwyrm makes one claw or Tail attack."
+					]
+				},
+				{
+					"name": "Outmanouver",
+					"entries": [
+						"The greatwyrm moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Draconic Mockery (Costs 2 Actions)",
+					"entries": [
+						"The greatwyrm magically mocks a creature that it can see within 120 feet of it. The target must make a {@dc 26} Wisdom saving throw. On a failed save, the creature takes 36 ({@damage 8d8}) psychic damage and has disadvantage on attack rolls until the end of its next turn. On a successful save a creature takes half as much damage and suffers no additional effects."
+					]
+				}
+			],
+			"mythicHeader": [
+				"If the greatwyrm's Metallic Awakening trait has activated in the last hour, it can use the options below as legendary actions."
+			],
+			"mythic": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The greatwyrm makes one Bite attack."
+					]
+				},
+				{
+					"name": "Shattering Roar (Costs 2 Actions)",
+					"entries": [
+						"The greatwyrm unleashes a magical roar. Each creature in a 120-foot-radius sphere centered on the greatwyrm must succeed on a {@dc 26} Constitution saving throw or take 19 ({@damage 3d12}) thunder damage and be {@condition incapacitated} until the end of its next turn."
+					]
+				}
 			]
 		},
 		{
@@ -706,11 +1426,155 @@
 					]
 				},
 				{
-					"name": "Time Freeze (Costs 2 Actions)",
+					"name": "Rapid Aging (Costs 2 Actions)",
 					"entries": [
-						"The greatwyrm tries to magically freeze time for creatures around it. Each creature of the greatwyrms choice in a 10-foot radius sphere centered on the greatwyrm must succeed on a {@dc 26} Charisma saving throw or be {@condition paralyzed} for 3 ({@dice 1d4+1}) turns. A {@condition paralyzed} creature doesn't remember what happend while they were {@condition paralyzed} and it can repeat its saving throw at the end. This effect ends early on a creature, if it is affected by any harmful effects or if it succeeds on its saving throw."
+						"The greatwyrm tries to magically accelerate time for creatures around it. Each creature of the greatwyrms choice in a 10-foot radius sphere centered on the greatwyrm must succeed on a {@dc 26} Constitution saving throw or have its Constitution score reduced by 4 ({@dice 1d6+1}) as it ages rapidly."
 					]
 				}
+			]
+		},
+		{
+			"name": "Young Mercury Dragon",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"metallic"
+				]
+			},
+			"source": "ElgyrsDraconicMenagery",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 60",
+				"average": 126
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"canHover": false,
+				"climb": 40
+			},
+			"str": 19,
+			"dex": 16,
+			"con": 21,
+			"int": 12,
+			"wis": 13,
+			"cha": 17,
+			"passive": 17,
+			"cr": "7",
+			"shortName": "dragon",
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"skill": {
+				"acrobatics": "+6",
+				"stealth": "+6",
+				"perception": "+7"
+			},
+			"save": {
+				"dex": "+6",
+				"con": "+8",
+				"wis": "+4",
+				"cha": "+6"
+			},
+			"immune": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The dragon can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons:"
+					]
+				},
+				{
+					"name": "Poison Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 16} Constitution saving throw, taking 36 ({@damage 8d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Blinding Breath",
+					"entries": [
+						"The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 16} Constitution saving throw or can't see the dragon for 1 minutes. An affected creature can repeat its saving throw at the end of its turn."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"environment": [
+				"mountain"
 			]
 		},
 		{
