@@ -41,12 +41,12 @@
     ],
     "subclass": [
         {
-			"name": "Oath of the Sea",
+			"name": "Oath of the Corsair",
 			"subclassFeatures": [
-				"Oath of the Sea|Paladin|PHB|Sea|OJS|3",
-				"Ranged Smite|Paladin|PHB|Sea|OJS|7",
-				"Raging Sea|Paladin|PHB|Sea|OJS|15",
-				"Avatar of the Sea|Paladin|PHB|Sea|OJS|20"
+				"Oath of the Corsair|Paladin|PHB|Corsair|OJS|3",
+				"Ranged Smite|Paladin|PHB|Corsair|OJS|7",
+				"Raging Sea|Paladin|PHB|Corsair|OJS|15",
+				"Avatar of the Sea|Paladin|PHB|Corsair|OJS|20"
 			],
 			"additionalSpells": [
 				{
@@ -87,37 +87,37 @@
 				}
 			],
 			"source": "OJS",
-			"shortName": "Sea",
+			"shortName": "Corsair",
 			"className": "Paladin",
 			"classSource": "PHB"
 		}
     ],
     "subclassFeature" : [
 		{
-			"name": "Oath of the Sea",
+			"name": "Oath of the Corsair",
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 3,
 			"entries": [
 				"TODO",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Sea|Paladin|PHB|Sea|OJS|3"
+					"subclassFeature": "Tenets of the Corsair|Paladin|PHB|Corsair|OJS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|PHB|Sea|OJS|3"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Corsair|OJS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|PHB|Sea|OJS|3"
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Corsair|OJS|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Seafaring Proficiencies|Paladin|PHB|Sea|OJS|3"
+					"subclassFeature": "Seafaring Proficiencies|Paladin|PHB|Corsair|OJS|3"
 				}
 			]
 		},
@@ -126,7 +126,7 @@
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 3,
 			"header": 1,
@@ -143,7 +143,7 @@
                     "type": "entries",
                     "name": "Striking Wave",
                     "entries": [
-                        "Immediately after you deal damage to a creature with your Divine Smite feature, you can force that creature to make a Strength saving throw against your paladin spell save DC. On a failed save the creature is knocked {@condition prone}, as if struck by a wave. "
+						"After you hit a creature with a weapon attack, you can expend one use of your channel divinity and force the creature to make a Constitution saving throw against your paladin spell save DC. On a failed save, the creature is {@condition stunned} until the end of its next turn."
                     ]
                 }
 			]
@@ -153,13 +153,12 @@
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain proficiency with {@item harpoon|OJS|harpoons}, navigator's tools and {@filter vehicles (water)|items|type=vehicle (water)}.",
-                "A harpoon is a martial weapon that deals {@dice 1d6} piercing damage and has the versatile ({@dice 1d8}) and thrown property (range 20/60 feet). Using a harpoon underwater does not impose disadvantage. In addition, when you hit a creature at most one size category larger than you with a harpoon, you can force it to succeed on a strength contest against you or be pulled up to 20 feet towards you."
+				"At 3rd level, you gain proficiency with navigator's tools and {@filter vehicles (water)|items|type=vehicle (water)}."
 			]
 		},
 		{
@@ -167,7 +166,7 @@
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 3,
 			"header": 1,
@@ -175,7 +174,7 @@
 				"You gain oath spells at the paladin levels listed.",
 				{
 					"type": "table",
-					"caption": "Oath of the Sea Spells",
+					"caption": "Oath of the Corsair Spells",
 					"colLabels": [
 						"Paladin Level",
 						"Spells"
@@ -210,35 +209,35 @@
 			]
 		},
 		{
-			"name": "Tenets of the Sea",
+			"name": "Tenets of the Corsair",
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 3,
-			"header": 1,
+			"header": 2,
 			"entries": [
-				"A paladin who assumes the Oath of the Watchers swears to safeguard the sea and all protect all seafarers from harm.",
+				"A paladin who assumes the Oath of the Watchers pleadges their life to the sea",
                 {
                     "type": "entries",
-                    "name": "TODO",
+                    "name": "Camaraderie",
                     "entries": [
-                        "TODO"
+                        "Your camarades are your life. Protect them and share whatever you may find."
                     ]
                 },
                 {
                     "type": "entries",
-                    "name": "TODO",
+                    "name": "Mercy",
                     "entries": [
-                        "TODO"
+                        "Mercy is the right of everyone. Be merciful even to your enemies."
                     ]
                 },
                 {
                     "type": "entries",
-                    "name": "TODO",
+                    "name": "Freedom",
                     "entries": [
-                        "TODO"
+                        "Let nothing tie you down. You belong to the world and the world only."
                     ]
                 }	
 			]
@@ -248,7 +247,7 @@
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 7,
             "header": 2,
@@ -261,7 +260,7 @@
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 15,
             "header": 2,
@@ -274,7 +273,7 @@
 			"source": "OJS",
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Sea",
+			"subclassShortName": "Corsair",
 			"subclassSource": "OJS",
 			"level": 20,
             "header": 2,
@@ -284,9 +283,9 @@
                     "type": "list",
                     "items": [
                         "You gain resistance to cold, lightning and thunder damage.",
-                        "You gain swim speed 60 feet and the ability to breath under water.",
+                        "You gain a swimming speed  of 60 feet and the ability to breath under water.",
                         "As a bonus action, you can choose one creature you can see with in 30 feet of you. The target must make a Dexterity saving throw against your paladin spell save DC. The target takes {@damage 4d6} lightning damage on a failed save, or half as much damage on a successful one.",
-                        "When you hit a creature with a weapon attack, you can use your reaction forcing the creature to make a Constitution saving throw against your paladin spell save DC. On a failed save, the creature is {@condition stunned} until the end of its next turn."
+                        "Immediately after you deal damage to a creature, you can force that creature to make a Strength saving throw against your paladin spell save DC. On a failed save the creature is knocked {@condition prone}, as if struck by a wave."
                     ]
                 },
                 "Once you use this feature, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again."
