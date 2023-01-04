@@ -5,12 +5,12 @@
 				"json": "CR",
 				"abbreviation": "CR",
 				"full": "Critical Roll",
-				"url": "",
 				"authors": [
 					"Matt Mercer"
 				],
 				"convertedBy": ["Megges"],
-				"color": "1aafc9"
+				"color": "1aafc9",
+				"version": "1.0"
 			}
 		],
 		"dateAdded": 0,

@@ -10,7 +10,8 @@
 					"Megges"
 				],
 				"convertedBy": [],
-				"color": "cc293f"
+				"color": "cc293f",
+				"version": "1.0"
 			}
 		],
 		"dateAdded": 0,
@@ -198,7 +199,9 @@
 		{
 			"name": "Racoon",
 			"source": "CCK",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -273,7 +276,9 @@
 			"name": "Ancient Obsidian Dragon",
 			"source": "CCK",
 			"page": 0,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -461,7 +466,9 @@
 			"name": "Adult Obsidian Dragon",
 			"source": "CCK",
 			"page": 0,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -650,7 +657,9 @@
 			"name": "Young Obsidian Dragon",
 			"source": "CCK",
 			"page": 0,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -784,7 +793,9 @@
 			"name": "Obsidian Dragon Wyrmling",
 			"source": "CCK",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -812,8 +823,7 @@
 				"walk": 30,
 				"burrow": 30,
 				"fly": 60,
-				"climb": 30,
-				"canHover": false
+				"climb": 30
 			},
 			"str": 14,
 			"dex": 10,
@@ -898,10 +908,14 @@
 		},
 		{
 			"name": "Ancient Purple Dragon",
-			"group": "Dragons",
+			"group": [
+				"Dragons"
+			],
 			"isNamedCreature": true,
 			"source": "CCK",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -927,7 +941,6 @@
 			"speed": {
 				"walk": 40,
 				"fly": 80,
-				"canHover": false,
 				"climb": 40
 			},
 			"str": 20,
@@ -1072,10 +1085,14 @@
 		},
 		{
 			"name": "Adult Purple Dragon",
-			"group": "Dragons",
+			"group": [
+				"Dragons"
+			],
 			"isNamedCreature": true,
 			"source": "CCK",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -1101,7 +1118,6 @@
 			"speed": {
 				"walk": 40,
 				"fly": 80,
-				"canHover": false,
 				"climb": 40
 			},
 			"str": 18,
@@ -1246,10 +1262,14 @@
 		},
 		{
 			"name": "Young Purple Dragon",
-			"group": "Dragons",
+			"group": [
+				"Dragons"
+			],
 			"isNamedCreature": true,
 			"source": "CCK",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -1275,7 +1295,6 @@
 			"speed": {
 				"walk": 40,
 				"fly": 80,
-				"canHover": false,
 				"climb": 40
 			},
 			"str": 16,
@@ -1371,10 +1390,14 @@
 		},
 		{
 			"name": "Purple Dragon Wyrmling",
-			"group": "Dragons",
+			"group": [
+				"Dragons"
+			],
 			"isNamedCreature": true,
 			"source": "CCK",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -1400,7 +1423,6 @@
 			"speed": {
 				"walk": 30,
 				"fly": 60,
-				"canHover": false,
 				"climb": 30
 			},
 			"str": 14,
@@ -1480,7 +1502,9 @@
 			"name": "Witherling",
 			"source": "CCK",
 			"page": 114,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -1566,7 +1590,9 @@
 		{
 			"name": "Witherhulk",
 			"source": "CCK",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -1740,7 +1766,9 @@
 			"name": "Kuo-Toa",
 			"source": "CCK",
 			"lineage": "VRGR",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"speed": {
 				"walk": 30,
 				"swim": 30
@@ -1835,7 +1863,7 @@
 				"s": true,
 				"m": {
 					"text": "a bottle or a similar container, which the spell consumes",
-					"consumed": true
+					"consume": true
 				}
 			},
 			"duration": [
@@ -1851,7 +1879,8 @@
 					"name": "At Higher Levels",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, you can catch lightning created by a spell of an equal or lower level of the spell slot you used without making an ability check."
-					]
+					],
+					"type": "section"
 				}
 			],
 			"miscTags": [
@@ -1965,18 +1994,12 @@
 							"fireball"
 						],
 						"13": [
-							{
-								"name": "summon elemental",
-								"source": "TCE"
-							},
+							"summon elemental|TCE",
 							"fire shield"
 						],
 						"17": [
 							"flame strike",
-							{
-								"name": "immolation",
-								"source": "XGE"
-							}
+							"immolation|XGE"
 						]
 					}
 				}

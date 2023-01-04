@@ -1,39 +1,87 @@
 {
-	"object": {
-		"collection/RagingFlames.json": "collection"
+	"baseItem": {
+		"collection/BartholomeusTomeOfBattle.json": "collection"
+	},
+	"class": {
+		"collection/MartialRanger.json": "collection"
+	},
+	"classFeature": {
+		"collection/MartialRanger.json": "collection"
+	},
+	"condition": {
+		"collection/BartholomeusTomeOfBattle.json": "collection"
+	},
+	"feat": {
+		"collection/BartholomeusTomeOfBattle.json": "collection",
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/MartialRanger.json": "collection"
 	},
 	"item": {
+		"collection/BartholomeusTomeOfBattle.json": "collection",
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
-		"collection/WitheringFury.json": "collection",
-		"collection/IntotheChasm.json": "collection",
+		"collection/MartialRanger.json": "collection",
+		"collection/OrdisJournalOfSeafaring.json": "collection",
+		"collection/OrreanAdventuringGuide.json": "collection",
 		"collection/RagingFlames.json": "collection",
-		"collection/WilbunsWordsOfWeirdness.json": "collection"
+		"collection/WilbunsWordsOfWeirdness.json": "collection",
+		"collection/WitheringFury.json": "collection"
+	},
+	"itemGroup": {
+		"collection/BartholomeusTomeOfBattle.json": "collection"
+	},
+	"itemProperty": {
+		"collection/BartholomeusTomeOfBattle.json": "collection"
+	},
+	"magicvariant": {
+		"collection/BartholomeusTomeOfBattle.json": "collection"
 	},
 	"monster": {
 		"collection/BearsBearsBears.json": "collection",
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
-		"collection/WitheringFury.json": "collection",
-		"collection/IntotheChasm.json": "collection",
+		"collection/ElgyrsDraconicMenagery.json": "collection",
+		"collection/MartialRanger.json": "collection",
 		"collection/RagingFlames.json": "collection",
-		"collection/WilbunsWordsOfWeirdness.json": "collection"
+		"collection/WilbunsWordsOfWeirdness.json": "collection",
+		"collection/WitheringFury.json": "collection"
+	},
+	"object": {
+		"collection/RagingFlames.json": "collection"
 	},
 	"optionalfeature": {
-		"collection/CeldirasCompendiumOfKnowledge.json": "collection"
+		"collection/BartholomeusTomeOfBattle.json": "collection",
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/MartialRanger.json": "collection"
+	},
+	"race": {
+		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/OrreanAdventuringGuide.json": "collection"
 	},
 	"spell": {
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
-		"collection/WitheringFury.json": "collection",
-		"collection/WilbunsWordsOfWeirdness.json": "collection"
+		"collection/WilbunsWordsOfWeirdness.json": "collection",
+		"collection/WitheringFury.json": "collection"
 	},
 	"subclass": {
+		"collection/BartholomeusTomeOfBattle.json": "collection",
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/ElgyrsDraconicMenagery.json": "collection",
+		"collection/MartialRanger.json": "collection",
+		"collection/OrdisJournalOfSeafaring.json": "collection",
 		"collection/WilbunsWordsOfWeirdness.json": "collection"
 	},
 	"subclassFeature": {
+		"collection/BartholomeusTomeOfBattle.json": "collection",
 		"collection/CeldirasCompendiumOfKnowledge.json": "collection",
+		"collection/ElgyrsDraconicMenagery.json": "collection",
+		"collection/MartialRanger.json": "collection",
+		"collection/OrdisJournalOfSeafaring.json": "collection",
 		"collection/WilbunsWordsOfWeirdness.json": "collection"
 	},
-	"variant": {
-		"collection/SwordofChaos.json": "collection"
+	"subrace": {
+		"collection/OrreanAdventuringGuide.json": "collection"
+	},
+	"variantrule": {
+		"collection/BartholomeusTomeOfBattle.json": "collection",
+		"collection/CriticalRoll.json": "collection"
 	}
 }

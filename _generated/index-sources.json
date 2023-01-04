@@ -1,9 +1,13 @@
 {
 	"BearsBearsBears": "collection/BearsBearsBears.json",
-	"CeldirasCompendiumOfKnowledge": "collection/CeldirasCompendiumOfKnowledge.json",
+	"CCK": "collection/CeldirasCompendiumOfKnowledge.json",
 	"WitheringFury": "collection/WitheringFury.json",
-	"IntotheChasm": "collection/IntotheChasm.json",
 	"RagingFlames": "collection/RagingFlames.json",
-	"SwordofChaos": "collection/SwordofChaos.json",
-	"WWW": "collection/WilbunsWordsOfWeirdness.json"
+	"WWW": "collection/WilbunsWordsOfWeirdness.json",
+	"EDM": "collection/ElgyrsDraconicMenagery.json",
+	"BTB": "collection/BartholomeusTomeOfBattle.json",
+	"OAG": "collection/OrreanAdventuringGuide.json",
+	"OJS": "collection/OrdisJournalOfSeafaring.json",
+	"CR": "collection/CriticalRoll.json",
+	"MaR": "collection/MartialRanger.json"
 }

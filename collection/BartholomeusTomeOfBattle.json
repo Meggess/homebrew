@@ -5,7 +5,6 @@
 				"json": "BTB",
 				"abbreviation": "BTB",
 				"full": "Bartholomeus' Tome of Battle",
-				"url": "",
 				"authors": [
 					"Megges"
 				],
@@ -464,7 +463,7 @@
 			"rarity": "none",
 			"weight": 3,
 			"value": 500,
-            "ac": "1"
+            "ac": 1
 		},
 		{
 			"name": "Tower Shield",
@@ -477,7 +476,7 @@
                 "H",
                 "S"
 			],
-            "ac": "2",
+            "ac": 2,
             "stealth": true,
             "strength": "15",
 			"entries": [
@@ -570,6 +569,7 @@
 		{
 			"name": "Frozen",
 			"source": "BTB",
+			"page": 0,
 			"entries": [
 				{
 					"type": "list",
@@ -738,7 +738,7 @@
 			"name": "+2 Battle Standard of Power",
 			"source": "BTB",
             "wondrous": true,
-			"rarity": "rare",
+			"rarity": "very rare",
             "attunement": true,
 			"entries": [
 				"While you hold this banner, you and all allied creatures within 60 feet of you gain a +2 bonus to weapon attack and damage rolls."
@@ -799,7 +799,7 @@
 			"name": "+3 Battle Standard of Power",
 			"source": "BTB",
             "wondrous": true,
-			"rarity": "rare",
+			"rarity": "legendary",
             "attunement": true,
 			"entries": [
 				"While you hold this banner, you and all allied creatures within 60 feet of you gain a +3 bonus to weapon attack and damage rolls."
@@ -1636,7 +1636,9 @@
     	{
     		"name": "Brute",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 8",
 	            "<b>Duration:</b> 30 seconds",
@@ -1646,7 +1648,9 @@
     	{
     		"name": "Bull's Eye",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 4",
 	            "<b>Duration:</b> 10 minutes",
@@ -1656,7 +1660,9 @@
     	{
     		"name": "Cold",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 6",
 	            "<b>Duration:</b> 1 hour",
@@ -1666,7 +1672,9 @@
     	{
     		"name": "Day",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 2",
 	            "<b>Duration:</b> 2 hours",
@@ -1676,7 +1684,9 @@
     	{
     		"name": "Durable",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 4",
 	            "<b>Duration:</b> 10 minutes",
@@ -1686,7 +1696,9 @@
     	{
     		"name": "Ground",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 6",
 	            "<b>Duration:</b> 1 hour",
@@ -1696,7 +1708,9 @@
     	{
     		"name": "Leach",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 6",
 	            "<b>Duration:</b> 1 hour",
@@ -1706,7 +1720,9 @@
     	{
     		"name": "Regena",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 8",
 	            "<b>Duration:</b> 10 minutes",
@@ -1716,7 +1732,9 @@
     	{
     		"name": "Sight",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 4",
 	            "<b>Duration:</b> 2 hours",
@@ -1726,7 +1744,9 @@
     	{
     		"name": "Steadfast",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			{
     				"type": "entries",
@@ -1750,7 +1770,9 @@
     	{
     		"name": "Stone",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			{
     				"type": "entries",
@@ -1774,7 +1796,9 @@
     	{
     		"name": "Thick Hide",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			"<b>Toxicity:</b> 2",
 	            "<b>Duration:</b> Instantaneous",
@@ -1791,7 +1815,9 @@
     	{
     		"name": "Warmth",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			{
     				"type": "entries",
@@ -1815,7 +1841,9 @@
     	{
     		"name": "Whirlwind",
     		"source": "BTB",
-    		"featureType": "SF",
+    		"featureType": [
+				"SF"
+			],
     		"entries": [
     			{
     				"type": "entries",
@@ -1837,6 +1865,245 @@
     		]
     	}
 	],
+    "magicvariant": [
+        {
+            "name": "Booming Arrow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Booming ",
+                "source": "BTB",
+                "rarity": "rare",
+				"page": 0,
+                "entries": [
+                    "A booming arrow is a magic weapon infused with thunder magic. If a creature takes damage from the arrow, a burst of thunderous sound that can be heard up to 100 feet away is created and the creature and each creature with in 10 feet of it must make a DC 17 Constitution saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is deafend for 1 minute. On a successful save, a creature takes half as much damage and isn't deafend. A deafend creature can repeat its saving throw at the end of its turn.",
+                    "Once a booming arrow deals damage to a creature, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Corroding Arrow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Corroding ",
+                "source": "BTB",
+                "rarity": "rare",
+				"page": 0,
+                "entries": [
+                    "A corroding arrow is a magic weapon infused with acid magic. If a creature takes damage from the arrow, the creature has acid splashed over it; until someone takes an action to wipe of the acid, the creature takes {@damage 1d4} acid damage at the start of each of each of its turns. In addition, nonmagical armor worn by the creature is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. 2-inch-thick, nonmagical wood or metal hit by the arrow is disolved in 1 round.",
+                    "Once a corroding arrow splashes a creature or an object, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Flame Arrow",
+            "type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Flame ",
+                "source": "BTB",
+                "rarity": "rare",
+				"page": 0,
+                "entries": [
+                    "A flame arrow is a magic weapon infused with fire magic. If a creature takes damage from the arrow, the creature catches fire; until someone takes an action to douse the fire, the creature takes {@damage 1d8} fire damage at the start of each of its turns. If you hit a flammable object with the arrow the object ignites.",
+                    "Once a flame arrow ignites a creature or an object, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Frigid Arrow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Frigid ",
+                "source": "BTB",
+                "rarity": "rare",
+				"page": 0,
+                "entries": [
+                    "A frigid arrow is a magic weapon infused with ice magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming {@condition frozen|BTB} until the end of its next turn on a failed save. If you hit water with the arrow, the water freezes in a 5-foot cube for 1 minute.",
+                    "Once a frigid arrow forces a creature to make a saving throw, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Shocking Arrow",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"ammo": true,
+            "inherits": {
+                "namePrefix": "Shocking ",
+                "source": "BTB",
+                "rarity": "rare",
+				"page": 0,
+                "entries": [
+                    "A shocking arrow is a magic weapon infused with lightning magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming {@condition stunned} until the end of its next turn on a failed save. If the arrow hits an object that can conduct electricity, its effect extends to any creature touching the object.",
+                    "Once a shocking arrow stuns a creature, it becomes a nonmagical arrow."
+                ]
+            }
+        },
+        {
+            "name": "Returning Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "weapon": true
+                }
+            ],
+            "excludes": {
+                "type": "R",
+                "name": [
+                    "Battleaxe",
+                    "Club",
+                    "Flail",
+                    "Hooked Shortspear",
+                    "Mace",
+                    "Morningstar",
+                    "Quarterstaff",
+                    "Sickle",
+                    "War Pick",
+                    "Warhammer",
+                    "Sword Breaker"
+                ],
+                "property": [
+                    "2H",
+                    "H",
+                    "R"
+                ],
+                "sword": true
+            },
+            "inherits": {
+                "namePrefix": "Returning ",
+                "source": "BTB",
+                "rarity": "common",
+				"page": 0,
+                "entries": [
+                    "This weapon returns to the wielder's hand immediately after it is used to make a ranged attack."
+                ]
+            }
+        },
+        {
+            "name": "Cold Iron Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M"
+                },
+                {
+                    "type": "A"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Cold Iron ",
+                "source": "BTB",
+                "rarity": "none",
+                "weapon": true,
+				"page": 0,
+                "valueExpression": "[[baseItem.value]] * 2",
+                "entries": [
+                    "Melee weapons or ammunition made of cold iron are unusually effective against demons and fey. Attacks made with a cold iron weapon ignore resistance and immunity to nonmagical attacks of any demon or fey hit by them.",
+                    "The cold iron version of a melee weapon costs twice as much as the normal version."
+                ]
+            }
+        },
+        {
+            "name": "Mithral Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M"
+                },
+                {
+                    "type": "A"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Mithral ",
+                "source": "BTB",
+                "rarity": "none",
+                "weapon": true,
+				"page": 0,
+                "valueExpression": "[[baseItem.value]] + 30000",
+                "entries": [
+                    "Melee weapons or ammunition made of or coated with mithral are unusually effective against celestials. Attacks made with a mithral weapon ignore resistance and immunity to nonmagical attacks of any celestial hit by them.",
+                    "The mithral version of a melee weapon costs 300 gp more than the normal version, whether the weapon is made of the metal or coated with it."
+                ]
+            }
+        },
+        {
+            "name": "Spiked Shield",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "S"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Spiked ",
+                "source": "BTB",
+				"rarity": "none",
+				"page": 0,
+                "valueExpression": "[[baseItem.value]] + 1000",
+                "entries": [
+                    "Any shield with spikes implanted into its front is called a spiked shield. A spiked shield can be used as a martial melee weapon and deals {@damage 1d6} piercing damage. If you successfully shove a creature using the shield, the creature takes the damage of the shield in addition to the shoves normal effect.",
+                    "The spiked version of a shield costs 10 gp more than the normal version."
+                ]
+            }
+        },
+        {
+            "name": "Serrated Blade",
+            "type": "GV",
+            "requires": [
+                {
+                    "dmgType": "S"
+                }
+            ],
+            "excludes": {
+                "name": [
+                    "Whip",
+                    "War Fan"
+                ]
+            },
+            "inherits": {
+                "namePrefix": "Serrated ",
+                "source": "BTB",
+                "rarity": "none",
+                "weapon": true,
+				"page": 0,
+                "valueExpression": "[[baseItem.value]] + 1500",
+                "entries": [
+                    "Serrated blades are designed to inflict more gruesome wounds.",
+                    "Any martial weapon dealing slashing damage except for whips can have serrated versions. When you hit a creature with a serrated blade, the creature must make a Constitution saving throw. The DC for this save equals 10 + your proficiency bonus.",
+                    "On a failed save, a creature starts bleeding and takes {@damage 1d10} slashing damage at the start of each of its turns until it or a creature within 5 feet of it takes an action to quench the wound.",
+                    "The serrated version of a weapon costs 15 gp more than the normal version."
+                ]
+            }
+        }
+    ],
     "subclass": [
 		{
 			"name": "Path of the Berserker",
@@ -2927,245 +3194,6 @@
 				"Starting at 17th level, when you deal your sneak attack damage to a creature and you roll a 1 or 2 on a sneak attack die, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2. When you do so, attack rolls against you have advantage until the end of your next turn."	
 			]
 		}
-    ],
-    "variant": [
-        {
-            "name": "Booming Arrow",
-			"type": "GV",
-            "source": "BTB",
-			"requires": [
-				{
-					"type": "A"
-				}
-			],
-			"ammo": true,
-            "inherits": {
-                "namePrefix": "Booming ",
-                "source": "BTB",
-                "rarity": "rare",
-                "entries": [
-                    "A booming arrow is a magic weapon infused with thunder magic. If a creature takes damage from the arrow, a burst of thunderous sound that can be heard up to 100 feet away is created and the creature and each creature with in 10 feet of it must make a DC 17 Constitution saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is deafend for 1 minute. On a successful save, a creature takes half as much damage and isn't deafend. A deafend creature can repeat its saving throw at the end of its turn.",
-                    "Once a booming arrow deals damage to a creature, it becomes a nonmagical arrow."
-                ]
-            }
-        },
-        {
-            "name": "Corroding Arrow",
-			"type": "GV",
-            "source": "BTB",
-			"requires": [
-				{
-					"type": "A"
-				}
-			],
-			"ammo": true,
-            "inherits": {
-                "namePrefix": "Corroding ",
-                "source": "BTB",
-                "rarity": "rare",
-                "entries": [
-                    "A corroding arrow is a magic weapon infused with acid magic. If a creature takes damage from the arrow, the creature has acid splashed over it; until someone takes an action to wipe of the acid, the creature takes {@damage 1d4} acid damage at the start of each of each of its turns. In addition, nonmagical armor worn by the creature is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. 2-inch-thick, nonmagical wood or metal hit by the arrow is disolved in 1 round.",
-                    "Once a corroding arrow splashes a creature or an object, it becomes a nonmagical arrow."
-                ]
-            }
-        },
-        {
-            "name": "Flame Arrow",
-            "type": "GV",
-            "source": "BTB",
-			"requires": [
-				{
-					"type": "A"
-				}
-			],
-			"ammo": true,
-            "inherits": {
-                "namePrefix": "Flame ",
-                "source": "BTB",
-                "rarity": "rare",
-                "entries": [
-                    "A flame arrow is a magic weapon infused with fire magic. If a creature takes damage from the arrow, the creature catches fire; until someone takes an action to douse the fire, the creature takes {@damage 1d8} fire damage at the start of each of its turns. If you hit a flammable object with the arrow the object ignites.",
-                    "Once a flame arrow ignites a creature or an object, it becomes a nonmagical arrow."
-                ]
-            }
-        },
-        {
-            "name": "Frigid Arrow",
-			"type": "GV",
-            "source": "BTB",
-			"requires": [
-				{
-					"type": "A"
-				}
-			],
-			"ammo": true,
-            "inherits": {
-                "namePrefix": "Frigid ",
-                "source": "BTB",
-                "rarity": "rare",
-                "entries": [
-                    "A frigid arrow is a magic weapon infused with ice magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming {@condition frozen|BTB} until the end of its next turn on a failed save. If you hit water with the arrow, the water freezes in a 5-foot cube for 1 minute.",
-                    "Once a frigid arrow forces a creature to make a saving throw, it becomes a nonmagical arrow."
-                ]
-            }
-        },
-        {
-            "name": "Shocking Arrow",
-			"type": "GV",
-            "source": "BTB",
-			"requires": [
-				{
-					"type": "A"
-				}
-			],
-			"ammo": true,
-            "inherits": {
-                "namePrefix": "Shocking ",
-                "source": "BTB",
-                "rarity": "rare",
-                "entries": [
-                    "A shocking arrow is a magic weapon infused with lightning magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming {@condition stunned} until the end of its next turn on a failed save. If the arrow hits an object that can conduct electricity, its effect extends to any creature touching the object.",
-                    "Once a shocking arrow stuns a creature, it becomes a nonmagical arrow."
-                ]
-            }
-        },
-        {
-            "name": "Returning Weapon",
-            "type": "GV",
-            "source": "BTB",
-            "requires": [
-                {
-                    "weapon": true
-                }
-            ],
-            "excludes": {
-                "type": "R",
-                "name": [
-                    "Battleaxe",
-                    "Club",
-                    "Flail",
-                    "Hooked Shortspear",
-                    "Mace",
-                    "Morningstar",
-                    "Quarterstaff",
-                    "Sickle",
-                    "War Pick",
-                    "Warhammer",
-                    "Sword Breaker"
-                ],
-                "property": [
-                    "2H",
-                    "H",
-                    "R"
-                ],
-                "sword": true
-            },
-            "inherits": {
-                "namePrefix": "Returning ",
-                "source": "BTB",
-                "rarity": "common",
-                "entries": [
-                    "This weapon returns to the wielder's hand immediately after it is used to make a ranged attack."
-                ]
-            }
-        },
-        {
-            "name": "Cold Iron Weapon",
-            "type": "GV",
-            "source": "BTB",
-            "requires": [
-                {
-                    "type": "M"
-                },
-                {
-                    "type": "A"
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Cold Iron ",
-                "source": "BTB",
-                "rarity": "none",
-                "weapon": true,
-                "valueExpression": "[[baseItem.value]] * 2",
-                "entries": [
-                    "Melee weapons or ammunition made of cold iron are unusually effective against demons and fey. Attacks made with a cold iron weapon ignore resistance and immunity to nonmagical attacks of any demon or fey hit by them.",
-                    "The cold iron version of a melee weapon costs twice as much as the normal version."
-                ]
-            }
-        },
-        {
-            "name": "Mithral Weapon",
-            "type": "GV",
-            "source": "BTB",
-            "requires": [
-                {
-                    "type": "M"
-                },
-                {
-                    "type": "A"
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Mithral ",
-                "source": "BTB",
-                "rarity": "none",
-                "weapon": true,
-                "valueExpression": "[[baseItem.value]] + 30000",
-                "entries": [
-                    "Melee weapons or ammunition made of or coated with mithral are unusually effective against celestials. Attacks made with a mithral weapon ignore resistance and immunity to nonmagical attacks of any celestial hit by them.",
-                    "The mithral version of a melee weapon costs 300 gp more than the normal version, whether the weapon is made of the metal or coated with it."
-                ]
-            }
-        },
-        {
-            "name": "Spiked Shield",
-            "type": "GV",
-            "source": "BTB",
-            "requires": [
-                {
-                    "type": "S"
-                }
-            ],
-            "inherits": {
-                "namePrefix": "Spiked ",
-                "source": "BTB",
-                "rarity": "none",
-                "valueExpression": "[[baseItem.value]] + 1000",
-                "entries": [
-                    "Any shield with spikes implanted into its front is called a spiked shield. A spiked shield can be used as a martial melee weapon and deals {@damage 1d6} piercing damage. If you successfully shove a creature using the shield, the creature takes the damage of the shield in addition to the shoves normal effect.",
-                    "The spiked version of a shield costs 10 gp more than the normal version."
-                ]
-            }
-        },
-        {
-            "name": "Serrated Blade",
-            "type": "GV",
-            "source": "BTB",
-            "requires": [
-                {
-                    "dmgType": "S"
-                }
-            ],
-            "excludes": {
-                "name": [
-                    "Whip",
-                    "War Fan"
-                ]
-            },
-            "inherits": {
-                "namePrefix": "Serrated ",
-                "source": "BTB",
-                "rarity": "none",
-                "weapon": true,
-                "valueExpression": "[[baseItem.value]] + 1500",
-                "entries": [
-                    "Serrated blades are designed to inflict more gruesome wounds.",
-                    "Any martial weapon dealing slashing damage except for whips can have serrated versions. When you hit a creature with a serrated blade, the creature must make a Constitution saving throw. The DC for this save equals 10 + your proficiency bonus.",
-                    "On a failed save, a creature starts bleeding and takes {@damage 1d10} slashing damage at the start of each of its turns until it or a creature within 5 feet of it takes an action to quench the wound.",
-                    "The serrated version of a weapon costs 15 gp more than the normal version."
-                ]
-            }
-        }
     ],
 	"variantrule": [
 		{

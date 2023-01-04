@@ -5,12 +5,12 @@
 				"json": "OJS",
 				"abbreviation": "OJS",
 				"full": "Ordi's Journal of Seafaring",
-				"url": "",
 				"authors": [
 					"Megges"
 				],
 				"convertedBy": [],
-				"color": "1bcede"
+				"color": "1bcede",
+				"version": "0.1"
 			}
 		],
 		"dateAdded": 0,
@@ -36,9 +36,6 @@
 			]
 		}
     ],
-    "monster": [
-
-    ],
     "subclass": [
         {
 			"name": "Oath of the Corsair",
@@ -57,31 +54,19 @@
 						],
 						"5": [
 							"gust of wind",
-                            {
-							    "name": "warding wind",
-                                "source": "XGE"
-                            }
+                            "warding wind|XGE"
 						],
 						"9": [
 							"lightning arrow",
-                            {
-                                "name": "tidal wave",
-                                "source": "XGE"
-                            }
+							"tidal wave|XGE"
 						],
 						"13": [
 							"control water",
 							"freedom of movement"
 						],
 						"17": [
-							{
-								"name": "control winds",
-								"source": "XGE"
-							},
-							{
-								"name": "maelstrom",
-								"source": "XGE"
-							}
+							"control winds|XGE",
+							"maelstrom|XGE"
 						]
 					}
 				}

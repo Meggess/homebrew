@@ -5,12 +5,12 @@
 				"json": "WWW",
 				"abbreviation": "WWW",
 				"full": "Wilbun's Words of Weirdness",
-				"url": "",
 				"authors": [
 					"Megges"
 				],
 				"convertedBy": [],
-                "color": "991ec9"
+                "color": "991ec9",
+                "version": "0.1"
 			}
 		],
 		"dateAdded": 0,
@@ -148,7 +148,9 @@
             "name": "Deucalion",
             "source": "WWW",
             "summonedByClass": "Artificer|TCE",
-            "size": "M",
+            "size": [
+                "M"
+            ],
             "type": "monstrosity",
             "ac": [
                 {
@@ -231,9 +233,13 @@
         },        
         {
             "name": "Black Slaad",
-            "group": "Slaadi",
+            "group": [
+                "Slaadi"
+            ],
             "source": "WWW",
-            "size": "H",
+            "size": [
+                "H"
+            ],
             "type": {
                 "type": "aberration",
                 "tags": [
@@ -516,9 +522,13 @@
         },
         {
             "name": "White Slaad",
-            "group": "Slaadi",
+            "group": [
+                "Slaadi"
+            ],
             "source": "WWW",
-            "size": "L",
+            "size": [
+                "L"
+            ],
             "type": {
                 "type": "aberration",
                 "tags": [
@@ -886,7 +896,8 @@
                     "name": "At Higher Levels",
                     "entries": [
                         "When you cast this spell using a spell slot of 4th level or higher, you can target one additional humanoid for each slot level above 3rd. The humanoids must be within 30 feet of each other when you target them."
-                    ]
+                    ],
+                    "type": "entries"
                 }
             ],
             "entries": [
@@ -959,7 +970,8 @@
                     "name": "At Higher Levels",
                     "entries": [
                         "When you cast this spell using a spell slot of 2nd level or higher, the acid damage increases by {@dice 1d4} for each slot level above 1st."
-                    ]
+                    ],
+                    "type": "entries"
                 }
             ]
         },
@@ -1042,10 +1054,7 @@
 					"prepared": {
 						"3": [
 							"inflict wounds",
-							{
-                                "name": "wilbun's tentacle arm",
-                                "source": "WWW"
-                            }
+                            "wilbun's tentacle arm|WWW"
 						],
 						"5": [
 							"barkskin",

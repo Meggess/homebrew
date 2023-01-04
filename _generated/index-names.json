@@ -2,8 +2,12 @@
     "BearsBearsBears.json": ["Bears! Bears! Bears!"],
     "CeldirasCompendiumOfKnowledge.json": ["Celdira's Compendium of Knowledge"],
     "WitheringFury.json": ["Withering Fury"],
-    "IntotheChasm.json": ["Into the Chasms"],
     "RagingFlames.json": ["Raging Flames"],
-    "SwordofChaos.json": ["Sword of Chaos"],
-    "WilbunsWordsOfWeirdness.json": ["Wilbun' Words of Weirdness"]
+    "WilbunsWordsOfWeirdness.json": ["Wilbun' Words of Weirdness"],
+    "OrreanAdventuringGuide.json": ["Orrean Adventuring Guide"],
+    "ElgyrsDraconicMenagery.json": ["Elgyr's Draconic Menagery"],
+    "BartholomeusTomeOfBattle.json": ["Bartholomeus' Tome of Battle"],
+    "CriticalRoll.json": ["Critical Roll"],
+    "MartialRanger.json": ["Martial Ranger"],
+    "OrdisJournalOfSeafaring.json": ["Ordi's Journal of Seafaring"]
 }

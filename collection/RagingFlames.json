@@ -5,12 +5,12 @@
 				"json": "RagingFlames",
 				"abbreviation": "RF",
 				"full": "Raging Flames",
-				"url": "",
 				"authors": [
 					"Megges"
 				],
 				"convertedBy": [],
-				"color": "ffd700"
+				"color": "ffd700",
+				"version": "0.1"
 			}
 		],
 		"dateAdded": 0,

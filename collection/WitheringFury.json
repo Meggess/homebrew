@@ -5,12 +5,12 @@
 				"json": "WitheringFury",
 				"abbreviation": "WF",
 				"full": "Withering Fury",
-				"url": "",
 				"authors": [
 					"Megges"
 				],
 				"convertedBy": [],
-				"color": "79ab1d"
+				"color": "79ab1d",
+				"version": "0.1"
 			}
 		],
 		"dateAdded": 0,
@@ -674,10 +674,14 @@
 	"monster": [
 		{
 			"name": "Auntie",
-			"group": "Hags",
+			"group": [
+				"Hags"
+			],
 			"isNpc": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -896,7 +900,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1149,7 +1155,9 @@
 			"shortName": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -1442,7 +1450,9 @@
 			"shortName": true,
 			"isNpc": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1604,7 +1614,9 @@
 		{
 			"name": "Dreamer",
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -1700,7 +1712,9 @@
 		{
 			"name": "Ember Monitor",
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -1772,7 +1786,9 @@
 		{
 			"name": "Errich",
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2017,7 +2033,9 @@
 		{
 			"name": "Fomorian Zombie",
 			"source": "WitheringFury",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -2128,12 +2146,16 @@
 		},
 		{
 			"name": "Garone",
-			"group": "Goblinoids",
+			"group": [
+				"Goblinoids"
+			],
 			"tokenUrl": "https://5e.tools/img/VGM/Hobgoblin%20Devastator.png",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2317,9 +2339,13 @@
 			"name": "Garone's Eldritch Cannon",
 			"isNpc": true,
 			"source": "WitheringFury",
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "construct",
-			"alignment": null,
+			"alignment": [
+				"U"
+			],
 			"ac": [
 				18
 			],
@@ -2364,10 +2390,14 @@
 		},
 		{
 			"name": "Granny",
-			"group": "Hags",
+			"group": [
+				"Hags"
+			],
 			"isNpc": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -2587,7 +2617,9 @@
 			"isNamedCreature": true,
 			"source": "WitheringFury",
 			"page": 237,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "giant",
 				"tags": [
@@ -2685,7 +2717,9 @@
 			"name": "Karyn",
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -2932,7 +2966,9 @@
 		{
 			"name": "Magma Elemental",
 			"source": "WitheringFury",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -3068,11 +3104,15 @@
 		},
 		{
 			"name": "Mhecmunas",
-			"group": "Lichs",
+			"group": [
+				"Liches"
+			],
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -3409,10 +3449,14 @@
 		},
 		{
 			"name": "Mommy",
-			"group": "Hags",
+			"group": [
+				"Hags"
+			],
 			"isNpc": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -3630,7 +3674,9 @@
 			"name": "Oomph",
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -3919,11 +3965,12 @@
 		},
 		{
 			"name": "Savalar Gadah",
-			"group": "Metallic Dragon",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4144,7 +4191,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4347,7 +4396,9 @@
 		{
 			"name": "Storm Elemental",
 			"source": "WitheringFury",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -4514,7 +4565,9 @@
 		{
 			"name": "Torks",
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -4746,12 +4799,13 @@
 		},
 		{
 			"name": "Venomfang",
-			"group": "Chromatic Dragon",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WitheringFury",
 			"page": 94,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -4913,7 +4967,9 @@
 		{
 			"name": "Witherbeast",
 			"source": "WitheringFury",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -4950,7 +5006,6 @@
 				"darkvision 60 ft."
 			],
 			"passive": 7,
-			"resist": [],
 			"immune": [
 				"necrotic",
 				"poison"
@@ -5069,7 +5124,9 @@
 		{
 			"name": "Witherhulk",
 			"source": "WitheringFury",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -5165,7 +5222,9 @@
 		{
 			"name": "Witherling",
 			"source": "WitheringFury",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"

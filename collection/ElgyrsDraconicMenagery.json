@@ -5,12 +5,12 @@
 				"json": "EDM",
 				"abbreviation": "EDM",
 				"full": "Elgyr's Draconic Menagery",
-				"url": "",
 				"authors": [
 					"Megges"
 				],
 				"convertedBy": [],
-				"color": "87a4ad"
+				"color": "87a4ad",
+				"version": "0.1"
 			}
 		],
 		"dateAdded": 0,
@@ -48,7 +48,6 @@
 			"speed": {
 				"walk": 40,
 				"fly": 80,
-				"canHover": false,
 				"climb": 40
 			},
 			"str": 21,
@@ -238,8 +237,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 80,
-				"canHover": false
+				"fly": 80
 			},
 			"str": 25,
 			"dex": 10,
@@ -425,8 +423,7 @@
 			"speed": {
 				"walk": 40,
 				"climb": 40,
-				"fly": 80,
-				"canHover": false
+				"fly": 80
 			},
 			"str": 23,
 			"dex": 16,
@@ -622,8 +619,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 80,
-				"canHover": false
+				"fly": 80
 			},
 			"str": 27,
 			"dex": 10,
@@ -808,7 +804,6 @@
 			"speed": {
 				"walk": 30,
 				"fly": 60,
-				"canHover": false,
 				"climb": 30
 			},
 			"str": 15,
@@ -935,7 +930,6 @@
 			"speed": {
 				"walk": 60,
 				"fly": 120,
-				"canHover": false,
 				"climb": 60
 			},
 			"str": 26,
@@ -1140,8 +1134,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 60,
-				"canHover": false
+				"fly": 60
 			},
 			"str": 19,
 			"dex": 10,
@@ -1253,8 +1246,7 @@
 			},
 			"speed": {
 				"walk": 60,
-				"fly": 120,
-				"canHover": false
+				"fly": 120
 			},
 			"str": 29,
 			"dex": 12,
@@ -1471,7 +1463,6 @@
 			"speed": {
 				"walk": 40,
 				"fly": 80,
-				"canHover": false,
 				"climb": 40
 			},
 			"str": 19,
@@ -1615,8 +1606,7 @@
 			},
 			"speed": {
 				"walk": 40,
-				"fly": 80,
-				"canHover": false
+				"fly": 80
 			},
 			"str": 21,
 			"dex": 10,
@@ -2030,7 +2020,6 @@
 				{
 					"type": "entries",
 					"name": "Frightful Presence",
-					"header": 3,
 					"entries": [
 						"As an action, you can force each creature of your choice that is within 30 feet of you and aware of you to succeed on a Wisdom saving throw against your spell save DC or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this feature for the next 24 hours."
 					]
@@ -2038,7 +2027,6 @@
 				{
 					"type": "entries",
 					"name": "Psychic Step",
-					"header": 3,
 					"entries": [
 						"As a bonus action, you magically teleport to an unoccupied space you can see within 30 feet of it."
 					]
@@ -2046,7 +2034,6 @@
 				{
 					"type": "entries",
 					"name": "Unusual Nature",
-					"header": 3,
 					"entries": [
 						"You don't require food or air."
 					]

@@ -5,14 +5,14 @@
                 "json": "BearsBearsBears",
                 "abbreviation": "BBB",
                 "full": "Bears! Bears! Bears!",
-                "url": "",
                 "authors": [
                     "Gustav",
                     "Megges"
                 ],
                 "convertedBy": [
                     "Megges"
-                ]
+                ],
+                "version": "1.0"
             }
         ],
         "dateAdded": 0,
@@ -47,7 +47,7 @@
             "cha": 5,
             "passive": 9,
             "cr": "0",
-            "kenUrl": "https://i.imgur.com/TUfTcyt.png",
+            "tokenUrl": "https://i.imgur.com/TUfTcyt.png",
             "environment": [
                 "grassland",
                 "hill"
@@ -57,7 +57,9 @@
             "name": "Apex Bear",
             "source": "BearsBearsBears",
             "page": 0,
-            "size": "L",
+            "size": [
+                "L"
+            ],
             "type": "beast",
             "alignment": [
                 "U"
@@ -140,7 +142,9 @@
             "name": "Dire Bear",
             "source": "BearsBearsBears",
             "page": 0,
-            "size": "L",
+            "size": [
+                "L"
+            ],
             "type": "beast",
             "alignment": [
                 "U"
@@ -222,7 +226,9 @@
             "name": "Giant Bear",
             "source": "BearsBearsBears",
             "page": 0,
-            "size": "H",
+            "size": [
+                "H"
+            ],
             "type": "beast",
             "alignment": [
                 "U"
@@ -305,7 +311,9 @@
             "name": "Stormchaser Chimera",
             "source": "BearsBearsBears",
             "page": 0,
-            "size": "L",
+            "size": [
+                "L"
+            ],
             "type": "monstrosity",
             "alignment": [
                 "U"
@@ -402,7 +410,9 @@
             "name": "Bearcano",
             "source": "BearsBearsBears",
             "page": 0,
-            "size": "L",
+            "size": [
+                "L"
+            ],
             "type": "elemental",
             "alignment": [
                 "U"
@@ -526,7 +536,9 @@
                 "mountain",
                 "underdark"
             ],
-            "group": "Elementals"
+            "group": [
+                "Elementals"
+            ]
         },
         {
             "name": "Winged Alpaca",
