@@ -2,11 +2,13 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "CeldirasCompendiumOfKnowledge",
+				"json": "CCK",
 				"abbreviation": "CCK",
 				"full": "Celdira's Compendium of Knowledgel",
 				"url": "https://homebrewery.naturalcrit.com/share/ryvW1ZWEs54",
-				"authors": ["Megges"],
+				"authors": [
+					"Megges"
+				],
 				"convertedBy": [],
 				"color": "cc293f"
 			}
@@ -17,7 +19,7 @@
 	"feat": [
 		{
 			"name": "Apothecary",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"prerequisite": [
 				{
 					"other": "Proficiency in {@skill Medicine}"
@@ -35,7 +37,7 @@
 			"name": "Bottled Lightning",
 			"wondrous": true,
 			"rarity": "varies",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"entries": [
 				"In this bottle floats a blue glowing orb. Bolts of lightning lash out from the orb to the bottle whenever someone touches the bottle.",
 				"As an action, you can remove the stopper of the bottle unleashing the stored lightning in a 100 feet long and 5 feet wide line in the direction the bottle is facing or you can throw the bottle at a point you can see within 30 feet of you. The bottle shatters on impact unleashing the stored lightning in a 20-foot-radius sphere. Each creature in the area of effect must make a Dexterity saving throw. A creature takes damage according to the type of lightning stored in the bottle on a failed save, or half as much damage on a successful one. The DC for the saving throw is determined by the type of the stored lightning.",
@@ -85,8 +87,7 @@
 		},
 		{
 			"name": "Cold Iron",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"page": 0,
+			"source": "CCK",
 			"rarity": "none",
 			"type": "TG",
 			"value": 20,
@@ -97,8 +98,7 @@
 		},
 		{
 			"name": "Chardalyn",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"page": 0,
+			"source": "CCK",
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
@@ -110,15 +110,14 @@
 			"name": "Googles of Day",
 			"wondrous": true,
 			"rarity": "common",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"entries": [
 				"While wearing these dark lenses, you ignore the sunlight sensitivity feature if you have it."
 			]
 		},
 		{
 			"name": "Hat of the Harpy",
-			"source": "CeldirasCompendiumofKnowledge",
-			"page": 0,
+			"source": "CCK",
 			"rarity": "very rare",
 			"reqAttune": "by a bard",
 			"recharge": "dawn",
@@ -143,8 +142,7 @@
 		},
 		{
 			"name": "Instrument of the Bards, Blileth Hurdy Gurdy",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"page": 0,
+			"source": "CCK",
 			"type": "INS",
 			"rarity": "legendary",
 			"reqAttune": "by a bard",
@@ -169,8 +167,7 @@
 		},
 		{
 			"name": "Netherese Portal Mirror",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"page": 0,
+			"source": "CCK",
 			"rarity": "legendary",
 			"reqAttune": true,
 			"wondrous": true,
@@ -188,7 +185,7 @@
 			"name": "Tolling Bell",
 			"wondrous": true,
 			"rarity": "uncommon",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"attachedSpells": [
 				"Toll the Dead|XGE"
 			],
@@ -200,7 +197,7 @@
 	"monster": [
 		{
 			"name": "Racoon",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"size": "T",
 			"type": "beast",
 			"alignment": [
@@ -273,148 +270,8 @@
 			]
 		},
 		{
-			"name": "Goro",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"size": "L",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"formula": "10d10 + 40",
-				"average": 95
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 21,
-			"dex": 9,
-			"con": 18,
-			"int": 6,
-			"wis": 13,
-			"cha": 10,
-			"save": {
-				"str": "+8",
-				"wis": "+4"
-			},
-			"skill": {
-				"perception": "+4"
-			},
-			"senses": [
-				"darkvision 120 ft."
-			],
-			"passive": 14,
-			"resist": [
-				"cold",
-				"fire",
-				"lightning",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"poisoned"
-			],
-			"languages": [
-				"Abyssal"
-			],
-			"cr": "6",
-			"trait": [
-				{
-					"name": "Charge",
-					"entries": [
-						"If the goro moves at least 15 feet straight toward a target and then hits it with its gore attack on the same turn, the target takes an extra 16 ({@damage 3d10}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
-					]
-				},
-				{
-					"name": "Labyrinthine Recall",
-					"entries": [
-						"The goro can perfectly recall any path it has traveled."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"entries": [
-						"The goro has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The goro makes two attacks: one with its fist and one with its hoof."
-					]
-				},
-				{
-					"name": "Fist",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Hoof",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a huge or smaller creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
-					]
-				},
-				{
-					"name": "Gore",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage."
-					]
-				}
-			],
-			"tokenUrl": "https://5e.tools/img/MM/Goristro.png?v=1.119.1",
-			"traitTags": [
-				"Charge",
-				"Magic Resistance"
-			],
-			"senseTags": [
-				"SD"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"AB"
-			],
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"conditionInflict": [
-				"prone"
-			]
-		},
-		{
 			"name": "Ancient Obsidian Dragon",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"page": 0,
 			"size": "G",
 			"type": {
@@ -602,7 +459,7 @@
 		},
 		{
 			"name": "Adult Obsidian Dragon",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"page": 0,
 			"size": "H",
 			"type": {
@@ -791,7 +648,7 @@
 		},
 		{
 			"name": "Young Obsidian Dragon",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"page": 0,
 			"size": "L",
 			"type": {
@@ -925,7 +782,7 @@
 		},
 		{
 			"name": "Obsidian Dragon Wyrmling",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"page": 0,
 			"size": "M",
 			"type": {
@@ -1043,7 +900,7 @@
 			"name": "Ancient Purple Dragon",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"size": "G",
 			"type": {
 				"type": "dragon",
@@ -1217,7 +1074,7 @@
 			"name": "Adult Purple Dragon",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"size": "H",
 			"type": {
 				"type": "dragon",
@@ -1391,7 +1248,7 @@
 			"name": "Young Purple Dragon",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"size": "L",
 			"type": {
 				"type": "dragon",
@@ -1516,7 +1373,7 @@
 			"name": "Purple Dragon Wyrmling",
 			"group": "Dragons",
 			"isNamedCreature": true,
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"size": "M",
 			"type": {
 				"type": "dragon",
@@ -1621,7 +1478,7 @@
 		},
 		{
 			"name": "Witherling",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"page": 114,
 			"size": "M",
 			"type": "undead",
@@ -1708,7 +1565,7 @@
 		},
 		{
 			"name": "Witherhulk",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"size": "M",
 			"type": "undead",
 			"alignment": [
@@ -1796,16 +1653,11 @@
 	"race": [
 		{
 			"name": "Frogfolk",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"creatureTypes": [
 				"fey"
 			],
-			"ability": [
-				{
-					"dex": 2,
-					"con": 1
-				}
-			],
+			"lineage": "VRGR",
 			"size": [
 				"M",
 				"S"
@@ -1898,139 +1750,9 @@
 			]
 		},
 		{
-			"name": "Half-Gnome",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"ability": [
-				{
-					"int": 2,
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"wis",
-							"cha"
-						],
-						"count": 1,
-						"amount": 1
-					}
-				}
-			],
-			"size": [
-				"M",
-				"S"
-			],
-			"speed": 25,
-			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"gnomish": true,
-					"any": 1
-				}
-			],
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"athletics",
-							"acrobatics",
-							"sleight of hand",
-							"stealth",
-							"arcana",
-							"history",
-							"investigation",
-							"nature",
-							"religion",
-							"animal handling",
-							"insight",
-							"medicine",
-							"perception",
-							"survival",
-							"deception",
-							"intimidation",
-							"performance",
-							"persuasion"
-						],
-						"count": 2
-					}
-				}
-			],
-			"traitTags": [
-				"Skill Proficiency",
-				"Uncommon Race"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Age",
-					"entries": [
-						"Half-gnomes mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 250 years."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"Half-gnomes just like their gnome ancestors are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Half-gnomes are between 4 and 5 feet tall and average about 50 pounds. Your size is small or medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"Thanks to your gnome blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Gnome Cunning",
-					"entries": [
-						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Skill Versatility",
-					"entries": [
-						"You gain proficiency in two skills or tools of your choice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common, Gnomish and one extra language of your choice."
-					]
-				}
-			]
-		},
-		{
 			"name": "Kuo-Toa",
-			"source": "CeldirasCompendiumOfKnowledge",
-			"ability": [
-				{
-					"str": 1,
-					"choose": {
-						"from": [
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 1,
-						"amount": 1
-					}
-				}
-			],
+			"source": "CCK",
+			"lineage": "VRGR",
 			"size": "M",
 			"speed": {
 				"walk": 30,
@@ -2117,7 +1839,7 @@
 	"spell": [
 		{
 			"name": "Catch Lightning",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -2180,7 +1902,7 @@
 		},
 		{
 			"name": "Positive Energy Flood",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -2234,24 +1956,24 @@
 	"subclass": [
 		{
 	        "name": "Circle of the Blight",
-	        "source": "CeldirasCompendiumOfKnowledge",
+	        "source": "CCK",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "shortName": "Blight",
 	        "subclassFeatures": [
-	            "Circle of Blight|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|2",
-	            "Aura of Decay|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|6",
-	            "Hulking Wither|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|10",
-	            "Master of Decay|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|14"
+	            "Circle of Blight|Druid|PHB|Blight|CCK|2",
+	            "Aura of Decay|Druid|PHB|Blight|CCK|6",
+	            "Hulking Wither|Druid|PHB|Blight|CCK|10",
+	            "Master of Decay|Druid|PHB|Blight|CCK|14"
       		]
 		},
 		{
 			"name": "Oath of the Bonfire",
 			"subclassFeatures": [
-				"Oath of the Bonfire|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3",
-				"Aura of Warmth|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|7",
-				"Lord of Flames|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|15",
-				"Blazing Nimbus|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|20"
+				"Oath of the Bonfire|Paladin|PHB|Bonfire|CCK|3",
+				"Aura of Warmth|Paladin|PHB|Bonfire|CCK|7",
+				"Lord of Flames|Paladin|PHB|Bonfire|CCK|15",
+				"Blazing Nimbus|Paladin|PHB|Bonfire|CCK|20"
 			],
 			"additionalSpells": [
 				{
@@ -2285,7 +2007,7 @@
 					}
 				}
 			],
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"shortName": "Bonfire",
 			"className": "Paladin",
 			"classSource": "PHB"
@@ -2294,65 +2016,65 @@
 	"subclassFeature": [
 		{
 	        "name": "Circle of Blight",
-	        "source": "CeldirasCompendiumOfKnowledge",
+	        "source": "CCK",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasCompendiumOfKnowledge",
+	        "subclassSource": "CCK",
 	        "level": 2,
 	        "entries": [
 	            "TODO",
 	            {
 	            	"type": "refSubclassFeature",
-	            	"subclassFeature": "Withering Shape|Druid|PHB|Blight|CeldirasCompendiumOfKnowledge|2"
+	            	"subclassFeature": "Withering Shape|Druid|PHB|Blight|CCK|2"
 	            }
 	        ]
     	},
 		{
 	        "name": "Withering Shape",
-	        "source": "CeldirasCompendiumOfKnowledge",
+	        "source": "CCK",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasCompendiumOfKnowledge",
+	        "subclassSource": "CCK",
 	        "level": 2,
 	        "entries": [
 	            "Beginning at 2nd level, you can use your wild shape in more unnatural ways.",
-	            "As an action, you can expand one use of your wild shape feature to summon a {@creature witherling|CeldirasCompendiumOfKnowledge}. Choose a point within 60 feet of you where the {@creature witherling|CeldirasCompendiumOfKnowledge} appears, each creature in a 10-foot radius of that point must make a Constitution saving throw against your spell save DC or take necrotic damage equal to half your druid level. The {@creature witherling|CeldirasCompendiumOfKnowledge} stays for a duration of 1 minute, you dismiss it as a bonus action, its hit points are reduce to zero, or you use this feature again. In combat, the {@creature witherling|CeldirasCompendiumOfKnowledge} shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash}, {@action Disengage}, {@action Help}, {@action Hide}, or {@action Search} action."
+	            "As an action, you can expand one use of your wild shape feature to summon a {@creature witherling|CCK}. Choose a point within 60 feet of you where the {@creature witherling|CCK} appears, each creature in a 10-foot radius of that point must make a Constitution saving throw against your spell save DC or take necrotic damage equal to half your druid level. The {@creature witherling|CCK} stays for a duration of 1 minute, you dismiss it as a bonus action, its hit points are reduce to zero, or you use this feature again. In combat, the {@creature witherling|CCK} shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash}, {@action Disengage}, {@action Help}, {@action Hide}, or {@action Search} action."
 	        ]
     	},
 		{
 	        "name": "Aura of Decay",
-	        "source": "CeldirasCompendiumOfKnowledge",
+	        "source": "CCK",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasCompendiumOfKnowledge",
+	        "subclassSource": "CCK",
 	        "level": 6,
 	        "entries": [
 	            "Beginning at 6th level, you can steal the life force from creatures around you.",
-	            "As an action, you can force each creature within 10 feet of you to make a Constitution saving throw against your spell save DC. On a failed save, a creature takes {@damage 2d6} necrotic damage and gains one level of {@condition exhaustion} and you regain hit points equal to half the inflicted damage. Your {@creature witherling|CeldirasCompendiumOfKnowledge} gains this feature as well. Once you or your {@creature witherling|CeldirasCompendiumOfKnowledge} use this feature you can't use it again until you finish a short rest."
+	            "As an action, you can force each creature within 10 feet of you to make a Constitution saving throw against your spell save DC. On a failed save, a creature takes {@damage 2d6} necrotic damage and gains one level of {@condition exhaustion} and you regain hit points equal to half the inflicted damage. Your {@creature witherling|CCK} gains this feature as well. Once you or your {@creature witherling|CCK} use this feature you can't use it again until you finish a short rest."
 	        ]
     	},
 		{
 	        "name": "Hulking Wither",
-	        "source": "CeldirasCompendiumOfKnowledge",
+	        "source": "CCK",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasCompendiumOfKnowledge",
+	        "subclassSource": "CCK",
 	        "level": 10,
 	        "entries": [
-	            "Beginning at 10th level, whenever you use your withering shape feature, you can expend two uses of your wild shape feature to summon a {@creature witherhulk|CeldirasCompendiumOfKnowledge} instead of a {@creature witherling|CeldirasCompendiumOfKnowledge}"
+	            "Beginning at 10th level, whenever you use your withering shape feature, you can expend two uses of your wild shape feature to summon a {@creature witherhulk|CCK} instead of a {@creature witherling|CCK}"
 	        ]
     	},
 		{
 	        "name": "Master of Decay",
-	        "source": "CeldirasCompendiumOfKnowledge",
+	        "source": "CCK",
 	        "className": "Druid",
 	        "classSource": "PHB",
 	        "subclassShortName": "Blight",
-	        "subclassSource": "CeldirasCompendiumOfKnowledge",
+	        "subclassSource": "CCK",
 	        "level": 14,
 	        "entries": [
 	            "Beginning at 14th level, you have mastered your withering nature.",
@@ -2361,39 +2083,39 @@
     	},
 		{
 			"name": "Oath of the Bonfire",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 3,
 			"entries": [
 				"TODO",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Bonfire|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
+					"subclassFeature": "Tenets of the Bonfire|Paladin|PHB|Bonfire|CCK|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
+					"subclassFeature": "Oath Spells|Paladin|PHB|Bonfire|CCK|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Flaming Weapon|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
+					"subclassFeature": "Channel Divinity: Flaming Weapon|Paladin|PHB|Bonfire|CCK|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Blind the Wicked|Paladin|PHB|Bonfire|CeldirasCompendiumOfKnowledge|3"
+					"subclassFeature": "Channel Divinity: Blind the Wicked|Paladin|PHB|Bonfire|CCK|3"
 				}
 			]
 		},
 		{
 			"name": "Channel Divinity: Flaming Weapon",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2403,11 +2125,11 @@
 		},
 		{
 			"name": "Channel Divinity: Blind the Wicked",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2417,11 +2139,11 @@
 		},
 		{
 			"name": "Oath Spells",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2464,11 +2186,11 @@
 		},
 		{
 			"name": "Tenets of the Bonfire",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -2513,11 +2235,11 @@
 		},
 		{
 			"name": "Aura of Warmth",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -2527,11 +2249,11 @@
 		},
 		{
 			"name": "Lord of Flames",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -2540,11 +2262,11 @@
 		},
 		{
 			"name": "Blazing Nimbus",
-			"source": "CeldirasCompendiumOfKnowledge",
+			"source": "CCK",
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Bonfire",
-			"subclassSource": "CeldirasCompendiumOfKnowledge",
+			"subclassSource": "CCK",
 			"level": 20,
 			"header": 2,
 			"entries": [

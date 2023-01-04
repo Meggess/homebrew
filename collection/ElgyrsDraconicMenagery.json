@@ -2,7 +2,7 @@
     "_meta": {
 		"sources": [
 			{
-				"json": "ElgyrsDraconicMenagery",
+				"json": "EDM",
 				"abbreviation": "EDM",
 				"full": "Elgyr's Draconic Menagery",
 				"url": "",
@@ -28,7 +28,7 @@
 					"metallic"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"alignment": [
 				"C",
 				"G"
@@ -90,6 +90,7 @@
 			"immune": [
 				"poison"
 			],
+			"tokenUrl": "https://i.imgur.com/leIyslC.png",
 			"trait": [
 				{
 					"name": "Legendary Resistance (3/Day)",
@@ -134,7 +135,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
@@ -218,7 +219,8 @@
 					"planar"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"tokenUrl": "https://i.imgur.com/qDTvwcK.png",
+			"source": "EDM",
 			"alignment": [
 				"N"
 			],
@@ -318,7 +320,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
@@ -403,7 +405,7 @@
 					"metallic"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"alignment": [
 				"C",
 				"G"
@@ -465,6 +467,7 @@
 			"immune": [
 				"poison"
 			],
+			"tokenUrl": "https://i.imgur.com/leIyslC.png",
 			"trait": [
 				{
 					"name": "Legendary Resistance (3/Day)",
@@ -509,7 +512,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
@@ -600,7 +603,8 @@
 					"planar"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"tokenUrl": "https://i.imgur.com/qDTvwcK.png",
+			"source": "EDM",
 			"alignment": [
 				"N"
 			],
@@ -706,7 +710,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
@@ -783,7 +787,7 @@
 					"metallic"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"alignment": [
 				"C",
 				"G"
@@ -843,6 +847,7 @@
 			"immune": [
 				"poison"
 			],
+			"tokenUrl": "https://i.imgur.com/EJlOSiD.png",
 			"trait": [
 				{
 					"name": "Amorphous",
@@ -910,7 +915,7 @@
 					"metallic"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"alignment": [
 				"C",
 				"G"
@@ -920,8 +925,7 @@
 					"ac": 21,
 					"from": [
 						"natural armor"
-					],
-					"braces": true
+					]
 				}
 			],
 			"hp": {
@@ -966,6 +970,7 @@
 			"immune": [
 				"poison"
 			],
+			"tokenUrl": "https://i.imgur.com/leIyslC.png",
 			"trait": [
 				{
 					"name": "Amorphous",
@@ -1116,7 +1121,8 @@
 					"planar"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"tokenUrl": "https://i.imgur.com/Z3e8qBU.png",
+			"source": "EDM",
 			"alignment": [
 				"N"
 			],
@@ -1228,7 +1234,8 @@
 					"planar"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"tokenUrl": "https://i.imgur.com/qDTvwcK.png",
+			"source": "EDM",
 			"alignment": [
 				"N"
 			],
@@ -1444,7 +1451,7 @@
 					"metallic"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"alignment": [
 				"C",
 				"G"
@@ -1506,6 +1513,7 @@
 			"immune": [
 				"poison"
 			],
+			"tokenUrl": "https://i.imgur.com/leIyslC.png",
 			"trait": [
 				{
 					"name": "Amorphous",
@@ -1588,7 +1596,8 @@
 					"planar"
 				]
 			},
-			"source": "ElgyrsDraconicMenagery",
+			"tokenUrl": "https://i.imgur.com/qDTvwcK.png",
+			"source": "EDM",
 			"alignment": [
 				"N"
 			],
@@ -1716,7 +1725,7 @@
 		{
 			"name": "The Greatwyrm",
 			"shortName": "Greatwyrm",
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"additionalSpells": [
@@ -1802,21 +1811,21 @@
 				}
 			],
 			"subclassFeatures": [
-				"The Greatwyrm|Warlock||Greatwyrm|ElgyrsDraconicMenagery|1",
-				"Breath Weapon|Warlock||Greatwyrm|ElgyrsDraconicMenagery|6",
-				"Aspect of the Greatwyrm|Warlock||Greatwyrm|ElgyrsDraconicMenagery|10",
-				"Draconic Transformation|Warlock||Greatwyrm|ElgyrsDraconicMenagery|14"
+				"The Greatwyrm|Warlock||Greatwyrm|EDM|1",
+				"Breath Weapon|Warlock||Greatwyrm|EDM|6",
+				"Aspect of the Greatwyrm|Warlock||Greatwyrm|EDM|10",
+				"Draconic Transformation|Warlock||Greatwyrm|EDM|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "The Greatwyrm",
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Greatwyrm",
-			"subclassSource": "ElgyrsDraconicMenagery",
+			"subclassSource": "EDM",
 			"level": 1,
 			"entries": [
 				{
@@ -1976,17 +1985,17 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Draconic Affinity|Warlock||Greatwyrm|ElgyrsDraconicMenagery|1|ElgyrsDraconicMenagery"
+					"subclassFeature": "Draconic Affinity|Warlock||Greatwyrm|EDM|1|EDM"
 				}
 			]
 		},
 		{
 			"name": "Draconic Affinity",
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Greatwyrm",
-			"subclassSource": "ElgyrsDraconicMenagery",
+			"subclassSource": "EDM",
 			"level": 1,
 			"header": 2,
 			"entries": [
@@ -1995,11 +2004,11 @@
 		},
 		{
 			"name": "Breath Weapon",
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Greatwyrm",
-			"subclassSource": "ElgyrsDraconicMenagery",
+			"subclassSource": "EDM",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2009,11 +2018,11 @@
 		},
 		{
 			"name": "Aspect of the Greatwyrm",
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Greatwyrm",
-			"subclassSource": "ElgyrsDraconicMenagery",
+			"subclassSource": "EDM",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2046,11 +2055,11 @@
 		},
 		{
 			"name": "Draconic Transformation",
-			"source": "ElgyrsDraconicMenagery",
+			"source": "EDM",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Greatwyrm",
-			"subclassSource": "ElgyrsDraconicMenagery",
+			"subclassSource": "EDM",
 			"level": 14,
 			"header": 2,
 			"entries": [

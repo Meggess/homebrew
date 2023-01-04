@@ -20,6 +20,40 @@
     },
     "monster": [
         {
+            "name": "Alpaca",
+            "source": "BearsBearsBears",
+            "size": [
+                "M"
+            ],
+            "type": "beast",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                9
+            ],
+            "hp": {
+                "formula": "2d8 + 2",
+                "average": 11
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 13,
+            "dex": 8,
+            "con": 13,
+            "int": 2,
+            "wis": 8,
+            "cha": 5,
+            "passive": 9,
+            "cr": "0",
+            "kenUrl": "https://i.imgur.com/TUfTcyt.png",
+            "environment": [
+                "grassland",
+                "hill"
+            ]
+        },
+        {
             "name": "Apex Bear",
             "source": "BearsBearsBears",
             "page": 0,
@@ -493,6 +527,77 @@
                 "underdark"
             ],
             "group": "Elementals"
-        }        
+        },
+        {
+            "name": "Winged Alpaca",
+            "source": "BearsBearsBears",
+            "size": [
+                "M"
+            ],
+            "type": "celestial",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "ac": [
+                12
+            ],
+            "hp": {
+                "formula": "7d8 + 12",
+                "average": 45
+            },
+            "speed": {
+                "walk": 40,
+                "fly": 60
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 15,
+            "passive": 13,
+            "cr": "1",
+            "damageTags": [
+                "R"
+            ],
+            "tokenUrl": "https://i.imgur.com/TUfTcyt.png",
+            "environment": [
+                "grassland",
+                "hill"
+            ],
+            "languages": [
+                "Celestial",
+                "Common",
+                "Halfling",
+                "Sylvan"
+            ],
+            "languageTags": [
+                "CE",
+                "C",
+                "CS",
+                "H",
+                "S"
+            ],
+            "save": {
+                "dex": "+3",
+                "wis": "+3",
+                "cha": "+4"
+            },
+            "skill": {
+                "perception": "+3"
+            },
+            "action": [
+                {
+                    "name": "Sacred Spittle",
+                    "entries": [
+                        "{@atk ms} {@hit 4} to hit, reach 15 ft., one target. {@h}9 ({@damage 2d8}) radiant damage or 13 ({@damage 3d8}) radiant damage if the target is an undead or a fiend."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "RCH"
+            ]
+        }      
     ]
 }

@@ -143,7 +143,7 @@
                     "type": "entries",
                     "name": "Stunning Blow",
                     "entries": [
-						"After you hit a creature with a weapon attack, you can expend one use of your channel divinity and force the creature to make a Constitution saving throw against your paladin spell save DC. On a failed save, the creature is {@condition stunned} until the end of its next turn."
+						"After you hit a creature with a weapon attack, you can expend one use of your channel divinity and force the creature to make a Constitution saving throw. On a failed save, the creature is {@condition stunned} until the end of its next turn."
                     ]
                 }
 			]
