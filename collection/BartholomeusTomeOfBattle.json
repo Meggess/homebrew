@@ -19,6 +19,152 @@
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
+	"blocklist": [
+		{
+			"displayName": "Fighter: Arcane Archer",
+			"hash": "fighter_phb,state:sub-arcane-archer-xge=b1",
+			"category": "subclass",
+			"source": "XGE"
+		},
+		{
+			"displayName": "Fighter (Arcane Archer) 15: Ever-Ready Shot",
+			"hash": "ever-ready%20shot_fighter_phb_arcane%20archer_xge_15_xge",
+			"category": "subclassFeature",
+			"source": "XGE"
+		},
+		{
+			"displayName": "Fighter (Arcane Archer) 3: Arcane Archer",
+			"hash": "arcane%20archer_fighter_phb_arcane%20archer_xge_3_xge",
+			"category": "subclassFeature",
+			"source": "XGE"
+		},
+		{
+			"displayName": "Fighter (Arcane Archer) 3: Arcane Shot",
+			"hash": "arcane%20shot_fighter_phb_arcane%20archer_xge_3_xge",
+			"category": "subclassFeature",
+			"source": "XGE"
+		},
+		{
+			"displayName": "Fighter (Arcane Archer) 3: Arcane Shot Options",
+			"hash": "arcane%20shot%20options_fighter_phb_arcane%20archer_xge_3_xge",
+			"category": "subclassFeature",
+			"source": "XGE"
+		},
+		{
+			"displayName": "Fighter (Arcane Archer) 7: Additional Arcane Shot Option",
+			"hash": "additional%20arcane%20shot%20option_fighter_phb_arcane%20archer_xge_7_xge",
+			"category": "subclassFeature",
+			"source": "XGE"
+		},
+		{
+			"displayName": "Fighter (Arcane Archer) 7: Curving Shot",
+			"hash": "curving%20shot_fighter_phb_arcane%20archer_xge_7_xge",
+			"category": "subclassFeature",
+			"source": "XGE"
+		},
+		{
+			"displayName": "Battleaxe",
+			"hash": "battleaxe_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Flail",
+			"hash": "flail_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Glaive",
+			"hash": "glaive_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Greataxe",
+			"hash": "greataxe_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Greatsword",
+			"hash": "greatsword_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Halberd",
+			"hash": "halberd_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Longsword",
+			"hash": "longsword_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Maul",
+			"hash": "maul_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Morningstar",
+			"hash": "morningstar_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Pike",
+			"hash": "pike_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Trident",
+			"hash": "trident_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "War Pick",
+			"hash": "war%20pick_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Warhammer",
+			"hash": "warhammer_phb",
+			"category": "baseitem",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Barbarian: Path of the Berserker",
+			"hash": "barbarian_phb,state:sub-berserker-phb=b1",
+			"category": "subclass",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Barbarian (Berserker) 10: Intimidating Presence",
+			"hash": "intimidating%20presence_barbarian_phb_berserker_phb_10_phb",
+			"category": "subclassFeature",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Barbarian (Berserker) 3: Frenzy",
+			"hash": "frenzy_barbarian_phb_berserker_phb_3_phb",
+			"category": "subclassFeature",
+			"source": "PHB"
+		},
+		{
+			"displayName": "Barbarian (Berserker) 3: Path of the Berserker",
+			"hash": "path%20of%20the%20berserker_barbarian_phb_berserker_phb_3_phb",
+			"category": "subclassFeature",
+			"source": "PHB"
+		}
+	],
     "baseitem": [
 		{
 			"name": "Battleaxe",
@@ -2467,7 +2613,7 @@
 			"header": 1,
 			"entries": [
 				"Starting at 3rd level, your dance can inspire others.",
-				"When a creature other than youself within 60 feet of you that you can see makes a saving throw or an attack roll, you can use your reaction to expend one use of your Bardic Inspiration, rolling a Bardic Inspiration die and adding the number rolled to the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or saving throw succeeds or fails. To gain this benefit, a creature must be able to see you."
+				"As a bonus action, you can expend one use of your Bardic Inspiration to inspire a creature you can see within 60 feet of you. The inspired creature can use its reaction to take the dodge action, move up to its movement speed or make a weapon attack."
 			]
 		},
 		{
@@ -2494,7 +2640,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, whenever you use your Inspiring Dance feature, you can roll a d6 and use it instead of expending a Bardic Inspiration die."
+				"Starting at 14th level, whenever you use your Inspiring Dance feature, you gain the benefits of the dodge action."
 			]
 		},
 		{
