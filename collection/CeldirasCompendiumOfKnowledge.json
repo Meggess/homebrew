@@ -1666,12 +1666,6 @@
 				"walk": 30,
 				"swim": 30
 			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"sylvan": true
-				}
-			],
 			"skillProficiencies": [
 				{
 					"stealth": true
@@ -1739,13 +1733,6 @@
 					"entries": [
 						"Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start."
 					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Sylvan."
-					]
 				}
 			]
 		},
@@ -1762,12 +1749,6 @@
 			"traitTags": [
 				"Amphibious",
 				"Monstrous Race"				
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"undercommon": true
-				}
 			],
 			"entries": [
 				{
@@ -1824,13 +1805,6 @@
 					"name": "Superior Darkvision",
 					"entries": [
 						"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Language",
-					"entries": [
-						"You can speak, read, and write in Common and Undercommon."
 					]
 				}
 			]

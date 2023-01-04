@@ -1356,10 +1356,10 @@
 				"{@note * This item group has the same name and source as the item {@item flashstone|BTB}}."
 			],
 			"items": [
-				"Flashstone",
-				"Greater Flashstone",
-				"Superior Flashstone",
-				"Supreme Flashstone"
+				"Flashstone|BTB",
+				"Greater Flashstone|BTB",
+				"Superior Flashstone|BTB",
+				"Supreme Flashstone|BTB"
 			]
 		},
 		{
@@ -1371,10 +1371,10 @@
 				"{@note * This item group has the same name and source as the item {@item flask of acid|BTB}}."
 			],
 			"items": [
-				"Flask of Acid",
-				"Flask of Greater Acid",
-				"Flask of Superior Acid",
-				"Flask of Supreme Acid"
+				"Flask of Acid|BTB",
+				"Flask of Greater Acid|BTB",
+				"Flask of Superior Acid|BTB",
+				"Flask of Supreme Acid|BTB"
 			]
 		},
 		{
@@ -1386,10 +1386,10 @@
 				"{@note * This item group has the same name and source as the item {@item flask of alchemist's fire|BTB}}."
 			],
 			"items": [
-				"Flask of Alchemist's Fire",
-				"Flask of Greater Alchemist's Fire",
-				"Flask of Superior Alchemist's Fire",
-				"Flask of Supreme Alchemist's Fire"
+				"Flask of Alchemist's Fire|BTB",
+				"Flask of Greater Alchemist's Fire|BTB",
+				"Flask of Superior Alchemist's Fire|BTB",
+				"Flask of Supreme Alchemist's Fire|BTB"
 			]
 		},
 		{
@@ -1401,10 +1401,10 @@
 				"{@note * This item group has the same name and source as the item {@item flask of dry ice|BTB}}."
 			],
 			"items": [
-				"Flask of Dry Ice",
-				"Flask of Greater Dry Ice",
-				"Flask of Superior Dry Ice",
-				"Flask of Supreme Dry Ice"
+				"Flask of Dry Ice|BTB",
+				"Flask of Greater Dry Ice|BTB",
+				"Flask of Superior Dry Ice|BTB",
+				"Flask of Supreme Dry Ice|BTB"
 			]
 		},
 		{
@@ -1416,10 +1416,10 @@
 				"{@note * This item group has the same name and source as the item {@item flask of holy water|BTB}}."
 			],
 			"items": [
-				"Flask of Holy Water",
-				"Flask of Greater Holy Water",
-				"Flask of Superior Holy Water",
-				"Flask of Supreme Holy Water"
+				"Flask of Holy Water|BTB",
+				"Flask of Greater Holy Water|BTB",
+				"Flask of Superior Holy Water|BTB",
+				"Flask of Supreme Holy Water|BTB"
 			]
 		},
 		{
@@ -1431,10 +1431,10 @@
 				"{@note * This item group has the same name and source as the item {@item flask of unholy water|BTB}}."
 			],
 			"items": [
-				"Flask of Unholy Water",
-				"Flask of Greater Unholy Water",
-				"Flask of Superior Unholy Water",
-				"Flask of Supreme Unholy Water"
+				"Flask of Unholy Water|BTB",
+				"Flask of Greater Unholy Water|BTB",
+				"Flask of Superior Unholy Water|BTB",
+				"Flask of Supreme Unholy Water|BTB"
 			]
 		},
 		{
@@ -1446,10 +1446,10 @@
 				"{@note * This item group has the same name and source as the item {@item thunderstone|BTB}}."
 			],
 			"items": [
-				"Thunderstone",
-				"Greater Thunderstone",
-				"Superior Thunderstone",
-				"Supreme Thunderstone"
+				"Thunderstone|BTB",
+				"Greater Thunderstone|BTB",
+				"Superior Thunderstone|BTB",
+				"Supreme Thunderstone|BTB"
 			]
 		}
 	],

@@ -1,0 +1,335 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "OAG",
+				"abbreviation": "OAG",
+				"full": "Orrean Adventuring Guide",
+				"url": "",
+				"authors": [
+					"Megges"
+				],
+				"convertedBy": [],
+				"color": "39b035"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "item": [
+        {
+            "name": "Blowing Viper",
+            "source": "OAG",
+            "page": 0,
+			"weight": 1,
+            "rarity": "rare",
+            "baseItem": "blowgun|PHB",
+            "type": "R",
+            "charges": 10,
+            "recharge": "dusk",
+            "ammunition": true,
+            "weaponCategory": "martial",
+            "dmg1": "1",
+            "damageType": "p",
+            "range": "25/100",
+            "weapon": true,
+            "property": [
+                "LD",
+                "A"
+            ],
+            "entries": [
+                "This blowgun is beautifully crafted to look like a venomous snake and you can pour poisons into a little reservior on the blowgun.",
+                "After you have poured three doses of one kind of poison in the blowing viper, the poison becomes stored. Poisons that need to be ingested to take effect can not be poured in. The blowgun has serpent venom already stored in it.",
+                "The blowgun has 10 charges and regains 1d6 + 4 charges daily at dusk. When you attack using the blowing viper, you can expend up to 4 charges. When you do so choose a poison stored in the blowgun. If the chosen poison affects a creature on contact or injury, it is applied to the blowguns ammunition. If the chosen poison needs to be inhaled to affect a creature, it is emitted in a 5-foot cone from the blowgun. The DC for the poison is equal to 2 times the expended charges plus 10."
+            ]
+        },
+        {
+            "name": "Arden Gauntlets",
+            "source": "OAG",
+            "page": 0,
+            "rarity": "artifact",
+            "reqAttune": true,
+            "wondrous": true,
+            "bonusWeapon": "+1",
+            "recharge": "dusk",
+            "rechargeAmount": "{@dice 1d6 + 4}",
+            "charges": 10,
+            "entries": [
+                "These gauntlets made of crude iron appear very old and have scratches and cracks all over them. One singular multicolored gemstone is embedded into the back of each individual gauntlet.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "While wearing the arden gauntlets, your unarmed strikes gain a +1 bonus to attack and damage rolls.",
+                        "The gauntlets have 10 charges and regains {@dice 1d6 + 4} expended charges daily at dusk. When you take acid, cold, fire, lightning, or thunder damage, you can expend 2 charges and use your reaction to give yourself resistance against the triggering damage type until the start of your next turn. Furthermore, the gauntlets absorbs an amount of energy from the attack equal to the roll of {@dice 1d6}. Once they have absorbed 15 points of one damage type, the gauntlets gain the ability to empower your strikes with the absorbed element. When you hit a creature with an unarmed strike, you can expend up to 3 charges. For the first charge you expended, the target takes an extra {@damage 2d6} damage of the absorbed type and an extra {@damage 1d6} damage of the absorbed type for each additional charge. The Gauntlets lose all absorbed energy when you end your attunement with them."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Awakend",
+                    "entries": [
+                        "When the arden gauntlets reach an awakened state, they gain the following properties:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The bonus to attack and damage rolles of your unarmed strikes increases to +2.",
+                                "You can use the gauntlets properties on necrotic damage.",
+                                "You can expend up to 4 charges when you hit a creature with an unarmed strike."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Exalted",
+                    "entries": [
+                        "When the gauntlets reach an exalted state, they gain the following properties:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The gauntlets gain 5 additional charges nd now regain {@dice 1d10 + 5} expended charges instead of {@dice 1d6 + 4} expended charges.",
+                                "The bonus to attack and damage rolles of your unarmed strikes increases to +3.",
+                                "You can use the gauntlets properties on radiant damage."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Ikarian",
+            "source": "OAG",
+            "page": 0,
+            "lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"ikarian"
+			],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": {
+				"walk": 30,
+				"fly": true
+			},
+            "traitTags": [
+                "Ancient Race",
+				"Natural Weapon",
+                "Skill Proficiency",
+                "Tool Proficiency"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "auran": true,
+                    "any": 2
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "any": 2
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                    "You are Medium or Small. You choose the size when you select this race."
+                ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Flight",
+                    "entries": [
+                        "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Talons",
+                    "entries": [
+                        "You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals {@damage 1d6} + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Gifted",
+                    "entries": [
+                        "When you finish a long rest, you gain proficiency in your choice of the {@skill Arcana}, {@skill History}, {@skill Nature}, {@skill Religion} skill, a tool or a musical instrument. You retain this proficiency until you finish your next long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ikarian Recall",
+                    "entries": [
+                        "Thanks to your supernaturally good memory, you have proficiency in two skills of your choice. Moreover, when you make an ability check using any skill in which you have proficiency, you can give yourself advantage on the check before rolling the d20. You can give yourself advantage in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Piscan",
+            "source": "OAG",
+            "page": 0,
+            "lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"piscan"
+			],
+            "speed": {
+                "walk": 30,
+                "swim": true
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Amphibious",
+                "Darkvision",
+                "Natural Armor",
+                "Skill Proficiency",
+                "Uncommon Race"
+            ],
+            "skillProficiencies": [
+                {
+                    "acrobatics": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "You have a walking speed of 30 feet and a swimming speed equal to your walking speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Amphibious",
+                    "entries": [
+                        "You can breathe air and water."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Armor",
+                    "entries": [
+                        "You have tough, scaly skin. When you aren't wearing armor, your base AC is 13 + Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Nimbleness",
+                    "entries": [
+                        "Your fishy ancestry has made you more nimble. You have proficiency in the {@skill Acrobatics} skill and advantage on Dexterity checks and Saving throws you make to end the {@condition Grappled} condition on yourself."
+                    ]
+                }
+            ]
+        }
+    ],
+    "subrace": [
+        {
+            "name": "Herring",
+            "source": "OAG",
+            "raceName": "Piscan",
+            "raceSource": "OAG",
+            "page": 0,
+            "size": [
+                "S"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Herrings tend to be smaller than other Piscans. Your Size is Small."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "When you are targeted by an attack, you can use your reaction to give yourself a bonus to your AC equal to the number of friendly creature within 5 feet of you (maximum of +5). You can use it a number of times equal to your proficiency bonus and you regain all expended uses when you finish a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Salmon",
+            "source": "OAG",
+            "raceName": "Piscan",
+            "raceSource": "OAG",
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "traitTags": [
+                "Powerful Build"
+            ],
+            "skillProficiencies": [
+                {
+                    "athletics": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your Size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Powerful Build",
+                    "entries": [
+                        "You have proficiency in the {@skill Athletics} skill, and you count as one size larger when determining your carrying weight and the weight you can push, drag, or lift."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Swordfish",
+            "source": "OAG",
+            "raceName": "Piscan",
+            "raceSource": "OAG",
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 35,
+                "swim": true
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Your Size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Agile",
+                    "entries": [
+                        "Your base walking speed increases to 35 feet."
+                    ]
+                }
+            ]
+        }
+    ]
+}
