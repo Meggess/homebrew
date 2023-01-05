@@ -355,6 +355,204 @@
             ]
         }
     ],
+    "subclass": [
+        {
+            "name": "Time Domain",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "shortName": "Time",
+            "subclassFeatures": [
+                "Time Domain|Cleric|PHB|Time|OAG|1",
+                "Channel Divinity: Time Manipulation|Cleric|PHB|Time|OAG|2",
+                "Temporal Swap|Cleric|PHB|Time|OAG|6",
+                "Temporal Acceleration|Cleric|PHB|Time|OAG|8",
+                "Time Stop|Cleric|PHB|Time|OAG|17"   
+            ],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+                            "sapping sting|EGW",
+							"gift of alacrity|EGW",
+							"zephyr strike|XGE"
+						],
+						"3": [
+							"borrowed knowledge|SCC",
+                            "hold person"
+						],
+						"5": [
+							"haste",
+							"slow"
+						],
+						"7": [
+							"banishment",
+							"death ward"
+						],
+						"9": [
+							"hold monster",
+							"temporal shunt|EGW"
+						]
+					},
+                    "expanded": {
+                        "15": [
+                            "reality break|EGW"
+                        ],
+                        "17": [
+                            "time ravage|EGW"
+                        ]
+                    }
+				}
+			]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Time Domain",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "page": 0,
+            "subclassShortName": "Time",
+            "subclassSource": "OAG",
+            "level": 1,
+            "entries": [
+                "TODO",
+                "At each indicated cleric level, you add the listed spells to your spells prepared.",
+                {
+                    "type": "table",
+                    "caption": "Time Domain Spells",
+                    "colLabels": [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-center",
+                        "col-left"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "{@spell gift of alacrity|EGW}, {@spell zephyr strike|XGE}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell borrowed knowledge|SCC}, {@spell hold person}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell haste}, {@spell slow}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell banishment}, {@spell death ward}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell hold monster}, {@spell temporal shunt|EGW}"
+                        ]
+                    ]
+                },
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Acolyte of Time|Cleric|PHB|Time|OAG|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Temporal Awareness|Cleric|PHB|Time|OAG|1"
+				}
+            ]
+        },
+        {
+            "name": "Acolyte of Time",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "page": 0,
+            "subclassShortName": "Time",
+            "subclassSource": "OAG",
+            "level": 1,
+            "header": 2,
+            "entries": [
+                "When you choose this domain at 1st level, you gain the {@spell sapping sting|EGW} cantrip if you don't already know it. This cantrip doesn't count against the number of cleric cantrips you know.",
+                "In addition, the {@spell reality break|EGW} and {@spell time ravage|EGW} spells are added to the cleric spell list for you."
+            ]
+        },
+        {
+            "name": "Temporal Awareness",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "page": 0,
+            "subclassShortName": "Time",
+            "subclassSource": "OAG",
+            "level": 1,
+            "header": 2,
+            "entries": [
+                "You can add your Wisdom modifier to your initiative rolls."
+            ]
+        },
+        {
+            "name": "Channel Divinity: Time Manipulation",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "page": 0,
+            "subclassShortName": "Time",
+            "subclassSource": "OAG",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "Starting at 2nd level, you can use your Channel Divinty to manipulate the time of other creatures.",
+                "When a creature you can see within 60 feet of you rolls initiative, you can use your reaction to give that creature advantage or disadvantage on the roll."
+            ]
+        },
+        {
+            "name": "Temporal Swap",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "page": 0,
+            "subclassShortName": "Time",
+            "subclassSource": "OAG",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "At 6th level, at the start of your turn (before any other effects are resolved), once per round, you can attempt to swap the initiative of to creatures you can see within 60 feet of you. An unwilling creature must make a Wisdom saving throw to avoid the effect.",
+                "If you change your own initiative with this, the rest of your turn is resolved at your new initiative count and the creature you swapped with immediatly takes its turn.",
+                "You can use this feature a number of times equal to your Proficiency bonus and regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Temporal Acceleration",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "page": 0,
+            "subclassShortName": "Time",
+            "subclassSource": "OAG",
+            "level": 8,
+            "header": 2,
+            "entries": [
+                "Starting at 8th level, you learned to accelerate your own time. As a bonus action, you gain the benefits of the {@spell haste} spell until the end of your next turn. However, after this effect ends on you, you gain one level of {@condition exhaustion}."
+            ]
+        },
+        {
+            "name": "Time Stop",
+            "source": "OAG",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "page": 0,
+            "subclassShortName": "Time",
+            "subclassSource": "OAG",
+            "level": 17,
+            "header": 2,
+            "entries": [
+                "At 17th level, your mastery of time lets you stop it temporarily. On your turn, you can take one additional action.",
+                "Once you use this feature, you can't use it again until you finish a short or long rest."
+            ]
+        }
+    ],
     "subrace": [
         {
             "name": "Herring",
