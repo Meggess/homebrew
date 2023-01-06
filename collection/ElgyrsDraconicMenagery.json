@@ -208,6 +208,211 @@
 			]
 		},
 		{
+			"name": "Adult Obsidian Dragon",
+			"source": "EDM",
+			"page": 0,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TnggTlV.png",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d12 + 85",
+				"average": 195
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"climb": 40
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 21,
+			"int": 21,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"con": "+10",
+				"int": "+10",
+				"wis": "+7"
+			},
+			"skill": {
+				"insight": "+7",
+				"perception": "+12",
+				"stealth": "+5"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18}, {@hit 10} to hit with spell attacks):"
+					],
+					"daily": {
+						"2": [
+							"{@spell scorching ray}"
+						],
+						"1e": [
+							"{@spell dispel magic}",
+							"{@spell fireball}",
+							"{@spell plane shift}",
+							"{@spell wall of fire}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 20 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw. On a failed save, a creature takes 66 ({@damage 12d10})  fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 13 ({@damage 3d8}) fire damage at the start of each of its turns. On a successful save, a creature takes half as much damage and doesn't catch fire."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Psionics (Costs 2 Actions)",
+					"entries": [
+						"The dragon uses its psionics ability to cast one spell."
+					]
+				},
+				{
+					"name": "Heat Wave (costs 3 Actions)",
+					"entries": [
+						"The dragon beats its wings, releasing searing heat. Each creature within 30 feet  cube originating from the dragon must succeed on a {@dc 18} Constitution saving throw or take 13 ({@damage 3d8}) fire damage and be knocked {@condition prone}"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"bonus": [
+				{
+					"name": "Shape Change",
+					"entries": [
+						"The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses a bonus action to end it."
+					]
+				},
+				{
+					"name": "Psychic Step",
+					"entries": [
+						"The dragon magically teleports to an unoccupied space it can see within 60 feet of it."
+					]
+				}
+			],
+			"resist": [
+				"psychic"
+			]
+		},
+		{
 			"name": "Adult Temporal Dragon",
 			"size": [
 				"H"
@@ -587,6 +792,206 @@
 			],
 			"environment": [
 				"mountain"
+			]
+		},
+		{
+			"name": "Ancient Obsidian Dragon",
+			"source": "EDM",
+			"page": 0,
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TnggTlV.png",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 420,
+				"formula": "24d20 + 168"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"climb": 40
+			},
+			"str": 28,
+			"dex": 10,
+			"con": 25,
+			"int": 27,
+			"wis": 19,
+			"cha": 18,
+			"save": {
+				"dex": "+7",
+				"con": "+14",
+				"int": "+15",
+				"wis": "+11"
+			},
+			"skill": {
+				"insight": "+11",
+				"perception": "+18",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 28,
+			"immune": [
+				"fire"
+			],
+			"resist": [
+				"psychic"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "22",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d6 + 9}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 90-foot cone. Each creature in that area must make a {@dc 22} Dexterity saving throw. On a failed save a creature takes 88 ({@damage 16d10}) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 18 ({@damage 4d8}) fire damage at the start of each of its turns. On a successful save, a creature takes half as much damage and doesn't catch fire."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Psionics (Costs 2 Actions)",
+					"entries": [
+						"The dragon uses its psionics ability to cast one spell."
+					]
+				},
+				{
+					"name": "Heat Wave (costs 3 Actions)",
+					"entries": [
+						"The dragon beats its wings, releasing searing heat. Each creature within 30 feet  cube originating from the dragon must succeed on a {@dc 23} Constitution saving throw or take 18 ({@damage 4d8}) fire damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
+			"bonus": [
+				{
+					"name": "Shape Change",
+					"entries": [
+						"The dragon magically transforms into any creature that is Medium or Small, while retaining its game statistics (other than its size). This transformation ends if the dragon is reduced to 0 hit points or uses a bonus action to end it."
+					]
+				},
+				{
+					"name": "Psychic Step",
+					"entries": [
+						"The dragon magically teleports to an unoccupied space it can see within 60 feet of it."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 23}, {@hit 15} to hit with spell attacks):"
+					],
+					"daily": {
+						"2": [
+							"{@spell scorching ray}"
+						],
+						"1e": [
+							"{@spell demiplane}",
+							"{@spell dispel magic}",
+							"{@spell fireball}",
+							"{@spell mind blank}",
+							"{@spell plane shift}",
+							"{@spell wall of fire}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"P"
 			]
 		},
 		{
@@ -1105,6 +1510,136 @@
 			]
 		},
 		{
+			"name": "Obsidian Dragon Wyrmling",
+			"source": "EDM",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/2C9d4nv.png",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 15",
+				"average": 37
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30,
+				"fly": 60,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 16,
+			"int": 16,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+2",
+				"con": "+4",
+				"int": "+4",
+				"wis": "+2"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+2"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+					],
+					"daily": {
+						"1": [
+							"{@spell fire ball}"
+						],
+						"2": [
+							"{@spell scorching ray}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw. On a failed save, a creature takes 15 ({@damage 3d10})  fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 4 ({@damage 1d8}) fire damage at the start of each of its turns. On a successful save, a creature takes half as much damage and doesn't catch fire."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"resist": [
+				"psychic"
+			]
+		},
+		{
 			"name": "Temporal Dragon Wyrmling",
 			"size": [
 				"L"
@@ -1577,6 +2112,154 @@
 			]
 		},
 		{
+			"name": "Young Obsidian Dragon",
+			"source": "EDM",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"gem"
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/TnggTlV.png",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 60",
+				"average": 142
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"climb": 40
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 19,
+			"int": 19,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"dex": "+3",
+				"con": "+7",
+				"int": "+7",
+				"wis": "+4"
+			},
+			"skill": {
+				"insight": "+4",
+				"perception": "+7",
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Psionics)",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
+					],
+					"daily": {
+						"2": [
+							"{@spell scorching ray}"
+						],
+						"1e": [
+							"{@spell fireball}",
+							"{@spell wall of fire}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Fire Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales fire in a 30-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw. On a failed save, a creature takes 55 ({@damage 10d10})  fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 9 ({@damage 2d8}) fire damage at the start of each of its turns. On a successful save, a creature takes half as much damage and doesn't catch fire."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"spellcastingTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"environment": [
+				"mountain",
+				"underdark"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"damageTags": [
+				"F",
+				"P",
+				"S"
+			],
+			"resist": [
+				"psychic"
+			]
+		},
+		{
 			"name": "Young Temporal Dragon",
 			"size": [
 				"L"
@@ -1828,10 +2511,10 @@
 						"Dragon"
 					],
 					"colStyles": [
-						"col-center",
-						"col-left",
-						"col-left",
-						"col-left"
+						"col-2 text-center",
+						"col-10 text-left",
+						"col-10 text-left",
+						"col-10 text-left"
 					],
 					"rows": [
 						[
@@ -1869,8 +2552,8 @@
 						"Damage Type"
 					],
 					"colStyles": [
-						"col-left",
-						"col-left"
+						"col-10 text-left",
+						"col-5 text-left"
 					],
 					"rows": [
 						[
@@ -1927,11 +2610,11 @@
 								"Planar Dragon"
 							],
 							"colStyles": [
-								"col-center",
-								"col-left",
-								"col-left",
-								"col-left",
-								"col-left"
+								"col-2 text-center",
+								"col-10 text-left",
+								"col-10 text-left",
+								"col-10 text-left",
+								"col-10 text-left"
 							],
 							"rows": [
 								[

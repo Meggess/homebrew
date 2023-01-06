@@ -45,8 +45,8 @@
 			"source": "RagingFlames",
 			"size": "G",
 			"objectType": "SW",
-			"ac": "30",
-			"hp": "400",
+			"ac": 30,
+			"hp": 400,
 			"resist": [
 				{
 					"resist": [
@@ -397,13 +397,66 @@
 			]
 		}
 	],
+	"legendaryGroup": [
+		{
+			"name": "Zernareth",
+			"source": "RagingFlames",
+			"lairActions": [
+				"When fighting inside its lair, an aboleth can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the aboleth takes a lair action to cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The aboleth casts {@spell phantasmal force} (no components required) on any number of creatures it can see within 60 feet of it. While maintaining concentration on this effect, the aboleth can't take other lair actions. If a target succeeds on the saving throw or if the effect ends for it, the target is immune to the aboleth's phantasmal force lair action for the next 24 hours, although such a creature can choose to be affected.",
+						"Pools of water within 90 feet of the aboleth surge outward in a grasping tide. Any creature on the ground within 20 feet of such a pool must succeed on a {@dc 18} Strength saving throw or be pulled up to 20 feet into the water and knocked {@condition prone}. The aboleth can't use this lair action again until it has used a different one.",
+						"Water in the aboleth's lair magically becomes a conduit for the creature's rage. The aboleth can target any number of creatures it can see in such water within 90 feet of it. A target must succeed on a {@dc 18} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage. The aboleth can't use this lair action again until it has used a different one.",
+						"2 ({@dice 1d3}) {@creature Aboleth Spawn|CRCotN|aboleth spawns} emerge from a body of water within 30 feet of the aboleth. They have 46 hit points and take their turn immediately after the aboleth. The aboleth can't use this lair action again until it has used a different one."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing an aboleth's lair is warped by the creature's presence, which creates one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Underground surfaces within 1 mile of the aboleth's lair are slimy and wet and are {@quickref difficult terrain||3}.",
+						"Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the aboleth that drink such water vomit it within minutes.",
+						"As an action, the aboleth can create an illusory image of itself within 1 mile of the lair. The copy can appear at any location the aboleth has seen before or in any location a creature {@condition charmed} by the aboleth can currently see. Once created, the image lasts for as long as the aboleth maintains concentration, as if concentrating on a spell. Although the image is intangible, it looks, sounds, and can move like the aboleth. The aboleth can sense, speak, and use telepathy from the image's position as if present at that position. If the image takes any damage, it disappears."
+					]
+				},
+				"If the aboleth dies, the first two effects fade over the course of {@dice 3d10} days."
+			]
+		},
+		{
+			"name": "Baldur",
+			"source": "RagingFlames",
+			"regionalEffects": [
+				"On initiative count 20 (losing initiative ties), Baldur can take the following regional action:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Grasp of the Abomination",
+							"entries": [
+								"Squirming, ebony tentacles and bear claws fill a 10-foot square on ground that Baldur can see within 60 feet of him. Until Initiative count 20 on the next round, these tentacles and bear claws turn the ground in the area into difficult terrain.",
+								"When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a DC 18 Dexterity saving throw or take 10 ({@dice 3d6}) piercing damage and be {@condition restrained} by the tentacles until Initiative count 20 on the next round."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
 	"monster": [
 		{
 			"name": "Alwin van Sheppen",
 			"isNamedCreature": true,
 			"source": "RagingFlames",
 			"page": 0,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -774,12 +827,18 @@
 			"conditionInflictSpell": [
 				"blinded",
 				"invisible"
-			]
+			],
+			"legendaryGroup": {
+				"name": "Baldur",
+				"source": "RagingFlames"
+			}
 		},
 		{
 			"name": "Fire Giant Chain Master",
 			"source": "RagingFlames",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "giant",
 				"tags": [
@@ -892,7 +951,9 @@
 			"name": "Flame Ogre",
 			"source": "RagingFlames",
 			"basicRules": true,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "giant",
 				"tags": [
@@ -1002,10 +1063,193 @@
 			]
 		},
 		{
-			"name": "Igrex",
-			"group": "Chromatic Dragon",
+			"name": "Hesza Pebblegem",
 			"source": "RagingFlames",
-			"size": "H",
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d8 + 96"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 23,
+			"int": 18,
+			"wis": 12,
+			"cha": 16,
+			"save": {
+				"wis": "+6",
+				"cha": "+8",
+				"dex": "+7"
+			},
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold",
+				"psychic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Deep Speech",
+				"Gnomish",
+				"Undercommon"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The mage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell message}",
+						"{@spell minor illusion}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate monster}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Hesza makes three Slam or Eldritch Bolt attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Eldritch Bolt",
+					"entries": [
+						"{@atk rs} {@hit 8} to hit, range 60 ft., one target. {@h}19 ({@damage 3d10 + 3}) force damage."
+					]
+				},
+				{
+					"name": "Plague of Tentacles {@recharge}",
+					"entries": [
+						"Each creature other than a thrall of an aboleth or an aboleth within 10 feet of Hesza must succeed on a {@dc 19} Dexterity saving throw or take 22 ({@damage 5d8}) necrotic damage and be {@condition blinded} and {@condition restrained} by masses of squirming tentacles. The affected creature takes 22 ({@damage 5d8}) necrotic damage at the start of each of Hesza's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Feed on Weakness",
+					"entries": [
+						"When a creature within 20 feet of Hesza fails a saving throw, she gains 10 temporary hit points."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Slam",
+					"entries": [
+						"Hesza makes one Slam attack."
+					]
+				},
+				{
+					"name": "Eldritch Bolt (Costs 2 Actions)",
+					"entries": [
+						"Hesza makes one Eldritch Bolt attack."
+					]
+				},
+				{
+					"name": "Feed (Costs 3 Actions)",
+					"entries": [
+						"Each creature {@condition restrained} by Hesza's Plague of Worms takes 13 ({@damage 3d8}) necrotic damage, and she gains 6 temporary hit points."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DS",
+				"G",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"poisoned",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"isNpc": true,
+			"isNamedCreature": true
+		},
+		{
+			"name": "Igrex",
+			"group": [
+				"Chromatic Dragon"
+			],
+			"source": "RagingFlames",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -1031,8 +1275,7 @@
 			"speed": {
 				"walk": 40,
 				"climb": 40,
-				"fly": 40,
-				"canHover": false
+				"fly": 40
 			},
 			"str": 27,
 			"dex": 10,
@@ -1381,7 +1624,9 @@
 			"name": "Kalzifar",
 			"isNamedCreature": true,
 			"source": "RagingFlames",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -1684,7 +1929,9 @@
 			"shortName": true,
 			"isNamedCreature": true,
 			"source": "RagingFlames",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"tokenUrl": "https://i.imgur.com/skGST6T.png",
 			"type": {
 				"type": "fiend",
@@ -1714,8 +1961,7 @@
 			"speed": {
 				"walk": 60,
 				"climb": 60,
-				"fly": 150,
-				"canHover": false
+				"fly": 150
 			},
 			"str": 30,
 			"dex": 10,
@@ -1909,7 +2155,9 @@
 		},
 		{
 			"name": "Maleeka al-Javid",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2135,7 +2383,9 @@
 		{
 			"name": "Murder of Dire Corbys",
 			"source": "RagingFlames",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "humanoid",
 				"swarmSize": "M"
@@ -2270,7 +2520,9 @@
 		{
 			"name": "Olthor",
 			"source": "RagingFlames",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "giant",
 				"tags": [
@@ -2423,7 +2675,9 @@
 		{
 			"name": "Reihrehk",
 			"source": "RagingFlames",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "celestial",
 				"tags": [
@@ -2448,8 +2702,7 @@
 			},
 			"speed": {
 				"walk": 30,
-				"fly": 90,
-				"canHover": false
+				"fly": 90
 			},
 			"str": 18,
 			"dex": 18,
@@ -2659,7 +2912,9 @@
 		{
 			"name": "Rheidot",
 			"source": "RagingFlames",
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2853,7 +3108,9 @@
 			"isNamedCreature": true,
 			"source": "RagingFlames",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3154,7 +3411,9 @@
 			"isNamedCreature": true,
 			"source": "RagingFlames",
 			"page": 0,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3401,7 +3660,9 @@
 		{
 			"name": "Zelsius",
 			"source": "RagingFlames",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "giant",
 				"tags": [
@@ -3460,6 +3721,7 @@
 			"cr": "15",
 			"spellcasting": [
 				{
+					"type": "spellcasting",
 					"name": "Spellcasting",
 					"headerEntries": [
 						"Zelsius is a 17-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Zelsius has the following Artificer spells prepared:"
@@ -3798,6 +4060,10 @@
 					]
 				}
 			],
+			"legendaryGroup": {
+				"name": "Zernareth",
+				"source": "RagingFlames"
+			},
 			"traitTags": [
 				"Amphibious",
 				"Legendary Resistances",
@@ -3849,7 +4115,9 @@
 			"name": "Kenku (Ascended)",
 			"source": "RagingFlames",
 			"page": "",
-			"size": "M",
+			"size": [
+				"M"
+			],
 				"speed": {
 					"walk": 30,
 					"fly": 50
