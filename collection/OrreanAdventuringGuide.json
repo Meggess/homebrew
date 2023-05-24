@@ -10,13 +10,66 @@
 				],
 				"convertedBy": [],
 				"color": "39b035",
-                "version": "0.1"
+                "version": "0.5"
 			}
 		],
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
     "item": [
+        {
+            "name": "Arden Gauntlets",
+            "source": "OAG",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "wondrous": true,
+            "recharge": "dusk",
+            "rechargeAmount": "{@dice 1d6 + 4}",
+            "charges": 10,
+            "entries": [
+                "These gauntlets made of crude iron appear very old and have scratches and cracks all over them. One singular multicolored gemstone is embedded into the back of each individual gauntlet. They are fabled to have been created by Ard, the orrean god of war and destruction.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "While wearing the arden gauntlets, you gain a +1 bonus to attack and damage rolls of your melee weapon attacks and unarmed strikes.",
+                        "The gauntlets have 10 charges and regains {@dice 1d6 + 4} expended charges daily at dusk. When you take acid, cold, fire, lightning, or thunder damage, you can expend 2 charges and use your reaction to give yourself resistance against the triggering damage type until the start of your next turn. Furthermore, the gauntlets absorbs an amount of energy from the attack equal to the roll of {@dice 1d6}. Once they have absorbed 15 points of one damage type, the gauntlets gain the ability to empower your strikes with the absorbed element. When you hit a creature with an unarmed strike, you can expend up to 3 charges. For the first charge you expended, the target takes an extra {@damage 2d6} damage of the absorbed type and an extra {@damage 1d6} damage of the absorbed type for each additional charge. The Gauntlets lose all absorbed energy when you end your attunement with them."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Awakend",
+                    "entries": [
+                        "When the Arden Gauntlets reach an awakened state, they gain the following properties:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The bonus to attack and damage rolles of your melee weapon attacks and unarmed strikes increases to +2.",
+                                "You can use the gauntlets properties on necrotic damage.",
+                                "You can expend up to 4 charges when you hit a creature with an unarmed strike.",
+                                "Your weapon attacks and unarmed strikes deal double damage to objects and structures"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Exalted",
+                    "entries": [
+                        "When the gauntlets reach an exalted state, they gain the following properties:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The gauntlets gain 5 additional charges and now regain {@dice 1d10 + 5} expended charges instead of {@dice 1d6 + 4} expended charges.",
+                                "The bonus to attack and damage rolles of your melee weapon attacks and unarmed strikes increases to +3.",
+                                "You can use the gauntlets properties on radiant damage.",
+                                "As an action, you can produce an effect similar to the {@spell destructive wave} spell (save DC 17). Once you use this property of the gauntlets, you can't use it again until the next dusk."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "name": "Blowing Viper",
             "source": "OAG",
@@ -43,38 +96,282 @@
                 "The blowgun has 10 charges and regains 1d6 + 4 charges daily at dusk. When you attack using the blowing viper, you can expend up to 4 charges. When you do so choose a poison stored in the blowgun. If the chosen poison affects a creature on contact or injury, it is applied to the blowguns ammunition. If the chosen poison needs to be inhaled to affect a creature, it is emitted in a 5-foot cone from the blowgun. The DC for the poison is equal to 2 times the expended charges plus 10."
             ]
         },
+		{
+			"name": "Bottled Lightning",
+			"wondrous": true,
+			"rarity": "varies",
+			"source": "OAG",
+			"entries": [
+				"In this bottle floats a blue glowing orb. Bolts of lightning lash out from the orb to the bottle whenever someone touches the bottle.",
+				"As an action, you can remove the stopper of the bottle unleashing the stored lightning in a 100 feet long and 5 feet wide line in the direction the bottle is facing or you can throw the bottle at a point you can see within 30 feet of you. The bottle shatters on impact unleashing the stored lightning in a 20-foot-radius sphere. Each creature in the area of effect must make a Dexterity saving throw. A creature takes damage according to the type of lightning stored in the bottle on a failed save, or half as much damage on a successful one. The DC for the saving throw is determined by the type of the stored lightning.",
+				{
+					"type": "table",
+					"caption": "Bottled Lightning",
+					"colLabels": [
+						"Origin",
+						"Rarity",
+						"Lightning Damage",
+						"Save DC"
+					],
+					"rows": [
+						[
+							"Call Lightning",
+							"Uncommon",
+							"{@dice 3d10}",
+							13
+						],
+						[
+							"Natural",
+							"Uncommon",
+							"{@dice 4d10}",
+							13
+						],
+						[
+							"Lightning Bolt",
+							"Rare",
+							"{@dice 8d6}",
+							15
+						],
+						[
+							"Chain Lightning",
+							"Very Rare",
+							"{@dice 10d8}",
+							17
+						],
+						[
+							"Ancient Blue Dragon's Lightning Breath",
+							"Legendary",
+							"{@dice 16d10}",
+							23
+						]
+					]
+				}
+			]
+		},
         {
-            "name": "Arden Gauntlets",
+            "name": "Bracers of Jolting",
             "source": "OAG",
-            "page": 0,
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "While you are attuned to the bracers, you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}.",
+                "In Addition, you can move through conducting objects and creatures as if they were {@quickref difficult terrain||3}, but you can't end your movement in it. When you move through a creature for the first time on your turn, the creature must succeed on a DC 17 Constitution saving throw or take {@damage 3d6} lightning damage."
+            ]
+        },
+        {
+            "name": "Cloak of Stepping",
+            "source": "OAG",
+            "rarity": "rare",
+            "reqAttune": true,
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d3 + 3}",
+            "charges": 6,
+            "entries": [
+                "This cloak has 6 charges, and it regains {@dice 1d3 + 3} expended charges daily at dawn. Wile wearing this cloak, you can use a bonus action and expend 1 charge of the cloak to create an effect similar to the *misty step* spell or you can use an action and expend 2 charges of the cloak to create an effect similar to the *thunderstep* spell (save DC 15)."
+            ]
+        },
+        {
+            "name": "Cloak of the Mole",
+            "source": "OAG",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "modifySpeed": {
+                "static": {
+                    "burrow": 30
+                }
+            },
+            "entries": [
+                "While wearing this cloak with its hood up, you have a burrowing speed of 30 feet and {@sense tremorsense|MM} out to 10 feet. Pulling the hood up or down requires an action."
+            ]
+        },
+        {
+            "name": "Googles of Day",
+            "source": "OAG",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "While wearing these dark lenses, you ignore the sunlight sensitivity feature if you have it."
+            ]
+        },
+        {
+			"name": "Heart of Darkness",
+			"source": "OAG",
+			"resist": [
+				"fire"
+			],
+			"rarity": "artifact",
+			"reqAttune": "by a spellcaster",
+			"wondrous": true,
+			"recharge": "dusk",
+			"charges": 7,
+			"entries": [
+				"This pitch black heart with cracks glowing red hot is still beating. It belonged to a powerful solar before the demon lord Kalzifar ripped it out of the Solars chest and transformed it into a focus for his powers.",
+				{
+					"type": "entries",
+					"name": "Magic Item",
+					"entries": [
+						"The heart can be used as an arcane focus and grants a +3 to spell attacks and a +1 to spell save DCs. It also functions as a {@item pearl of power}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Benefical Properties",
+					"entries": [
+						"While you are attuned to the heart, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You gain resistance to fire damage. If you already have resistance to fire damage, you gain an immunity to fire damage instead. If you already have a fire immunity, you regain hit points equal to half the fire damage you would have taken.",
+								"You gain advantage on saving throws against spell effects."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Detrimental Properties",
+					"entries": [
+						"While you are attuned to the heart, you suffer the following detrimentals:",
+						{
+							"type": "list",
+							"items": [
+								"Any good aligned celestials recognizes you as a hostile creature.",
+								"There is a 10% chance, that an avatar of {@deity Tyr} will come after you."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Abyssal Fire",
+					"entries": [
+						"When you cast a spell using the heart as a spellcasting focus, you can use your reaction to ignore resistance to fire damage on one target of the spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ars Ignis",
+					"entries": [
+						"When you cast a spell that deals fire damage using the heart as a spellcasting focus, one target of the spell catches fire; until someone takes an action to douse the fire with holy water, the creature takes {@damage 1d10} fire damage at the start of each of its turns for the next {@dice 1d6} rounds."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"The heart has 7 charges and regains all expended charges daily at dusk. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: {@spell fireball} (1 charge), {@spell wall of fire} (1 charge), {@spell immolation} (2 charges), {@spell fire storm} (3 charges), {@spell incendiary cloud} (3 charges), {@spell meteor swarm} (4 charges).",
+						"While attuned to the heart, Kalzifar can cast the heart's spells using 2 fewer charges (minimum of 0). In addition, he gains the following traits:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire Reflection",
+					"entries": [
+						"Whenever Kalzifar is subjected to fire damage, the damage is reflected back at its origin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless Kalzifar chooses to, he is not affected by spells of 6th level or lower."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legendary Resistance",
+					"entries": [
+						"Kalzifar gains 2 extra uses of his legendary resistance trait and 2 extra legendary actions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Destroying the Heart",
+					"entries": [
+						"To destroy the heart of darkness, it must be impaled on the spear of the solar, the heart belonged to, dripping with a unicorns blood on top of a high peak in Mercuria, the second layer of mount celestia. It must remain there for 101 years. After this time it stops beating and loses all of its properties."
+					]
+				}
+			],
+			"attachedSpells": [
+				"fireball",
+				"wall of fire",
+				"immolation",
+				"incendiary cloud",
+				"meteor swarm"
+			]
+		},
+        {
+            "name": "Iron Coin",
+            "source": "OAG",
+            "rarity": "legendary",
+            "wondrous": true,
+            "entries": [
+                "This coin is made of cold iron an has the symbol of carceri embossed onto it. Six of these coins exist, but only two were found so far in an ancient ruin as part of an expedition. Each of the coins holds a powerful balor in service of the demon lord kalzifar.",
+                "As an action, a creature holding the coin can speak its command word and free the balor from its prison. If a creature speaks the balors true name instead of the command word, the balor has to obey the creatures verbal command to the best of its abilities for the next hour. After that time, the balor will start attacking the creature that uttered its name."
+            ]
+        },
+        {
+            "name": "Mirror Shield",
+            "source": "OAG",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "While attuned to the shield, you have advantage on saving throws you make to avoid being {@condition blinded}.",
+                "In addition, when you are subjected to a spell of 5th level or lower that targets only you, you can use your reaction and attempt to throw the spell back. When you do so, make a Charisma check against the casters spell save DC. On a success, the spell is thrown back at its caster, affecting him as if you had cast the spell.",
+                "You can use this feature twice and regain expended uses daily at dawn."
+            ]
+        },
+        {
+            "name": "Obsidian Boots",
+            "source": "OAG",
+            "rarity": "legendary",
+            "wondrous": true,
+            "entries": [
+                "While wearing the boots, you can't be knocked {@condition prone} and you can move across {@quickref difficult terrain||3} made of earth or stone without expending extra movement.",
+                "In addition, you can walk over lava as if it was {@quickref difficult terrain||3}."
+            ]
+        },
+        {
+            "name": "Pallad",
+            "source": "OAG",
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "A *pallad* is a small silvery oval stone. If the stone is targeted directly by a spell of 6th level or lower, the spell has no effect, but is instead stored within the *pallad*. If the stone is included in the area of effect of a spell of 6th level or lower, there is a {@chance 50|50 percent} chance that the spell is absorbed into the pallad.",
+                "As an action, a creature can crush a pallad that absorbed a spell or throw it at a point within 40 feet. The stored spell is then released using the statistics of the original caster."
+            ]
+        },
+        {
+            "name": "Rings of Platinum",
+            "source": "OAG",
             "rarity": "artifact",
             "reqAttune": true,
             "wondrous": true,
-            "bonusWeapon": "+1",
-            "recharge": "dusk",
-            "rechargeAmount": "{@dice 1d6 + 4}",
-            "charges": 10,
             "entries": [
-                "These gauntlets made of crude iron appear very old and have scratches and cracks all over them. One singular multicolored gemstone is embedded into the back of each individual gauntlet.",
+                "These five Rings are made of the finest platinum and appear to never get dirty or stained. The ring is ornamented multiple gemstomes, each with a different kind. To be able to use the Rings, one must wear all of them at the same time. They are fabled to have been created by Rachma, the orrean goddess of wealth.",
                 {
                     "type": "entries",
                     "name": "Dormant",
                     "entries": [
-                        "While wearing the arden gauntlets, your unarmed strikes gain a +1 bonus to attack and damage rolls.",
-                        "The gauntlets have 10 charges and regains {@dice 1d6 + 4} expended charges daily at dusk. When you take acid, cold, fire, lightning, or thunder damage, you can expend 2 charges and use your reaction to give yourself resistance against the triggering damage type until the start of your next turn. Furthermore, the gauntlets absorbs an amount of energy from the attack equal to the roll of {@dice 1d6}. Once they have absorbed 15 points of one damage type, the gauntlets gain the ability to empower your strikes with the absorbed element. When you hit a creature with an unarmed strike, you can expend up to 3 charges. For the first charge you expended, the target takes an extra {@damage 2d6} damage of the absorbed type and an extra {@damage 1d6} damage of the absorbed type for each additional charge. The Gauntlets lose all absorbed energy when you end your attunement with them."
+                        "While wearing the Rings of Platinum, your Charisma score becomes 19 if it isn't already 19 or higher.",
+                        "The rings can store wealth to fuel there magic with it. Daily at Dawn, if they have stored less than 300gp, the rings stored wealth resets to 300gp. At any time on your turn, you can store more wealth in the rings. When you do so, valuables, such as coins or gemstones, worth the amount you want to store disappear from your person. You can only store as much wealth as you have on your person.",
+                        "As a bonus action, you can expend up to 300gp stored within the rings to invoke the magic of the rings on a creature you can see within 60 feet of you. When you do, the target must succeed on a DC 13 Strength saving throw or have its speed reduced by 5 feet for each 50 gp you expended for 1 minute, as platinum jewelry appears on the target for the duration weighing it down. If this reduces the targets speed to 0, it is also knocked {@condition prone} and automatically fails Dexterity saving throws for the duration. An affected creature can repeat its saving throw at the end of each of its turns."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Awakend",
                     "entries": [
-                        "When the arden gauntlets reach an awakened state, they gain the following properties:",
+                        "When the Rings of Platinum reach an awakened state, they gain the following properties:",
                         {
                             "type": "list",
                             "items": [
-                                "The bonus to attack and damage rolles of your unarmed strikes increases to +2.",
-                                "You can use the gauntlets properties on necrotic damage.",
-                                "You can expend up to 4 charges when you hit a creature with an unarmed strike."
+                                "Your Charisma score becomes 21 if it isn't already 21 or higher.",
+                                "As an action, you can expend 500gp stored to cast one first level spell from the cleric spell list (save DC 15, +7 to hit with spell attacks) without expending a spell slot. You can use this property twice and regain all expended uses daily at dawn.",
+                                "The save DC of the rings properties increases to 15."
                             ]
                         }
                     ]
@@ -83,13 +380,101 @@
                     "type": "entries",
                     "name": "Exalted",
                     "entries": [
-                        "When the gauntlets reach an exalted state, they gain the following properties:",
+                        "When the Rings of Platinum reach an exalted state, they gain the following properties:",
                         {
                             "type": "list",
                             "items": [
-                                "The gauntlets gain 5 additional charges nd now regain {@dice 1d10 + 5} expended charges instead of {@dice 1d6 + 4} expended charges.",
-                                "The bonus to attack and damage rolles of your unarmed strikes increases to +3.",
-                                "You can use the gauntlets properties on radiant damage."
+                                "Your Charisma score becomes 23 if it isn't already 23 or higher.",
+                                "When you fail a saving throw, you can use your reaction and expend up to 500gp stored within the rings to gain a bonus to the saving throw equal to +1 for each 100gp expended.",
+                                "You can use the rings to cast a cleric spell trice instead of twice.",
+                                "The save DC of the rings properties increases to 17 and the spell attack bonus increases to +9."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tiara of the Sea Empress",
+            "source": "OAG",
+            "rarity": "legendary",
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "While you are attuned to the tiara, you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}, you can enter a hostile creature's space and move through a space as narrow as 1 inch wide without squeezing.",
+                "In addition, when you are hit by an attack that deals nonmagical bludgeoning, piercing or slashing damage, you can use your reaction to give yourself immunity to the damage of that attack."
+            ]
+        },
+        {
+            "name": "Tolling Bell",
+            "source": "OAG",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "As an action, you can chime the bell. When you do so, you cast {@spell toll the dead|XGE} (1st level, DC 13) on every creature within 30 feet of you that can hear the bell."
+            ]
+        },
+        {
+            "name": "Tristorme",
+            "source": "OAG",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "wondrous": true,
+            "modifySpeed": {
+                "static": {
+                    "swim": 60,
+                    "fly": 30
+                }
+            },
+            "recharge": "dawn",
+            "rechargeAmount": 5,
+            "charges": 5,
+            "entries": [
+                "This tricorne appears to be made of shark skin with a lining of blue silk. It is decorated with several seashells and corals. It is fabled to have been created by Aigerd, the orrean god of storms and the sea.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "While you are wearing the tricorne, you have a swimming speed of 30 feet.",
+                        "Furthermore, the Tristorme has 5 charges and regains all expended charges daily at dawn. When you make a ranged weapon attack, you can expend 1 charge to empower the attack with the hats magic. When you do so, the attack gains one of the following effects (your choice):",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The ammunition or thrown weapon used for the attack turn into a lightning bolt. The target of the attack takes an extra {@damage 2d10} lightning damage and each creature in a straight line that is 5 feet wide between you and the target must make DC 13 Dexterity saving throw. A creature takes {@dice 2d10} lightning on a failed save, or half as much damage on a successful one.",
+                                "The weapon emits a loud noise, audible up to 300 feet away, on impact with its target. Each creature within 10 feet of the target must make a DC 13 Constitution saving throw. A creature takes {@damage 2d10} thunder damage on a failed save, or half as much damage on a successful one."
+                            ]
+                        },
+                        "As a bonus action, you can invoke the tricornes magic. When you do so, strong magical winds blow araound you in a 10 feet radius and move with you for 1 minute. The area is considered difficult terain for everyone except yourself and all ranged weapon attacks except your own that would pass through the area are made with disadvantage. You can use this property twice and regain all expended uses daily at dawn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Awakend",
+                    "entries": [
+                        "When the Tristorme reaches an awakened state, it gains the following properties:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You have a swimming speed of 45 feet.",
+                                "The tricorne now has 6 charges.",
+                                "The save DC and damage of the tricorne increase to 15 and {@damage 3d10} lightning or thunder damage.",
+                                "While you are surounded by the hats magical winds, you have a flying speed of 30 feet and can hover. In addition, all ranged spell attacks except your own that pass through the winds area are made with disadvantage."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Exalted",
+                    "entries": [
+                        "When the Tristorme reaches an exalted state, it gains the following properties:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You have a swimming speed of 60 feet.",
+                                "The tricorne now has 7 charges.",
+                                "The save DC and damage of the tricorne increase to 17 and {@damage 4d10} lightning or thunder damage.",
+                                "A creature within the area of the hats magical winds has advantage on saving throws against spells."
                             ]
                         }
                     ]
@@ -213,7 +598,335 @@
 			}
 		}
 	],
+    "monster": [
+        {
+            "name": "Ice Elemental",
+            "source": "OAG",
+            "size": [
+                "L"
+            ],
+            "type": "elemental",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "12d10 + 60",
+                "average": 126
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 10,
+            "con": 20,
+            "int": 6,
+            "wis": 10,
+            "cha": 7,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "resist": [
+                {
+                    "resist": [
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "immune": [
+                "cold",
+                "poison"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "unconscious"
+            ],
+            "languages": [
+                "Glacian"
+            ],
+            "cr": "5",
+            "trait": [
+                {
+                    "name": "Ice Walk",
+                    "entries": [
+                        "The elemental can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+                    ]
+                },
+                {
+                    "name": "Chilling",
+                    "entries": [
+                        "A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 3 ({@dice 1d6}) cold damage. "
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The elemental makes two slam attacks."
+                    ]
+                },
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}14 ({@damage 1d8 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Frost Burst {@recharge 4}",
+                    "entries": [
+                        "The elemental releases cold air around it in a 5-foot radius. Each creature in that area must make on a {@dc 16} Constitution saving throw. On a failed save, a creature takes 13 ({@damage 3d8}) cold damage and has disadvantage on its next attack roll. On asuccessful save, a creature takes half as much damage and suffers no additional effects."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B",
+                "C"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH",
+                "AOE"
+            ],
+            "shortName": "elemental",
+            "tokenUrl": "https://i.imgur.com/E9lhNKg.png"
+        },
+        {
+            "name": "Koguhpuk",
+            "source": "OAG",
+            "page": 332,
+            "basicRules": true,
+            "size": [
+                "G"
+            ],
+            "type": "elemental",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "formula": "16d20 + 160",
+                "average": 328
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 30,
+            "dex": 10,
+            "con": 30,
+            "int": 2,
+            "wis": 18,
+            "cha": 17,
+            "passive": 14,
+            "cr": "22",
+            "trait": [
+                {
+                    "name": "Trampling Charge",
+                    "entries": [
+                        "If the koguhpuk moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 25} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the koguhpuk can make one stomp attack against it as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Siege Monster",
+                    "entries": [
+                        "The koguhpuk deals double damage to objects and structures."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the koguhpuk fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The koguhpuk makes one Gore attack and one Stomp attack."
+                    ]
+                },
+                {
+                    "name": "Gore",
+                    "entries": [
+                        "{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d8 + 10}) piercing damage plus 9 ({@damage 2d8}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Stomp",
+                    "entries": [
+                        "{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}21 ({@damage 2d10 + 10}) bludgeoning damage plus 11 ({@damage 2d10}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Freezing Breath {@recharge 5}",
+                    "entries": [
+                        "The koguhpuk exhales an icy blast in a 90-foot cone. Each creature in that area must make a {@dc 25} Constitution saving throw, taking 33 ({@damage 6d10}) cold damage on a failed save, or half as much damage on a successful one. A creature that fails the save by 5 or more is also {@condition frozen|BTB} until the end of its next turn."
+                    ]
+                }
+            ],
+            "environment": [
+                "arctic"
+            ],
+            "damageTags": [
+                "B",
+                "C",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH",
+                "AOE"
+            ],
+            "conditionInflict": [
+                "frozen|BTB",
+                "prone"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "save": {
+                "wis": "+11",
+                "cha": "+10"
+            },
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "immune": [
+                "cold",
+                "poison"
+            ],
+            "conditionImmune": [
+                "exhaustion",
+                "frozen|BTB",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "stunned"
+            ],
+            "traitTags": [
+                "Legendary Resistances",
+                "Siege Monster"
+            ],
+            "actionTags": [
+                "Breath Weapon",
+                "Multiattack"
+            ],
+            "legendaryActions": 3,
+            "legendary": [
+                {
+                    "name": "Move",
+                    "entries": [
+                        "The koguhpuk moves up to its speed."
+                    ]
+                },
+                {
+                    "name": "Stomp",
+                    "entries": [
+                        "The koguhpuk makes one Stomp attack."
+                    ]
+                },
+                {
+                    "name": "Trunk Sweep (Costs 3 Actions)",
+                    "entries": [
+                        "The koguhpuk sweeps its trunk in a 20-foot cube. All creatures in that area must make a {@dc 25} Dexterity saving throw, or take 23 ({@damage 2d12+10}) bludgeoning damage plus 6 ({@damage 1d12}) cold damageand is knocked {@condition prone} on a failed save, or it takes half as much damage and isn't knocked {@condition prone} on a successful one."
+                    ]
+                }
+            ],
+            "tokenUrl": "https://i.imgur.com/0defRpq.png"
+        }
+    ],
     "race": [
+        {
+            "name": "Ice Djaro",
+            "source": "OAG",
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "resist": [
+                "cold"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "You are Medium or Small. You choose the size when you select this race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ice Walk",
+                    "entries": [
+                        "You can move across and climb icy surfaces without needing to make an ability check. Additionally, {@quickref difficult terrain||3} composed of ice or snow doesn't cost you extra movement."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Cold Resistance",
+                    "entries": [
+                        "You have resistance to cold damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Break the Ice",
+                    "entries": [
+                        "You know the {@spell frost bite} cantrip. Starting at 3rd level, you can cast the {@spell frost fingers|IDRotF} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell rime's binding ice|FTD} spell with this trait, without requiring a material component. Once you cast {@spell frost fingers|IDRotF} or {@spell rime's binding ice|FTD} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+                        "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+                    ]
+                }
+            ]
+        },        
         {
             "name": "Ikarian",
             "source": "OAG",
@@ -290,6 +1003,43 @@
             ]
         },
         {
+            "name": "Nazim",
+            "source": "OAG",
+            "lineage": "VRGR",
+            "size": [
+                "S"
+            ],
+            "speed": 30,
+            "traitTags": [
+                "Blindsight",
+                "Skill Proficiency"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "entries": [
+                        "You have proficiency in the {@skill Perception} skill.",
+                        "In addition you can focus yourself on your fine nose and keen hearing. As a bonus action, you gain {@sense blindsight} out to a range of 15 feet until the end of your next turn. You can use this feature a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Nazimian Resilience",
+                    "entries": [
+                        "You have advantage on saving throws to avoid or end diseases affecting you."
+                    ]
+                }
+            ]
+        },        
+        {
             "name": "Piscan",
             "source": "OAG",
             "page": 0,
@@ -352,6 +1102,233 @@
                         "Your fishy ancestry has made you more nimble. You have proficiency in the {@skill Acrobatics} skill and advantage on Dexterity checks and Saving throws you make to end the {@condition Grappled} condition on yourself."
                     ]
                 }
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Blood Puppet",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "You try to exert control over the blood of a humanoid or beast you can see within range. The target must succeed on a Strength saving throw or be affected by this spell. An affected creature is {@condition paralyzed} for the spells duration, but can still concentrate on spells, speak. In addition, as a bonus action, you can force a {@condition paralyzed} creature to move up to half its speed and make one weapon attack."
+            ],
+            "source": "OAG",
+            "subschools": [
+                "Hemomancy"
+            ],
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of silk thread and a needle"
+            },
+            "conditionInflict": [
+                "paralyzed"
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid or beast for each slot level above 2nd. The creatures must be within 15 feet of each other when you target them."
+                    ]
+                }
+            ],
+            "savingThrow": [
+                "strength"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "miscTags": [
+                "FMV",
+                "UBA"
+            ]
+        },
+        {
+            "name": "Boiling Blood",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "source": "OAG",
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a rusty nail"
+            },
+            "areaTags": [
+                "ST"
+            ],
+            "subschools": [
+                "Hemomancy"
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "entries": [
+                "Choose a creature that you can see within range. You cause the creatures blood to boil. For the spells duration, the creature takes {@damage 3d8} fire damage at the start of each of its turns, falls {@condition prone} and has disadvantage on all {@dice d20} tests. At the end of each of its turns, the creature can make a Constitution saving throw ending the effects of the spell early on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "SGT"
+            ]
+        },
+        {
+            "name": "Watery Slash",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "You hurl a pressurized blade of water at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d6} slashing damage and has disadvantage on the next attack roll it makes before the end of its next turn.",
+                "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "source": "OAG",
+            "components": {
+                "s": true
+            },
+            "damageInflict": [
+                "slashing"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
             ]
         }
     ],

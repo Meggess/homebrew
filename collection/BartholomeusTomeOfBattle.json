@@ -1101,7 +1101,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 100,
+			"value": 200,
 			"entries": [
 				"As an action, you can throw the flashstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 5-foot radius must succeed on a {@dc 11} Constitution saving throw or be {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat its saving throw at the end of its turn."
@@ -1113,7 +1113,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 100,
+			"value": 200,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 1d6} acid damage. In addition, at the start of each of its turn, the target takes 1 acid damage until the target or a creature within 5 feet of it takes an action to remove the acid."
@@ -1125,7 +1125,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 100,
+			"value": 200,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 1d6} fire damage. In addition, at the start of each of its turn, the target takes 1 fire damage until the target or a creature within 5 feet of it takes an action to extinguish the flames."
@@ -1137,7 +1137,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 100,
+			"value": 200,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 1d4} cold damage. In addition, at the start of each of its turn, the target takes 1 cold damage and its speed is reduced by 5 feet until the target or a creature within 5 feet of it takes an action to remove the dry ice."
@@ -1149,7 +1149,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 500,
+			"value": 1000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 3d6} acid damage. In addition, at the start of each of its turn, the target takes {@damage 1d6} acid damage until the target or a creature within 5 feet of it takes an action to remove the acid."
@@ -1161,7 +1161,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 500,
+			"value": 1000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 3d6} fire damage. In addition, at the start of each of its turn, the target takes {@damage 1d6} fire damage until the target or a creature within 5 feet of it takes an action to extinguish the flames."
@@ -1173,7 +1173,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 500,
+			"value": 1000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 2d4} cold damage. In addition, at the start of each of its turn, the target takes 1 cold damage and its speed is reduced by 10 feet until the target or a creature within 5 feet of it takes an action to remove the dry ice."
@@ -1185,7 +1185,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 500,
+			"value": 1000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a fiend or undead, it takes {@damage 3d8} radiant damage. In addition, at the start of each of its turn, the target takes {@damage 1d6} radiant damage until the target or a creature within 5 feet of it takes an action to remove the holy water."
@@ -1197,7 +1197,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 500,
+			"value": 1000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a celestial, it takes {@damage 3d8} force damage. In addition, at the start of each of its turn, the target takes {@damage 1d6} force damage until the target or a creature within 5 feet of it takes an action to remove the unholy water."
@@ -1209,7 +1209,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 100,
+			"value": 200,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a fiend or undead, it takes {@damage 1d8} radiant damage. In addition, at the start of each of its turn, the target takes 1 radiant damage until the target or a creature within 5 feet of it takes an action to remove the holy water."
@@ -1234,7 +1234,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000,
+			"value": 2000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 5d6} acid damage. In addition, at the start of each of its turn, the target takes {@damage 2d6} acid damage until the target or a creature within 5 feet of it takes an action to remove the acid."
@@ -1246,7 +1246,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000,
+			"value": 2000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 5d6} fire damage. In addition, at the start of each of its turn, the target takes {@damage 2d6} fire damage until the target or a creature within 5 feet of it takes an action to extinguish the flames."
@@ -1258,7 +1258,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000,
+			"value": 2000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 3d4} cold damage. In addition, at the start of each of its turn, the target takes 1 cold damage and its speed is reduced by 15 feet until the target or a creature within 5 feet of it takes an action to remove the dry ice."
@@ -1270,7 +1270,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000,
+			"value": 2000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a fiend or undead, it takes {@damage 5d8} radiant damage. In addition, at the start of each of its turn, the target takes {@damage 2d6} radiant damage until the target or a creature within 5 feet of it takes an action to remove the holy water."
@@ -1282,7 +1282,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000,
+			"value": 2000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a celestial, it takes {@damage 5d8} force damage. In addition, at the start of each of its turn, the target takes {@damage 2d6} force damage until the target or a creature within 5 feet of it takes an action to remove the unholy water."
@@ -1294,7 +1294,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 5000,
+			"value": 10000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 7d6} acid damage. In addition, at the start of each of its turn, the target takes {@damage 3d6} acid damage until the target or a creature within 5 feet of it takes an action to remove the acid."
@@ -1306,7 +1306,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 5000,
+			"value": 10000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 7d6} fire damage. In addition, at the start of each of its turn, the target takes {@damage 3d6} fire damage until the target or a creature within 5 feet of it takes an action to extinguish the flames."
@@ -1318,7 +1318,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 5000,
+			"value": 10000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, the target takes {@damage 4d4} cold damage. In addition, at the start of each of its turn, the target takes 1 cold damage and its speed is reduced by 20 feet until the target or a creature within 5 feet of it takes an action to remove the dry ice."
@@ -1330,7 +1330,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 5000,
+			"value": 10000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a fiend or undead, it takes {@damage 7d8} radiant damage. In addition, at the start of each of its turn, the target takes {@damage 3d6} radiant damage until the target or a creature within 5 feet of it takes an action to remove the holy water."
@@ -1342,7 +1342,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 5000,
+			"value": 10000,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a celestial, it takes {@damage 7d8} force damage. In addition, at the start of each of its turn, the target takes {@damage 3d6} force damage until the target or a creature within 5 feet of it takes an action to remove the unholy water."
@@ -1354,7 +1354,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 100,
+			"value": 200,
 			"entries": [
 				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw the flask up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"On a hit, if the target is a celestial, it takes {@damage 1d8} force damage. In addition, at the start of each of its turn, the target takes 1 force damage until the target or a creature within 5 feet of it takes an action to remove the unholy water."
@@ -1366,7 +1366,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 500,
+			"value": 1000,
 			"entries": [
 				"As an action, you can throw the flashstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 10-foot radius must succeed on a {@dc 13} Constitution saving throw or be {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat its saving throw at the end of its turn."
@@ -1378,7 +1378,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 500,
+			"value": 1000,
 			"entries": [
 				"As an action, you can throw the thunderstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 10-foot radius must make a {@dc 13} Constitution saving throw. On a failed save, the creature takes {@damage 2d6} thunder damage and is {@condition deafened} for 1 minute. A {@condition deafened} creature can repeat its saving throw at the end of its turn."
@@ -1403,7 +1403,7 @@
 			"value": 100,
 			"entries": [
 				"As an action, you can throw the Smoke Bomb at point within 30 feet of you. The bomb then detonates. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
-				"The bomb create a 20-foot-radius sphere of smoke centered on the point where it detonated. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+				"The bomb create a 15-foot-radius sphere of smoke centered on the point where it detonated. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
 			]
 		},
 		{
@@ -1412,7 +1412,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000,
+			"value": 2000,
 			"entries": [
 				"As an action, you can throw the flashstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 15-foot radius must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat its saving throw at the end of its turn."
@@ -1424,7 +1424,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000,
+			"value": 2000,
 			"entries": [
 				"As an action, you can throw the thunderstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 15-foot radius must make a {@dc 15} Constitution saving throw. On a failed save, the creature takes {@damage 2d6} thunder damage and is {@condition deafened} for 1 minute. A {@condition deafened} creature can repeat its saving throw at the end of its turn."
@@ -1436,7 +1436,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 5000,
+			"value": 10000,
 			"entries": [
 				"As an action, you can throw the flashstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 20-foot radius must succeed on a {@dc 17} Constitution saving throw or be {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat its saving throw at the end of its turn."
@@ -1448,7 +1448,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 5000,
+			"value": 10000,
 			"entries": [
 				"As an action, you can throw the thunderstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 20-foot radius must make a {@dc 17} Constitution saving throw. On a failed save, the creature takes {@damage 2d6} thunder damage and is {@condition deafened} for 1 minute. A {@condition deafened} creature can repeat its saving throw at the end of its turn."
@@ -1460,7 +1460,7 @@
 			"type": "G",
 			"rarity": "none",
 			"weight": 1,
-			"value": 100,
+			"value": 200,
 			"entries": [
 				"As an action, you can throw the thunderstone at a creature, object or point on a solid surface within 30 feet of you, shattering it on impact. If you are able to make multiple attacks, you can substitute one of the attacks with this action.",
 				"Each creature in a 5-foot radius must make a {@dc 11} Constitution saving throw. On a failed save, the creature takes {@damage 2d6} thunder damage and is {@condition deafened} for 1 minute. A {@condition deafened} creature can repeat its saving throw at the end of its turn."
@@ -2027,7 +2027,7 @@
                 "rarity": "rare",
 				"page": 0,
                 "entries": [
-                    "A booming arrow is a magic weapon infused with thunder magic. If a creature takes damage from the arrow, a burst of thunderous sound that can be heard up to 100 feet away is created and the creature and each creature with in 10 feet of it must make a DC 17 Constitution saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is deafend for 1 minute. On a successful save, a creature takes half as much damage and isn't deafend. A deafend creature can repeat its saving throw at the end of its turn.",
+                    "A booming arrow is a magic weapon infused with thunder magic. If a creature takes damage from the arrow, a burst of thunderous sound that can be heard up to 100 feet away is created and the creature and each creature with in 10 feet of it must make a DC 15 Constitution saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is deafend for 1 minute. On a successful save, a creature takes half as much damage and isn't deafend. A deafend creature can repeat its saving throw at the end of its turn.",
                     "Once a booming arrow deals damage to a creature, it becomes a nonmagical arrow."
                 ]
             }
@@ -2087,7 +2087,7 @@
                 "rarity": "rare",
 				"page": 0,
                 "entries": [
-                    "A frigid arrow is a magic weapon infused with ice magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming {@condition frozen|BTB} until the end of its next turn on a failed save. If you hit water with the arrow, the water freezes in a 5-foot cube for 1 minute.",
+                    "A frigid arrow is a magic weapon infused with ice magic. If a creature takes damage from the arrow, the creature must succeed on a DC 15 Constitution saving throw, becoming {@condition frozen|BTB} until the end of its next turn on a failed save. If you hit water with the arrow, the water freezes in a 5-foot cube for 1 minute.",
                     "Once a frigid arrow forces a creature to make a saving throw, it becomes a nonmagical arrow."
                 ]
             }
@@ -2107,7 +2107,7 @@
                 "rarity": "rare",
 				"page": 0,
                 "entries": [
-                    "A shocking arrow is a magic weapon infused with lightning magic. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw, becoming {@condition stunned} until the end of its next turn on a failed save. If the arrow hits an object that can conduct electricity, its effect extends to any creature touching the object.",
+                    "A shocking arrow is a magic weapon infused with lightning magic. If a creature takes damage from the arrow, the creature must succeed on a DC 15 Constitution saving throw, becoming {@condition stunned} until the end of its next turn on a failed save. If the arrow hits an object that can conduct electricity, its effect extends to any creature touching the object.",
                     "Once a shocking arrow stuns a creature, it becomes a nonmagical arrow."
                 ]
             }

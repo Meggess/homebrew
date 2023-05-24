@@ -1790,7 +1790,7 @@
 			"wis": 24,
 			"cha": 30,
 			"passive": 33,
-			"cr": "28",
+			"cr": "29",
 			"senses": [
 				"truesight 150 ft."
 			],
@@ -1817,7 +1817,8 @@
 				"stealth": "+9"
 			},
 			"immune": [
-				"necrotic"
+				"necrotic",
+				"poison"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -1945,7 +1946,6 @@
 			],
 			"conditionInflict": [
 				"grappled",
-				"paralyzed",
 				"prone",
 				"restrained"
 			],

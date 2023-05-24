@@ -105,31 +105,6 @@
 			]
 		},
 		{
-			"name": "Cloak of Stepping",
-			"wondrous": true,
-			"rarity": "rare",
-			"source": "WitheringFury",
-			"reqAttune": true,
-			"charges": 6,
-			"recharge": "dawn",
-			"attachedSpells": [
-    			"thunder step",
-    			"misty step"
-			],
-			"entries": [
-				"This cloak has 6 charges, and it regains {@dice 1d3+3} expended charges daily at dawn. Wile wearing this cloak, you can use a bonus action and expend 1 charge of the cloak to cast {@spell misty step} or you can use an action and expend 2 charges of the cloak to cast {@spell thunder step|XGE}."
-			]
-		},
-		{
-			"name": "Cloak of the Mole",
-			"wondrous": true,
-			"rarity": "uncommon",
-			"source": "WitheringFury",
-			"entries": [
-				"While wearing this cloak with its hood up, you have a burrowing speed of 30 feet and tremorsense out to 10 feet. Pulling the hood up or down requires an action."
-			]
-		},
-		{
 			"name": "Crown of the Forgotten",
 			"source": "WitheringFury",
 			"page": 0,

@@ -35,58 +35,6 @@
 	],
 	"item": [
 		{
-			"name": "Bottled Lightning",
-			"wondrous": true,
-			"rarity": "varies",
-			"source": "CCK",
-			"entries": [
-				"In this bottle floats a blue glowing orb. Bolts of lightning lash out from the orb to the bottle whenever someone touches the bottle.",
-				"As an action, you can remove the stopper of the bottle unleashing the stored lightning in a 100 feet long and 5 feet wide line in the direction the bottle is facing or you can throw the bottle at a point you can see within 30 feet of you. The bottle shatters on impact unleashing the stored lightning in a 20-foot-radius sphere. Each creature in the area of effect must make a Dexterity saving throw. A creature takes damage according to the type of lightning stored in the bottle on a failed save, or half as much damage on a successful one. The DC for the saving throw is determined by the type of the stored lightning.",
-				{
-					"type": "table",
-					"caption": "Bottled Lightning",
-					"colLabels": [
-						"Origin",
-						"Rarity",
-						"Lightning Damage",
-						"Save DC"
-					],
-					"rows": [
-						[
-							"Call Lightning",
-							"Uncommon",
-							"{@dice 3d10}",
-							13
-						],
-						[
-							"Natural",
-							"Uncommon",
-							"{@dice 4d10}",
-							13
-						],
-						[
-							"Lightning Bolt",
-							"Rare",
-							"{@dice 8d6}",
-							15
-						],
-						[
-							"Chain Lightning",
-							"Very Rare",
-							"{@dice 10d8}",
-							17
-						],
-						[
-							"Ancient Blue Dragon's Lightning Breath",
-							"Legendary",
-							"{@dice 16d10}",
-							23
-						]
-					]
-				}
-			]
-		},
-		{
 			"name": "Cold Iron",
 			"source": "CCK",
 			"rarity": "none",
@@ -95,25 +43,6 @@
 			"weight": 1,
 			"entries": [
 				""
-			]
-		},
-		{
-			"name": "Chardalyn",
-			"source": "CCK",
-			"rarity": "very rare",
-			"wondrous": true,
-			"entries": [
-				"A chardalyn is a small black oval stone. If the stone is targeted directly by a spell of 6th level or lower, the spell has no effect, but is instead stored within the chardalyn. If the stone is included in the area of effect of a spell of 6th level or lower, there is a {@chance 50|50 percent} chance that the spell is absorbed into the chardalyn.",
-				"As an action, a creature can crush a chardalyn that absorbed a spell or throw it at a point within 40 feet. The stored spell is then released using the statistics of the original caster."
-			]
-		},		
-		{
-			"name": "Googles of Day",
-			"wondrous": true,
-			"rarity": "common",
-			"source": "CCK",
-			"entries": [
-				"While wearing these dark lenses, you ignore the sunlight sensitivity feature if you have it."
 			]
 		},
 		{
@@ -180,18 +109,6 @@
 			],
 			"attachedSpells": [
 				"gate"
-			]
-		},
-		{
-			"name": "Tolling Bell",
-			"wondrous": true,
-			"rarity": "uncommon",
-			"source": "CCK",
-			"attachedSpells": [
-				"Toll the Dead|XGE"
-			],
-			"entries": [
-				"As an action, you can chime the bell. When you do so, you cast {@spell toll the dead|XGE} (1st level, {@dc 13}) on every other creature within 30 feet of you that can hear the bell."
 			]
 		}
 	],
