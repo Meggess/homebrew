@@ -35,17 +35,6 @@
 	],
 	"item": [
 		{
-			"name": "Cold Iron",
-			"source": "CCK",
-			"rarity": "none",
-			"type": "TG",
-			"value": 20,
-			"weight": 1,
-			"entries": [
-				""
-			]
-		},
-		{
 			"name": "Hat of the Harpy",
 			"source": "CCK",
 			"rarity": "very rare",
@@ -113,82 +102,6 @@
 		}
 	],
 	"monster": [
-		{
-			"name": "Racoon",
-			"source": "CCK",
-			"size": [
-				"T"
-			],
-			"type": "beast",
-			"alignment": [
-				"U"
-			],
-			"ac": [
-				12
-			],
-			"hp": {
-				"formula": "1d4 + 1",
-				"average": 3
-			},
-			"speed": {
-				"walk": 20,
-				"climb": 20,
-				"swim": 20
-			},
-			"str": 4,
-			"dex": 15,
-			"con": 12,
-			"int": 2,
-			"wis": 13,
-			"cha": 5,
-			"senses": [
-				"darkvision 30 ft.",
-				"tremorsense 5 ft."
-			],
-			"passive": 11,
-			"cr": "0",
-			"trait": [
-				{
-					"name": "Keen Hearing",
-					"entries": [
-						"The racoon has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 piercing damage."
-					]
-				},
-				{
-					"name": "Claws",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 slashing damage."
-					]
-				}
-			],
-			"environment": [
-				"forest",
-				"urban"
-			],
-			"familiar": true,
-			"traitTags": [
-				"Keen Senses"
-			],
-			"senseTags": [
-				"D",
-				"T"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW"
-			]
-		},
 		{
 			"name": "Ancient Purple Dragon",
 			"group": [

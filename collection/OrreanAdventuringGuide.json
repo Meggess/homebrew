@@ -186,6 +186,17 @@
                 "While wearing this cloak with its hood up, you have a burrowing speed of 30 feet and {@sense tremorsense|MM} out to 10 feet. Pulling the hood up or down requires an action."
             ]
         },
+		{
+			"name": "Cold Iron",
+			"source": "OAG",
+			"rarity": "none",
+			"type": "TG",
+			"value": 20,
+			"weight": 1,
+			"entries": [
+				""
+			]
+		},
         {
             "name": "Googles of Day",
             "source": "OAG",
@@ -600,6 +611,114 @@
 	],
     "monster": [
         {
+            "name": "Alpaca",
+            "source": "OAG",
+            "size": [
+                "M"
+            ],
+            "type": "beast",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                9
+            ],
+            "hp": {
+                "formula": "2d8 + 2",
+                "average": 11
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 13,
+            "dex": 8,
+            "con": 13,
+            "int": 2,
+            "wis": 8,
+            "cha": 5,
+            "passive": 9,
+            "cr": "0",
+            "tokenUrl": "https://i.imgur.com/TUfTcyt.png",
+            "environment": [
+                "grassland",
+                "hill"
+            ]
+        },
+		{
+			"name": "Ember Monitor",
+			"source": "OAG",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 2,
+			"wis": 8,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Corrosive Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) damage, plus 5 ({@damage 2d4}) acid damage."
+					]
+				},
+				{
+					"name": "Volatile Spittle",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"mountain",
+				"underdark"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"A",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+        {
             "name": "Ice Elemental",
             "source": "OAG",
             "size": [
@@ -873,6 +992,153 @@
                 }
             ],
             "tokenUrl": "https://i.imgur.com/0defRpq.png"
+        },
+        {
+			"name": "Racoon",
+			"source": "OAG",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d4 + 1",
+				"average": 3
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20,
+				"swim": 20
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 12,
+			"int": 2,
+			"wis": 13,
+			"cha": 5,
+			"senses": [
+				"darkvision 30 ft.",
+				"tremorsense 5 ft."
+			],
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The racoon has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"urban"
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+        {
+            "name": "Winged Alpaca",
+            "source": "OAG",
+            "size": [
+                "M"
+            ],
+            "type": "celestial",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "ac": [
+                12
+            ],
+            "hp": {
+                "formula": "7d8 + 12",
+                "average": 45
+            },
+            "speed": {
+                "walk": 40,
+                "fly": 60
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 15,
+            "passive": 13,
+            "cr": "1",
+            "damageTags": [
+                "R"
+            ],
+            "tokenUrl": "https://i.imgur.com/TUfTcyt.png",
+            "environment": [
+                "grassland",
+                "hill"
+            ],
+            "languages": [
+                "Celestial",
+                "Common",
+                "Halfling",
+                "Sylvan"
+            ],
+            "languageTags": [
+                "CE",
+                "C",
+                "CS",
+                "H",
+                "S"
+            ],
+            "save": {
+                "dex": "+3",
+                "wis": "+3",
+                "cha": "+4"
+            },
+            "skill": {
+                "perception": "+3"
+            },
+            "action": [
+                {
+                    "name": "Sacred Spittle",
+                    "entries": [
+                        "{@atk ms} {@hit 4} to hit, reach 15 ft., one target. {@h}9 ({@damage 2d8}) radiant damage or 13 ({@damage 3d8}) radiant damage if the target is an undead or a fiend."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "RCH"
+            ]
         }
     ],
     "race": [
