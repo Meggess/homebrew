@@ -43,7 +43,9 @@
 		{
 			"name": "Brimstone Cannon",
 			"source": "RagingFlames",
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"objectType": "SW",
 			"ac": 30,
 			"hp": 400,
@@ -1690,8 +1692,8 @@
 				18
 			],
 			"hp": {
-				"formula": "28d12 + 168",
-				"average": 350
+				"formula": "30d12 + 180",
+				"average": 375
 			},
 			"speed": {
 				"walk": 50
@@ -1699,21 +1701,19 @@
 			"str": 20,
 			"dex": 27,
 			"con": 22,
-			"int": 19,
-			"wis": 17,
+			"int": 21,
+			"wis": 18,
 			"cha": 24,
 			"save": {
 				"dex": "+16",
 				"con": "+14",
-				"wis": "+11"
-			},
-			"skill": {
-				"perception": "+11"
+				"wis": "+12",
+				"cha": "+15"
 			},
 			"senses": [
 				"truesight 120 ft."
 			],
-			"passive": 21,
+			"passive": 22,
 			"resist": [
 				"cold",
 				"lightning"
@@ -1727,7 +1727,8 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical attacks"
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
 			],
 			"conditionImmune": [
@@ -1741,100 +1742,13 @@
 				"petrified",
 				"poisoned",
 				"prone",
-				"restrained",
-				"stunned"
+				"restrained"
 			],
 			"languages": [
 				"All",
 				"telepathy 120 ft."
 			],
-			"cr": "26",
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"Kalzifar's spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Kalzifar can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell fire bolt} (17th level)",
-						"{@spell fireball}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell cloudkill}",
-							"{@spell immolation|XGE}",
-							"{@spell wall of fire}"
-						],
-						"1e": [
-							"{@spell incendiary cloud}"
-						]
-					},
-					"ability": "cha",
-					"type": "spellcasting"
-				}
-			],
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"If Kalzifar fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"entries": [
-						"Kalzifar has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"entries": [
-						"Kalzifar's weapon attacks are magical."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Kalzifar uses his Ignition action, if he can. He then makes three flame lash attacks."
-					]
-				},
-				{
-					"name": "Flame Lash",
-					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d6 + 8}) fire damage. Any creature killed by this attack is drawn into Kalzifar's body, and the corpse is disintegrated after 1 minute. All that remains is a still beating heart that keeps burning in Kalzifar's flames."
-					]
-				},
-				{
-					"name": "Ignition {@recharge 5}",
-					"entries": [
-						"Kalzifar target one creature that he can see within 60 feet of him. The target must make a {@dc 23} Dexterity Saving throw. On a failure, the target takes 38 ({@damage 7d10}) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 15 ({@damage 3d10}) fire damage at the start of each of its turns. On a success, the target takes half as much damage and doesn't catch fire."
-					]
-				}
-			],
 			"legendaryActions": 3,
-			"legendary": [
-				{
-					"name": "Attack",
-					"entries": [
-						"Klazifar makes one Flame Lash attack."
-					]
-				},
-				{
-					"name": "Fire Bolt",
-					"entries": [
-						"Kalzifar casts {@spell fire bolt}."
-					]
-				},
-				{
-					"name": "Wall of Fire (Costs 2 Actions)",
-					"entries": [
-						"Kalzifar casts {@spell wall of fire}, no concentration required."
-					]
-				}
-			],
 			"legendaryGroup": {
 				"name": "Kalzifar",
 				"source": "RagingFlames"
@@ -1952,6 +1866,7 @@
 			},
 			"tokenUrl": "https://i.imgur.com/PbXXedT.png",
 			"traitTags": [
+				"Amorphous",
 				"Legendary Resistances",
 				"Magic Resistance",
 				"Magic Weapons"
@@ -1965,12 +1880,159 @@
 			"languageTags": [
 				"TP"
 			],
-			"damageTags": [
-				"F"
+			"skill": {
+				"perception": "+12"
+			},
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Kalzifar fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Kalzifar has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Fire Aura",
+					"entries": [
+						"At the start of each of Kalzifar's turns, each creature within 5 feet of it takes 17 ({@dice 5d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches Kalzifar or hits it with a melee attack while within 5 feet of it takes 17 ({@dice 5d6}) fire damage."
+					]
+				},
+				{
+					"name": "Fire Form",
+					"entries": [
+						"Kalzifar can enter a hostile creature's space and stop there. He can move through a space as narrow as 1 inch without squeezing if fire could pass through that space."
+					]
+				},
+				{
+					"name": "Abyssal Awakening (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If Kalzifar would be reduced to 0 hit points, his current hit point total instead resets to 300 hit points and he regains any expended uses of Legendary Resistance and his Rachet Flames reaction recharges. Additionally, Kalzifar's Abyssal Fire bonus action is now always active. Award a party an additional 105,000 XP (210,000 XP total) for defeating Kalzifar after his Abyssal Awakening activates."
+					]
+				}
 			],
 			"miscTags": [
 				"MW",
-				"RCH"
+				"RCH",
+				"AOE"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kalzifar uses his Fireball action or casts a spell, if he can. He then makes three flame lash or hurl flame attacks."
+					]
+				},
+				{
+					"name": "Flame Lash",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 8}) force damage, plus 21 ({@damage 6d6}) fire damage. Any creature killed by this attack is drawn into Kalzifar's body, and the corpse is disintegrated after 1 minute. All that remains is a still beating heart that keeps burning in Kalzifar's flames."
+					]
+				},
+				{
+					"name": "Hurl Flame",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, range 150 ft., one target. {@h}26 ({@damage 4d8 + 8}) fire damage."
+					]
+				},
+				{
+					"name": "Fireball",
+					"entries": [
+						"A dark streak flashes from Kalzifar to a point he chooses within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 23} Dexterity saving throw. A target takes 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Rachet Flames {@recharge 5}",
+					"entries": [
+						"As a reaction, when Kalzifar would deal fire damage to a creature immune to fire damage, he can ignore that immunity."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Abyssal Fire {@recharge 4}",
+					"entries": [
+						"As a bonus action, Kalzifar ignores resistance to fire damage until the start of its next turn."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Kalzifar makes one Flame Lash or Hurl Flame attack."
+					]
+				},
+				{
+					"name": "Heat Wave",
+					"entries": [
+						"Kalzifar creates a blast of heat within 300 feet of himself. Each creature in the area in physical contact with metal objects (for example, carrying metal weapons or wearing metal armor) takes 9 ({@damage 2d8}) fire damage. Each creature in the area that isn't resistant or immune to fire damage must make a {@dc 23} Constitution saving throw or gain one level of {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Mind Flare (2 Actions)",
+					"entries": [
+						"Kalzifar floods the mind of a creature he can see within 120 feet of him with visions of infernos and intense flames. The target takes 11 ({@damage 2d10}) psychic damage and must succeed on a {@dc 21} Intelligence saving throw or have its Intelligence score reduced by 2 ({@dice 1d4})."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Kalzifar's spellcasting ability is Charisma (spell save {@dc 23}, +15 to hit with spell attacks). Kalzifar can innately cast the following spells, requiring no material or somatic components:"
+					],
+					"will": [
+						"{@spell boiling blood|OAG}",
+						"{@spell darkness}",
+						"{@spell hex}"
+					],
+					"daily": {
+						"1": [
+							"{@spell fire storm}"
+						],
+						"3e": [
+							"{@spell cloudkill}",
+							"{@spell inflict madness|WWW}",
+							"{@spell wall of fire}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"cr": "27",
+			"damageTags": [
+				"F",
+				"O",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"N"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity"
 			]
 		},
 		{

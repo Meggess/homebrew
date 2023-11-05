@@ -10,12 +10,40 @@
 				],
 				"convertedBy": [],
                 "color": "991ec9",
-                "version": "0.1"
+                "version": "0.2"
 			}
 		],
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
+    "feat": [
+        {
+            "name": "Far Touched",
+            "source": "Temp",
+            "page": 0,
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "Your exposure to the Far Realm's magic has changed you, granting you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn the {@spell detect thoughts} spell and one {@filter 1st-level spell|spells|level=1|school=e;t} of your choice. The {@filter 1st-level spell|spells|level=1|school=e;t} must be from the enchantment or transmutation school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+                    ]
+                }
+            ]
+        }
+    ],
     "item": [
 		{
 			"name": "Surgical Tools",
@@ -963,7 +991,7 @@
                 "bludgeoning"
             ],
             "entries": [
-                "You touch the arm of a willing creature turning it into a slimy tentacle. Until the spell ends, a creature can use its action to make an attack with the tentacle. It counts as a simple melee weapon with which you are proficient. It deals {@damage 1d4} bludgeoning damage plus {@damage 1d4} acid damage and has the light and reach properties. In addition, you have advantage on grapple checks using the tentacle."
+                "You touch the arm of a willing creature turning it into a slimy tentacle. Until the spell ends, the creature can use its action to make a melee attack with the tentacle. It counts as a simple melee weapon with which the creature is proficient. It deals {@damage 1d4} bludgeoning damage plus {@damage 1d4} acid damage and has the light and reach properties. In addition, you have advantage on grapple checks using the tentacle."
             ],
             "entriesHigherLevel": [
                 {

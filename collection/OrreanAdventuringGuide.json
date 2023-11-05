@@ -1143,6 +1143,74 @@
     ],
     "race": [
         {
+            "name": "Hyoscar",
+            "source": "OAG",
+            "lineage": "VRGR",
+            "creatureTypes": [
+                "plant"
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "additionalSpells": [
+                {
+                    "known": {
+                        "1": [
+                            "druidcraft"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "You are Medium or Small. You choose the size when you select this race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Floral Nature",
+                    "entries": [
+                        "You can cast the {@spell druidcraft} cantrip at will. In addition, while you are in direct sunlight and have access to carbondioxide, you don't need to eat or breathe."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Frenzy",
+                    "entries": [
+                        "The toxins in your body can turn you into a fierce berserker. As a bonus action, you can enter a frenzied state for 1 minute granting you the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.",
+                                "While moving towards a hostile creature, your speed is increased a number of feet equal to 5 times half your proficiency bonus (rounded down).",
+                                "Your weapon attacks score a critical hit on a roll of 19 or 20."
+                            ]
+                        },
+                        "While frenzied, however, you can not concentrate on spells and have disadvantage on Wisdom and Intelligence saving throws. You can use this feature a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Martial Training",
+                    "entries": [
+                        "You are proficient in medium armor, shields and one martial weapon of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Toxic Sap",
+                    "entries": [
+                        "Instead of blood, toxic sap is running through your veins. When a creature ingests the sap or is hit by a weapon dealing piercing or slashing damage that is coated by the sap, it must make a Constituion saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature is {@condition poisoned} and enters a frenzied stated similar to your frenzy feature for 1 minute. However, the creature doesn't gain temporary hit points suffering {@damage 1d6} poison damage at the start of each of its turns instead. An affected creature can repeat its saving throw at the end of its turn."
+                    ]
+                }
+            ]
+        }, 
+        {
             "name": "Ice Djaro",
             "source": "OAG",
             "lineage": "VRGR",
@@ -1192,7 +1260,7 @@
                     ]
                 }
             ]
-        },        
+        },               
         {
             "name": "Ikarian",
             "source": "OAG",
@@ -1421,7 +1489,7 @@
                 ]
             },
             "entries": [
-                "You try to exert control over the blood of a humanoid or beast you can see within range. The target must succeed on a Strength saving throw or be affected by this spell. An affected creature is {@condition paralyzed} for the spells duration, but can still concentrate on spells, speak. In addition, as a bonus action, you can force a {@condition paralyzed} creature to move up to half its speed and make one weapon attack."
+                "You try to exert control over the blood of a humanoid or beast you can see within range. The target must succeed on a Strength saving throw or be affected by this spell. An affected creature is {@condition paralyzed} for the spells duration, but can still concentrate on spells, speak. In addition, as a bonus action, you can force an affected creature to move up to half its speed and make one weapon attack. At the end of each of its turns, an affected creature can repeat its saving throw."
             ],
             "source": "OAG",
             "subschools": [
