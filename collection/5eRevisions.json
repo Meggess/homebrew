@@ -2,20 +2,110 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SRev",
-				"abbreviation": "SRev",
-				"full": "SpellRevisions",
-				"authors": [],
-				"convertedBy": []
+				"json": "5eRev",
+				"abbreviation": "5eR",
+				"full": "5eRevisions",
+				"authors": [
+					"Megges"
+				],
+                "color": "337aa9",
+				"convertedBy": [],
+				"version": "0.2.1"
 			}
 		],
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
+	"blocklist": [
+		{
+			"displayName": "Immovable Object",
+			"hash": "immovable%20object_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Magnify Gravity",
+			"hash": "magnify%20gravity_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Pulse Wave",
+			"hash": "pulse%20wave_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Ravenous Void",
+			"hash": "ravenous%20void_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Reality Break",
+			"hash": "reality%20break_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Sapping Sting",
+			"hash": "sapping%20sting_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Temporal Shunt",
+			"hash": "temporal%20shunt_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Time Ravage",
+			"hash": "time%20ravage_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Wristpocket",
+			"hash": "wristpocket_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Dark Star",
+			"hash": "dark%20star_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Fortune's Favor",
+			"hash": "fortune's%20favor_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Gift of Alacrity",
+			"hash": "gift%20of%20alacrity_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Gravity Fissure",
+			"hash": "gravity%20fissure_egw",
+			"category": "spell",
+			"source": "EGW"
+		},
+		{
+			"displayName": "Gravity Sinkhole",
+			"hash": "gravity%20sinkhole_egw",
+			"category": "spell",
+			"source": "EGW"
+		}
+	],
 	"spell": [
 		{
 			"name": "Dark Star",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 186,
 			"level": 8,
 			"school": "V",
@@ -88,12 +178,11 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "6c46ba22-6c6e-48b5-af96-617609add7f7"
+			}
 		},
 		{
 			"name": "Fortune's Favor",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 186,
 			"level": 2,
 			"school": "D",
@@ -184,12 +273,11 @@
 					"name": "Adept of the White Robes",
 					"source": "UA2022HeroesOfKrynnRevisited"
 				}
-			],
-			"uniqueId": "e99898ad-7f78-44c1-8579-b0cf63ef4d83"
+			]			
 		},
 		{
 			"name": "Gift of Alacrity",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 186,
 			"level": 1,
 			"school": "D",
@@ -249,12 +337,11 @@
 					"name": "Fey Touched",
 					"source": "UA2020Feats"
 				}
-			],
-			"uniqueId": "783389fb-5dcd-464d-b2b0-1c8ae5298ef6"
+			]
 		},
 		{
 			"name": "Gravity Fissure",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 187,
 			"level": 6,
 			"school": "V",
@@ -318,12 +405,11 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "a664042b-8a76-43f9-a238-91ade3ba7938"
+			}
 		},
-		{
+		{	
 			"name": "Gravity Sinkhole",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 187,
 			"level": 4,
 			"school": "V",
@@ -389,12 +475,11 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "cf6b8e52-af30-4a5d-be4f-7f1c5461bd78"
+			}
 		},
 		{
 			"name": "Immovable Object",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 187,
 			"level": 2,
 			"school": "T",
@@ -479,12 +564,11 @@
 					"name": "Adept of the Red Robes",
 					"source": "UA2022HeroesOfKrynnRevisited"
 				}
-			],
-			"uniqueId": "f8add0b0-adb9-4ab0-811c-2739a3289aea"
+			]
 		},
 		{
 			"name": "Magnify Gravity",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 188,
 			"level": 1,
 			"school": "T",
@@ -567,12 +651,11 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "8f4d083b-5f8a-457f-a5ea-115402603edb"
+			}
 		},
 		{
 			"name": "Pulse Wave",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 188,
 			"level": 3,
 			"school": "V",
@@ -647,12 +730,11 @@
 						"source": "TCE"
 					}
 				]
-			},
-			"uniqueId": "13cbd309-6f92-4499-883e-4ebba74425f7"
+			}
 		},
 		{
 			"name": "Ravenous Void",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 188,
 			"level": 9,
 			"school": "V",
@@ -723,12 +805,11 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "9711a9db-5b1a-4703-96cf-23a054874a88"
+			}
 		},
 		{
 			"name": "Reality Break",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 189,
 			"level": 8,
 			"school": "C",
@@ -839,12 +920,11 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "57988be6-e161-4369-bdc8-f2fbe4b811aa"
+			}
 		},
 		{
 			"name": "Sapping Sting",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 189,
 			"level": 0,
 			"school": "N",
@@ -940,12 +1020,11 @@
 						"PB"
 					]
 				}
-			],
-			"uniqueId": "f4964be6-69da-4ec7-8af9-3142bf3e490c"
+			]
 		},
 		{
 			"name": "Temporal Shunt",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 189,
 			"level": 5,
 			"school": "T",
@@ -1005,12 +1084,11 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "89767210-a694-425b-839f-3caf46a6a3b5"
+			}
 		},
 		{
 			"name": "Time Ravage",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 189,
 			"level": 9,
 			"school": "N",
@@ -1071,12 +1149,11 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"uniqueId": "d4880f51-45a1-4f23-b6e0-6384acd8f510"
+			}
 		},
 		{
 			"name": "Wristpocket",
-			"source": "SRev",
+			"source": "5eRev",
 			"page": 190,
 			"level": 2,
 			"school": "C",
@@ -1136,8 +1213,7 @@
 					"name": "Adept of the White Robes",
 					"source": "UA2022HeroesOfKrynn"
 				}
-			],
-			"uniqueId": "fed12dfe-b6bf-4ff0-866f-876da4e6dfdb"
+			]
 		}
 	]
 }

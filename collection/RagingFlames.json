@@ -2037,26 +2037,24 @@
 		},
 		{
 			"name": "Lord Alber",
-			"shortName": true,
-			"isNamedCreature": true,
+			"group": [
+				"Chromatic Dragon"
+			],
 			"source": "RagingFlames",
 			"size": [
 				"G"
 			],
-			"tokenUrl": "https://i.imgur.com/skGST6T.png",
 			"type": {
-				"type": "fiend",
+				"type": "dragon",
 				"tags": [
-					{
-						"tag": "dragon",
-						"prefix": "red"
-					}
+					"chromatic"
 				]
 			},
 			"alignment": [
 				"C",
 				"E"
 			],
+			"alignmentPrefix": "typically ",
 			"ac": [
 				{
 					"ac": 24,
@@ -2066,46 +2064,42 @@
 				}
 			],
 			"hp": {
-				"formula": "30d20 + 300",
-				"average": 615
+				"formula": "28d20 + 280",
+				"average": 574
 			},
 			"speed": {
 				"walk": 60,
-				"climb": 60,
-				"fly": 150
+				"burrow": 60,
+				"fly": 120,
+				"swim": 60
 			},
 			"str": 30,
-			"dex": 10,
+			"dex": 14,
 			"con": 30,
 			"int": 24,
 			"wis": 21,
 			"cha": 27,
 			"save": {
-				"dex": "+10",
+				"dex": "+12",
 				"con": "+20",
 				"wis": "+15",
-				"cha": "+17"
+				"cha": "+18"
 			},
 			"skill": {
+				"intimidation": "+18",
 				"perception": "+25",
-				"stealth": "+10",
-				"persuasion": "+18",
-				"insight": "+15",
+				"stealth": "+12",
 				"arcana": "+17",
-				"deception": "+18"
+				"deception": "+18",
+				"insight": "+15",
+				"persuasion": "+18"
 			},
 			"senses": [
-				"truesight 120 ft.",
-				"darkvision 300 ft."
+				"blindsight 120 ft.",
+				"darkvision 300 ft.",
+				"truesight 120 ft."
 			],
 			"passive": 35,
-			"resist": [
-				"acid",
-				"cold",
-				"force",
-				"lightning",
-				"thunder"
-			],
 			"immune": [
 				"fire",
 				"poison",
@@ -2115,7 +2109,8 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical attacks"
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
 			],
 			"conditionImmune": [
@@ -2130,33 +2125,27 @@
 				"Abyssal",
 				"Common",
 				"Draconic",
+				"Giant",
 				"Ignan",
 				"Infernal"
 			],
-			"cr": "36",
 			"trait": [
 				{
-					"name": "Magic Weapons",
+					"name": "Chromatic Awakening (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Lord Alber's weapon attacks are magical."
+						"If Lord Alber would be reduced to 0 hit points, his current hit point total instead resets to 425 hit points, he recharges his Breath Weapon, and any expended uses of Legendary Resistance. Additionally, Lord Alber gains the fire aura trait and can now use the options in the \"Mythic Actions\" section for 1 hour. "
 					]
 				},
 				{
-					"name": "Limited Magic Immunity",
+					"name": "Legendary Resistance (4/Day)",
 					"entries": [
-						"Lord Alber can't be affected or detected by spells of 5th level or lower unless he wishes to be. He has advantage on saving throws against all other spells and magical effects."
+						"If Lord Alber fails a saving throw, it can choose to succeed instead."
 					]
 				},
 				{
-					"name": "Legendary Resistance (5/Day)",
+					"name": "Unusual Nature",
 					"entries": [
-						"If Lord Alber fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Fear Aura",
-					"entries": [
-						"Any creature hostile to Lord Alber that starts its turn within 60 feet of him must make a {@dc 26} Wisdom saving throw, unless he is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Lord Alber's Fear Aura for the next 24 hours."
+						"Lord Alber doesn't require food or drink."
 					]
 				},
 				{
@@ -2164,104 +2153,195 @@
 					"entries": [
 						"Lord Alber carries an {@item amulet of draconic superiority|RagingFlames}, a {@item brooch of shielding} and a {@item talisman of ultimate evil|DMG}."
 					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Lord Alber can't be affected or detected by spells of 5th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Consuming Flames",
+					"entries": [
+						"Once per turn, when Lord Alber deals fire damage to a creature resistant or immune to fire damage, that creature must succeed on a {@dc 25} Constitution saving throw or have its Charisma score reduced by 2 ({@dice 1d4}). A creature immune to fire damage makes this saving throw with disadvantage."
+					]
+				},
+				{
+					"name": "Fear Aura",
+					"entries": [
+						"Any creature hostile to Lord Alber that starts its turn within 20 feet of him must make a {@dc 25} Wisdom saving throw, unless he is {@condition incapacitated}. On a failed save, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Lord Alber's Fear Aura for the next 24 hours."
+					]
+				},
+				{
+					"name": "Fire Aura (Chromatic Awakening only)",
+					"entries": [
+						"At the start of each of Lord Alber's turns, each creature within 10 feet of it takes 21 ({@dice 6d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches Lord Alber or hits it with a melee attack while within 10 feet of it takes 21 ({@dice 6d6}) fire damage."
+					]
 				}
 			],
 			"action": [
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Lord Alber makes three attacks: one with its bite and two with its claws."
+						"Lord Alber makes one Bite attack and two Claw attacks."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 20} to hit, reach 15 ft., one target. {@h}32 ({@damage 4d10 + 10}) piercing damage, plus 21 ({@damage 6d6}) fire damage."
+						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 19 ({@damage 3d12}) fire damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 20} to hit, reach 5 ft., one target. {@h}24 ({@damage 4d6 + 10}) slashing damage, plus 14 ({@damage 4d6}) fire damage."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) force damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and is {@condition restrained} until this grapple ends. Lord Alber can have only one creature {@condition grappled} this way at a time."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 20} to hit, reach 5 ft., one target. {@h}28 ({@damage 4d8 + 10}) bludgeoning damage, plus 14 ({@damage 4d6}) fire damage."
+						"{@atk mw} {@hit 19} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 27} Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
-					"name": "Fire Breath {@recharge 5}",
+					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"Lord Alber exhales fire in a 120-foot cone. Each creature in that area must make a {@dc 28} Dexterity saving throw, taking 105 ({@damage 30d6}) fire damage on a failed save, or half as much damage on a successful one."
+						"Lord Alber exhales a blast of fire in a 120-foot cone. Each creature in that area must make a {@dc 27} Dexterity saving throw. On a failed save, the creature takes 97 ({@damage 15d12}) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 18 ({@damage 4d8}) fire damage at the start of each of its turns. On a successful save, a creature takes half as much damage and doesn't catch fire."
 					]
 				}
 			],
-			"legendaryActions": 5,
 			"legendary": [
 				{
-					"name": "Detect",
+					"name": "Attack",
 					"entries": [
-						"Lord Alber makes a Wisdom (Perception) check."
+						"Lord Alber makes one Claw or Tail attack."
 					]
 				},
 				{
-					"name": "Tail Attack",
+					"name": "Heat Wave (Costs 2 Actions)",
 					"entries": [
-						"Lord Alber makes a tail attack."
+						"Lord Alber beats its wings, releasing searing heat. Each creature within 40 feet cube originating from him must succeed on a {@dc 27} Constitution saving throw or take 18 ({@damage 4d8}) fire damage and be knocked {@condition prone}."
 					]
 				},
 				{
-					"name": "Wing Attack (Costs 2 Actions)",
+					"name": "Arcane Spear (Costs 3 Actions)",
 					"entries": [
-						"Lord Alber beats his wings. Each creature within 20 ft. of him must succeed on a {@dc 28} Dexterity saving throw or take 24 ({@damage 4d6 + 10}) bludgeoning damage and 14 ({@damage 4d6}) fire damage and be knocked {@condition prone}. Lord Alber can then fly up to half his flying speed without provoking opportunity attacks."
-					]
-				},
-				{
-					"name": "Meteor Call (Costs 5 Actions)",
-					"entries": [
-						"Meteor swarm -> Singular Meteor"
+						"The greatwyrm creates four spears of magical force. Each spear hits a creature of the greatwyrm's choice it can see within 120 feet of it, dealing 12 ({@damage 1d8 + 8}) force damage to its target, then disappears."
 					]
 				}
 			],
-			"legendaryGroup": {
-				"name": "Red Dragon",
-				"source": "MM"
-			},
-			"dragonCastingColor": "R",
+			"mythicHeader": [
+				"If Lord Alber's Chromatic Awakening trait has activated in the last hour, he can use the options below as legendary actions."
+			],
+			"mythic": [
+				{
+					"name": "Quench Magic",
+					"entries": [
+						"Lord Alber targets two creature that he can see within 120 feet of ihim. Any resistance or immunity to fire damage that the target gains from a spell or magic item is suppressed. The effect lasts until the end of Lord Alber's next turn."
+					]
+				},
+				{
+					"name": "Chromatic Flare (Costs 2 Actions)",
+					"entries": [
+						"The greatwyrm flares with elemental energy. Each creature in a 60-foot-radius sphere centered on the greatwyrm must succeed on a {@dc 26} Dexterity saving throw or take 22 ({@damage 5d8}) fire damage."
+					]
+				}
+			],
+			"dragonAge": "greatwyrm",
 			"traitTags": [
 				"Legendary Resistances",
-				"Magic Weapons"
+				"Unusual Nature"
 			],
 			"senseTags": [
+				"B",
 				"SD",
 				"U"
 			],
 			"actionTags": [
+				"Breath Weapon",
 				"Multiattack"
 			],
 			"languageTags": [
 				"AB",
 				"C",
 				"DR",
-				"I",
-				"IG"
-			],
-			"damageTags": [
-				"B",
-				"F",
-				"P",
-				"S"
+				"GI",
+				"IG",
+				"I"
 			],
 			"miscTags": [
-				"AOE",
 				"MW",
-				"RCH"
+				"RCH",
+				"AOE",
+				"MLW"
 			],
 			"conditionInflict": [
 				"frightened",
-				"prone"
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://megges.eu/img/FTD/Red Greatwyrm.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://megges.eu/img/bestiary/FTD/Red Greatwyrm.webp"
+						}
+					}
+				]
+			},
+			"resist": [
+				"acid",
+				"cold",
+				"force",
+				"lightning",
+				"thunder"
+			],
+			"shortName": "Lord Alber",
+			"isNamedCreature": true,
+			"bonus": [
+				{
+					"name": "{@item Talisman of Ultimate Evil} (1/day)",
+					"entries": [
+						"Lord Alber uses his {@item Talisman of Ultimate Evil}."
+					]
+				},
+				{
+					"name": "Overheat",
+					"entries": [
+						"As a bonus action, the heat of Lord Albers fire intensifies. Until the start of his next turn, any area in which he deals fire damage is also subjected to a similar effect as a {@spell heat metal} spell. Lord Alber can't use this bonus action in to consecutive rounds."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Draconic Rebuke",
+					"entries": [
+						"As a reaction, when Lord Alber takes damage from a creature within 60 feet of him, he forces the creature that damaged him to be momentarily surrounded by draconic flames. The creature must make a {@dc 25} Dexterity saving throw. It takes 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"isNpc": true,
+			"cr": {
+				"cr": "33"
+			},
+			"damageTags": [
+				"B",
+				"F",
+				"O",
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"strength",
+				"wisdom"
 			]
 		},
 		{
@@ -3873,71 +3953,71 @@
 							]
 						},
 						"1": {
-							"slots": 4,
 							"spells": [
 								"{@spell burning hands}",
 								"{@spell chromatic orb}",
 								"{@spell magic missile}",
 								"{@spell shield}"
-							]
+							],
+							"slots": 4
 						},
 						"2": {
-							"slots": 3,
 							"spells": [
 								"{@spell misty step}",
 								"{@spell scorching ray}",
 								"{@spell see invisibility}*"
-							]
+							],
+							"slots": 3
 						},
 						"3": {
-							"slots": 3,
 							"spells": [
 								"{@spell counterspell}",
 								"{@spell dispel magic}",
 								"{@spell fireball}",
 								"{@spell sending}"
-							]
+							],
+							"slots": 3
 						},
 						"4": {
-							"slots": 3,
 							"spells": [
 								"{@spell fire shield}*",
 								"{@spell greater invisibility}",
-								"{@spell summon greater demon|XGE}"
-							]
+								"{@spell sickening radiance|XGE}"
+							],
+							"slots": 3
 						},
 						"5": {
-							"slots": 2,
 							"spells": [
 								"{@spell immolation|XGE}",
 								"{@spell scrying}",
 								"{@spell synaptic static|XGE}"
-							]
+							],
+							"slots": 2
 						},
 						"6": {
-							"slots": 2,
 							"spells": [
 								"{@spell chain lightning}",
 								"{@spell disintegrate}"
-							]
+							],
+							"slots": 2
 						},
 						"7": {
-							"slots": 1,
 							"spells": [
-								"{@spell crown of stars|XGE}"
-							]
+								"{@spell prismatic spray}"
+							],
+							"slots": 1
 						},
 						"8": {
-							"slots": 1,
 							"spells": [
 								"{@spell feeblemind}"
-							]
+							],
+							"slots": 1
 						},
 						"9": {
-							"slots": 1,
 							"spells": [
 								"{@spell prismatic wall}"
-							]
+							],
+							"slots": 1
 						}
 					},
 					"ability": "int",
@@ -3952,12 +4032,6 @@
 					]
 				},
 				{
-					"name": "Empowered Evocation",
-					"entries": [
-						"Savalar can add his Intelligence modifier to the damage roll of any wizard evocation spell he casts."
-					]
-				},
-				{
 					"name": "Sculpt Spells",
 					"entries": [
 						"When Savalar casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
@@ -3966,7 +4040,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The Savalar Gadah has advantage on saving throws against being {@condition charmed}, and magic can't put the Savalar Gadah to sleep."
+						"Savalar has advantage on saving throws against being {@condition charmed}, and magic can't put the him to sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Savalar has advantage on saving throws against spells and other magical effects."
 					]
 				}
 			],
@@ -3980,7 +4060,7 @@
 				{
 					"name": "Fire Breath {@recharge 5}",
 					"entries": [
-						"Savalar exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one."
+						"Savalar exhales fire in a 15-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 16 ({@damage 3d10}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -4019,12 +4099,38 @@
 				]
 			},
 			"traitTags": [
-				"Fey Ancestry"
+				"Fey Ancestry",
+				"Magic Resistance"
 			],
 			"isNpc": true,
 			"tokenUrl": "https://i.imgur.com/f9v7vaO.png",
+			"actionTags": [
+				"Breath Weapon"
+			],
 			"damageTags": [
-				"B"
+				"B",
+				"F"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"N",
+				"O",
+				"R",
+				"T",
+				"Y"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
 			]
 		},
 		{

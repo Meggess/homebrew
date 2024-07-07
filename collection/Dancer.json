@@ -1,0 +1,1071 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "Dancer",
+				"abbreviation": "Dancer",
+				"full": "The Dancer",
+                "url": "https://homebrewery.naturalcrit.com/share/VDB8ZWIroLxv",
+				"authors": [
+					"tolktheone"
+				],
+				"convertedBy": [
+					"Megges"
+                ],
+				"color": "cc293f",
+                "version": "0.7"
+			}
+		],
+		"optionalFeatureTypes": {
+			"D:FL": "Flair; Precision Style"
+		},
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "class": [
+        {
+            "name": "Dancer",
+            "source": "Dancer",
+            "classFeatures": [
+                "Act|Dancer|Dancer|1|Dancer",
+                "Morale Boost|Dancer|Dancer|1|Dancer",
+                "Performance Technique|Dancer|Dancer|2|Dancer",
+                {
+                    "classFeature": "Artistic Style|Dancer|Dancer|2|Dancer",
+                    "gainSubclassFeature": true
+                },
+                "Dance Moves|Dancer|Dancer|3|Dancer",
+                "Distract|Dancer|Dancer|3|Dancer",
+                "Ability Score Improvement|Dancer|Dancer|4|Dancer",
+                "Extra Attack|Dancer|Dancer|5|Dancer",
+                {
+                    "classFeature": "Style Feature|Dancer|Dancer|6|Dancer",
+                    "gainSubclassFeature": true
+                },
+                "Harmonize|Dancer|Dancer|7|Dancer",
+                "Ability Score Improvement|Dancer|Dancer|8|Dancer",
+                "Dramatic Entrance|Dancer|Dancer|9|Dancer",
+                "Slippery|Dancer|Dancer|10|Dancer",
+                {
+                    "classFeature": "Style Feature|Dancer|Dancer|11|Dancer",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Dancer|Dancer|12|Dancer",
+                "Poise|Dancer|Dancer|13|Dancer",
+                "Step-In|Dancer|Dancer|14|Dancer",
+                {
+                    "classFeature": "Style Feature|Dancer|Dancer|15|Dancer",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Dancer|Dancer|16|Dancer",
+                "Energizing Moves|Dancer|Dancer|17|Dancer",
+                "Tread Lightly|Dancer|Dancer|18|Dancer",
+                "Ability Score Improvement|Dancer|Dancer|19|Dancer",
+                "Grand Finale|Dancer|Dancer|20|Dancer"
+            ],
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "cha",
+                "dex"
+            ],
+            "startingProficiencies": {
+                "armor": [],
+                "weapons": [
+                    "simple",
+                    "exotic",
+                    "finesse and light melee martial weapons",
+                    "hand crossbows",
+                    "nets"
+                ],
+                "tools": [
+                    "disguise kits",
+                    "a musical intrument of your choice"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "animal handling",
+                                "deception",
+                                "performance",
+                                "religion",
+                                "slight of hand"
+                            ],
+                            "count": 3
+                        }
+                    }
+                ]
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Acts",
+                        "Morale"
+                    ],
+                    "rows": [
+                        [
+                            2,
+                            "{@dice 1d4}"
+                        ],
+                        [
+                            2,
+                            "{@dice 1d4}"
+                        ],
+                        [
+                            3,
+                            "{@dice 1d4}"
+                        ],
+                        [
+                            3,
+                            "{@dice 1d4}"
+                        ],
+                        [
+                            3,
+                            "{@dice 2d4}"
+                        ],
+                        [
+                            4,
+                            "{@dice 2d4}"
+                        ],
+                        [
+                            4,
+                            "{@dice 2d4}"
+                        ],
+                        [
+                            4,
+                            "{@dice 2d4}"
+                        ],
+                        [
+                            4,
+                            "{@dice 3d4}"
+                        ],
+                        [
+                            4,
+                            "{@dice 3d4}"
+                        ],
+                        [
+                            4,
+                            "{@dice 3d4}"
+                        ],
+                        [
+                            5,
+                            "{@dice 3d4}"
+                        ],
+                        [
+                            5,
+                            "{@dice 4d4}"
+                        ],
+                        [
+                            5,
+                            "{@dice 4d4}"
+                        ],
+                        [
+                            5,
+                            "{@dice 4d4}"
+                        ],
+                        [
+                            5,
+                            "{@dice 4d4}"
+                        ],
+                        [
+                            6,
+                            "{@dice 5d4}"
+                        ],
+                        [
+                            6,
+                            "{@dice 5d4}"
+                        ],
+                        [
+                            6,
+                            "{@dice 5d4}"
+                        ],
+                        [
+                            6,
+                            "{@dice 5d4}"
+                        ]
+                    ]
+                }
+            ],
+            "startingEquipment": {
+                "default": [
+                    "(a) a {@item rapier} (b) a {@item whip} or (c) any {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+                    "(a) five {@item javelin|phb|javelins} or (b) any {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+                    "(a) a {@item priest's pack} or (b) an {@item entertainer's pack}",
+                    "a {@item disguise kit}, an instrument of your choice and an entertainer's outfits"
+                ],
+                "additionalFromBackground": true,
+                "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}"
+            },
+            "multiclassing": {
+                "requirements": {
+                        "cha": 13,
+                        "dex": 13
+                    },
+                "proficienciesGained": {
+                    "armor": [],
+                    "weapons": [
+                        "simple"
+                    ],
+                    "tools": [
+                        "disguise kit"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "acrobatics",
+                                    "animal handling",
+                                    "deception",
+                                    "performance",
+                                    "religion",
+                                    "slight of hand"
+                                ],
+                                "count": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "fluff": [
+                {
+                    "type": "entries",
+                    "source": "Dancer",
+                    "name": "Dancer",
+                    "entries": [
+                        "In a dim lit tavern a greedy noble plots his betrayal to the crown. As he writes a letter to an enemy kingdom, a Drow barmaid dressed in fine silks approaches him, striking conversation. She smiles and giggles, then, with a bow, leaves, only she wasn't really a bar maid and his schemes left with her.",
+                        "As battle rages over a shallow river, a Human lashes his whip at his enemies, tripping them into the running water. With his sure footing, not only he maintains perfect balance on top the slippery and wet rocks of the river, but he also leaps and dashes to hold his friends and help them stay afoot.",
+                        "The circus quieted as the mad mage and his skeletons cornered the adventurers, little did he know that a Halfling who performed there was a master of daggers. With a somersaults out of a trampoline, she reached for her belt from where she drew many blades. Still spinning in the air and she began raining knifes on the undead, granting the adventurers the upper hand.",
+                        {
+                            "type": "entries",
+                            "name": "engaging moves",
+                            "entries": [
+                                "Dancers learn their skills from years of practice and rehearsal of their dances, which grant them not only great control and precision over their bodies but also the ability to captivate those around them, to either encourage or disrupt their actions. Some dancers will focus on their influential personality and performing skills to ease their way through urban life, while others will rehearse their moves into deadly tools of combat to handle the monsters away from society.",
+                                "In combat dancers will exert their movement prowess to protect and invigorate their allies who are more suited to deliver blows than themselves. A dancer is a beacon of hope, and they shine the brightest when they can put the spotlight in someone else, wether dazzling their opponents or your allies glow."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Self Expression",
+                            "entries": [
+                                "Although dancing is common place, a true dancer takes more than knowing some steps. Mastery of the art is an important, but the key factoor lies in understanfing the meaning behind it, embracing the dancer persona that transmits their ideals and emotions. For that reason dancers are often extravagant, beeing very expressive, but even the more reserved dancers have strong beliefs and that guide their art.",
+                                "A dancer's performing style is usually tied to where they were born and the school who took them in. Veil dancers from the sandy dunes are well known, but from as high as the peaks and as low as the islands, each culture has it's own brand of dancing."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Act",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "At 1st level, your dance acts allow you great agility. On your turn, you can start an act as a bonus Action.",
+                "During your act, you gain the following benefits if you aren't wearing heavy armor or wielding a shield:",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "columns": 0,
+                    "items": [
+                        "Your AC equals to 10 + your Dexterity modifier + your Charisma modifier.",
+                        "Your walk speed increases by 10 ft.",
+                        "You have advantage on dexterity checks and saving throws."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Morale Boost",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, You become a beacon of inspiration. When you take the {@action Dodge} or {@action Help} action you can grant a creature a Morale Boost. If you dodged, grant it to youself, if you helped, grant it to the creature you helped. Until the end of that creature's next turn, the first time it deals damage it may add your Morale to one damage roll.",
+                "If you grant a Morale Boost during your act, that creature also gains your Morale + charisma modifier temporary hit-points for 1 minute.",
+                "Your Morale starts as 1d4, and increases as you gain levels in this class. It becomes {@dice 2d4} at 5th level, {@dice 3d4} at 9th level, {@dice 4d4} at 13th level and {@dice 5d4} at 17th level."
+            ]
+        },
+        {
+            "name": "Performance Technique",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 2,
+            "entries": [
+                "When you reach 2nd level, you can make a delightful performace during a short or long rest. You start with two options: Rehearse and one determined by your style. You can only choose one option per rest.",
+                {
+                    "type": "entries",
+                    "name": "Rehearse",
+                    "entries": [
+                        "Choose a skill and roll {@dice 2d20}, keep these values for later, they last until your next short or long rest. When you make a skill check of that type, you may spend one of these values to:",
+                        {
+                            "type": "list",
+                            "style": "list-hang",
+                            "columns": 0,
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Acquire Skill",
+                                    "entries": [
+                                        "Use the value as the roll's result (before you add any modifiers)"
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Leason Learned",
+                                    "entries": [
+                                        "Re-roll the check, if the value rolled was greater than the kept value."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Artistic Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you choose a style that molds how you perform your dance. Choose between Alluring Style, Danger Style, Playful Style, Precision Style or Ritual Style, all detailed at the end of this class. Your choice grants you new features at 2nd level and again at 6th, 11th and 15th level."
+            ]
+        },
+        {
+            "name": "Dance Moves",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 3,
+            "entries": [
+                "When you reach 3rd level, you can {@action Dodge} or {@action Help} as a bonus action."
+            ]
+        },
+        {
+            "name": "Distract",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you become the center of attention and can draw eyes to yourself. Creatures of your choice within 15 ft. that can see or hear you have disadvantage on Wisdom (perception) checks not targeted at you."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 4,
+            "entries": [
+                "When you reach 4th and again on 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn"
+            ]
+        },
+        {
+            "name": "Harmonize",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 7,
+            "entries": [
+                "At 7th level and onwards, you may use your Performace Technique to gain 1 additional act you can use until your next short or long rest."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 8,
+            "entries": [
+                "When you reach 4th and again on 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Dramatic Entrance",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 9,
+            "entries": [
+                "Once you reach 9th level, if you are not surprised at the beginning of combat, you may take an extra turn before anyone else."
+            ]
+        },
+        {
+            "name": "Slippery",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 10,
+            "entries": [
+                "From 10th level and onwards, during your act you don't provoke oportunity attacks."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 12,
+            "entries": [
+                "When you reach 4th and again on 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Poise",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 13,
+            "entries": [
+                "Once you reach 13 level, your act only ends early if you become unconscious or choose to end it."
+            ]
+        },
+        {
+            "name": "Step-In",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 14,
+            "entries": [
+                "At 14th level, your snap reflexes allow you to intercept enemies and help allies. As a reaction to another creature you can see within 15 feet of you making an attack, before the attack is rolled, you can move up to 10 feet towards it and take the {@action Dodge} or {@action Help} action."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 16,
+            "entries": [
+                "When you reach 4th and again on 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Energizing Moves",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 17,
+            "entries": [
+                "Once you reach 17th level, your performace becomes so intense it fills those affected by it with great energy. If you take the {@action Dodge} action you gain advantage on your next attack roll or skill check, if you help a creature, until the end of your next turn attacks against that creature have disadvantage."
+            ]
+        },
+        {
+            "name": "Tread Lightly",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 18,
+            "entries": [
+                "At 18th level, you walk with a lightness as if you were hovering. You automatically succeed on dexterity ({@skill Stealth}) checks to avoid making sounds or leaving marks as you move and at dexterity ({@skill Acrobatics}) checks to maintain balance. You are also unnafected by terrain effects, such as difficut terrain, saving throws and damage."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 19,
+            "entries": [
+                "When you reach 4th and again on 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a feat."
+            ]
+        },
+        {
+            "name": "Grand Finale",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 20,
+            "entries": [
+                "When you reach 20th level, at the end of each of your turns if you are in your act you may take an extra turn, but your act ends at the end of that turn."
+            ]
+        },
+        {
+            "name": "Style Feature",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain a feature from your Artistic Style."
+            ]
+        },
+        {
+            "name": "Style Feature",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 11,
+            "entries": [
+                "At 11th level, you gain a feature from your Artistic Style."
+            ]
+        },
+        {
+            "name": "Style Feature",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 15,
+            "entries": [
+                "At 15th level, you gain a feature from your Artistic Style."
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Alluring Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "shortName": "Alluring",
+            "subclassFeatures": [
+                "Alluring Style|Dancer|Dancer|Alluring|Dancer|2|Dancer",
+                "Good Company|Dancer|Dancer|Alluring|Dancer|6|Dancer",
+                "Performance Technique: Crowd Pleaser|Dancer|Dancer|Alluring|Dancer|11|Dancer",
+                "Eye Catcher|Dancer|Dancer|Alluring|Dancer|15|Dancer"
+                
+            ]
+        },
+        {
+            "name": "Precision Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "shortName": "Precision",
+            "subclassFeatures": [
+                "Precision Style|Dancer|Dancer|Precision|Dancer|2|Dancer",
+                "Heightened Presence|Dancer|Dancer|Precision|Dancer|6|Dancer",
+                "Adrenalin Rush|Dancer|Dancer|Precision|Dancer|11|Dancer",
+                "Team Spirit|Dancer|Dancer|Precision|Dancer|15|Dancer"
+            ]
+        },
+        {
+            "name": "Danger Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "shortName": "Danger",
+            "subclassFeatures": [
+                "Danger Style|Dancer|Dancer|Danger|Dancer|2|Dancer",
+                "Sidestep|Dancer|Dancer|Danger|Dancer|6|Dancer",
+                "Defiant Strike|Dancer|Dancer|Danger|Dancer|11|Dancer",
+                "Hardened|Dancer|Dancer|Danger|Dancer|15|Dancer"
+            ]
+        },
+        {
+            "name": "Playful Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "shortName": "Playful",
+            "subclassFeatures": [
+                "Playful Style|Dancer|Dancer|Playful|Dancer|2|Dancer",
+                "Tease|Dancer|Dancer|Playful|Dancer|6|Dancer",
+                "Trick Shot|Dancer|Dancer|Playful|Dancer|11|Dancer",
+                "Prop Storm|Dancer|Dancer|Playful|Dancer|15|Dancer"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Alluring Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Alluring",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "The alluring style carries seductive and provocative aspects, which is shown in it's wears and movements. Some cultures will consider this style taboo, and it will only be performed in hidden select places or for romantic partners, others will embrace it and build large performance houses open to public.",
+                "Some types that are usually practiced by dancers of this styles are Can-Can, Tango and Belly Dancing, but other practices can also be considered as long as it's provocative side is emphasized.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Performace Technique: Empassioned Fan|Dancer|Dancer|Alluring|Dancer|2|Dancer"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Wink|Dancer|Dancer|Alluring|Dancer|2|Dancer"
+                }
+            ]
+        },
+        {
+            "name": "Performace Technique: Empassioned Fan",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Alluring",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "When you choose this style at 2nd level, you may use your Performace Technique to charm a fan.",
+                "At the end of your rest, if a crowd was present for your performace you gain an empassioned fan. Your DM chooses an appropriate humanoid of CR 1/2 or lower.",
+                "It will follow you in an endless quest to gain your love or respect. It will do it's best to please you, even risk it's life, but it won't follow your command into certain death, nor will it stay if abused or dismissed. Your empassioned fans respect your personal life, but if you have more than one at the same time they will fight until only one remains.",
+                "During combat your empassioned fan acts on your initiative."
+            ]
+        },
+        {
+            "name": "Wink",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Alluring",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "Also at 2nd level when you take the dodge action, you may choose a hostile creature within 15 ft. of you. It must make a wisdom saving throw, with DC equal to 8 + your proficiency bonus + your charisma modifier, or be {@condition charmed} by you until the end of your next turn."
+            ]
+        },
+        {
+            "name": "Good Company",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Alluring",
+            "subclassSource": "Dancer",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "When you reach 6th level, you can attract more qualified companions. Your future empassioned fans have a feat (PHB 165), and your current one gains one. If a feat requires a character level, use yours.",
+                 "Your DM chooses an appropriate feat."
+            ]
+        },
+        {
+            "name": "Performace Technique: Crowd Pleaser",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Alluring",
+            "subclassSource": "Dancer",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "At 11th level and onwards, you may use your Performace Technique to entrance an audience.",
+                "During your performace, non hostile creatures within 60 ft. of you become {@condition charmed} towards you for 1 hour. Harming a creature or it friends automatially ends this effect."
+            ]
+        },
+        {
+            "name": "Eye Catcher",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Alluring",
+            "subclassSource": "Dancer",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "At 15th level and onwards, when you charm a creature it is effectively {@condition blinded} to everything but you while {@condition charmed}."
+            ]
+        },
+        {
+            "name": "Percision Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Percision",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "The alluring style carries seductive and provocative aspects, which is shown in it's wears and movements. Some cultures will consider this style taboo, and it will only be performed in hidden select places or for romantic partners, others will embrace it and build large performance houses open to public.",
+                "Some types that are usually practiced by dancers of this styles are Can-Can, Tango and Belly Dancing, but other practices can also be considered as long as it's provocative side is emphasized.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Performace Technique: Morale|Dancer|Dancer|Precision|Dancer|2|Dancer"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Artful Mastery|Dancer|Dancer|Precision|Dancer|2|Dancer"
+                }
+            ]
+        },
+        {
+            "name": "Performace Technique: Morale",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Precision",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "When you choose this style at 2nd level, you may use your Performace Technique to motivate your allies.",
+                "Grant a number of creatures equal to your proficiency modifier temporary hit-points equal to your morale, they last until their next rest."
+            ]
+        },
+        {
+            "name": "Artful Mastery",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Precision",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "Also at 2nd level, you learn dance flairs you can use when you take the help action to empower your allies.",
+                "Your flairs highten your helping prowess, granting extra temporary-hit points and an empowering sensation. You can use one flair when you help a creature. You have three charges you can use to perform a flair. You regain spent charges on a short or long rest.",
+                "When you help a creature you may spend one of your flair charges to grant them a special effect determined by the flair. You also grant them Morale temporary hit-points, or double that amount if you are in your act. They last 1 minute.",
+                "At 2nd level you know 2 flairs, and you learn an additional flair when you reach 6th, 11th and 15th level in this class. When you learn a new flair you may replace one you previously knew for a new one.",
+                {
+                    "name": "Attentive",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points it has advantage on intelligence saving throws and checks against identifying illusions."
+                    ]
+                },
+                {
+                    "name": "Balanced",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points it has advantage on dexterity saving throws to maintain balance and can stand up by spending only 5 ft. of movement."
+                    ]
+                },
+                {
+                    "name": "Calm",
+                    "type": "entries",
+                    "entries": [
+                        "That creature gains twice the temporary hit point it normally would, but it looses it's temporary hit points if it makes an attack or casts a spell."
+                    ]
+                },
+                {
+                    "name": "Determined",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, when that creature takes damage that would exceed the amount of temporary hit-points it has the excess damage is halved."
+                    ]
+                },
+                {
+                    "name": "Eager",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points and takes a reaction it can spend all it's temporary hit-points to retain it's reaction."
+                    ]
+                },
+                {
+                    "name": "Focused",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary hit-points it lands a critical hit on a 19 or a 20."
+                    ]
+                },
+                {
+                    "name": "Gleeful",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary hit-points it is unaffected by poison effects."
+                    ]
+                },
+                {
+                    "name": "Hopeful",
+                    "type": "entries",
+                    "entries": [
+                        "Instead of gaining temporary hit-points you regain 1 morale dice worth of hit points."
+                    ]
+                },
+                {
+                    "name": "Intense",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, if that creature still has these temporary-hit points at the start of it's turn it has +2 to melee weapon attacks and damage until it moves."
+                    ]
+                },
+                {
+                    "name": "Jolly",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points it's movement increases by 5 ft."
+                    ]
+                },
+                {
+                    "name": "Obstinate",
+                    "type": "entries",
+                    "entries": [
+                        "You can help this creature even if it at 0 health. While that creature has these temporary hit points it regains conscience, can move and becomes stable. Once it runs out of these temporay hit-points if it still has 0 hit-points it colapses again."
+                    ]
+                },
+                {
+                    "name": "Persistent",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points and fails a saving throw it can attempt it again, at the cost of all it's temporary hit points."
+                    ]
+                },
+                {
+                    "name": "Resolute",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary hit-points it's armor class increases by 1."
+                    ]
+                },
+                {
+                    "name": "Stubborn",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points it has advantage on strength saving throws and checks against being moved."
+                    ]
+                },
+                {
+                    "name": "Unsullied",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points it cannot be charmed, and if it already was it can attempt the saving throw again."
+                    ]
+                },
+                {
+                    "name": "Valiant",
+                    "type": "entries",
+                    "entries": [
+                        "When you grant a creature temporary hit-points this way, while that creature still has these temporary-hit points it cannot be frightened.and if it already was it can attempt the saving throw again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heightened Presence",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Precision",
+            "subclassSource": "Dancer",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Starting at 6th level, your presence becomes so strong you can help creatures up to 20 ft. away from you by shoutting encouragement."
+            ]
+        },
+        {
+            "name": "Adrenaline Rush",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Precision",
+            "subclassSource": "Dancer",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "At 11th level, when you help a creature it can spend it's reaction to move up to half it's speed without provoking oportunity attacks or make an attack."
+            ]
+        },
+        {
+            "name": "Team Spirit",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Precision",
+            "subclassSource": "Dancer",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "At 15th level and onwards, when your Morale grants a creature temporary hit-poits, grant another creature within 10 ft. of it half of that ammount until the start of your next turn."
+            ]
+        },
+        {
+            "name": "Danger Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Danger",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "The danger style is one of boldness and defiance. These dancers performe dangerous feats as part of their presentation, handling blades, flames and wild animals. This choice is target at the audience, who is captivated and thriled not only by the performer's skill, but also with the dread that something might go horribly wrong.",
+                "Common practices of this style are Bull fighting, sword swallowing and fire spitting, but any dangerous or martial performaces could be of this style, like a tight rope walker risks falling.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Performace Technique: Face Danger|Dancer|Dancer|Danger|Dancer|2|Dancer"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Fearless Determination|Dancer|Dancer|Danger|Dancer|2|Dancer"
+                }
+            ]
+        },
+        {
+            "name": "Performace Technique: Face Danger",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Danger",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "When you choose this style at 2nd level, you may use your Performace Technique to prepare yourself for danger.",
+                "Gain temporary hit-points equal to twice your Morale's maximum roll. They last until your next rest."
+            ]
+        },
+        {
+            "name": "Fearless Determination",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Danger",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "Also at 2nd level, while you have temporary hit points granted by your Morale you become resistant to fire, piercing, poison and slashing damage, and immune to the frightened condition."
+            ]
+        },
+        {
+            "name": "Sidestep",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Danger",
+            "subclassSource": "Dancer",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Beginning at 6th Level, when a creature misses an attack against a creature thas has Morale Boost temporary hit-points they take psychic damage equal to your Morale."
+            ]
+        },
+        {
+            "name": "Defiant Strike",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Danger",
+            "subclassSource": "Dancer",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "Starting at 11th level, you always add your Morale to your weapon damage rolls."
+            ]
+        },
+        {
+            "name": "Hardened",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Danger",
+            "subclassSource": "Dancer",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "From 15th level and onwards, you gain 15 maximum hit points, and you become proficient in constitution saving throws."
+            ]
+        },
+        {
+            "name": "Playful Style",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Playful",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "The playful style is one of fun and laughter, made for celebrations, everything is fair game, as long as it is entertaining. Juggling props, towers of people, balancing and colorful garnets are all part of the spectacle, if people are cheering and in awe, the act was all worth it.",
+                "Techniques commonly used are those applied in circus acts, mimes and cheer-leaders, but even masterful acts of contortionism or limbo can be cosidered if they have an entertainment side to it.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Performace Technique: Bag of Tricks|Dancer|Dancer|Playful|Dancer|2|Dancer"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Stunt Performer|Dancer|Dancer|Playful|Dancer|2|Dancer"
+                }
+            ]
+        },
+        {
+            "name": "Performace Technique: Bag of Tricks",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Playful",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "When you choose this subclass at 2nd level, you may use your Performace Technique to prepare hilarious props.",
+                "Choose a number of items up to your proficiency modifier from the following list, you may pick the same option multiple times:",
+                "Any thrown weapon, a Net, A bell, Ball barrings (bag of 1,000), Caltrops (bag of 20), Rope (50 feet) or Oil (1 flask). To you DM's discretion you may be able to choose other items.",
+                "You make cheap makeshift versions of these items, that last until your next rest and cannot be sold."
+            ]
+        },
+        {
+            "name": "Stunt Performer",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Playful",
+            "subclassSource": "Dancer",
+            "level": 2,
+            "header": 2,
+            "entries": [
+                "Also at 2nd level, you can Dash as a Bonus Action. You also apply Morale Boost to yourself when you dash."
+            ]
+        },
+        {
+            "name": "Tease",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Playful",
+            "subclassSource": "Dancer",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "At 6th level, when you hit a creature with a thrown weapon attack that creature must make a wisdom saving throw with DC equal to 8 + your proficiency bonus + your charisma modifier.On a failure, at the start of that creature's turn, if it can move, it must spend 10 ft. of it's movement moving towards you."
+            ]
+        },
+        {
+            "name": "Trick Shot",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Playful",
+            "subclassSource": "Dancer",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "At 11th level and onwards, you may replace one of your thrown weapon attacks with the use of an item."
+            ]
+        },
+        {
+            "name": "Prop Storm",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Playful",
+            "subclassSource": "Dancer",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "At 15th level, you can use your action to make a throw weapon attack against any number of creatures within 20 ft. of you. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+            ]
+        }
+    ]
+}
